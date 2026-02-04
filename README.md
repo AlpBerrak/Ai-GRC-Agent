@@ -37,3 +37,13 @@ For questions or collaboration, reach out to the contributors:
 
 - **Alp Berrak** – [GitHub](https://github.com/AlpBerrak)  
 - **Carter Jules** – [GitHub](https://github.com/CarterJules)
+
+
+
+# About the Devs!
+A little extra information about the devs
+
+## Alp
+tbd
+## Carter
+tbd
