@@ -124,6 +124,65 @@
                     }
                 }
             }
+        },
+        "security": {
+            "type": "object",
+            "required": ["authentication", "encryption"],
+            "properties": {
+                "authentication": {
+                    "type": "object",
+                    "properties": {
+                        "password_policy": {
+                            "type": "object",
+                            "properties": {
+                                "min_length": { "type": "integer", "minimum": 8 },
+                                "complexity_required": { "type": "boolean" },
+                                "rotation_days": { "type": "integer", "minimum": 0 }
+                            }
+                        },
+                        "mfa_enabled": { "type": "boolean" },
+                        "privileged_access_management": { "type": "boolean" }
+                    }
+                },
+                "encryption": {
+                    "type": "object",
+                    "properties": {
+                        "data_at_rest": { "type": "boolean" },
+                        "data_in_transit": { "type": "boolean" },
+                        "tls_versions": {
+                            "type": "array",
+                            "items": {
+                                "type": "string",
+                                "enum": ["1.0", "1.1", "1.2", "1.3"]
+                            }
+                        },
+                        "weak_protocols_enabled": {
+                            "type": "array",
+                            "items": { "type": "string" }
+                        }
+                    }
+                },
+                "monitoring": {
+                    "type": "object",
+                    "properties": {
+                        "logging_enabled": { "type": "boolean" },
+                        "log_retention_days": { "type": "integer", "minimum": 0 },
+                        "ids_enabled": { "type": "boolean" },
+                        "siem_integrated": { "type": "boolean" }
+                    }
+                },
+                "patching": {
+                    "type": "object",
+                    "properties": {
+                        "automatic_updates": { "type": "boolean" },
+                        "last_patch_date": { "type": "string", "format": "date" },
+                        "known_unpatched_vulnerabilities": {
+                            "type": "array",
+                            "items": { "type": "string" }
+                        }
+                    }
+                }
+            }
         }
 
 }
