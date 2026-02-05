@@ -218,6 +218,28 @@
                     }
                 }
             }
-        }
+        },
+        "compliance": {
+            "type": "object",
+            "required": ["organization", "jurisdiction"],
+            "properties": {
+                "organization": {
+                    "type": "object",
+                    "properties": {
+                        "industry": { "type": "string" },
+                        "company_size": {
+                            "type": "string",
+                            "enum": ["small", "medium", "enterprise"]
+                        }
+                    }
+                },
+                "jurisdiction": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                },
+                "regulations": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                
 
 }
