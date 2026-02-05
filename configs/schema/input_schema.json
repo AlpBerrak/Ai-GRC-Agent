@@ -240,6 +240,19 @@
                 "regulations": {
                     "type": "array",
                     "items": { "type": "string" }
-                
+                },
+                "data_types": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": [
+                            "PII",
+                            "PHI",
+                            "financial_records",
+                            "authentication_credentials",
+                            "intellectual_property"
+                        ]
+                    }
+                }
 
 }
