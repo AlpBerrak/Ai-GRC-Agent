@@ -1,0 +1,100 @@
+{
+    "system": {
+        "hostname": "app-server-02",
+        "environment": "staging",
+        "os": {
+            "name": "CentOS",
+            "version": "9.2",
+            "kernel": "5.14.0",
+            "architecture": "arm64"
+        },
+        "hardware": {
+            "cpu_cores": 16,
+            "memory_gb": 64,
+            "storage": [
+                { "mount": "/", "type": "nvme", "size_gb": 1000, "encrypted": true },
+                { "mount": "/data", "type": "ssd", "size_gb": 2000, "encrypted": true },
+                { "mount": "/backup", "type": "hdd", "size_gb": 4000, "encrypted": false }
+            ]
+        }
+    },
+    "network": {
+        "interfaces": [
+            { "name": "eth0", "ip_address": "172.16.10.20", "subnet": "255.255.0.0", "gateway": "172.16.0.1", "public_facing": false },
+            { "name": "eth1", "ip_address": "203.0.113.15", "subnet": "255.255.255.0", "gateway": "203.0.113.1", "public_facing": true }
+        ],
+        "dns_servers": ["8.8.4.4", "9.9.9.9"],
+        "open_ports": [
+            { "port": 22, "protocol": "tcp", "service": "ssh" },
+            { "port": 8080, "protocol": "tcp", "service": "http-alt" },
+            { "port": 8443, "protocol": "tcp", "service": "https-alt" },
+            { "port": 5432, "protocol": "tcp", "service": "postgresql" }
+        ],
+        "firewall": {
+            "default_policy": "deny",
+            "rules": [
+                { "port": 22, "source": "172.16.0.0/16", "action": "allow" },
+                { "port": 8443, "source": "0.0.0.0/0", "action": "allow" },
+                { "port": 5432, "source": "172.16.0.0/16", "action": "allow" }
+            ]
+        }
+    },
+    "security": {
+        "authentication": {
+            "password_policy": { "min_length": 14, "complexity_required": true, "rotation_days": 60 },
+            "mfa_enabled": true,
+            "privileged_access_management": true
+        },
+        "encryption": {
+            "data_at_rest": true,
+            "data_in_transit": true,
+            "tls_versions": ["1.2", "1.3"],
+            "weak_protocols_enabled": []
+        },
+        "monitoring": {
+            "logging_enabled": true,
+            "log_retention_days": 365,
+            "ids_enabled": true,
+            "siem_integrated": true
+        },
+        "patching": {
+            "automatic_updates": true,
+            "last_patch_date": "2026-01-20",
+            "known_unpatched_vulnerabilities": []
+        }
+    },
+    "applications": {
+        "web_server": {
+            "name": "Apache",
+            "version": "2.4.57",
+            "ssl_enabled": true,
+            "http_to_https_redirect": true,
+            "cipher_suites": ["TLS_AES_256_GCM_SHA384", "TLS_CHACHA20_POLY1305_SHA256", "TLS_AES_128_GCM_SHA256"]
+        },
+        "database": {
+            "name": "PostgreSQL",
+            "version": "15.4",
+            "encryption_enabled": true,
+            "remote_access": true,
+            "backup": { "enabled": true, "encrypted": true, "retention_days": 90 }
+        }
+    },
+    "compliance": {
+        "organization": { "industry": "healthcare", "company_size": "enterprise" },
+        "jurisdiction": ["US-Federal", "EU"],
+        "regulations": ["HIPAA", "GDPR", "NIST-800-171"],
+        "data_types": ["PHI", "PII", "financial_records"],
+        "audit_history": {
+            "last_audit_date": "2026-01-15",
+            "open_findings": [
+                { "id": "AUD-101", "severity": "medium", "description": "Encryption configuration review pending" },
+                { "id": "AUD-102", "severity": "low", "description": "Minor firewall rule misalignment" }
+            ]
+        }
+    },
+    "intent": {
+        "analysis_type": ["security_assessment", "compliance_check", "recommendations"],
+        "output_detail_level": "high",
+        "regulation_only": false
+    }
+}
