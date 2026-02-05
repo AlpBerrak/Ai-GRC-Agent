@@ -79,6 +79,25 @@
                             "public_facing": { "type": "boolean" }
                         }
                     }
+                },
+                "dns_servers": {
+                    "type": "array",
+                    "items": { "type": "string", "format": "ipv4" }
+                },
+                "open_ports": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "required": ["port", "protocol"],
+                        "properties": {
+                            "port": { "type": "integer", "minimum": 1, "maximum": 65535 },
+                            "protocol": {
+                                "type": "string",
+                                "enum": ["tcp", "udp"]
+                            },
+                            "service": { "type": "string" }
+                        }
+                    }
                 }
 
 }
