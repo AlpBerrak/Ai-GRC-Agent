@@ -98,6 +98,32 @@
                             "service": { "type": "string" }
                         }
                     }
+                },
+                "firewall": {
+                    "type": "object",
+                    "properties": {
+                        "default_policy": {
+                            "type": "string",
+                            "enum": ["allow", "deny"]
+                        },
+                        "rules": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "required": ["port", "action"],
+                                "properties": {
+                                    "port": { "type": "integer" },
+                                    "source": { "type": "string" },
+                                    "action": {
+                                        "type": "string",
+                                        "enum": ["allow", "deny"]
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
+            }
+        }
 
 }
