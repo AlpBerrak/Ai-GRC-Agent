@@ -22,5 +22,27 @@
                 "kernel": { "type": "string" },
                 "architecture": { "type": "string" }
             }
+        },
+        "hardware": {
+            "type": "object",
+            "properties": {
+                "cpu_cores": { "type": "integer", "minimum": 1 },
+                "memory_gb": { "type": "integer", "minimum": 1 },
+                "storage": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "required": ["mount", "type", "size_gb", "encrypted"],
+                    "properties": {
+                    "mount": { "type": "string" },
+                    "type": { "type": "string", "enum": ["ssd", "hdd"] },
+                    "size_gb": { "type": "integer", "minimum": 1 },
+                    "encrypted": { "type": "boolean" }
+                    }
+                }
+                }
+            }
+            }
         }
+    }
 }
