@@ -276,6 +276,30 @@
                     }
                 }
             }
+        },
+        "intent": {
+            "type": "object",
+            "required": ["analysis_type"],
+            "properties": {
+                "analysis_type": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": [
+                            "security_assessment",
+                            "compliance_check",
+                            "recommendations"
+                        ]
+                    }
+                },
+                "output_detail_level": {
+                    "type": "string",
+                    "enum": ["low", "medium", "high"]
+                },
+                "regulation_only": { "type": "boolean" }
+            }
         }
+    },
+    "additionalProperties": false
 
 }
