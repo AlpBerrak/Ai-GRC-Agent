@@ -183,6 +183,41 @@
                     }
                 }
             }
+        },
+         "applications": {
+            "type": "object",
+            "properties": {
+                "web_server": {
+                    "type": "object",
+                    "properties": {
+                        "name": { "type": "string" },
+                        "version": { "type": "string" },
+                        "ssl_enabled": { "type": "boolean" },
+                        "http_to_https_redirect": { "type": "boolean" },
+                        "cipher_suites": {
+                            "type": "array",
+                            "items": { "type": "string" }
+                        }
+                    }
+                },
+                "database": {
+                    "type": "object",
+                    "properties": {
+                        "name": { "type": "string" },
+                        "version": { "type": "string" },
+                        "encryption_enabled": { "type": "boolean" },
+                        "remote_access": { "type": "boolean" },
+                        "backup": {
+                            "type": "object",
+                            "properties": {
+                                "enabled": { "type": "boolean" },
+                                "encrypted": { "type": "boolean" },
+                                "retention_days": { "type": "integer", "minimum": 0 }
+                            }
+                        }
+                    }
+                }
+            }
         }
 
 }
