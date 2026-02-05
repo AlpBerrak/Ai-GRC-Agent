@@ -1,0 +1,26 @@
+{
+    "system": {
+        "hostname": "server-test",
+        "environment": "development",
+        "os": { "name": "Ubuntu", "version": "22.04", "architecture": "x86_64" }
+    },
+    "network": {
+        "interfaces": [
+            { "name": "eth0", "ip_address": "10.0.0.10", "subnet": "255.255.255.0", "public_facing": false }
+        ]
+    },
+    "security": {
+        "authentication": { "mfa_enabled": false },
+        "encryption": { "data_at_rest": false, "data_in_transit": true }
+    },
+    "applications": {},
+    "compliance": {
+        "organization": { "industry": "tech", "company_size": "small" },
+        "jurisdiction": ["US-Federal"]
+    },
+    "intent": {
+        "analysis_type": ["security_assessment"],
+        "output_detail_level": "low",
+        "regulation_only": false
+    }
+}
