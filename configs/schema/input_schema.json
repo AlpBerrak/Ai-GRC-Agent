@@ -1,48 +1,40 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "title": "Ai-GRC-Agent Input Schema",
+    "description": "Schema defining the required and optional structure for system configuration input to the Ai-GRC-Agent.",
     "type": "object",
-    "required": ["system", "network", "security", "compliance", "intent"],
+    "required": [
+        "system",
+        "network",
+        "security",
+        "applications",
+        "compliance",
+        "intent"
+    ],
     "properties": {
-    "system": {
-        "type": "object",
-        "required": ["hostname", "environment", "os"],
-        "properties": {
-        "hostname": { "type": "string" },
-        "environment": {
-            "type": "string",
-            "enum": ["development", "staging", "production"]
-        },
-        "os": {
+        "system": {
             "type": "object",
-            "required": ["name", "version", "architecture"],
+            "required": ["hostname", "environment", "os"],
             "properties": {
-                "name": { "type": "string" },
-                "version": { "type": "string" },
-                "kernel": { "type": "string" },
-                "architecture": { "type": "string" }
-            }
-        },
-        "hardware": {
-            "type": "object",
-            "properties": {
-                "cpu_cores": { "type": "integer", "minimum": 1 },
-                "memory_gb": { "type": "integer", "minimum": 1 },
-                "storage": {
-                "type": "array",
-                "items": {
+                "hostname": {
+                    "type": "string"
+                },
+                "environment": {
+                    "type": "string",
+                    "enum": ["production", "staging", "development", "test"]
+                },
+                "os": {
                     "type": "object",
-                    "required": ["mount", "type", "size_gb", "encrypted"],
+                    "required": ["name", "version", "architecture"],
                     "properties": {
-                    "mount": { "type": "string" },
-                    "type": { "type": "string", "enum": ["ssd", "hdd"] },
-                    "size_gb": { "type": "integer", "minimum": 1 },
-                    "encrypted": { "type": "boolean" }
+                        "name": { "type": "string" },
+                        "version": { "type": "string" },
+                        "kernel": { "type": "string" },
+                        "architecture": {
+                            "type": "string",
+                            "enum": ["x86_64", "arm64", "aarch64"]
+                        }
                     }
                 }
-                }
-            }
-            }
-        }
-    }
+                
 }
