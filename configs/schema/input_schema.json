@@ -241,18 +241,36 @@
                     "type": "array",
                     "items": { "type": "string" }
                 },
-                "data_types": {
-                    "type": "array",
-                    "items": {
-                        "type": "string",
-                        "enum": [
-                            "PII",
-                            "PHI",
-                            "financial_records",
-                            "authentication_credentials",
-                            "intellectual_property"
-                        ]
+                "data_profile": {
+                    "type": "object",
+                    "properties": {
+                        "stores_employee_data" : {"type":"boolean"},
+                        "stores_customer_data": {"type":"boolean"},
+                        "sensitive_data_categories" : {
+                            "type":"array",
+                            "items":{
+                                "type":"string",
+                                "enum" : [
+                                    "pii_basic",
+                                    "pii_sensitive",
+                                    "employee_records",
+                                    "biometric_data",
+                                    "financial_data",
+                                    "children_data",
+                                    "authentication_credentials"
+                                ]
+                            }
+                        },
+                        "non_transactional_customer_recoreds":{
+                            "type":"integer",
+                            "minimum": 0
+                        },
+                        "approx_total_customers":{
+                            "type":"integer",
+                            "minimum": 0
+                        }
                     }
+
                 },
                 "audit_history": {
                     "type": "object",
