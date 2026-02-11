@@ -272,6 +272,7 @@
                     }
 
                 },
+
                 "audit_history": {
                     "type": "object",
                     "properties": {
@@ -288,6 +289,27 @@
                                         "enum": ["low", "medium", "high", "critical"]
                                     },
                                     "description": { "type": "string" }
+                                }
+                            }
+                        }
+                    }
+                },
+                "third_party_processing":{
+                    "type":"object",
+                    "properties": {
+                        "uses_third_parties":{
+                            "type":"boolean"
+                        },
+                        "processors":{
+                            "type":"array",
+                            "items": {
+                                "type":"object",
+                                "required": ["name","country"],
+                                "properties": {
+                                    "name": {"type":"string"},
+                                    "country":{"type":"string"},
+                                    "handles_personal_data" : {"type":"boolean"},
+                                    "written_dpa_in_place": {"type":"boolean"}
                                 }
                             }
                         }
