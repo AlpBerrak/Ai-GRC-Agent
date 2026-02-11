@@ -314,6 +314,26 @@
                             }
                         }
                     }
+                },
+                "geographic_scope":{
+                    "type":"object",
+                    "properties": {
+                        "company_headquarters" : {
+                            "type":"string"
+                        },
+                        "operating_countries": {
+                            "type":"array",
+                            "items": {
+                                "type":"string"
+                            },
+                            "data_subject_locations":{
+                                "type": "array",
+                                "items":{
+                                    "type":"string"
+                                }
+                            }
+                        }
+                    }
                 }
             }
         },
