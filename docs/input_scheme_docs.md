@@ -149,10 +149,27 @@ Provides regulatory and organizational context.
 
 - `regulations`: List of regulations to evaluate against (e.g., PCI-DSS, HIPAA)
 
-- `data_types`: Types of data processed
-  - Examples: `PII`, `PHI`, `financial_records`, `authentication_credentials`
+- `data_profile`
+  - `stores_employee_data`: Whether employee information is stored or processed.
+    - Employee records are typically considered sensitive under many regulatory frameworks (e.g., GDPR).
+  - `stores_customer_data`: Whether customer data is stored or processed.
+  - `sensitive_data_categories`: Categories of sensitive or regulated data processed:
+    - `pii_basic` — Basic personally identifiable information (name, email)
+    - `pii_sensitive` — Sensitive PII (SSN, government ID, precise location)
+    - `employee_records` — HR records, payroll, performance data
+    - `biometric_data` — Fingerprints, facial recognition, voice data
+    - `financial_data` — Bank accounts, payment details
+    - `children_data` — Data belonging to minors
+    - `authentication_credentials` — Passwords, tokens, secrets
 
-- `audit_history` (optional)
+  - `non_transactional_customer_recoreds`: Number of customer records stored that are not tied to a single transaction.
+    Certain U.S. state privacy laws apply based on the volume of non-transactional records retained.
+
+  - `approx_total_customers`: Approximate total number of customers whose data is processed.
+      Regulatory thresholds in some jurisdictions may apply depending on scale (e.g., below 35,000; 35,000–100,000; 100,000+ data subjects).
+
+
+- `audit_history` (optional maybe)
   - `last_audit_date`: Date of the most recent audit
   - `open_findings`: List of unresolved audit findings
     - `id`: Unique finding identifier
@@ -160,6 +177,21 @@ Provides regulatory and organizational context.
     - `description`: Text describing the finding
 
 Enables mapping of system status to regulatory requirements and highlights compliance gaps.
+
+- `third_party_processing`
+  - `uses_third_parties`: Whether external vendors or processors are used.
+  - `processors`: List of third-party processors
+    - `name`: Processor name
+    - `country`: Country where processing occurs
+    - `handles_personal_data`: Whether the processor handles personal data
+    - `written_dpa_in_place`: Whether a written Data Processing Agreement (DPA) exists
+Many jurisdictions require written contracts when outsourcing personal data processing.
+
+- `geographic_scope`
+  - `company_headquarters`: Primary country of incorporation or headquarters.
+  - `operating_countries`: Countries where the organization operates.
+  - `data_subject_locations`: Countries or regions where affected individuals reside.
+Certain regulations (e.g., GDPR) apply based on the location of the data subject, not only the company.
 
 -----------
 
