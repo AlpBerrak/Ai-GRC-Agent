@@ -1,0 +1,612 @@
+US State Privacy Laws
+* CCPA - California Consumer Privacy Act 
+   * Right to know about personal information a business collects about them and how it is used and shared
+   * Right to delete personal information collected from them
+   * Right to opt out of the sale or sharing of their personal information including the GPC
+   * Right to non discrimination for exercising their CCPA rights
+   * Proposition 24 - CPRA
+      * Right to correct inaccurate personal information that a business has about them
+      * Right to limit the use and disclosure of sensitive personal information collected about them
+   * Businesses have responsibility to respond to consumer requests to exercise these rights and give consumers certain notices explaining their privacy practices
+* CPA - Colorado Privacy Act
+   * Applies to businesses that intentionally target Colorado residents and satisfy one or both of the following thresholds
+      * Control or process personal data of 100,000 consumers or more per calendar year
+      * Derive revenue or receive a discount on the price of goods or services from the sale of personal data and control or process the personal data of at least 25,000 consumers
+   * Requires business to give notice to customers which explains
+      * What data they collect and process
+      * Why and how consumers can exercise their rights
+      * What data they share with third parties
+      * Who those third parties are
+      * Whether they sell data to third parties
+      * How customers can opt out
+   * Rights for the consumer
+      * Right of access - consumers have “the right to confirm whether a controller is processing personal data concerning the consumer and to access the consumer’s personal data”
+      * Right to correction - consumers have “the right to correct inaccuracies in the consumer’s personal data, taking into account the nature of the personal data and the purposes of the processing of the consumer’s personal data
+      * Right to delete - consumers have “the right to delete personal data concerning the consumer”
+      * Right to data portability - consumers have “the right to obtain a personal data in a portable and, to the extent technically feasible, readily usable format that allows the consumer to transmit the data to another entity without hindrance”
+      * Right to opt out - consumers have “the right to opt out of the processing of personal data concerning the consumer for purposes of targeted advertising, the sale of personal data, or profiling in furtherance of decisions that produce legal or similarly significant effects concerning a consumer”
+   * Controller must provide consumers with a “reasonably accessible, clear, and meaningful privacy notice” which must include categories collected or processed by controller or processor, purpose of processing the data, how to exercise right and appeal, categories of personal information shared, and categories of third parties’ data is shared with
+   * Fines of $20,000 under the CPA may be made against a business for each data privacy offense
+* CTDPA - Connecticut Data Privacy Act
+   * Consumers have the following rights under the CTDPA: right to know/confirm, right to access, right to correct, right to delete, right to opt out of certain processing, right to portability/transfer, right to opt out of sales, right to opt in for sensitive data processing
+   * Regulates all businesses that conduct in the state or produce products or services targeted to consumers in the state
+   * Applies to businesses that meet one or both of these thresholds:
+      * Processes personal data of at least 100,000 consumers 
+      * Processes personal data of at least 25,000 consumers and derived at least 25% of gross revenue from the sale of personal data
+* DPDPA - Delaware Personal Data Privacy Act
+   * Applies to any company that does business in the state or produces products or services that are targeted to residents of the state and that, during the previous calendar year met one of the following
+      * Controlled or processed the personal data of not less than 35,000 consumers, excluding personal data controlled or processed solely for the purpose of completing a payment transaction
+      * Controlled or processed the personal data of not less than 10,000 consumers and derived more than 20 percent of their gross revenue from the sale of personal data
+   * Exempt entities include government bodies, higher education institutions, financial institutions subject to the GLBA, nonprofit organizations dedicated to preventing insurance crimes and those registered under the Commodity Exchange Act or national securities association register under the Securities Exchange Act
+   *  Grants consumer rights of
+      * Confirming whether a controller is processing their personal data and to access such personal data 
+      * Correcting inaccuracies in their personal data
+      * Deleting personal data provided by or obtained about the consumer
+      * Obtaining a copy of their personal data collected in a portable and readily usable format
+      * Obtaining a list of categories of third parties to which the controller has disclosed their personal data
+      * Opting out of processing personal data for targeted advertising, sale, or profiting
+   * Controllers must limit the collection of personal data to what is “adequate, relevant, and reasonably necessary based on the purpose disclosed to the consumer, and to not process it if otherwise
+   * Controllers must set up safety and security measures to protect personal data of consumers
+   * Companies cannot process data if it would enable discrimination, nor can they discriminate against those who exercise their rights
+   * Controllers must gain opt in consent to process sensitive data or data of a known child
+   * Controllers must provide consumers with a privacy notice that gives them a clear explanation of what data they collect, how it’s used and shared, how to exercise their rights, and how to opt out of the sale of personal data and use of their data for targeted advertising
+   * If you control of process data of at least 100,000 consumers you must conduct a data protection assessment for any activity that presents a heightened risk of harm to a consumer
+      * Targeted advertising
+      * To sell personal data
+      * For profiling if there’s a risk of
+         * Unfair or deceptive treatment to consumers
+         * Financial, physical, or reputational injury
+         * Intrusion upon the solitude or seclusion of a consumer 
+         * Processing sensitive data
+   * Possible penalties up to $10,000 per violation
+* INCDPA - Indiana Consumer Data Protection Act
+   * Applies to a person that conducts business in IN or produces products or services that are targeted at Indiana residents, and during a calendar year either
+      * Controls or processes personal data of at least 100,000 Indiana residents
+      * Controls or processes personal data of at least 25,000 Indiana residents and derives over 50% of gross revenue from the sale of personal data
+   * The following entities are exempt 
+      * State political subdivision or entities
+      * Non profit organizations
+      * Institutions of higher education
+      * Any information or data regulated by certain other privacy laws 
+   * Controllers to provide consumers with a reasonably accessible, clear, and meaningful privacy notice which discloses the categories of personal data processes by the controller and the purpose of such processing, the categories of personal data and third parties with whom the controller shares personal data, and how consumers may exercise their privacy rights, including the appeals process
+   * Controllers may only process data to the extent such processing is “reasonably necessary and proportionate" and “adequate, relevant, and limited to what is necessary” for certain specified purposes
+   * Controllers required to establish, implement, and maintain administrative, technical, and physical measures to protect the confidentiality, integrity, and accessibility of personal data and reduce reasonably foreseeable risks of harm to consumers
+   * Requires that controllers conduct and document data protection impact assessments in connection with certain processing activities, such as processing personal data for targeted advertising or certain profiling purposes, selling personal data, processing sensitive data, or any other processing activity that presents a heightened risk of harm to consumers
+   * Requires controllers and processors to enter into a written contract which governs the processor’s data processing procedures performed on behalf of the controller
+   * Rights to the consumer include right to access, right to correct, right to delete, right to obtain a copy of their personal data, right to opt out of the selling of personal data and/or sharing of personal data for targeted advertising
+   * Right to opt in to processing sensitive data where controllers may not process a consumer’s sensitive data “without obtaining the consumer’s consent” 
+   * Controller must respond to consumer’s request to exercise a right within 45 days of receipt of such request 
+   * Fines up to $7500 per violation 
+* ICDPA - Iowa Consumer Data Protection Act
+   * Applies to businesses that
+      * Controls or processes the personal data of at least 100,000 Iowa consumers 
+      * Controls or processes the personal data of at least 25,000 consumers and derives more than 50% of its gross revenue from the sale of personal data
+   * Iowa exempts data regulated by the Fair Crediting Reporting Act, state or any political subdivision, affiliates of financial institutions, or data subject to Title V of GLBA, HIPAA regulations, nonprofit organizations, or institutions of higher education
+   * Provides consumers with
+      * The right to confirm whether a controller is processing personal data and its access to personal data
+      * The right to delete personal data. This right is limited to data obtained from the consumer
+      * The right to request a copy of their personal data in a readily usable format
+      * The right to opt out of the sale of personal data
+   * Does not explicitly provide consumers the right to opot otu of the use of their personal data for targeted advertising 
+   * Requires businesses to clearly and conspicuously disclose the use of personal data for targeted advertising and give consumers a means of opting out
+   * Fine of up to $7500 per violation
+* KCDPA - Kentucky Consumer Data Privacy Act
+   * Applies to businesses that control or process at least 100,000 Kentucky consumers or control or process personal data of at least 25,000 Kentucky consumers and derive over 50% of gross revenue from the sale of personal data
+   * Exemptions included regulated industries, any city, state agency, or political subdivision, higher education institutions, certain entities collecting data for specific law enforcement activities, first responders in connection with catastrophic events, and small telephone or municipally owned utilities
+   * Consumer Rights
+      * Under the KCDPA, consumers have the right to request disclosure of what personal data businesses colelct about them
+      * Consumers have the right to request correction of inaccuracies in the consumer’s personal data
+      * Consumers are entitled to request deletion of their data
+      * Consumers may obtain a copy of their personal data in a readily available usable format for transmission to another business
+      * Consumers may opt out of the processing of personal data for purposes of targeted advertising, the sale of personal data, or profilign in furtherance of decisions that produce legal or similarly significant effects concerning the consumer
+   * Transparency requirements
+      * Covered businesses must disclose their data collection and processing practices, including the purposes for which data is used
+      * They must notify consumers about their privacy rights and how to exercise them
+   * Data processing restrictions
+      * The act imposes limitations on how businesses handle sensitive personal information 
+      * Prohibits businesses from processing data in ways that would discriminate against consumers
+   * Data security measures
+      * Covered businesses are required to implement reasonable security measures to safeguard consumer data from breaches or unauthorized access
+   * Businesses must provide consumers with a reasonably accessible, clear, and meaningful privacy notice that includes the categories of personal data processes, the purpose for processing personal data, how consumers may exercise their consumer rights, the categories of personal data that the controller shares with third parties, and the categories of third parties, if any, with whom the controller shares personal data
+   * Consumer requests must be responded to within 45 days of the request 
+   * Businesses must establish a process for consumers to submit requests and appeal refusals to respond
+   * Businesses must conduct and document a data protection impact assessment of processing personal data for the following activities: targeted advertising, selling personal data, profiling, processing sensitive data, and any processing that presents a heightened risk of harm to consumers
+   * Fines up to $7500 per violation
+* MODPA - Maryland Online Data Privacy Act
+   * Applies to businesses that either operate in Maryland or target its residents with products or services and meet one of the following thresholds
+      * Controlled or processed the personal data of at least 35,000 consumers, excluding personal data controlled or processed only for completing a payment transaction 
+      * Controlled or processed the personal data of at least 10,000 consumers and derived more than 20% of their gross revenue from the sale of personal data 
+   * Controller Exemptions
+      * State agencies or political subdivisions
+      * National securities associations under the Federal Securities Exchange Act or registered futures associations under the Federal Commodity Exchange Act
+      * Financial institutions or affiliates subject to the GLBA
+      * Nonprofit controllers that process or share personal data solely for the purpose of assisting law enforcement agencies investigating criminal or fraudulent acts
+      * Relating to insurance and first responders who are responding to catastrophic events
+   * Data Exemptions
+      * Protected healthcare related information
+      * Patient identifying information
+      * Research data
+      * Data created for or collected under several federal laws
+   * Consumer rights
+      * Right to access - consumers can confirm whether or not the controller is processing their personal data and can access their data with some exception
+      * Right to correction - consumers have the right to correct any inaccuracies in their personal data, considering the nature of the personal data and purposes of processing
+      * Right to deletion - consumers can request controllers to delete any personal data provided by, or obtained about, them, unless the law requires the  personal data to be retained
+      * Right to data portability - consumers can obtain a copy of their personal data in a ready usable format, with some exceptions
+      * Right to information - consumers can obtain a list of categories of third parties to whom the controller has disclosed their, or any consumer’s personal data
+      * Right to opt out - consumers can opt out of the processing of their personal data for the purposes of its sale or use for targeted advertising or profiling 
+   * Controllers must notify consumers about their rights under the law, how they can exercise these rights, contact details for the controller, and how to appeal a decision if a consumer request is rejected
+   * Controllers have 45 days to respond to consumer requests, with a possible extension to another 45 days if reasonably necessary to comply based ont he complexity of a number of the consumer’s requests
+   * Controllers must disclose the purposes for which they are collecting personal data and places limitations on data processing activities
+   * Controllers must limit the personal data they collect to only what is “reasonably necessary and proportionate” to provide and maintain a specific product or service that the consumer requests
+   * Controllers must conduct and document data protection assessments for processing activities that present a “heightened risk of harm” to consumers such as for the purposes of targeted advertising, for sale, for the processing of sensitive data, and for the purposes of profiling if profiling results in a reasonably foreseeable risk to consumers 
+   * Controllers cannot discriminate against consumers who exercise their privacy rights
+   * Controllers must publish an accessible, clear, and meaningful privacy notice that informs consumers about categories of personal data processes, including sensitive data if any, purposes for processing personal data, how consumers may exercise their rights including how they can appeal the controller’s decision regarding a request or how they can revoke consent, categories of personal data including sensitive data shared with third parties, categories of third parties who receive personal data including the type of business model of or processing conducted by each third party, or an active email address or other online method to contact the controller
+   * Fine up to $10,000 per violation
+* MCDPA - Minnesota Consumer Data Privacy Act
+   * Applies to businesses that operate in the state and produce products or services targeted at Minnesota residents and during a calendar year
+      * Control or process personal data of at least 100,000 consumers except if the personal data is controlled opr processed only for the purposes of completing a payment transaction 
+      * Control or process the personal data  of at least 25,000 consumers and derive more than 50% of gross revenue from the sale of personal data
+   * Exemptions
+      * Government entities
+      * Federally recognized Indian tribes
+      * Covered entities or business associates governed by HIPAA
+      * State or federally chartered banks or credit unions, or their affiliates or subsidiaries primarily engaged in financial activities
+      * Insurance companies, insurance producers, third party administrators or self insurance, or their affiliates or subsidiaries primarily engaged in financial activities
+      * Small businesses as defined under the US Small Business Act unless they sell consumers’ sensitive data without obtaining prior consent
+      * Air carriers subject to the Airline Deregulation Act where the personal data collected related to prices, routes, or services
+      * Nonprofit organizations established to detect and prevent insurance fraud
+      * Data created for or collected under several federal laws
+   * Consumer Rights
+      * Right to access - consumers can confirm if the controller is processing their personal data and can access this data with some exceptions
+      * Right to correction - consumers have the right to have any inaccurate personal data about them corrected, taking into account the nature of the personal data and purposes of processing
+      * Right to deletion - consumers can request the deletion of their personal data, with exceptions
+      * Right to data portability - where the processing is carried out by automated means, consumers can obtain a copy of their personal data that they previously provided to the controller, in a portable and readily usable format, with some exceptions
+      * Right to information - consumers can obtain a list of specific third parties to whom the controller has disclosed their, or any consumers’ personal data
+      * Right to opt out - consumers can opt out of the processing of their personal data for the purposes of its sale or use for targeted advertising or profiling
+      * Consumers have the following additional rights if their data is used for profiling that affects legal decisions about them
+         * To question the outcome of the profiling
+         * To know why the profiling led to that outcome
+         * If possible to learn what actions they could have taken to achieve a different outcome and what they can do in the future to achieve such an outcome
+         * To review the personal data used in the profiling, and if the decisions was based on incorrect data, to correct this data and request a reevaluation of the profiling decision with the corrected data
+   * Controllers must provide one or more secure and reliable methods for consumers to exercise their rights
+   * Controllers have 45 days to respond to consumer requests with the option to extend this period by another 45 days if reasonably necessary
+   * Controllers must publish a clear, accessible, and comprehensive privacy notice that includes the following information
+      * Categories of personal data processed
+      * Purposes for processing personal data
+      * What rights consumers have under the law
+      * How consumers may exercise their rights
+      * How consumers may appeal the controller’s decision regarding a request
+      * Categories of personal data sold to or shared with third parties if any
+      * Categories of third parties to whom the controllers sells or shares personal data if any
+      * Contact information for the controller
+      * A description of the controller’s retention policies for personal data
+      * Date of the last update to the privacy notice
+   * Controllers must disclose the specific purposes for which they are collecting personal data and to restrict their data collection to what is “adequate, relevant, and reasonably necessary” for these identified purposes 
+   * Controllers cannot retain personal data if it is no longer needed for the original purposes of collection and processing, unless the law requires or permits it is certain circumstances
+   * Controllers must establish, implement, and maintain reasonable administrative, technical, and physical security measures for this purpose which are appropriate to the volume and nature of the personal data being processed
+   * Controllers are required to conduct and document a data privacy and protection assessment when processing personal data for the purposes of targeted advertising, for sale, classified as sensitive data under the law, that presents a heightened risk of harm to consumers, or for profiling that presents a reasonably foreseeable risk to consumers
+   * Controllers are prohibited from discriminating against consumers who exercise their rights under the law
+   * Fines up to $7500 per violation
+* Montana’s Consumer Data Privacy Act
+   * Applies to a person that conducts business in Montana or produces products or services that are targeted at Montana consumers and either
+      * Controls or processes personal data of at least 50,000 Montana consumers
+      * Controls or processes personal data of at least 25,000 Montana consumers and derives over 25% of gross revenue from the sale of any personal data
+   * Exemptions like other States’ data privacy laws
+   * Controllers must provide consumers with a reasonably accessible, clear and meaningful privacy notice which discloses the categories of personal data processes by the controller and the purpose of such processing, the categories of personal data and third parties with whom the controller shares personal data, and how consumers may contact the controller and exercise their privacy rights including the appeals process
+   * Controller must only process personal data to the extent such processing is “reasonably necessary and proportionate” and “adequate, relevant, and limited to what is necessary” for certain specified purposes 
+   * Controllers are required to implement and maintain reasonable administrative, technical, and physical data security practices to protect the confidentiality, integrity, and accessibility of personal data and to reduce foreseeable risks of harm to consumers
+   * Controllers required to conduct and document data protection assessments in connection with certain processing activities such as targeted advertising, processing sensitive data, selling personal data, or using personal data for certain profiling purposes
+   * Consumer Rights
+      * Right to access
+      * Right to correct,
+      * Right to delete
+      * Right to obtain a copy of their personal data 
+      * Right to opt out of the selling of personal data and/or sharing of personal data for targeted advertising
+   * Controller must respond to a consumer’s request to exercise a right within 45 days of receipt of such request with possibility of extending the request an additional 45 days if they provide notice and explanation to consumer
+   * Does not expressly specify a civil penalty amount for violations
+* NDPA - Nebraska Data Privacy Act
+   * Applies to businesses that mee the following requirements
+      * Conduct business in Nebraska or produce a product or service consumed by the state’s residents
+      * Process or engage in the sale of personal data
+      * Not a small business as defined under the US Small Business Act, however, small businesses cannot sell sensitive data without consumer consent
+   * Controller Exemptions
+      * State agencies or political subdivisions
+      * Financial institutions or affiliates subject to GLBA
+      * Covered entities or business associates governed by HIPAA and Health Information Technology for Economic and Clinical Health Act
+      * non profit organizations
+      * Higher education institutions
+      * Electric and natural gas public utilities
+   * Data Exemptions
+      * Protected healthcare related information
+      * Research data
+      * Data created for or collected under several federal laws
+   * Consumer Rights
+      * Right to access - consumers can confirm whether or not the controller is processing their personal data and can access their data with some exceptions
+      * Right to correction - consumers have the right to have any inaccuracies in their personal data that the controller holds corrected, taking into account the nature of the personal data and purposes of processing
+      * Right to deletion - consumers can request the deletion of any personal data provided by or obtained about them with exceptions
+      * Right to portability - consumers can obtain a copy of their personal data they they previously provided to the controller, in a ready usable format with some exceptions
+      * Right to opt out - consumers can opt out of the processing of their personal data for the purposes of its sale or use for targeted advertising or profiling Nebraska privacy law does not give consumers a private right of actions which is the right to directly sue a controller in the event of a violation
+   * Controllers must inform consumers about their rights under the law, how they can exercise these rights, contact details for the controller, and how to appeal a decision if a consumer request is rejected 
+   * Controllers have 45 days to respond to consumer requests with possible extension of another 45 days is reasonably necessary to comply
+   * Controllers required to protect the confidentiality, integrity, and accessibility of personal data 
+   * Controllers must conduct data protection assessments when undertaking the following processing activities
+      * For the sale of personal data
+      * For the purposes of targeted advertising or profiling, if the the profiling results in a reasonably foreseeable risk to the consumer
+      * Involving sensitive data
+      * Involving personal data that presents a heightened risk of harm to any consumer
+   * Controllers are prohibited from discriminating against consumers who exercise their rights under the law
+   * Controllers required to publish clear, accessible, and meaningful privacy notice which must include information on categories of personal data processed including sensitive personal data, purposes for processing personal data, how consumers may exercise their rights under the law and how they may appeal the controller’s decision regarding a request, categories of personal data shared with third parties, categories of third parties who receive personal data, and a description of each method through which a consumer may submit a request to exercise their rights
+   * Fines up to $7500 per violation
+* NJDPA - New Jersey Data Protection Act 
+   * Applies to businesses in NJ that control or process data for at least 100,000 consumers or at least 25,000 consumers while deriving revenue from sales
+   * Consumer rights
+      * Right to confirm
+      * Right to access
+      * Right to correct
+      * Right to delete
+      * Right to opt out of profiling or data sales
+      * Right to opt in to the processing of sensitive data 
+   * Controllers must perform data protection assessments for high risk activities like targeted advertising and profiling
+* OCPA - Oregon Consumer Privacy Act
+   * Applies to businesses that during a calendar year
+      * Control or process the personal data of at least 100,000 consumers not including consumers only completing payment transactions 
+      * Control or process the personal data of at least 25,000 consumers if 25% or more of the organization’s annual gross revenue comes from selling personal data 
+   * Exemptions
+      * Governmental agencies
+      * Consumer reporting agencies
+      * Financial institutions regulated by the Bank Act and their affiliates or subsidiaries provided they focus exclusively on financial activities
+      * Insurance companies
+      * Nonprofit organizations established to detect and prevent insurance fraud
+      * Press, wire, or other information services
+      * Data collected or processed under several federal laws
+   * Consumer rights
+      * Right to access - consumers can request confirmation of whether their personal data is being processed and the categories of personal data being processed,, gain access to the data, and receive a list of the specific third parties it has been shared with 
+      * Right to correction - consumers can ask controllers to correct inaccurate or outdated information they have provided
+      * Right to deletion - consumers can request the deletion of their personal data held by a controller with some exceptions
+      * Right to portability - consumers can obtain a copy of the personal data they have provided to a controller, in a readily usable format with some exceptions
+      * Right to opt out - consumers can opt out of the sale of their personal data, targeted advertising, or profiling used for decisions with legal or similarly significant effect
+   *  Controllers must be transparent about their data handling practices
+   * Controller must provide clear, easily accessible, and meaningful privacy notices that must include purposes for processing personal data, categories of personal data processed, categories of personal data shared with third parties, categories of third parties with which the controller shares personal data and how each third party may use the data, and how consumers can exercise their rights
+   * Controllers required to establish, implement, and maintain reasonable safeguards for protecting “the confidentiality, integrity, and accessibility” of the personal data under their control
+   * Controller must perform data protection assessments for processing activities that present “a heightened risk of harm to a consumer” including processing for the the purposes of targeted advertising, processing sensitive data, the sale of personal data, processing for the purpose of profiling if there is a reasonably foreseeable risk to the consumer
+   * Controller cannot discriminate against a consumer that exercises their rights 
+   * Fines up to $7500 per violation
+* Rhode Island Data Protection Law
+   * Applies to entities doing business in Rhode Island that control/process data of 35,000 residents or 10,000 residents if 20% of the revenue comes from data sales
+   * Consumer rights
+      * Right to confirm
+      * Right to access
+      * Right to correct
+      * Right to delete
+      * Right to opt out of targeted ads or profiling
+      * Right to opt in to processing of sensitive data
+   * Controllers must use reasonable administrative, technical, and physical measures to protect data
+   * Fines up to $500 per violation
+* TIPA - Tennessee Information Protection Act
+   * Applies to a person that conducts business in Tennessee by producing products or services that target Tennessee residents and that
+      * Exceeds $25,000,000 in revenue and controls or processes personal information of at least 25,000 Tennessee residents and derived over 50% of gross revenue formt he sale of any personal information 
+      * During a calendar year, controls or processes personal information of at least 175,000 consumers
+   * Exemptions in line with other state data privacy laws
+   * Controllers are required to provide consumers with a reasonably accessible, clear, and meaningful privacy notice, which discloses the categories of personal information processed by the controller and the purpose of such processing, the categories of personal information and third parties with whom the controller sells personal information, and how consumers may exercise their privacy rights including the appeals process
+   * Controllers may only process personal information to the extent such processing is “reasonably necessary and proportionate” and “adequate, relevant, and limited to what is necessary” for certain specified purposes 
+   * Controllers are required to establish, implement, and maintain administrative, technical, and physical data security practices to protect the confidentiality, integrity, and accessibility of personal information
+   * Controllers conduct and document data protection assessments in connection with certain processing activities, such as processing personal information for targeted advertising or certain profiling purposes, selling personal information, processing sensitive data, or any other processing activity that presents a heightened risk of harm to consumers
+   * Controllers and processors must enter a written contract to govern the data processing procedures
+   * Consumer rights
+      * Right to access
+      * Right to obtain a copy of
+      * Right to delta 
+      * Right to correct 
+      * Right to opt out of the selling of personal information and/or sharing of personal information for targeting advertising  
+   * Controllers must respond to consumer requests within 45 days and can extend the response period by an additional 45 days if necessary
+   * Fines up to $7500 per violation
+* TDPSA - Texas Data Privacy and Security Act 
+   * Consumer rights
+      * Right to confirm whether the controller is processing personal data and access the personal data
+      * Right to correct inaccuracies in their personal data
+      * Right to delete personal data provided by or obtained about the consumer
+      * Right to obtain a copy of their personal data if available in a portable and readily usable format
+      * Right to opt out of processing personal data for targeted advertising, the sale of persona data, or its use for profiling
+   * Applies to entities that meet the following criteria
+      * Conduct business in Texas or generate products or services consumed by Texas residents
+      * Process or engage in the sale of personal data
+      * Do not identity as a small business by the US Small Business Administration 
+   * Exemptions
+      * State agencies or political subdivisions of the state
+      * Financial institutions or data subject to title V of GLBA
+      * Covered entities or business associates governed by the privacy, security, and breach notification rules issued by the US Department of Health and Human Services established under HIPAA
+      * Nonprofit organizations
+      * Higher education institutions
+      * Electric utility companies 
+   * Controller cannot collect personal data for reasons not disclosed to consumer without consent, process data in violation of state and federal laws that prohibit unlawful discrimination or discriminate against a consumer of exercising their rights, process sensitive data without consent or process sensitive data of a child 
+   * Controller have 45 days to respond to consumer request and can extend an additional 45 days if reasonably necessary
+   * Fines up to $7500 per violation 
+* UCPA - Utah Consumer Privacy Act 
+   * Requires businesses that collect data to protect the confidentiality and integrity of the data to reduce the risk of harm associated with processing it
+   * Organizations must provide consumers with clear and accessible privacy notices and inform them about how they can opt out of the sale of their data 
+   * Applies to businesses that
+      * Operate in Utah either by conducting businesses there or by offering product or service to consumers who reside in the sate
+      * Meet the annual earnings and data processing thresholds meaning they report revenue of $25,000,000 
+      * Control or process the data of 100,000 consumers or service more than 50% of gross revenue from the sale or control of personal data of 25,000 or more consumers
+   * Organizational exemptions
+      * Institutions of higher education
+      * Nonprofit organizations
+      * Government organizations and contractors
+      * Indigenous groups
+      * Air carriers
+      * Organizations covered by HIPAA
+      * Financial institutions governed by GLBA
+   * Data exemptions 
+      * Data following the DPPA, FCRA, FERPA, FCA, GLBA, or HIPAA
+   * Consumer rights
+      * Right to access - including confirming whether a controller is processing their data and the ability to request and receive that data
+      * Right to delete - delete personal data if the data subject directly provided the data to the controller
+      * Right to portability - obtain a copy of their personal data from the controller in a format that is portable to a technically reasonable extent, readily usable to a practical extent, and enables the consumer to transmit the data to another controller reasonably easily where the processing is carried out by automated means 
+      * Right to opt out of certain processing specifically for the sale of the personal data or the purposes of targeted advertising 
+   * Data controllers must outline exactly how consumers can submit a request and exercise their rights related to their data 
+   * Controllers must respond to any consumer request within 45 days and can extend an additional 45 days if reasonably necessary
+   * Controllers must provide consumers with a privacy notice or policy that is “reasonably accessible and clear” and include categories of personal data processed by the controller, categories of personal data the controller shares with third parties, categories of this parties with whom the controller shares personal data, a clear explanation of how consumers can exercise their right including the right to opt out, and clear and conspicuous disclosure if personal data is sold to a third party or used for targeted advertising 
+   * Controllers must establish, implement, and maintain reasonable administrative, technical, and physical data security practices” that have been “designed to protect the confidentiality and integrity of personal data”
+   * Controllers can use third party processor as long as there is a contract in place
+   * Controller may not discriminate against any consumer who exercises their privacy rights 
+   * Fines up to $7500 per violation
+* VCDPA - Virginia Consumer Data Protection Act 
+   * Applies to for profit companies that do business in Virginia or that produce products or services targeted to residents of Virginia and meet either 
+      * Control or process personal data of 100,000 or more consumers during a calendar year
+      * Control or process personal data of 25,000 or more consumers and derive over 50% of their gross revenue from the sale of that personal data 
+   * Exemptions 
+      * Bodies, authorities, boards, bureaus, commissions, districts, or agencies of Virginia or poltiical subdivisions of Virginia
+      * Financial institutions or dta that are subject to Title V of GLBA
+      * Covered entities or business associates governed by HITECH and HIPAA 
+      * Nonprofit organizations 
+      * Institution of higher learning 
+   * Consumer rights
+      * Right to access - confirm whether or not the controller is processing the consumer’s personal data and access to the data 
+      * Right to correction - any inaccuracies in the information the controller has, taking into account the nature of the personal data and processing purposes
+      * Right to delete - any personal data provided by or obtained about the consumer with exceptions
+      * Right to portability - obtain a copy of the consumer’s personal data processed by the controller, in a portable and reasonable readily usable format, where processing is carried out by automated means 
+      * Right not to be discriminated against - controllers cannot unlawfully discriminate against consumers for exercising their rights
+      * Right to opt out - of processing personal data for the purpose of sale, targeted advertising, or profiling “in furtherance of decisions that produce legal or similarly significant effects concerning the consumer”
+   * Companies have to notify consumers about their rights as well as how to exercise them
+   * Controller must
+      * Set up and maintain administrative, technical, and physical data security practices that are reasonable and appropriate to the amount and types of personal data processed in order to protect confidentiality, integrity, and accessibility of personal data
+      * Respond to consumer requests regarding their data within 45 days of receipt of the request with possibility for an extension of an additional 45 days for reasonable circumstances
+      * Set up a process for consumers to appeal refusal by the controller to take action on consumer request
+      * Limit collection of consumers’ personal data to what is “adequate, relevant, and reasonably necessary” for the purposes that the data is being processed, as disclosed to consumers
+      * Not process personal data for purposes other than those disclosed to consumers, and that are not reasonably necessary nor compatible with previously disclosed purposes, unless consumer consent has been obtained
+      * Not discriminate against consumers by processing personal data in violation of relevant state and federal laws
+      * Ensure that agreements with processors do not purport to waive or limit in any way consumer rights
+      * Notify the consumer switch a reasonably accessible, clear, and meaningful privacy notice that includes categories of personal data processed by the controller, purpose for processing personal data, how consumers can exercise their rights including appeal proceedings, categories of personal data that the controller shares with third parties, categories of third parties with whom the controller shares personal data
+      * Clearly and consciously disclose processing if it sells personal data to third parties or processes personal data for targeted advertising or profiling as well as the manner in which a consumer may exercise the right to opt out of these sales or uses
+      * Establish and describe in a privacy notice one or more secure and reliable means for consumers to submit a request to exercise their rights 
+   * Controllers must enter contractual agreements with third party data processors
+   * Controllers must conduct and document a data protection assessment when the sale of personal data, processing of sensitive data, processing of personal data presenting a heightened risk of harm to consumers, processing for targeted advertising purposes, profiling it there is a reasonable risk of harm to the consumer occur
+   * Controllers are responsible for having a privacy notice which needs to be in clear language and include categories of personal data the controller will process, categories of personal data the controller shares with third parties, categories of third parties with whom the controller will share personal data, purpose of the data processing, and disclosure regarding data processing for sale, targeted advertising purposes, or profiling and instructions to enable consumers to opt out 
+   * Fines up to $7500 per violation
+
+
+US Federal Regulations
+* GLBA - Gramm-Leach-Bliley Act
+   * Requires financial institutions to explain their data sharing practices to customers and safeguard sensitive financial data through three main rules
+      * The privacy rule - notice and opt out rights for data sharing
+      * The safeguard rule - implementing security plans to protect data
+      * The pretexting protections - prohibiting obtaining info under false pretense
+   * Mandates that financial institutions provides customers with a clear privacy notice explaining how their non public personal information is collected, used, and shared, and gives consumers the right to opt out of certain sharing
+   * Requires these institutions to develop, implement, and maintain a comprehensive information security program with administrative, physical, and technical safeguards to protect customer data
+   * Prohibits individuals and institutions from using false pretenses to gain access to a customer’s private financial information 
+   * Applies to any company that offers consumers financial products or services, including loans, investments, or insurance, and handles their non public personal information
+* CFPB Personal Financial Rights Rule
+   * Mandates that financial institutions, such as banks and credit unions, must allow customers to securely share their personal financial data with third party apps and services for free
+   * Requires standardized, secure, machine readable data sharing
+   * Allows consumers to securely share transaction data, account balances, and payment information with authorized third parties
+   * Applies to banks credit unions, card issuers, and digital wallet providers
+   * Bans bait and switch data harvesting and requires that data usage by third parties is restricted to what is reasonably necessary to provide consumer’s requested service
+   * Gives consumers the right to revoke access to their data
+   * Mandates that financial institutions provide data through secure APIs in standardized, machine readable format, reducing reliance on insecure methods like screen scraping
+   * Applies to large covered entities by April 1, 2026 with later deadlines for smaller ones and a notable exemption for institutions with less than $850 million in total assets 
+* FDTA - Financial Data Transparency Act
+   * Mandates that US financial regulatory agencies adopt uniform, non-proprietary, machine readable data standards for information collected from financial entities
+   * Aims to improve data accessibility, enhance oversight, reduce compliance costs, and facilitates AI-driven analysis
+   * Data must be made available in structured, electronic formats for easier analysis, shifting away from PDFs and Paper
+   * Information must be published as “open government data assets” to improve transparency
+* PCI DSS - Payment Card Industry Security Standard
+   * Applies to any merchant, service provider, or entity involved in processing, storing, or transmitting cardholder data, regardless of size
+   * Companies that process payments must
+      * Build and maintain a secure network
+      * Protect cardholder data
+      * Maintain a vulnerability management program
+      * Implement strong access control measures
+      * Regularly monitor and test networks
+      * Maintain an information security policy
+
+
+International Laws
+* EU GDPR
+   * Applies to businesses that process the personal data of EU citizens and residents or offer products or services to EU citizens
+   * Fines up to 20 million euro or 4% of global revenue
+   * Controller requirements
+      * Processing must be lawful, fair, and transparent to the data subject
+      * Must process data for the legitimate purposes specified explicitly to the data subject when you collected it
+      * Colled and process only as must data as absolutely necessary for the purposes specified
+      * Must keep personal data accurate and up to date
+      * May only store personally identifying data for as long as necessary for the purposes specified
+      * Processing must be done in such a way as to ensure appropriate security, integrity, and confidentiality
+      * Data controller is responsible for being able to demonstrate GDPR compliance
+      * Need a DPO if a public authority other than a court acting in a judicial capacity, core activities require you to monitor people systematically and regularly on a large scale, or core activities are large-scale processing of special categories of data listed under Article 9 of the GDPR or data relating to criminal convictions and offenses mentioned in Article 10
+   * Data subject must give specific, unambiguous consent to process the data
+   * Consumers have the following rights
+      * The right to be informed 
+      * The right of access
+      * The right to rectification
+      * The right to erasure
+      * The right to restrict processing
+      * The right to data portability
+      * The right to object
+      * Rights in relation to automated decision making and profiling
+* Personal Information Protection Law - China
+   * Applies to processing activities outside China if they involve providing products/services to individuals in China or analyzing their behavior
+   * Transferring data outside China requires compliance with security assessments by the Cyberspace Administration of China
+   * Processing requires, in most cases, explicit consent from the individual and must have a clear, reasonable purpose
+   * Violations can lead to severe penalties, including fines up to 50 million RMB or 5% of annual revenue, and potential suspension of business operations
+   * Critical information infrastructure are required to store data within China
+* LGPD - Brazil
+   * Applies to any individual or legal entity processing data in Brazil, offering goods/services there, or collecting data within the country
+   * Individuals can request access, correction, anonymization, deletion, or portability of their data
+   * Processing must be based on specific legal grounds, such as consent, contractual necessity, or legitimate interest
+   * Organizations must appoint a DPO to oversee compliance and communicate with the National Data Protection Authority
+   * Companies must report security incidents that may create risk to data subjects within a reasonable time
+* Digital Personal Data Protection Act - India 
+   * Applies to entities in India and international companies processing data of individuals in India or entities offering goods/services to individuals in India
+   * Processing requires free, specific, informed, and unconditional consent
+   * Entities must implement security safeguards like encryption and data retention for only as long as necessary
+   * Mandatory reporting of data breaches to the Data Protection Board and affected individuals, with detailed report within 72 hours
+   * Non compliance can lead to fines of up to roughly $30 million 
+* Federal Act on Data Protection - Switzerland
+   * Applies to all organizations processing data of Swiss residents, enforcing strict rules on data handling, transparency, and security
+   * Individual rights include access, correction, deletion, and data portability
+   * Mandatory data breach notifications to the Federal Data Protection and Information Commissioner, privacy by design/default, and data protection impact assessments
+   * Stricter rules for transferring data outside Switzerland, requiring sufficient, comparable data protection in the destination country
+   * Fines of up to CHF 250,000 for intentional violations
+* Argentina Personal Data Protection Act
+   * Regulates the processing of personal data to protect privacy
+   * Mandates purpose, proportionality, transparency, data accuracy, security, and confidentiality in all processing
+   * Consumers have right to access, rectify, update, and delete data
+   * Consumers have right to object automated decisions and profiling
+   * Explicit, informed, and free consent is required for data collection
+   * Strict protection applies to sensitive data
+   * Transfers to countries with inadequate protection are restricted
+* Privacy Act 1988 - Australia
+   * Applies to entities over AU$3 million annual turnover and government agencies
+   * Organizations must obtain consent to collect sensitive information and generally cannot use data for secondary purposes without consent
+   * Entities must report eligible data breaches to the Office of the Australian Information Commissioner and affected individuals
+   * Consumers have right to access their personal information, correct it, and remain anonymous or use a pseudonym where practice
+* Personal Information Protection and Electronic Documents Act - Canada
+   * Applies to private sector organizations including federally regulated businesses
+   * Organizations required to obtain meaningful consent for data collection and use
+   * Quebec’s Law 25: Imposes stricter standards, including explicit opt in consent for data collection and significant penalties up to $25 million for breaches 
+   * Organizations must report breaches of security safeguards to the Office of the Privacy Commissioner and notify affected individuals
+* Law 1518 of 2021 - Colombia
+   * Individuals have the right to access, update, rectify, and delete their personal data
+   * Data must be processed with consent, accuracy, transparency, and security
+   * Explicit authorization is required from the data subject for collecting and processing data
+   * Restrictions apply to transferring data outside of Colombia, generally requiring the receiving country to meet adequate data protection standards
+* Danish Data Protection Act - Denmark
+   * Applies to both public and private sectors
+   * Supplements the GDPR, providing stricter provisions on employee monitoring and specific rules for handling sensitive data
+   * Regulates the processing of data relating to criminal offenses and civil registration numbers 
+   * Processing of personal data for personnel administration is allowed based on legitimate interests arising from legislation or collective agreements
+   * Requires clear, active, and prior consent for using cookies
+   * Data subjects must be informed without undue delay if a break is likely to result in high risk to their rights
+   * Violations can lead to severe fines
+* Data Protection Act - Finland
+   * Supplements the GDPR by strictly regulating employee monitoring, background checks, and email access
+   * Regulates cookies and requires informed consent for non essential tracking
+   * Significant fines for violation
+* French Data Protection Act - France
+   * Applies to any entity processing personal data of French residents, whether established in France or not
+   * Supplements the GDPR by providing specific rules for data processing, especially concerning sensitive data
+   * Requires explicit, informed, and unambiguous consent for data collection, with specific rules for minors
+   * Mandates clear privacy policies detailing data use, purposes, and data controller identity
+   * Upholds GDPR rights
+   * Adds provisions for sensitive data
+   * Requires controllers to inform the CNIL and affected individuals about breaches
+   * Prohibits processing data revealing racial/ethnic origin, political/religious beliefs, or union affiliation unless specific conditions are met 
+* German Federal Data Protection Act - Germany
+   * Sets out specific regulations and guidelines concerning the collection, processing, and storage of personal data by both public and private entities operating within Germany’s jurisdiction
+   * Consumer rights
+      * Right to information and access - data subjects have the right to obtain transparent information about the processing of their personal data
+      * Right to rectification - data subjects have the right to request the rectification of inaccurate or incomplete personal data concerning them
+      * Right to erasure - data subjects have the right to request the erasure of their personal data under certain circumstances
+      * Right to restriction of processing - data subjects have the right to request the restriction of the processing of their personal data is specific situations
+      * Right to data portability - data subjects have the right to receive their personal data in a structured, commonly used, and machine readable format and have the right to transmit that data to another data controller without hindrance from the original data controller
+      * Right to object - data subjects have the right to object to the processing of their personal data, including processing based on legitimate interest pursued by the data controller or for direct marking purposes
+      * Right to withdraw consent - where the processing of personal data is based on consent, data subjects have the right to withdraw their consent at any time
+   * Data can only be collected and processed for specific, explicit, and legitimate purposes
+   * Only the minimum amount of personal data necessary for the intended purposes can be collected and processed 
+   * Personal data must be accurate and where necessary kept up to data
+   * Personal data should not be stored for longer than necessary for the purposes for which it was processed
+   * Appropriate technical and organizational measures must be implemented to protect personal data from unauthorized access, disclosure, alteration, or destruction
+   * Processing personal data through video surveillance requires additional justification and notification requirements
+   * Profiling with potential for automated decision making requires transparency and right to object
+* Law 4624/2019 - Greece
+   * Covers GDPR implementation
+   * Personal data must only be kept for as long as necessary, though longer retention is permitted for scientific, historical, or statistical purposes 
+   * Strict regulations govern the processing of employee personal data
+   * Data subject consent is required for marketing, with specific rules for recording, storing, and opting out
+* Act of Data Protection and the Processing of Personal Data - Iceland
+   * Applies to both public and private sector 
+   * Implements the GDPR into Icelandic law
+   * Organizations need to appoint a Data Protection Officer who must maintain confidentiality regarding information learned 
+   * Controllers must notify government and affected subjects of data breaches
+* Indonesia’s Personal Data Protection Law
+   * Applies to any entity that processes the data of Indonesian residents or acts with legal consequences in Indonesia
+   * Individuals have the right to access, correct, delete, restrict processing, data portability, and withdraw consent
+   * Transfers of data outside Indonesia are permitted if the receiving country has an equal or higher level of protection, or if specific contractual clauses are met
+   * Non compliance can result in administrative fines of up to 2% of annual revenue
+* Protection of Privacy Law - Israel
+   * DPOs for certain entities and increased requirements for data security and breach notifications are required
+   * Individuals have the right to access, rectify, and in certain cases delete or object to the use of their personal data
+   * Data collection requires informed, specific, and voluntary consent, particularly for sensitive data
+   * Entities holding databases containing sensitive data, or large scale, automated, or marketing data, must register with the PPA
+* Act on the Protection of Personal Information - Japan
+   * Applies to any business handling the personal information of Japanese residents, even if the business is located outside of Japan
+   * Data subjects can request access, correction, and deletion of their personal data 
+   * Prior consent is required to transfer data to third parties, with specific exceptions for joint use or mergers
+   * Mandatory reporting to the PPC is required for significant breaches
+* Personal Data Protection Act - Malaysia
+   * Applies to any person/entity that processes, or has control over the processing of personal data in respect of commercial transactions
+   * Individuals have the right to access and correct their personal data, withdraw consent, and request that their data not be used for direct marketing
+   * Mandatory notification to the commissioner for data breaches that cause or are likely to cause significant harm
+   * Companies must appoint a DPO
+   * Individuals have the right to request their data be transferred to another data user
+* Federal Law on the Protection of Personal Data Held by Private Parties - Mexico
+   * Applies to any individual or entity in Mexico, and foreign companies processing data of Mexican residents
+   * Controllers must obtain explicit consent for sensitive data, provide clear privacy notices, and implement strict security measures
+   * Individuals have right to object to automated processing
+* Privacy Act 2020 - New Zealand
+   * Organizations must notify the Commissioner and affected individuals of notifiable privacy breaches
+   * Applies to overseas organizations doing business in New Zealand
+   * Fines up to NZ$10,000 for specific offenses
+   * People have right to access, correct, and in some cases delta their personal information 
+   * Personal information can only be sent overseas if the recipient is subject to similar binding privacy laws
+   * Organizations are required to appoint a privacy officer to ensure compliance 
+* Republic Act No 10173  - Philippines
+   * Applies to any organization processing personal data of Philippine residents, whether in the Philippines or abroad, if it involves Philippine citizens or residents
+   * Individuals have rights to be informed, access, correct, withdraw consent, and portability of personal data
+   * Fines and imprisonment for violations
+* Federal Law No 152-FZ - Russia
+   * Requires that the initial recording, storage, and processing of Russian citizens’ personal data occur on databases located within the Russian Federation
+   * Personal data processing generally requires explicit, informed, and specific consent
+   * Data operators must notify government of data breaches within 24 hours of detection, and report investigation results within 72 hours
+   * Transfers to countries that do not provide adequate protection require compliance with specific, strict conditions
+* Protection of Personal Information Act - South Africa
+   * Applies to public and private bodies processing personal information within South Africa
+   * Individuals can access, correct, or request the deletion of their personal information
+   * Data processing must adhere to accountability, processing limitation, purpose specification, further processing limitation, information quality, openness, security safeguards, and data subject participation
+* Organic Law 3/2018 - Spain
+   * Implements the GDPR into Spanish law
+   * Processing must have a valid basis, such as consent, contractual necessity, or legitimate interest 
+   * Consent for processing data of minors is valid from age 14
+* Data Protection Act - Sweden
+   * Supplements the GDPR
+   * Personal identity numbers require special protection and their processing is strictly regulated
+   * Only public authorities are generally permitted to process data relating to criminal convictions
+   * Consent required for electronic direct marketing to individuals, though opt out is allowed for existing customers
+   * Individuals have rights to access, erase, and correct their data 
+* Personal Data Protection Act - Thailand
+   * Applies to organizations outside Thailand that process data of Thai residents, as well as businesses operating within the country
+   * Organizations must obtain explicit consent to collect, sue, or disclose data, unless another lawful basis exists
+   * Data must be only used for the stated purpose
+   * Individuals have the right to access, correct, delete, object to processing, and restrict the use of their personal data
+   * Organizations that process sensitive data or require regular monitoring of data must appoint a DPO
+   * In the event of a breach the DPO must inform the Personal Data Protection Committee within 72 hours
+   * Transferring personal data outside of Thailand requires ensuring that the destination country or organization maintains adequate data protection standards
+   * Fines for non compliance as well as possible c
+* Law No 18.331 - Uruguay
+   * Individuals have extensive rights, including access, rectification, deletion, and data portability
+   * All databases containing personal data must be registered 
+   * Breaches must be reported to the URCDP within 72 hours
+   * Uruguay is deemed adequate by the EU meaning personal data can be transferred from the EU to Uruguay without additional safeguards
+   * DPOs are required for public entities, organizations processing sensitive data, and those managing data of over 35,000 individuals
+   * Data processing requires informed, unequivocal, and express consent of the data subject
+   * Data must be collected for a specific, legitimate purpose
