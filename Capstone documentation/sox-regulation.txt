@@ -1,0 +1,365 @@
+* Title I – Public Company Accounting Oversight Board (PCAOB)
+
+   * Establishment of the Board (Sec. 101)
+      * Board shall register public accounting firms that prepare audit reports for issuers
+      * Board shall establish auditing, quality control, ethics, and independence standards
+      * Board shall conduct inspections of registered public accounting firms
+      * Board shall conduct investigations and disciplinary proceedings and impose sanctions
+      * Board shall enforce compliance with the Act, its rules, professional standards, and securities laws
+      * Board shall set its own budget and manage its operations
+      * Board members must serve full-time and may not be employed elsewhere concurrently
+      * No Board member may share in profits of any public accounting firm
+      * Board must submit an annual report (including audited financial statements) to the Commission
+      * Ethics rules for Board members and staff must include a 1-year bar on practice before the Board for former members
+
+    * Registration with the Board (Sec. 102)
+      * It shall be unlawful for any unregistered firm to prepare, issue, or participate in the preparation of any audit report for any issuer
+      * Registration applications must include:
+         * Names of all issuers for which the firm prepared audit reports
+         * Annual fees received from each issuer for audit, accounting, and non-audit services
+         * A statement of the firm's quality control policies
+         * A list of all accountants who participate in preparing audit reports, including license numbers
+         * Information on any pending criminal, civil, or administrative actions against the firm
+         * Copies of any periodic disclosures reflecting accounting disagreements with issuers
+      * Each registered firm must submit an annual report to the Board
+      * Registration applications and annual reports shall be made available for public inspection
+      * The Board shall assess and collect registration and annual fees from each registered firm
+    
+    * Auditing, Quality Control, and Independence Standards (Sec. 103)
+      * Each registered firm shall prepare and maintain audit work papers for not less than 7 years
+      * Each audit report shall include a concurring or second partner review and approval by a qualified person other than the person in charge of the audit
+      * Each audit report shall describe the scope of the auditor's testing of the issuer's internal control structure and shall present:
+        * Findings from that testing
+        * An evaluation of whether internal controls include maintenance of records that accurately and fairly reflect transactions and dispositions of assets
+        * An evaluation of whether internal controls provide reasonable assurance that transactions are recorded to permit preparation of financial statements in accordance with GAAP
+        * A description of any material weaknesses in internal controls and any material noncompliance found
+    
+    * Quality control standards shall address:
+        * Monitoring of professional ethics and independence from issuers
+        * Consultation within the firm on accounting and auditing questions
+        * Supervision of audit work
+        * Hiring, professional development, and advancement of personnel
+        * Acceptance and continuation of client engagements
+        * Internal inspection
+        
+    * Inspections of Registered Public Accounting Firms (Sec. 104)
+        * Inspections shall be conducted annually for firms that regularly provide audit reports for more than 100 issuers
+        * Inspections shall be conducted at least once every 3 years for firms providing audit reports for 100 or fewer issuers
+        * Inspections shall identify any act, practice, or omission that may be in violation of the Act, Board rules, Commission rules, the firm's own quality control policies, or professional standards
+        * Inspections shall evaluate the sufficiency of the firm's quality control system
+        * Written inspection reports shall be transmitted to the Commission and appropriate State regulatory authorities
+    
+    * Investigations and Disciplinary Proceedings (Sec. 105)
+        * The Board shall establish fair procedures for investigating and disciplining registered firms and associated persons
+        * The Board may require testimony and production of audit work papers and other documents during an investigation
+        * If a firm or associated person refuses to cooperate, the Board may:
+            * Suspend or bar such person from association with any registered firm
+            * Suspend or revoke the registration of the public accounting firm
+        * Sanctions the Board may impose include:
+            * Temporary suspension or permanent revocation of registration
+            * Temporary or permanent bar of a person from association with any registered firm
+            * Limitation on activities, functions, or operations of the firm or person
+            * Civil money penalties up to $100,000 for a natural person or $2,000,000 for any other person
+            * In cases of intentional, knowing, or repeated negligent conduct: up to $750,000 for a natural person or $15,000,000 for any other person
+            * Censure
+            * Required additional professional education or training
+        * Intentional, knowing, or reckless conduct, or repeated instances of negligent conduct, are subject to the highest-level sanctions
+        * Supervisory personnel may be sanctioned if the firm failed to reasonably supervise an associated person who committed a violation
+        * It shall be unlawful for any suspended or barred person to become or remain associated with any registered firm without consent of the Board or Commission
+        * All documents and information related to investigations and inspections shall be confidential and privileged
+    
+    * Foreign Public Accounting Firms (Sec. 106)
+        * Foreign public accounting firms that prepare or furnish audit reports for issuers are subject to the Act in the same manner as domestic firms
+        * Foreign firms that issue opinions upon which a registered domestic firm relies shall be deemed to have consented to produce their audit workpapers for the Board or Commission
+    
+    * Commission Oversight of the Board (Sec. 107)
+        * No rule of the Board shall become effective without prior approval of the Commission
+        * The Commission may enhance, modify, cancel, reduce, or require remission of any sanction imposed by the Board
+        * The Commission may censure the Board or impose limitations on its activities if the Board has violated the Act or failed to enforce compliance
+        * The Commission may remove from office or censure any Board member who has willfully violated the Act, abused authority, or failed to enforce compliance
+
+
+* Title II – Auditor Independence
+    
+    * Prohibited Non-Audit Services (Sec. 201)
+        * It shall be unlawful for a registered public accounting firm to provide the following non-audit services to an audit client contemporaneously with the audit:
+            * Bookkeeping or other services related to the accounting records or financial statements
+            * Financial information systems design and implementation
+            * Appraisal or valuation services, fairness opinions, or contribution-in-kind reports
+            * Actuarial services
+            * Internal audit outsourcing services
+            * Management functions or human resources
+            * Broker, dealer, investment adviser, or investment banking services
+            * Legal services and expert services unrelated to the audit
+            * Any other service that the Board determines by regulation is impermissible
+    
+    * Preapproval Requirements (Sec. 202)
+        * All auditing services and non-audit services provided to an issuer by its auditor shall be preapproved by the audit committee of the issuer
+        * The preapproval requirement may be waived for non-audit services if:
+            * The aggregate amount of such non-audit services does not exceed 5% of total revenues paid to the auditor during that fiscal year
+            * Such services were not recognized at the time of engagement to be non-audit services
+            * Such services are promptly brought to the attention of the audit committee and approved prior to completion of the audit
+        * Approval of non-audit services shall be disclosed to investors in periodic reports
+        * The audit committee may delegate preapproval authority to one or more independent directors; such decisions must be reported to the full audit committee at each scheduled meeting
+   
+    * Audit Partner Rotation (Sec. 203)
+        * It shall be unlawful for a registered firm to provide audit services to an issuer if the lead audit partner or the audit review partner has performed audit services for that issuer in each of the 5 previous fiscal years
+    
+    * Auditor Reports to Audit Committees (Sec. 204)
+        * Each registered firm performing an audit shall timely report to the audit committee:
+            * All critical accounting policies and practices to be used
+            * All alternative treatments of financial information within GAAP that have been discussed with management, including ramifications and the firm's preferred treatment
+            * Other material written communications between the firm and management, such as any management letter or schedule of unadjusted differences
+   
+    * Conflicts of Interest (Sec. 206)
+        * It shall be unlawful for a registered firm to perform an audit for an issuer if a CEO, controller, CFO, chief accounting officer, or equivalent was employed by that firm and participated in the audit of that issuer during the 1-year period preceding the initiation of the audit
+
+
+* Title III – Corporate Responsibility
+    
+    * Public Company Audit Committees (Sec. 301)
+        * The audit committee shall be directly responsible for the appointment, compensation, and oversight of the registered public accounting firm employed by the issuer
+        * Each registered public accounting firm shall report directly to the audit committee
+        * Each member of the audit committee shall be a member of the board of directors and shall otherwise be independent:
+            * Members may not accept any consulting, advisory, or other compensatory fee from the issuer
+            * Members may not be affiliated persons of the issuer or any subsidiary
+        * Each audit committee shall establish procedures for:
+            * Receipt, retention, and treatment of complaints regarding accounting, internal accounting controls, or auditing matters
+            * Confidential, anonymous submission by employees of concerns regarding questionable accounting or auditing matters
+        * Each audit committee shall have the authority to engage independent counsel and other advisers
+        * Each issuer shall provide appropriate funding for compensation of its auditor and any advisers employed by the audit committee
+    
+    * Corporate Responsibility for Financial Reports (Sec. 302)
+        * The principal executive and principal financial officers shall certify in each annual or quarterly report that:
+            * The signing officer has reviewed the report
+            * The report does not contain any untrue statement of a material fact or omit any material fact necessary to make the statements not misleading
+            * The financial statements fairly present in all material respects the financial condition and results of operations
+            * The signing officers are responsible for establishing and maintaining internal controls and have:
+                * Designed such controls to ensure that material information is made known to them
+                * Evaluated the effectiveness of the issuer's internal controls within 90 days prior to the report
+                * Presented their conclusions about the effectiveness of internal controls in the report
+            * The signing officers have disclosed to the auditors and audit committee:
+                * All significant deficiencies in the design or operation of internal controls which could adversely affect the issuer's ability to record, process, summarize, and report financial data
+                * Any material weaknesses in internal controls
+                * Any fraud, whether or not material, that involves management or employees with a significant role in internal controls
+            * The signing officers have indicated whether there were significant changes in internal controls subsequent to the date of their evaluation, including any corrective actions
+    
+    * Improper Influence on Conduct of Audits (Sec. 303)
+        * It shall be unlawful for any officer or director of an issuer, or any person acting under their direction, to take any action to fraudulently influence, coerce, manipulate, or mislead any independent public or certified accountant engaged in the performance of an audit for the purpose of rendering financial statements materially misleading
+    
+    * Forfeiture of Certain Bonuses and Profits (Sec. 304)
+        * If an issuer is required to prepare an accounting restatement due to material noncompliance resulting from misconduct, the CEO and CFO shall reimburse the issuer for:
+            * Any bonus or incentive-based or equity-based compensation received during the 12-month period following the first public issuance or filing of the financial document
+            * Any profits realized from the sale of securities of the issuer during that 12-month period
+    
+    * Officer and Director Bars and Penalties (Sec. 305)
+        * The standard for barring officers and directors is "unfitness" (lowered from the prior "substantial unfitness" standard)
+        * Federal courts may grant any equitable relief appropriate or necessary for the benefit of investors in Commission enforcement actions
+   
+    * Insider Trades During Pension Fund Blackout Periods (Sec. 306)
+        * It shall be unlawful for any director or executive officer to purchase, sell, or otherwise acquire or transfer any equity security of the issuer during any blackout period if that equity security was acquired in connection with service or employment as a director or officer
+        * Any profit realized from a transaction in violation of this provision shall be recoverable by the issuer
+        * The issuer shall timely notify affected directors and officers and the Commission of any blackout period
+        * Plan administrators must notify affected plan participants and beneficiaries at least 30 days in advance of a blackout period, with the notice including:
+            * Reasons for the blackout period
+            * Identification of investments and other rights affected
+            * Expected beginning date and length of the blackout period
+            * A statement that participants should evaluate the appropriateness of their current investment decisions in light of their inability to direct or diversify assets during the blackout period
+    
+    * Rules of Professional Responsibility for Attorneys (Sec. 307)
+        * Attorneys appearing before the Commission in the representation of issuers must report evidence of a material violation of securities law or breach of fiduciary duty to the chief legal counsel or CEO of the company
+        * If the counsel or officer does not appropriately respond, the attorney must report the evidence to the audit committee or another committee of independent directors, or to the full board of directors
+
+
+* Title IV – Enhanced Financial Disclosures
+    
+    * Disclosures in Periodic Reports (Sec. 401)
+        * Each financial report shall reflect all material correcting adjustments identified by a registered public accounting firm in accordance with GAAP and Commission rules
+        * Each annual and quarterly financial report shall disclose all material off-balance sheet transactions, arrangements, obligations, and other relationships with unconsolidated entities that may have a material current or future effect on financial condition, changes in financial condition, results of operations, liquidity, capital expenditures, capital resources, or significant components of revenues or expenses
+        * Pro forma financial information shall not contain any untrue statement of a material fact or omit a material fact, and shall be reconciled with financial condition and results under GAAP
+    
+    * Enhanced Conflict of Interest Provisions (Sec. 402)
+        * It shall be unlawful for any issuer, directly or indirectly, to extend, maintain, or arrange credit in the form of a personal loan to or for any director or executive officer
+    
+    * Disclosures of Transactions Involving Management and Principal Stockholders (Sec. 403)
+        * Every person who is the beneficial owner of more than 10% of any class of registered equity security, or who is a director or officer, shall file the required statements with the Commission
+        * Changes in ownership must be reported before the end of the second business day following execution of the subject transaction
+        * Such statements must be filed electronically and made publicly available on the Commission's website and the issuer's corporate website by the end of the following business day
+   
+    * Management Assessment of Internal Controls (Sec. 404)
+        * Each annual report shall contain an internal control report that:
+            * States management's responsibility for establishing and maintaining an adequate internal control structure and procedures for financial reporting
+            * Contains an assessment, as of the end of the most recent fiscal year, of the effectiveness of the internal control structure and procedures for financial reporting
+        * The registered public accounting firm that prepares or issues the audit report shall attest to, and report on, management's internal control assessment
+   
+    * Code of Ethics for Senior Financial Officers (Sec. 406)
+        * Each issuer shall disclose whether it has adopted a code of ethics for senior financial officers, and if not, the reason therefor
+        * Any change in or waiver of the code of ethics shall be immediately disclosed
+        * A code of ethics shall include standards to promote:
+            * Honest and ethical conduct, including the ethical handling of conflicts of interest
+            * Full, fair, accurate, timely, and understandable disclosure in periodic reports
+            * Compliance with applicable governmental rules and regulations
+    
+    * Disclosure of Audit Committee Financial Expert (Sec. 407)
+        * Each issuer shall disclose whether its audit committee includes at least one member who is a "financial expert" as defined by the Commission, and if not, the reason therefor
+   
+    * Enhanced Review of Periodic Disclosures by Issuers (Sec. 408)
+        * The Commission shall review disclosures made by issuers on a regular and systematic basis
+        * No issuer required to file reports shall be reviewed less frequently than once every 3 years
+        * Review criteria shall include: issuers that have issued material restatements, issuers with significant stock price volatility, issuers with the largest market capitalization, emerging companies with disparities in price-to-earnings ratios, and issuers whose operations significantly affect any material sector of the economy
+   
+    * Real Time Issuer Disclosures (Sec. 409)
+        * Each issuer shall disclose to the public on a rapid and current basis material changes in the financial condition or operations of the issuer, in plain English
+
+
+* Title V – Analyst Conflicts of Interest
+    
+    * Treatment of Securities Analysts (Sec. 501)
+        * Rules shall restrict the prepublication clearance or approval of research reports by persons engaged in investment banking activities
+        * Supervision and compensatory evaluation of securities analysts shall be limited to officials not engaged in investment banking activities
+        * Brokers, dealers, and persons involved in investment banking activities may not retaliate or threaten to retaliate against any securities analyst as a result of an adverse research report that may affect an investment banking relationship
+        * Structural and institutional safeguards must assure that securities analysts are separated by appropriate informational partitions from persons whose investment banking involvement might bias their judgment
+        * Each securities analyst shall disclose in public appearances, and each registered broker or dealer shall disclose in each research report:
+            * The extent to which the analyst has debt or equity investments in the subject issuer
+            * Whether any compensation has been received by the broker or dealer from the subject issuer
+            * Whether the subject issuer currently is, or during the prior 1 year has been, a client of the broker or dealer, and the types of services provided
+            * Whether the analyst received compensation based upon investment banking revenues from the issuer being analyzed
+
+
+* Title VI – Commission Resources and Authority
+   
+    * Authorization of Appropriations (Sec. 601)
+        * $776,000,000 authorized to be appropriated to the Commission for fiscal year 2003, allocated as follows:
+            * $102,700,000 to fund additional compensation, including salaries and benefits
+            * $108,400,000 for information technology, security enhancements, and recovery and mitigation activities
+            * $98,000,000 to add not fewer than 200 qualified professionals to provide enhanced oversight of auditors and audit services, and to improve Commission investigative and disciplinary efforts, as well as to strengthen programs involving:
+                * Full Disclosure and Prevention and Suppression of Fraud
+                * Risk management
+                * Industry technology review
+                * Compliance, inspections, and examinations
+                * Market regulation
+                * Investment management
+    
+    * Appearance and Practice Before the Commission (Sec. 602)
+        
+        * The Commission may censure any person, or deny temporarily or permanently the privilege of appearing or practicing before the Commission, if that person is found to:
+            * Not possess the requisite qualifications to represent others
+            * Be lacking in character or integrity, or to have engaged in unethical or improper professional conduct
+            * Have willfully violated, or willfully aided and abetted the violation of, any provision of the securities laws or the rules and regulations issued thereunder
+        * "Improper professional conduct" for registered public accounting firms or associated persons means:
+            * Intentional or knowing conduct, including reckless conduct, that results in a violation of applicable professional standards
+            * Negligent conduct in the form of:
+                * A single instance of highly unreasonable conduct that results in a violation of applicable professional standards in circumstances where heightened scrutiny is warranted
+                * Repeated instances of unreasonable conduct, each resulting in a violation of applicable professional standards, that indicate a lack of competence to practice before the Commission
+    
+    * Federal Court Authority to Impose Penny Stock Bars (Sec. 603)
+        * In any proceeding against any person participating in an offering of penny stock, the court may prohibit that person from participating in an offering of penny stock, conditionally or unconditionally, and permanently or for such period of time as the court shall determine
+   
+    * Qualifications of Associated Persons of Brokers and Dealers (Sec. 604)
+        * A person shall be disqualified from association with a broker, dealer, or investment adviser if subject to any final order of a State securities commission, State banking authority, State insurance commission, appropriate Federal banking agency, or the National Credit Union Administration that:
+            * Bars such person from association with an entity regulated by such authority, or from engaging in the business of securities, insurance, banking, savings association activities, or credit union activities
+            * Constitutes a final order based on violations of any laws or regulations that prohibit fraudulent, manipulative, or deceptive conduct
+
+
+* Title VII – Studies and Reports
+    
+    * GAO Study on Consolidation of Public Accounting Firms (Sec. 701)
+        * The Comptroller General shall conduct a study to identify:
+            * Factors that have led to the consolidation of public accounting firms since 1989 and the reduction in the number of firms capable of providing audit services to large national and multi-national organizations
+            * The present and future impact of such consolidation on capital formation and securities markets, both domestic and international
+            * Solutions to any problems identified, including ways to increase competition and the number of firms capable of providing audit services
+            * Problems faced by business organizations resulting from limited competition, including higher costs, lower quality of services, impairment of auditor independence, and lack of choice
+            * Whether and to what extent Federal or State regulations impede competition among public accounting firms
+        * Report due to Congress not later than 1 year after the date of enactment
+   
+    * Commission Study on Credit Rating Agencies (Sec. 702)
+        * The Commission shall conduct a study of the role and function of credit rating agencies in the operation of the securities market, examining:
+            * The role of credit rating agencies in the evaluation of issuers of securities
+            * The importance of that role to investors and the functioning of the securities markets
+            * Any impediments to the accurate appraisal by credit rating agencies of the financial resources and risks of issuers
+            * Any barriers to entry into the business of acting as a credit rating agency, and any measures needed to remove such barriers
+            * Any measures required to improve the dissemination of information when credit rating agencies announce credit ratings
+            * Any conflicts of interest in the operation of credit rating agencies and measures to prevent such conflicts
+        * Report due to the President and Congress not later than 180 days after the date of enactment
+   
+    * Study and Report on Violators and Violations (Sec. 703)
+        * The Commission shall conduct a study to determine, for the period January 1, 1998 to December 31, 2001:
+            * The number of securities professionals who have been found to have aided and abetted a violation of Federal securities laws but were not sanctioned as primary violators
+            * The number of securities professionals who have been found to be primary violators of Federal securities laws
+            * A description of the violations committed, including the specific provision violated, sanctions and penalties imposed, occurrence of multiple violations by the same person, and whether disciplinary sanctions such as censure, suspension, or permanent bar have been imposed
+            * The amount of disgorgement, restitution, or other fines or payments assessed upon and collected from aiders and abettors and primary violators
+        * Report due to Congress not later than 6 months after the date of enactment
+   
+    * Study of Enforcement Actions (Sec. 704)
+        * The Commission shall review and analyze all enforcement actions involving violations of reporting requirements and restatements of financial statements over the 5-year period preceding the date of enactment, to identify areas of reporting most susceptible to:
+            * Fraud
+            * Inappropriate manipulation
+            * Inappropriate earnings management, such as revenue recognition and accounting treatment of off-balance sheet special purpose entities
+        * The Commission shall use such findings to revise its rules and regulations as necessary
+        * Report due to Congress not later than 180 days after the date of enactment
+   
+    * Study of Investment Banks (Sec. 705)
+        * The Comptroller General shall conduct a study on whether investment banks and financial advisers assisted public companies in manipulating their earnings and obfuscating their true financial condition, examining:
+            * The role of investment banks and financial advisers in the collapse of Enron Corporation, including with respect to derivatives transactions, special purpose vehicles, and other financial arrangements that may have obscured the company's true financial picture
+            * Their role in the failure of Global Crossing, including transactions involving swaps of fiberoptic cable capacity designed to alter reported financial statements
+            * Generally, whether investment banks and advisers created and marketed transactions designed solely to enable companies to manipulate revenue streams, obtain loans, or move liabilities off balance sheets without altering the economic and business risks faced by such companies
+        * Report due to Congress not later than 180 days after the date of enactment
+
+* Title VIII – Corporate and Criminal Fraud Accountability
+   
+    * Criminal Penalties for Altering Documents (Sec. 802)
+        * Whoever knowingly alters, destroys, mutilates, conceals, falsifies, or makes a false entry in any record, document, or tangible object with the intent to impede, obstruct, or influence any matter within the jurisdiction of any U.S. department or agency shall be fined, imprisoned not more than 20 years, or both
+        * Any accountant conducting an audit of an issuer shall maintain all audit or review workpapers for a period of 5 years from the end of the fiscal period in which the audit or review was concluded
+        * Willful violation of the record retention requirement shall result in fines, imprisonment of not more than 10 years, or both
+   
+    * Protection for Employees Who Provide Evidence of Fraud (Sec. 806) – Whistleblower Protection
+        * No company or any officer, employee, contractor, subcontractor, or agent of such company may discharge, demote, suspend, threaten, harass, or otherwise discriminate against an employee because of any lawful act done by the employee to:
+            * Provide information or assist in an investigation regarding any conduct the employee reasonably believes constitutes a violation of securities laws or federal fraud statutes, when such information is provided to a federal regulatory or law enforcement agency, any Member of Congress, or a person with supervisory authority
+            * File, testify, or participate in any proceeding relating to an alleged violation of such laws
+        * Remedies for retaliation include reinstatement with the same seniority status, back pay with interest, and compensation for special damages including litigation costs and attorney fees
+    
+    * Criminal Penalties for Defrauding Shareholders (Sec. 807)
+        * Whoever knowingly executes or attempts to execute a scheme to defraud any person in connection with any security, or to obtain money or property by means of false or fraudulent pretenses in connection with the purchase or sale of any security, shall be fined, or imprisoned not more than 25 years, or both
+
+
+* Title IX – White-Collar Crime Penalty Enhancements
+   
+    * Attempts and Conspiracies to Commit Fraud (Sec. 902)
+        * Any person who attempts or conspires to commit any offense under the fraud chapter shall be subject to the same penalties as those prescribed for the completed offense
+    
+    * Criminal Penalties for Mail and Wire Fraud (Sec. 903)
+        * Maximum imprisonment for mail fraud and wire fraud increased to 20 years
+   
+    * Criminal Penalties for ERISA Violations (Sec. 904)
+        * Maximum monetary penalties and imprisonment terms for ERISA violations significantly increased
+   
+    * Corporate Responsibility for Financial Reports (Sec. 906)
+        * Each periodic report containing financial statements filed with the SEC shall be accompanied by a written statement by the CEO and CFO certifying that:
+            * The periodic report fully complies with the requirements of the Securities Exchange Act
+            * Information in the periodic report fairly presents, in all material respects, the financial condition and results of operations of the issuer
+        * Knowingly making a false certification: fined up to $1,000,000 or imprisoned up to 10 years, or both
+        * Willfully making a false certification: fined up to $5,000,000 or imprisoned up to 20 years, or both
+
+
+* Title X – Corporate Tax Returns
+    
+    * Sense of the Senate Regarding Signing of Corporate Tax Returns (Sec. 1001)
+        * It is the sense of the Senate that the Federal income tax return of a corporation should be signed by the chief executive officer of such corporation
+
+
+* Title XI – Corporate Fraud and Accountability
+    
+    * Tampering with Records or Impeding an Official Proceeding (Sec. 1102)
+        * Whoever corruptly alters, destroys, mutilates, or conceals any record, document, or other object with the intent to impair its integrity or availability for use in an official proceeding, or otherwise obstructs, influences, or impedes any official proceeding, shall be fined, imprisoned not more than 20 years, or both
+   
+    * Temporary Freeze Authority for the SEC (Sec. 1103)
+        * If it appears likely that an issuer will make extraordinary payments to directors, officers, or other covered persons during the course of an investigation, the Commission may petition a federal district court for a temporary order requiring the issuer to escrow those payments for 45 days (extendable to 90 days total)
+   
+    * Authority of the Commission to Prohibit Persons from Serving as Officers or Directors (Sec. 1105)
+        * In any cease-and-desist proceeding, the Commission may issue an order prohibiting, conditionally or unconditionally, and permanently or for a defined period, any person who has violated the securities laws from acting as an officer or director of any issuer, if the conduct of that person demonstrates unfitness to serve in such a role
+    
+    * Increased Criminal Penalties Under Securities Exchange Act (Sec. 1106)
+        * Maximum criminal fines and imprisonment terms under the Securities Exchange Act of 1934 substantially increased for individuals and entities
+    
+    * Retaliation Against Informants (Sec. 1107)
+        * Whoever knowingly, with intent to retaliate, takes any action harmful to any person for providing truthful information to a law enforcement officer relating to the commission or possible commission of any federal offense shall be fined or imprisoned not more than 10 years, or both
