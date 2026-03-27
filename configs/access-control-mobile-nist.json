@@ -1,0 +1,29 @@
+[
+  {
+          "name": "Access Control for Mobile Devices",
+          "subsection":[
+              {
+                  "name":"Restrictions for Classified Information",
+                  "description":[
+                      "Prohibit the use of unclassified mobile devices in facilities containing systems processing, storing, or transmitting classified information unless specifically permitted by the authorizing official",
+                      "Enforce the following restrictions on individuals permitted by the authorizing official to use unclassified mobile devices in facilities containing systems processing, storing, or transmitting classified information:",
+                      [
+                          "Connection of unclassified mobile devices to classified systems is prohibited",
+                          "Connection of unclassified mobile devices to unclassified systems requires approval from the authorizing official",
+                          "Use of internal or external modems or wireless interfaces within the unclassified mobile devices is prohibited",
+                          "Unclassified mobile devices and the information stored on those devices are subject to random reviews and inspections by organization-defined security officials, and if classified information is found, the incident handling policy is followed"
+                      ],
+                      "Restrict the connection of classified mobile devices to classified systems in accordance with organization-defined security policies"
+                  ],
+                  "related controls": "CM-8, IR-4"
+              },
+              {
+                  "name": "Full Device or Container Based Encryption",
+                  "description": [
+                      "Employ full-device encryption, container-based encryption to protect the confidentiality and integrity of information on organization-defined mobile devices"
+                  ],
+                  "related controls":"SC-12, SC-13, SC-28"
+              }
+          ]
+      }
+]
