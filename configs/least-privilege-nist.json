@@ -1,0 +1,82 @@
+[
+  {
+          "name": "Least Privilege",
+          "subsection": [
+              {
+                  "name": "Authorize Access to Security Functions",
+                  "description":[
+                      "Authorize access for organization defined individuals or roles to ",
+                      [
+                          "Organization defined security functions",
+                          "Organization defined security relevant information"
+                      ]
+                  ],
+                  "related controls": "AC-17, AC-18, AC-19, AU-9, PE-2"
+              },
+              {
+                  "name": "Non Privileged Access for Nonsecurity Functions",
+                  "description":[
+                      "Require that users of system accounts (or roles) with access to organization defined security functions or security-relevant information use non-privileged accounts or roles, when accessing nonsecurity functions"
+                  ],
+                  "related controls": "AC-17, AC-18, AC-19, PL-4"
+              },
+              {
+                  "name": "Network Access to Privileged Commands",
+                  "description":[
+                      "Authorize network access to organization-defined privileged commands only for organization-defined compelling operational needs and document the rationale for such access in the security plan for the system"
+                  ],
+                  "related controls": "AC-17, AC-18, AC-19"
+              },
+              {
+                  "name": "Separate Processing Domains",
+                  "description":[
+                      "Provide separate processing domains to enable finer-grained allocation of user privileges"
+                  ],
+                  "related controls": "AC-4, SC-2, SC-3, SC-30, SC-32, SC-39"
+              },
+              {
+                  "name": "Privilege Accounts",
+                  "description":[
+                      "Restrict privileged accounts on the system to organization defined personnel or roles"
+                  ],
+                  "related controls": "IA-2, MA-3, MA-4"
+              },
+              {
+                  "name": "Privilege Access by Nonorganizational Users",
+                  "description":[
+                      "Prohibit privileged access to the system by non-organizational users"
+                  ],
+                  "related controls": "AC-18, AC-19, IA-2, IA-8"
+              },
+              {
+                  "name": "Review of User Privileges",
+                  "description":[
+                      "Review at organization defined the privileges assigned to organization defined roles or classes of users to validate the need for such privileges",
+                      "Assign or remove privileges, if necessary, to correctly reflect organizational mission and business needs"
+                  ],
+                  "related controls": "CA-7"
+              },
+              {
+                  "name": "Privilege Levels for Code Execution",
+                  "description":[
+                      "Prevent organization defined software from executing at higher privilege levels than users executing the software "
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Log Use of Privileged Functions",
+                  "description":[
+                      "Log the execution of privileged functions"
+                  ],
+                  "related controls": "AU-2, AU-3, AU-12"
+              },
+              {
+                  "name": "Prohibit Nonprivileged Users from Executing Privileged Functions",
+                  "description":[
+                      "Prevent non-privileged users from executing privileged functions"
+                  ],
+                  "related controls": "N/A"
+              }
+          ]
+      }
+]
