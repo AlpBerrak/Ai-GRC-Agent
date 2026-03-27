@@ -1,0 +1,77 @@
+[
+    {
+          "name": "Security and Privacy Attributes",
+          "subsection":[
+              {
+                  "name": "Dynamic Attribute Association",
+                  "description":[
+                      "Dynamically associate security and privacy attributes with organization-defined subjects and objects in accordance with the following security and privacy policies as information is created and combined: organization-defined security and privacy policies"
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Attribute Value Changes by Authorized Individuals",
+                  "description":[
+                      "Provide authorized individuals (or processes acting on behalf of individuals) the capability to define or change the value of associated security and privacy attributes"
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Maintenance of Attribute Associations by System",
+                  "description":[
+                      "Maintain the association and integrity of organization-defined security and privacy attributes to organization-defined subjects and objects"
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Association of Attribute by Authorized Individuals",
+                  "description":[
+                      "Provide the capability to associate organization-defined security and privacy attributes with organization-defined subjects and objects by authorized individuals (or processes acting on behalf of individuals)"
+                  ],
+                  "related controls":"N/A"
+              },
+              {
+                  "name": "Attribute Displays on Objects to be Output",
+                  "description": [
+                      "Display security and privacy attributes in human-readable form on each object that the system transmits to output devices to identify organization-defined special dissemination, handling, or distribution instructions using organization-defined human-readable, standard naming conventions"
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Maintenance of Attribute Association",
+                  "description":[
+                      "Require personnel to associate and maintain the association of organization-defined security and privacy attributes with organization-defined subjects and objects in accordance with organization-defined security and privacy policies"
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Consistent Attribute Interpretation",
+                  "description":[
+                      "Provide a consistent interpretation of security and privacy attributes transmitted between distributed system components."
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Association Techniques and Technologies",
+                  "description":[
+                      "Implement organization-defined techniques and technologies in associating security and privacy attributes to information"
+                  ],
+                  "related controls": "SC-12, SC-13"
+              },
+              {
+                  "name": "Attribute Reassignment - Regrading Mechanisms",
+                  "description":[
+                      "Change security and privacy attributes associated with information only via regrading mechanisms validated using organization-defined techniques or procedures"
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Attribute Configuration by Authorized Individuals",
+                  "description":[
+                      "Provide authorized individuals the capability to define or change the type and value of security and privacy attributes available for association with subjects and objects"
+                  ],
+                  "related controls":"N/A"
+              }
+          ]
+      }
+]
