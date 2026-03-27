@@ -1,0 +1,162 @@
+[
+  {
+          "name": "Audit and Accountability Controls",
+          "subsection":[
+              {
+                  "name":"AU-1",
+                  "description":[
+                      "develop, document, and disseminate to organization defined personnel or roles",
+                      [
+                          "Addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance and is consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines",
+                          "Procedures to facilitate the implementation of the audit and accountability policy and the associated audit and accountability control"
+                      ],
+                      "Designate an organization defined official to manage the development, documentation, and dissemination of the audit and accountability policy and procedures",
+                      "Review and update the current audit and accountability",
+                      [
+                          "Policy and procedures"
+                      ]
+                  ]
+              },
+              {
+                  "name":"AU-2",
+                  "description":[
+                      "Identify the types of events that the system is capable of logging in support of the audit function",
+                      "Coordinate the event logging function with other organizational entities requiring audit related information to guide and inform the selection criteria for events to be logged",
+                      "Specify the following event types for logging within the system",
+                      [
+                          "Organization defined event types",
+                          "Frequency or situation requiring logging for each identified event type"
+                      ],
+                      "Provide a rationale for why the event types selected for logging are deemed to be adequate to support after the fact investigations of incidents",
+                      "Review and update the event types selected for logging organization defined frequency"
+                  ]
+              },
+              {
+                  "name":"AU-3",
+                  "description":[
+                      "Ensure that audit records contain information that establishes the following",
+                      [
+                          "What type of event occurred",
+                          "When the event occurred",
+                          "Where the event occurred",
+                          "Source of the event",
+                          "Outcome of the event",
+                          "Identity of any individuals, subjects, or objects/entities associated with the event"
+                      ]
+                  ]
+              },
+              {
+                  "name":"AU-4",
+                  "description":[
+                      "Allocate audit log storage capacity to accommodate organization defined audit log retention requirements"
+                  ]
+              },
+              {
+                  "name":"AU-5",
+                  "description":[
+                      "Alert organization defined personnel or roles within organization defined time period in the event of an audit logging process failure",
+                      "Take the following additional actions",
+                      [
+                          "Organization defined additional actions"
+                      ]
+                  ]
+              },
+              {
+                  "name":"AU-6",
+                  "description":[
+                      "Review and analyze system audit records on organization defined frequency for indications of organization defined inappropriate or unusual activity and the potential impact of the inappropriate or unusual activity",
+                      "Report findings to organizational defined personnel or roles",
+                      "Adjust the level of audit record review, analysis, and reporting within the system when there is a change in risk based on law enforcement information, intelligence information, or other credible sources of information"
+                  ]
+              },
+              {
+                  "name":"AU-7",
+                  "description":[
+                      "Provide and implement an audit record reduction and report generation capability that",
+                      [
+                          "Supports on demand audit record review, analysis, and reporting requirements and after the fact investigations of incidents",
+                          "Does not alter the original content or time ordering of audit records"
+                      ]
+                  ]
+              },
+              {
+                  "name":"AU-8",
+                  "description":[
+                      "Use internal system clocks to generate time stamps for audit records",
+                      "Record time stamps for audit records that meet organization defined granularity of time measurement and that use Coordinated Universal Time, have a fixed local time offset from Coordinated Universal Time, or that include the local time offset as part of the time stamp"
+                  ]
+              },
+              {
+                  "name":"AU-9",
+                  "description":[
+                      "Protect audit information and audit logging tools from unauthorized access, modification, and deletion",
+                      "Alert organization defined personnel or roles upon detection of unauthorized access, modification, or deletion of audit information"
+                  ]
+              },
+              {
+                  "name":"AU-10",
+                  "description":[
+                      "Provide irrefutable evidence that an individual has performed organization defined actions to be covered by non repudiation"
+                  ]
+              },
+              {
+                  "name":"AU-11",
+                  "description":[
+                      "Retain audit records for organization defined time period consistent with records retention policy to provide support for after the fact investigations of incidents and to meet regulatory and organizational information retention requirement"
+                  ]
+              },
+              {
+                  "name":"AU-12",
+                  "description":[
+                      "Provide audit record generation capability for the event types the system is capable of auditing as defined in AU-2a on organization defined system components",
+                      "Allow organization defined personnel or roles to select the event types that are to be logged by specific components of the system",
+                      "Generate audit records for the event types defined in AU-2c that include the audit record content defined in AU-3"
+                  ]
+              },
+              {
+                  "name":"AU-13",
+                  "description":[
+                      "Monitor organization defined open source information and/or information sites, organization defined frequency for evidence of unauthorized disclosure of organizational information",
+                      "If an information disclosure is discovered",
+                      [
+                          "Notify organization defined personnel or roles ",
+                          "Take rganizational defined additional actions"
+                      ]
+                  ]
+              },
+              {
+                  "name":"AU-14",
+                  "description":[
+                      "Provide and implement the capability for organization defined users or roles to record, view, hear, log the content of a user session under organization defined circumstances",
+                      "develop, integrate, and use session auditing activities in consultation with legal counsel and in accordance with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines"
+                  ]
+              },
+              {
+                  "name":"AU-16",
+                  "description":[
+                      "Employ organization defined methods for coordinating organization defined audit information among external organizations when audit information is transmitted across organizational boundaries"
+                  ]
+  
+              }
+          ]
+      },
+      {
+          "name":"Assessment, Authorization, and Monitoring Controls",
+          "subsection":[
+              {
+                  "name":"CA-1",
+                  "description": [
+                      "Develop, document, and disseminate to organization defined personnel or roles",
+                      [
+                          "Organization level, mission/business process level, system level assessment, authorization, and monitoring policy that",
+                          [
+                              "Addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance",
+                              "Is consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines"
+                          ],
+                          "Procedures to facilitate the implementation of the assessment, authorization, and monitoring policy and the associated assessment, authorization, and monitoring controls"
+                      ],
+                      "Designate an organization defined official to manage the development, documentation, and dissemination of the assessment, authorization, and monitoring policy and procedures",
+                      "Review and update the current assessment, authorization and monitoring for policy and procedure"
+                  ]
+              }
+]
