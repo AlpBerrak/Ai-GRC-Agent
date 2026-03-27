@@ -1,0 +1,57 @@
+[
+  {
+          "name": "Remote Access",
+          "subsection": [
+              {
+                  "name": "Monitoring and Control",
+                  "description":[
+                      "Employ automated mechanisms to monitor and control remote access methods"
+                  ],
+                  "related controls": "AU-2, AU-6, AU-12, AU-14"
+              },
+              {
+                  "name": "Protection of Confidentiality and Integrity Using Encryption",
+                  "description":[
+                      "Implement cryptographic mechanisms to protect the confidentiality and integrity of remote access sessions"
+                  ],
+                  "related controls": "SC-8, SC-12, SC-13"
+              },
+              {
+                 "name": "Managed Access Control Points",
+                 "description":[
+                  "Route remote accesses through authorized and managed network access control points"
+                 ],
+                 "related controls": "SC-7" 
+              },
+              {
+                  "name": "Privileged Commands and Access",
+                  "description":[
+                      " Authorize the execution of privileged commands and access to security-relevant information via remote access only in a format that provides assessable evidence and for organization defined needs",
+                      "Document the rationale for remote access in the security plan for the system"
+                  ],
+                  "related controls": "AC-6, SC-12, SC-13"
+              },
+              {
+                  "name": "Protection of Mechanism Information",
+                  "description":[
+                      "Protect information about remote access mechanisms from unauthorized use and disclosure"
+                  ],
+                  "related controls":"AT-2, AT-3, PS-6"
+              },
+              {
+                  "name": "Disconnect and Disable Access",
+                  "description":[
+                      "Provide the capability to disconnect or disable remote access to the system within organization-defined time period"
+                  ],
+                  "related controls":"N/A"
+              },
+              {
+                  "name": "Authenticate Remote Commands",
+                  "description":[
+                      "Implement organization-defined mechanisms to authenticate organization-defined remote commands"
+                  ],
+                  "related controls":"SC-12, SC-13, SC-23"
+              }
+          ]
+      }
+]
