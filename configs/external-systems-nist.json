@@ -1,0 +1,47 @@
+[
+  {
+          "name": "Use of External Systems",
+          "subsection":[
+              {
+                  "name": "Limits on Authorized Use",
+                  "description": [
+                      "Permit authorized individuals to use an external system to access the system or to process, store, or transmit organization-controlled information only after:",
+                      [
+                          "Verification of the implementation of controls on the external system as specified in the organization’s security and privacy policies and security and privacy plans",
+                          "Retention of approved system connection or processing agreements with the organizational entity hosting the external system"
+                      ]
+                  ],
+                  "related controls": "CA-2"
+              },
+              {
+                  "name": "Portable Storage Devices - Restricted Use",
+                  "description":[
+                      "Restrict the use of organization-controlled portable storage devices by authorized individuals on external systems using organization-defined restrictions"
+                  ],
+                  "related controls":"MP-7, SC-41"
+              },
+              {
+                  "name": "Nonorganizationally Owned Systems - Restrict Use",
+                  "description":[
+                      "Restrict the use of non-organizationally owned systems or system components to process, store, or transmit organizational information using organization-defined restrictions"
+                  ],
+                  "related controls":"N/A"
+              },
+              {
+                  "name": "Network Accessible Storage Devices - Prohibited Use",
+                  "description": [
+                      "​​Prohibit the use of organization-defined network accessible storage devices in external systems"
+                  ],
+                  "related controls":"N/A"
+              },
+              {
+                  "name": "Portable Storage Devices - Prohibited Use",
+                  "description": [
+                      "Prohibit the use of organization-controlled portable storage devices by authorized individuals on external systems"
+                  ],
+                  "related controls": "MP-7, PL-4, PS-6, SC-41"
+              }
+  
+          ]
+      }
+]
