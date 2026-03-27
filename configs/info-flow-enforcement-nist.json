@@ -1,0 +1,220 @@
+[
+  {
+          "name": "Information Flow Enforcement",
+          "subsection":[
+              {
+                  "name": "Object Security and Privacy Attributes",
+                  "description": [
+                      "Use organization defined security and privacy attributes associated with organization defined information, source, and destination objects to enforce organization defined information flow control policies as a basis for flow control decisions"
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Processing Domains",
+                  "description": [
+                      "Use protected processing domains to enforce organization defined information flow control policies as a basis for flow control decisions"
+                  ],
+                  "related controls": "SC-39"
+              },
+              {
+                  "name": "Dynamic Information Flow Control",
+                  "description": [
+                      "Enforce organization defined information flow control polciies"
+                  ],
+                  "related controls": "SI-4"
+              },
+              {
+                  "name": "Flow Control of Encrypted Information",
+                  "description": [
+                      "Prevent encrypted information from bypassing organization defined information flow control mechanisms by decrypting the information, blocking the flow of the encrypted information, terminating communications sessions attempting to pass encrypted information, organization defined procedure or method"
+                  ],
+                  "related controls": "SI-4"
+              },
+              {
+                  "name": "Embedded Data Types",
+                  "description": [
+                      "Enforce organization defined limitations on embedding data types within other data types"
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Metadata",
+                  "description": [
+                      "Enforce information flow control based on organization defined metadata"
+                  ],
+                  "related controls": "AC-16, SI-7"
+              },
+              {
+                  "name": "One Way Flow Mechanisms",
+                  "description": [
+                      "Enforce one way information flows through hardware based flow control mechanisms"
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Security and Privacy Policy Filters",
+                  "description": [
+                      "Enforce information flow control using organization defined security or privacy policy filters as a basis for flow control decisions for organization defined information flows",
+                      "Block strip, modify, quarantine data after a filter processing failure in accordance with organization defined security or privacy policy"
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Human Reviews",
+                  "description": [
+                      "Enforce the use of human reviews for organization defined information flows under organization defined conditions"
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Enable and Disable Security or Privacy Policy Filters",
+                  "description": [
+                      "Provide the capability for privileged administrators to enable and disable organization defined security or privacy policy filters under the following conditions"
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Configuration of Secuirty or Privacy Policy Filters",
+                  "description": [
+                      "Provide the capability for privileged administrators to configure organization defined security or privacy policy filters to support different security or privacy policies "
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Data Type Identifiers",
+                  "description": [
+                      "When transferring information between different security domains, use organization defined data type identifiers to validate data essential for information flow decisions"
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Decomposition into Policy Relevant Subcomponents",
+                  "description": [
+                      "When transferring information between different security domains, decompose information into organization defined policy relevant subcomponents for submission to policy enforcement mechanisms"
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Detection of Unsanctioned Information",
+                  "description": [
+                      "When transferring information between different security domains, examine the information for the presence of organization defined unsanctioned information and prohibit the transfer of such information in accordance with the organization defined security or privacy policy"
+                  ],
+                  "related controls": "SI-3"
+              },
+              {
+                  "name": "Domain Authentication",
+                  "description": [
+                      "Uniquely identify and authenticate source and destination points by organization, system, application, service, individual for information transfer"
+                  ],
+                  "related controls": "IA-2, IA-3, IA-9"
+              },
+              {
+                  "name": "Validation of Metadata",
+                  "description": [
+                      "When transferring information between different security domains, implement organization defined security or privacy policy filters on metadata"
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Approved Solutions",
+                  "description":[
+                      "Employ organization defined solutions in approved configurations to control the flow of organization defined information across security domains"
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Physical or Logical Separation of Information Flows",
+                  "description":[
+                      "Separate information flows logically or physically using organization defined mechanisms and/or techniques to accomplish organization defined required separations by types of information"
+                  ],
+                  "related controls": "SC-23"
+              },
+              {
+                  "name": "Access Only",
+                  "description":[
+                      "Provide access from a single device to computing platforms, applications, or data residing in multiples different security domains, while preventing information flow between the different security domains"
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Modify Non Releasable Information",
+                  "description": [
+                      "When transferring information between different security domains, modify non releasable information by implementing organization defined modification action"
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Internal Normalized Format",
+                  "description": [
+                      "When transferring information between different security domains, parse incoming data into an internal normalized format and regenerate the data to be consistent with its intended specification"
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Data Sanitization",
+                  "description": [
+                      "When transferring information between different security domains, sanitize data to minimize delivery of malicious content, command and control of malicious code, malicious code augmentation, and steganography encoded data, spillage of sensitive information in accordance with organization defined policy"
+                  ],
+                  "related controls": "MP-6"
+              },
+              {
+                  "name": "Audit Filtering Actions",
+                  "description":[
+                      "When transferring information between different security domains, record and audit content filtering actions and results for the information being filtered"
+                  ],
+                  "related controls": "AU-12"
+              },
+              {
+                  "name": "Redundant/Independent Filtering Mechanisms",
+                  "description":[
+                      "When transferring information between different security domains, implement content filtering solutions that provide redundant and independent filtering mechanisms for each data type"
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Linear Filter Pipelines",
+                  "description":[
+                      "When transferring information between different security domains, implement a linear content filter pipeline that is enforced with discretionary and mandatory access controls"
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Filter Orchestration Engines",
+                  "description":[
+                      "When transferring information between different security domains, employ content filter orchestration engines to ensure that",
+                      [
+                          "Content filtering mechanisms successfully complete execution without errors",
+                          "Content filtering actions occur in the correct order and comply with organization defined policy"
+                      ]
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Filter Mechanisms Using Multiple Processes",
+                  "description": [
+                      "When transferring information between different security domains, implement content filtering mechanisms using multiple processes"
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Failed Content Transfer Prevention",
+                  "description": [
+                      "When transferring information between different security domains, prevent the transfer of failed content to the receiving domain"
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Process Requirements for Information Transfer",
+                  "description": [
+                      "When transferring information between different security domains, the process that transfers information between filter pipelines:",
+                      [
+                          "Does not filter message content",
+                          "Validates filtering metadata",
+                          "Ensures the content associated with the filtering metadata has successfully completed filtering",
+                          "Transfers the content to the destination filter pipelines"
+                      ]
+                  ]
+              }
+          ]
+      }
+]
