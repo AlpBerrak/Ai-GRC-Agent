@@ -1,0 +1,106 @@
+[  
+  {
+          "name":"Risk Assessment Controls",
+          "subsection":[
+              {
+                  "name":"RA-1",
+                  "description":[
+                      "Develop, document, and disseminate to organization defined personnel or roles",
+                      [
+                          "Organization level, mission/business process level, system level risk assessment policy that",
+                          [
+                              "Addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance",
+                              "Is consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines"
+                          ],
+                          "Procedures to facilitate the implementation of the risk assessment policy and the associated risk assessment controls"
+                      ],
+                      "Designate an organization defined official to manage the development, documentation, and dissemination of the risk assessment policy and procedures",
+                      "Review and update the current risk assessment policy and procedures"
+                  ]
+              },
+              {
+                  "name":"RA-2",
+                  "description":[
+                      "Categorize the system and information it processes, stores, and transmits",
+                      "Document the security categorization results, including supporting rationale, in the security plan for the system",
+                      "Verify that the authorizing official or authorizing official designated representative reviews and approves the security categorization decision"
+                  ]
+              },
+              {
+                  "name":"RA-3",
+                  "description":[
+                      "Conduct a risk assessment, including:",
+                      [
+                          "Identifying threats to and vulnerabilities in the system",
+                          "Determining the likelihood and magnitude of harm from unauthorized access, use, disclosure, disruption, modification, or destruction of the system, the information it processes, stores, or transmits, and any related information",
+                          "Determining the likelihood and impact of adverse effects on individuals arising from the processing of personally identifiable information"
+                      ],
+                      "Integrate risk assessment results and risk management decisions from the organization and mission or business process perspectives with system-level risk assessments",
+                      "Document risk assessment results in security and privacy plans, risk assessment report ",
+                      "Review risk assessment results at organization defined frequency",
+                      "Disseminate risk assessment results to organization defined personnel or roles",
+                      "Update the risk assessment at organization defined frequency or when there are significant changes to the system, its environment of operation, or other conditions that may impact the security or privacy state of the system"
+                  ]
+              },
+              {
+                  "name":"RA-5",
+                  "description":[
+                      "Monitor and scan for vulnerabilities in the system and hosted applications at organization defined frequency and/or randomly in accordance with organization defined process and when new vulnerabilities potentially affecting the system are identified and reported",
+                      "Employ vulnerability monitoring tools and techniques that facilitate interoperability among tools and automate parts of the vulnerability management process by using standards for:",
+                      [
+                          "Enumerating platforms, software flaws, and improper configurations",
+                          "Formatting checklists and test procedures",
+                          "Measuring vulnerability impact"
+                      ],
+                      "Analyze vulnerability scan reports and results from vulnerability monitoring",
+                      "Remediate legitimate vulnerabilities at organization defined response times in accordance with an organizational assessment of risk",
+                      "Share information obtained from the vulnerability monitoring process and control assessments with organization defined personnel or roles to help eliminate similar vulnerabilities in other systems",
+                      "Employ vulnerability monitoring tools that include the capability to readily update the vulnerabilities to be scanned"
+                  ]
+              },
+              {
+                  "name":"RA-6",
+                  "description":[
+                      "Employ a technical surveillance countermeasures survey at organization defined locations when organization defined events or indicators occur"
+                  ]
+              },
+              {
+                  "name":"RA-7",
+                  "description":[
+                      "Respond to findings from security and privacy assessments, monitoring, and audits in accordance with organizational risk tolerance"
+                  ]
+              },
+              {
+                  "name":"RA-8",
+                  "description":[
+                      "Conduct privacy impact assessments for systems, programs, or other activities before:",
+                      [
+                          "Developing or procuring information technology that processes personally identifiable information",
+                          "Initiating a new collection of personally identifiable information that:",
+                          [
+                              "Will be processed using information technology",
+                              "Includes personally identifiable information permitting the physical or virtual (online) contacting of a specific individual, if identical questions have been posed to, or identical reporting requirements imposed on, ten or more individuals, other than agencies, instrumentalities, or employees of the federal government"
+                          ]
+                      ]
+                  ]
+              },
+              {
+                  "name":"RA-9",
+                  "description":[
+                      "Identify critical system components and functions by performing a criticality analysis for organization defined systems, system components, or system services at organization defined decision points in the system development life cycle"
+                  ]
+              },
+              {
+                  "name":"RA-10",
+                  "description":[
+                      "Establish and maintain a cyber threat hunting capability to:",
+                      [
+                          "Search for indicators of compromise in organizational systems",
+                          "Detect, track, and disrupt threats that evade existing controls"
+                      ],
+                      "Employ the threat hunting capability at organization defined frequency"
+                  ]
+              }
+          ]
+      }
+]
