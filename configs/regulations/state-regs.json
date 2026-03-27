@@ -1,0 +1,641 @@
+[
+     {   
+        "name": "US State Privacy Laws",
+        "subsection":[
+            {
+                "name":"CCPA - California Consumer Privacy Act",
+                "applies to": [
+                    "for profit entities that do business in California and that",
+                        [
+                            "gross annual revenue exceeding $25 million",
+                            "annually buys, sells, or shares personal information of 100,000 or more California residents or households",
+                            "derives 50% or more of annual revenue from selling or sharing consumers' perosnal ifnromation"
+                        ]
+                ],
+                "controller requirements":[
+                    "responsibility to respond to consumer requests to exercise these rights and give consumers certain notices explaining their privacy practices"
+                ],
+                "individual rights":[
+                    "Right to know about personal information a business collects about them and how it is used and shared",
+                    "Right to delete personal information collected from them",
+                    "Right to opt out of the sale or sharing of their personal information including the GPC",
+                    "Right to non discrimination for exercising their CCPA rights",
+                    "Right to correct inaccurate personal information that a business has about them",
+                    "Right to limit the use and disclosure of sensitive personal information collected about them"
+                ],
+                "exemptions":[
+                    "medical information",
+                    "non profit organizations",
+                    "publicly available information",
+                    "deidentified/aggregated data",
+                    "data used to complete transactions, fulfill warranty, or comply with legal obligations",
+                    "Data covered by HIPAA",
+                    "employee data",
+                    "government agencies",
+                    "contact information used within a professional context is partailly exempt from opt out requests",
+                    "information lawfully made available from government records",
+                    "data necessary to complete a requested transaction, maintain a warranty, or perform a contract",
+                    "data used to comply with court order, subpoenas, or legal investigations",
+                    "data collected from consumers while they are outside California"
+                ],
+                "fines":"up to $7988 per violation"
+            },
+            {
+                "name":"CPA Colorado Privacy Act",
+                "applies to":[
+                    "Applies to businesses that intentionally target Colorado residents and satisfy one or both of the following thresholds",
+                    [
+                        "Control or process personal data of 100,000 consumers or more per calendar year",
+                        "Derive revenue or receive a discount on the price of goods or services from the sale of personal data and control or process the personal data of at least 25,000 consumers"
+                    ]
+                ],
+                "controller requirements":[
+                    "Give notice to customers which explains",
+                    [
+                        "What data they collect and process",
+                        "Why and how consumers can exercise their rights",
+                        "What data they share with third parties",
+                        "Who those third parties are",
+                        "Whether they sell data to third parties",
+                        "How customers can opt out"
+                    ],
+                    "must provide consumers with a “reasonably accessible, clear, and meaningful privacy notice” which must include categories collected or processed by controller or processor, purpose of processing the data, how to exercise right and appeal, categories of personal information shared, and categories of third parties’ data is shared with"
+                ],
+                "individual rights":[
+                    "Right of access - consumers have “the right to confirm whether a controller is processing personal data concerning the consumer and to access the consumer’s personal data”",
+                    "Right to correction - consumers have “the right to correct inaccuracies in the consumer’s personal data, taking into account the nature of the personal data and the purposes of the processing of the consumer’s personal data",
+                    "Right to delete - consumers have “the right to delete personal data concerning the consumer”",
+                    "Right to data portability - consumers have “the right to obtain a personal data in a portable and, to the extent technically feasible, readily usable format that allows the consumer to transmit the data to another entity without hindrance”",
+                    "Right to opt out - consumers have “the right to opt out of the processing of personal data concerning the consumer for purposes of targeted advertising, the sale of personal data, or profiling in furtherance of decisions that produce legal or similarly significant effects concerning a consumer”"
+                ],
+                "exemptions":[],
+                "fines":"$20,000 under the CPA may be made against a business for each data privacy offense"
+            },
+            {
+                "name":"CTDPA - Connecticut Data Privacy Act",
+                "applies to":[
+                    "all businesses that conduct in the state or produce products or services targeted to consumers in the state",
+                    "Applies to businesses that meet one or both of these thresholds:",
+                    [
+                        "Processes personal data of at least 100,000 consumers",
+                        "Processes personal data of at least 25,000 consumers and derived at least 25% of gross revenue from the sale of personal data"
+                    ]
+                ],
+                "controller requirements":"",
+                "individual rights":[
+                    "right to know/confirm",
+                    "right to access",
+                    "right to correct",
+                    "right to delete",
+                    "right to opt out of certain processing",
+                    "right to portability/transfer",
+                    "right to opt out of sales",
+                    "ight to opt in for sensitive data processing"
+                ],
+                "exemptions":[
+                    "data covered by HIPAA or the GLBA",
+                    "Air carriers",
+                    "Information that is lawfully made available from government records or widely distributed media",
+                    "data subject to FCRA",
+                    "data that cannot be reasonably be linked to an identified or identifiable individual"
+                ],
+                "fines":"up to $20,000 per violation"
+            },
+            {
+                "name":"DPDPA - Delaware Personal Data Privacy Act",
+                "applies to":[
+                    "any company that does business in the state or produces products or services that are targeted to residents of the state and that, during the previous calendar year met one of the following",
+                    [
+                        "Controlled or processed the personal data of not less than 35,000 consumers, excluding personal data controlled or processed solely for the purpose of completing a payment transaction",
+                        "Controlled or processed the personal data of not less than 10,000 consumers and derived more than 20 percent of their gross revenue from the sale of personal data"
+                    ]
+                ],
+                "controller requirements":[
+                    "must limit the collection of personal data to what is “adequate, relevant, and reasonably necessary based on the purpose disclosed to the consumer, and to not process it if otherwise",
+                    "must set up safety and security measures to protect personal data of consumers",
+                    "cannot process data if it would enable discrimination, nor can they discriminate against those who exercise their rights",
+                    "must gain opt in consent to process sensitive data or data of a known child",
+                    "must provide consumers with a privacy notice that gives them a clear explanation of what data they collect, how it’s used and shared, how to exercise their rights, and how to opt out of the sale of personal data and use of their data for targeted advertising",
+                    "you control of process data of at least 100,000 consumers you must conduct a data protection assessment for any activity that presents a heightened risk of harm to a consumer",
+                    [
+                        "Targeted advertising",
+                        "To sell personal data",
+                        "For profiling if there’s a risk of",
+                        [
+                            "Unfair or deceptive treatment to consumers",
+                            "Financial, physical, or reputational injury",
+                            "Intrusion upon the solitude or seclusion of a consumer",
+                            "Processing sensitive data"
+                        ]
+                    ]
+
+                ],
+                "individual rights":[
+                    "Confirming whether a controller is processing their personal data and to access such personal data",
+                    "Correcting inaccuracies in their personal data",
+                    "Deleting personal data provided by or obtained about the consumer",
+                    "Obtaining a copy of their personal data collected in a portable and readily usable format",
+                    "Obtaining a list of categories of third parties to which the controller has disclosed their personal data",
+                    "Opting out of processing personal data for targeted advertising, sale, or profiting"
+                ],
+                "exemptions":[
+                    "Exempt entities include government bodies, higher education institutions, financial institutions subject to the GLBA, nonprofit organizations dedicated to preventing insurance crimes and those registered under the Commodity Exchange Act or national securities association register under the Securities Exchange Act"
+                ],
+                "fines":"up to $10,000 per violation"
+            },
+            {
+                "name":"INCDPA - Indiana Consumer Data Protection Act",
+                "applies to":[
+                    "Applies to a person that conducts business in IN or produces products or services that are targeted at Indiana residents, and during a calendar year either",
+                    [
+                        "Controls or processes personal data of at least 100,000 Indiana residents",
+                        "Controls or processes personal data of at least 25,000 Indiana residents and derives over 50% of gross revenue from the sale of personal data"
+                    ]
+                ],
+                "controller requirements":[
+                    "provide consumers with a reasonably accessible, clear, and meaningful privacy notice which discloses the categories of personal data processes by the controller and the purpose of such processing, the categories of personal data and third parties with whom the controller shares personal data, and how consumers may exercise their privacy rights, including the appeals process",
+                    "may only process data to the extent such processing is reasonably necessary and proportionate and adequate, relevant, and limited to what is necessary for certain specified purposes",
+                    "required to establish, implement, and maintain administrative, technical, and physical measures to protect the confidentiality, integrity, and accessibility of personal data and reduce reasonably foreseeable risks of harm to consumers",
+                    "conduct and document data protection impact assessments in connection with certain processing activities, such as processing personal data for targeted advertising or certain profiling purposes, selling personal data, processing sensitive data, or any other processing activity that presents a heightened risk of harm to consumers",
+                    "enter into a written contract which governs the processor’s data processing procedures performed on behalf of the controller",
+                    "must respond to consumer’s request to exercise a right within 45 days of receipt of such request"
+                ],
+                "individual rights":[
+                    "right to access",
+                    "right to correct",
+                    "right to delete",
+                    "right to obtain a copy of their personal data",
+                    "right to opt out of the selling of personal data and/or sharing of their personal data for targeted advertising",
+                    "right to opt in to processing sensitive data where controllers may not process a consumer's sensitive data without obtaiing the consumer's consent"
+                ],
+                "exemptions":[
+                    "The following entities are exempt",
+                    [
+                        "State political subdivision or entities",
+                        "Non profit organizations",
+                        "Institutions of higher education",
+                        "Any information or data regulated by certain other privacy laws"
+                    ]
+                ],
+                "fines":"up to $7500 per violation"
+            },
+            {
+                "name":"ICDPA - Iowa Consumer Data Protection Act",
+                "applies to":[
+                    "Applies to businesses that",
+                    [
+                        "Controls or processes the personal data of at least 100,000 Iowa consumers",
+                        "Controls or processes the personal data of at least 25,000 consumers and derives more than 50% of its gross revenue from the sale of personal data"
+                    ]
+                ],
+                "controller requirements":[
+                    "clearly and conspicuously disclose the use of personal data for targeted advertising and give consumers a means of opting ou"
+                ],
+                "individual rights":[
+                    "The right to confirm whether a controller is processing personal data and its access to personal data",
+                    "The right to delete personal data. This right is limited to data obtained from the consumer",
+                    "The right to request a copy of their personal data in a readily usable format",
+                    "The right to opt out of the sale of personal data"
+                ],
+                "exemptions":[
+                    "data regulated by the Fair Crediting Reporting Act, state or any political subdivision, affiliates of financial institutions, or data subject to Title V of GLBA, HIPAA regulations, nonprofit organizations, or institutions of higher education"
+                ],
+                "fines":"up to $7500 per violation"
+            },
+            {
+                "name":"KCDPA - Kentucky Consumer Data Privacy Act",
+                "applies to":[
+                    "businesses that control or process at least 100,000 Kentucky consumers or control or process personal data of at least 25,000 Kentucky consumers and derive over 50% of gross revenue from the sale of personal data"
+                ],
+                "controller requirements":[
+                    "must disclose their data collection and processing practices, including the purposes for which data is use",
+                    "must notify consumers about their privacy rights and how to exercise them",
+                    "required to implement reasonable security measures to safeguard consumer data from breaches or unauthorized access",
+                    "must provide consumers with a reasonably accessible, clear, and meaningful privacy notice that includes the categories of personal data processes, the purpose for processing personal data, how consumers may exercise their consumer rights, the categories of personal data that the controller shares with third parties, and the categories of third parties, if any, with whom the controller shares personal data",
+                    "Consumer requests must be responded to within 45 days of the request",
+                    "must establish a process for consumers to submit requests and appeal refusals to respond",
+                    "must conduct and document a data protection impact assessment of processing personal data for the following activities: targeted advertising, selling personal data, profiling, processing sensitive data, and any processing that presents a heightened risk of harm to consumers"
+                ],
+                "individual rights":[
+                    "right to request disclosure of what personal data businesses collect about them",
+                    "right to request correction of inaccuracies in the consumer’s personal data",
+                    "entitled to request deletion of their data",
+                    "may obtain a copy of their personal data in a readily available usable format for transmission to another business",
+                    "may opt out of the processing of personal data for purposes of targeted advertising, the sale of personal data, or profiling in furtherance of decisions that produce legal or similarly significant effects concerning the consumer"
+                ],
+                "exemptions":[
+                    "included regulated industries, any city, state agency, or political subdivision, higher education institutions, certain entities collecting data for specific law enforcement activities, first responders in connection with catastrophic events, and small telephone or municipally owned utilities"
+                ],
+                "fines":"up to $7500 per violation"
+            },
+            {
+                "name":"MODPA - Maryland Online Data Privacy Act",
+                "applies to":[
+                    "businesses that either operate in Maryland or target its residents with products or services and meet one of the following thresholds",
+                    [
+                        "Controlled or processed the personal data of at least 35,000 consumers, excluding personal data controlled or processed only for completing a payment transaction",
+                        "Controlled or processed the personal data of at least 10,000 consumers and derived more than 20% of their gross revenue from the sale of personal data"
+                    ]
+                ],
+                "controller requirements":[
+                    "must notify consumers about their rights under the law, how they can exercise these rights, contact details for the controller, and how to appeal a decision if a consumer request is rejected",
+                    "have 45 days to respond to consumer requests, with a possible extension to another 45 days if reasonably necessary to comply based on the complexity of a number of the consumer’s requests",
+                    "must disclose the purposes for which they are collecting personal data and places limitations on data processing activities",
+                    "must limit the personal data they collect to only what is “reasonably necessary and proportionate” to provide and maintain a specific product or service that the consumer requests",
+                    "must conduct and document data protection assessments for processing activities that present a “heightened risk of harm” to consumers such as for the purposes of targeted advertising, for sale, for the processing of sensitive data, and for the purposes of profiling if profiling results in a reasonably foreseeable risk to consumers",
+                    "cannot discriminate against consumers who exercise their privacy rights",
+                    "must publish an accessible, clear, and meaningful privacy notice that informs consumers about categories of personal data processes, including sensitive data if any, purposes for processing personal data, how consumers may exercise their rights including how they can appeal the controller’s decision regarding a request or how they can revoke consent, categories of personal data including sensitive data shared with third parties, categories of third parties who receive personal data including the type of business model of or processing conducted by each third party, or an active email address or other online method to contact the controller"
+                ],
+                "individual rights":[
+                    "Right to access - consumers can confirm whether or not the controller is processing their personal data and can access their data with some exception",
+                    "Right to correction - consumers have the right to correct any inaccuracies in their personal data, considering the nature of the personal data and purposes of processing",
+                    "Right to deletion - consumers can request controllers to delete any personal data provided by, or obtained about, them, unless the law requires the  personal data to be retained",
+                    "Right to data portability - consumers can obtain a copy of their personal data in a ready usable format, with some exceptions",
+                    "Right to information - consumers can obtain a list of categories of third parties to whom the controller has disclosed their, or any consumer’s personal data",
+                    "Right to opt out - consumers can opt out of the processing of their personal data for the purposes of its sale or use for targeted advertising or profiling"
+                ],
+                "exemptions":[
+                    "State agencies or political subdivisions",
+                    "National securities associations under the Federal Securities Exchange Act or registered futures associations under the Federal Commodity Exchange Act",
+                    "Financial institutions or affiliates subject to the GLBA",
+                    "Nonprofit controllers that process or share personal data solely for the purpose of assisting law enforcement agencies investigating criminal or fraudulent acts",
+                    "Relating to insurance and first responders who are responding to catastrophic events"
+                ],
+                "fines":"up to $10,000 per violation"
+            },
+            {
+                "name":"MCDPA - Minnesota Consumer Data Privacy Act",
+                "applies to":[
+                    "Applies to businesses that operate in the state and produce products or services targeted at Minnesota residents and during a calendar year",
+                    [
+                        "Control or process personal data of at least 100,000 consumers except if the personal data is controlled or processed only for the purposes of completing a payment transaction",
+                        "Control or process the personal data  of at least 25,000 consumers and derive more than 50% of gross revenue from the sale of personal data"
+                    ]
+                ],
+                "controller requirements":[
+                    "must provide one or more secure and reliable methods for consumers to exercise their rights",
+                    "have 45 days to respond to consumer requests with the option to extend this period by another 45 days if reasonably necessary",
+                    "must publish a clear, accessible, and comprehensive privacy notice that includes the following information",
+                    [
+                        "Categories of personal data processed",
+                        "Purposes for processing personal data",
+                        "What rights consumers have under the law",
+                        "How consumers may exercise their rights",
+                        "How consumers may appeal the controller’s decision regarding a request",
+                        "Categories of personal data sold to or shared with third parties if any",
+                        "Categories of third parties to whom the controllers sells or shares personal data if any",
+                        "Contact information for the controller",
+                        "A description of the controller’s retention policies for personal data",
+                        "Date of the last update to the privacy notice"
+                    ],
+                    "must disclose the specific purposes for which they are collecting personal data and to restrict their data collection to what is “adequate, relevant, and reasonably necessary” for these identified purposes ",
+                    "cannot retain personal data if it is no longer needed for the original purposes of collection and processing, unless the law requires or permits it is certain circumstances",
+                    "must establish, implement, and maintain reasonable administrative, technical, and physical security measures for this purpose which are appropriate to the volume and nature of the personal data being processed",
+                    "required to conduct and document a data privacy and protection assessment when processing personal data for the purposes of targeted advertising, for sale, classified as sensitive data under the law, that presents a heightened risk of harm to consumers, or for profiling that presents a reasonably foreseeable risk to consumers",
+                    "prohibited from discriminating against consumers who exercise their rights under the law"
+                ],
+                "individual rights":[
+                    "Right to access - consumers can confirm if the controller is processing their personal data and can access this data with some exceptions",
+                    "Right to correction - consumers have the right to have any inaccurate personal data about them corrected, taking into account the nature of the personal data and purposes of processing",
+                    "Right to deletion - consumers can request the deletion of their personal data, with exceptions",
+                    "Right to data portability - where the processing is carried out by automated means, consumers can obtain a copy of their personal data that they previously provided to the controller, in a portable and readily usable format, with some exceptions",
+                    "Right to information - consumers can obtain a list of specific third parties to whom the controller has disclosed their, or any consumers’ personal data",
+                    "Right to opt out - consumers can opt out of the processing of their personal data for the purposes of its sale or use for targeted advertising or profiling",
+                    "the following additional rights if their data is used for profiling that affects legal decisions about them",
+                    [
+                        "To question the outcome of the profiling",
+                        "To know why the profiling led to that outcome",
+                        "If possible to learn what actions they could have taken to achieve a different outcome and what they can do in the future to achieve such an outcome",
+                        "To review the personal data used in the profiling, and if the decisions was based on incorrect data, to correct this data and request a reevaluation of the profiling decision with the corrected data"
+                    ]
+                ],
+                "exemptions":[
+                    "Government entities",
+                    "Federally recognized Indian tribes",
+                    "Covered entities or business associates governed by HIPAA",
+                    "State or federally chartered banks or credit unions, or their affiliates or subsidiaries primarily engaged in financial activities",
+                    "Insurance companies, insurance producers, third party administrators or self insurance, or their affiliates or subsidiaries primarily engaged in financial activities",
+                    "Small businesses as defined under the US Small Business Act unless they sell consumers’ sensitive data without obtaining prior consent",
+                    "Air carriers subject to the Airline Deregulation Act where the personal data collected related to prices, routes, or services",
+                    "Nonprofit organizations established to detect and prevent insurance fraud",
+                    "Data created for or collected under several federal laws"
+                ],
+                "fines":"up to $7500 per violation"
+            },
+            {
+                "name":"MTCDPA - Montana's Consumer Privacy Act",
+                "applies to":[
+                    "Applies to a person that conducts business in Montana or produces products or services that are targeted at Montana consumers and either",
+                    [
+                        "Controls or processes personal data of at least 50,000 Montana consumers",
+                        "Controls or processes personal data of at least 25,000 Montana consumers and derives over 25% of gross revenue from the sale of any personal data"
+                    ]
+                ],
+                "controller requirements":[
+                    "must provide consumers with a reasonably accessible, clear and meaningful privacy notice which discloses the categories of personal data processes by the controller and the purpose of such processing, the categories of personal data and third parties with whom the controller shares personal data, and how consumers may contact the controller and exercise their privacy rights including the appeals process",
+                    "must only process personal data to the extent such processing is “reasonably necessary and proportionate” and “adequate, relevant, and limited to what is necessary” for certain specified purposes",
+                    "required to implement and maintain reasonable administrative, technical, and physical data security practices to protect the confidentiality, integrity, and accessibility of personal data and to reduce foreseeable risks of harm to consumers",
+                    "required to conduct and document data protection assessments in connection with certain processing activities such as targeted advertising, processing sensitive data, selling personal data, or using personal data for certain profiling purposes",
+                    "must respond to a consumer’s request to exercise a right within 45 days of receipt of such request with possibility of extending the request an additional 45 days if they provide notice and explanation to consumer"
+                ],
+                "individual rights":[
+                    "right to access",
+                    "right to correct",
+                    "right to delete",
+                    "right to obtain a copy of their personal data",
+                    "right to opt out of the selling of personal data and/or sharing of their personal data for targeted advertising"
+                ],
+                "exemptions":[
+                    "Government entities",
+                    "Federally recognized Indian tribes",
+                    "Covered entities or business associates governed by HIPAA",
+                    "State or federally chartered banks or credit unions, or their affiliates or subsidiaries primarily engaged in financial activities",
+                    "Insurance companies, insurance producers, third party administrators or self insurance, or their affiliates or subsidiaries primarily engaged in financial activities",
+                    "Small businesses as defined under the US Small Business Act unless they sell consumers’ sensitive data without obtaining prior consent",
+                    "Air carriers subject to the Airline Deregulation Act where the personal data collected related to prices, routes, or services",
+                    "Nonprofit organizations established to detect and prevent insurance fraud",
+                    "Data created for or collected under several federal laws"
+                ],
+                "fines":"Does not expressly specify a civil penalty amount for violation"
+            },
+            {
+                "name":"NDPA - Nebraska Data Privacy Act",
+                "applies to":[
+                    "Applies to businesses that mee the following requirements",
+                    [
+                        "Conduct business in Nebraska or produce a product or service consumed by the state’s residents",
+                        "Process or engage in the sale of personal data",
+                        "Not a small business as defined under the US Small Business Act, however, small businesses cannot sell sensitive data without consumer consent"
+                    ]
+                ],
+                "controller requirements":[
+                    "must inform consumers about their rights under the law, how they can exercise these rights, contact details for the controller, and how to appeal a decision if a consumer request is rejected ",
+                    "have 45 days to respond to consumer requests with possible extension of another 45 days is reasonably necessary to comply",
+                    "required to protect the confidentiality, integrity, and accessibility of personal data",
+                    "must conduct data protection assessments when undertaking the following processing activities",
+                    [
+                        "For the sale of personal data",
+                        "For the purposes of targeted advertising or profiling, if the the profiling results in a reasonably foreseeable risk to the consumer",
+                        "Involving sensitive data",
+                        "Involving personal data that presents a heightened risk of harm to any consumer"
+                    ],
+                    "prohibited from discriminating against consumers who exercise their rights under the law",
+                    "required to publish clear, accessible, and meaningful privacy notice which must include information on categories of personal data processed including sensitive personal data, purposes for processing personal data, how consumers may exercise their rights under the law and how they may appeal the controller’s decision regarding a request, categories of personal data shared with third parties, categories of third parties who receive personal data, and a description of each method through which a consumer may submit a request to exercise their rights"
+                ],
+                "individual rights":[
+                    "Right to access - consumers can confirm whether or not the controller is processing their personal data and can access their data with some exceptions",
+                    "Right to correction - consumers have the right to have any inaccuracies in their personal data that the controller holds corrected, taking into account the nature of the personal data and purposes of processing",
+                    "Right to deletion - consumers can request the deletion of any personal data provided by or obtained about them with exceptions",
+                    "Right to portability - consumers can obtain a copy of their personal data they they previously provided to the controller, in a ready usable format with some exceptions",
+                    "Right to opt out - consumers can opt out of the processing of their personal data for the purposes of its sale or use for targeted advertising or profiling Nebraska privacy law does not give consumers a private right of actions which is the right to directly sue a controller in the event of a violation"
+                ],
+                "exemptions":[
+                    "State agencies or political subdivisions",
+                    "Financial institutions or affiliates subject to GLBA",
+                    "Covered entities or business associates governed by HIPAA and Health Information Technology for Economic and Clinical Health Act",
+                    "non profit organizations",
+                    "Higher education institutions",
+                    "Electric and natural gas public utilities",
+                    "Protected healthcare related information",
+                    "Research data",
+                    "Data created for or collected under several federal laws"
+                ],
+                "fines":"up to $7500 per violation"
+            },
+            {
+                "name":"NJDPA - New Jersey Data Protection Act",
+                "applies to":[
+                    "Applies to businesses in NJ that control or process data for at least 100,000 consumers or at least 25,000 consumers while deriving revenue from sales"
+                ],
+                "controller requirements":[
+                    "must perform data protection assessments for high risk activities like targeted advertising and profiling"
+                ],
+                "individual rights":[
+                    "Right to confirm",
+                    "Right to access",
+                    "Right to correct",
+                    "Right to delete",
+                    "Right to opt out of profiling or data sales",
+                    "Right to opt in to the processing of sensitive data"
+                ],
+                "exemptions":[
+                    "Governmental agencies",
+                    "Consumer reporting agencies",
+                    "Financial institutions regulated by the Bank Act and their affiliates or subsidiaries provided they focus exclusively on financial activities",
+                    "Insurance companies",
+                    "Nonprofit organizations established to detect and prevent insurance fraud",
+                    "Press, wire, or other information services",
+                    "Data collected or processed under several federal laws"
+                ],
+                "fines":""
+            },
+            {
+                "name":"OCPA - Oregon Consumer Privacy Act",
+                "applies to":[
+                    "Applies to businesses that during a calendar year",
+                    [
+                        "Control or process the personal data of at least 100,000 consumers not including consumers only completing payment transactions",
+                        "Control or process the personal data of at least 25,000 consumers if 25% or more of the organization’s annual gross revenue comes from selling personal data "
+                    ]
+                ],
+                "controller requirements":[
+                    "must be transparent about their data handling practices",
+                    "must provide clear, easily accessible, and meaningful privacy notices that must include purposes for processing personal data, categories of personal data processed, categories of personal data shared with third parties, categories of third parties with which the controller shares personal data and how each third party may use the data, and how consumers can exercise their rights",
+                    "required to establish, implement, and maintain reasonable safeguards for protecting “the confidentiality, integrity, and accessibility” of the personal data under their control",
+                    "must perform data protection assessments for processing activities that present “a heightened risk of harm to a consumer” including processing for the the purposes of targeted advertising, processing sensitive data, the sale of personal data, processing for the purpose of profiling if there is a reasonably foreseeable risk to the consumer",
+                    "cannot discriminate against a consumer that exercises their rights "
+                ],
+                "individual rights":[
+                    "Right to access - consumers can request confirmation of whether their personal data is being processed and the categories of personal data being processed,, gain access to the data, and receive a list of the specific third parties it has been shared with ",
+                    "Right to correction - consumers can ask controllers to correct inaccurate or outdated information they have provided",
+                    "Right to deletion - consumers can request the deletion of their personal data held by a controller with some exceptions",
+                    "Right to portability - consumers can obtain a copy of the personal data they have provided to a controller, in a readily usable format with some exceptions",
+                    "Right to opt out - consumers can opt out of the sale of their personal data, targeted advertising, or profiling used for decisions with legal or similarly significant effect"
+                ],
+                "exemptions":[
+                    "Governmental agencies",
+                    "Consumer reporting agencies",
+                    "Financial institutions regulated by the Bank Act and their affiliates or subsidiaries provided they focus exclusively on financial activities",
+                    "Insurance companies",
+                    "Nonprofit organizations established to detect and prevent insurance fraud",
+                    "Press, wire, or other information services",
+                    "Data collected or processed under several federal laws"
+                ],
+                "fines":"up to $7500 per violation"
+            },
+            {
+                "name":"RIDPL - Rhode Island Data Protection Law",
+                "applies to":[
+                    "Applies to entities doing business in Rhode Island that control/process data of 35,000 residents or 10,000 residents if 20% of the revenue comes from data sales"
+                ],
+                "controller requirements":[
+                    "must use reasonable administrative, technical, and physical measures to protect data"
+                ],
+                "individual rights":[
+                    "Right to confirm",
+                    "Right to access",
+                    "Right to correct",
+                    "Right to delete",
+                    "Right to opt out of targeted ads or profiling",
+                    "Right to opt in to processing of sensitive data"
+                ],
+                "exemptions":[
+                    "Governmental agencies",
+                    "Consumer reporting agencies",
+                    "Financial institutions regulated by the Bank Act and their affiliates or subsidiaries provided they focus exclusively on financial activities",
+                    "Insurance companies",
+                    "Nonprofit organizations established to detect and prevent insurance fraud",
+                    "Press, wire, or other information services",
+                    "Data collected or processed under several federal laws"
+                ],
+                "fines":"up to $500 per violation"
+            },
+            {
+                "name":"TIPA - Tennessee Information Protection Act",
+                "applies to":[
+                    "Applies to a person that conducts business in Tennessee by producing products or services that target Tennessee residents and that",
+                    [
+                        "Exceeds $25,000,000 in revenue and controls or processes personal information of at least 25,000 Tennessee residents and derived over 50% of gross revenue from the sale of any personal information ",
+                        "During a calendar year, controls or processes personal information of at least 175,000 consumers"
+                    ]
+                ],
+                "controller requirements":[
+                    "required to provide consumers with a reasonably accessible, clear, and meaningful privacy notice, which discloses the categories of personal information processed by the controller and the purpose of such processing, the categories of personal information and third parties with whom the controller sells personal information, and how consumers may exercise their privacy rights including the appeals process",
+                    "may only process personal information to the extent such processing is “reasonably necessary and proportionate” and “adequate, relevant, and limited to what is necessary” for certain specified purposes",
+                    "required to establish, implement, and maintain administrative, technical, and physical data security practices to protect the confidentiality, integrity, and accessibility of personal information",
+                    "conduct and document data protection assessments in connection with certain processing activities, such as processing personal information for targeted advertising or certain profiling purposes, selling personal information, processing sensitive data, or any other processing activity that presents a heightened risk of harm to consumers",
+                    "must enter a written contract to govern the data processing procedures",
+                    "must respond to consumer requests within 45 days and can extend the response period by an additional 45 days if necessary"
+                ],
+                "individual rights":[
+                    "Right to access",
+                    "Right to obtain a copy of",
+                    "Right to delete",
+                    "Right to correct",
+                    "Right to opt out of the selling of personal information and/or sharing of personal information for targeting advertising"
+                ],
+                "exemptions":[
+                    "Governmental agencies",
+                    "Consumer reporting agencies",
+                    "Financial institutions regulated by the Bank Act and their affiliates or subsidiaries provided they focus exclusively on financial activities",
+                    "Insurance companies",
+                    "Nonprofit organizations established to detect and prevent insurance fraud",
+                    "Press, wire, or other information services",
+                    "Data collected or processed under several federal laws"
+                ],
+                "fines":"up to $7500 per violation"
+            },
+            {
+                "name":"TDPSA - Texas Data Privacy and Security Act",
+                "applies to":[
+                    "Applies to entities that meet the following criteria",
+                    [
+                        "Conduct business in Texas or generate products or services consumed by Texas residents",
+                        "Process or engage in the sale of personal data",
+                        "Do not identity as a small business by the US Small Business Administration "
+                    ]
+                ],
+                "controller requirements":[
+                    "cannot collect personal data for reasons not disclosed to consumer without consent, process data in violation of state and federal laws that prohibit unlawful discrimination or discriminate against a consumer of exercising their rights, process sensitive data without consent or process sensitive data of a child ",
+                    "have 45 days to respond to consumer request and can extend an additional 45 days if reasonably necessary"
+                ],
+                "individual rights":[
+                    "Right to confirm whether the controller is processing personal data and access the personal data",
+                    "Right to correct inaccuracies in their personal data",
+                    "Right to delete personal data provided by or obtained about the consumer",
+                    "Right to obtain a copy of their personal data if available in a portable and readily usable format",
+                    "Right to opt out of processing personal data for targeted advertising, the sale of persona data, or its use for profiling"
+                ],
+                "exemptions":[
+                    "State agencies or political subdivisions of the state",
+                    "Financial institutions or data subject to title V of GLBA",
+                    "Covered entities or business associates governed by the privacy, security, and breach notification rules issued by the US Department of Health and Human Services established under HIPAA",
+                    "Nonprofit organizations",
+                    "Higher education institutions",
+                    "Electric utility companies"
+                ],
+                "fines":"up to $7500 per violation"
+            },
+            {
+                "name":"UCPA - Utah Consumer Privacy Act",
+                "applies to":[
+                    "Applies to businesses that",
+                    [
+                        "Operate in Utah either by conducting businesses there or by offering product or service to consumers who reside in the sate",
+                        "Meet the annual earnings and data processing thresholds meaning they report revenue of $25,000,000",
+                        "Control or process the data of 100,000 consumers or service more than 50% of gross revenue from the sale or control of personal data of 25,000 or more consumers"
+                    ]
+                ],
+                "controller requirements":[
+                    "protect the confidentiality and integrity of the data to reduce the risk of harm associated with processing it",
+                    "must provide consumers with clear and accessible privacy notices and inform them about how they can opt out of the sale of their data ",
+                    "must outline exactly how consumers can submit a request and exercise their rights related to their data",
+                    "must respond to any consumer request within 45 days and can extend an additional 45 days if reasonably necessary",
+                    "must provide consumers with a privacy notice or policy that is “reasonably accessible and clear” and include categories of personal data processed by the controller, categories of personal data the controller shares with third parties, categories of this parties with whom the controller shares personal data, a clear explanation of how consumers can exercise their right including the right to opt out, and clear and conspicuous disclosure if personal data is sold to a third party or used for targeted advertising",
+                    "must establish, implement, and maintain reasonable administrative, technical, and physical data security practices” that have been “designed to protect the confidentiality and integrity of personal data”",
+                    "can use third party processor as long as there is a contract in place",
+                    "may not discriminate against any consumer who exercises their privacy rights"
+                ],
+                "individual rights":[
+                    "Right to access - including confirming whether a controller is processing their data and the ability to request and receive that data",
+                    "Right to delete - delete personal data if the data subject directly provided the data to the controller",
+                    "Right to portability - obtain a copy of their personal data from the controller in a format that is portable to a technically reasonable extent, readily usable to a practical extent, and enables the consumer to transmit the data to another controller reasonably easily where the processing is carried out by automated means ",
+                    "Right to opt out of certain processing specifically for the sale of the personal data or the purposes of targeted advertising "
+                ],
+                "exemptions":[
+                    "Institutions of higher education",
+                    "Nonprofit organizations",
+                    "Government organizations and contractors",
+                    "Indigenous groups",
+                    "Air carriers",
+                    "Organizations covered by HIPAA",
+                    "Financial institutions governed by GLBA",
+                    "Data following the DPPA, FCRA, FERPA, FCA, GLBA, or HIPAA"
+                ],
+                "fines":"up to $7500 per violation"
+            },
+            {
+                "name":"VCDPA - Virginia Consumer Data Privacy Act",
+                "applies to":[
+                    "Applies to for profit companies that do business in Virginia or that produce products or services targeted to residents of Virginia and meet either",
+                    [
+                        "Control or process personal data of 100,000 or more consumers during a calendar year",
+                        "Control or process personal data of 25,000 or more consumers and derive over 50% of their gross revenue from the sale of that personal data"
+                    ]
+                ],
+                "controller requirements":[
+                    "have to notify consumers about their rights as well as how to exercise them",
+                    "Set up and maintain administrative, technical, and physical data security practices that are reasonable and appropriate to the amount and types of personal data processed in order to protect confidentiality, integrity, and accessibility of personal data",
+                    "Respond to consumer requests regarding their data within 45 days of receipt of the request with possibility for an extension of an additional 45 days for reasonable circumstances",
+                    "Set up a process for consumers to appeal refusal by the controller to take action on consumer request",
+                    "Limit collection of consumers’ personal data to what is “adequate, relevant, and reasonably necessary” for the purposes that the data is being processed, as disclosed to consumers",
+                    "Not process personal data for purposes other than those disclosed to consumers, and that are not reasonably necessary nor compatible with previously disclosed purposes, unless consumer consent has been obtained",
+                    "Not discriminate against consumers by processing personal data in violation of relevant state and federal laws",
+                    "Ensure that agreements with processors do not purport to waive or limit in any way consumer rights",
+                    "Notify the consumer switch a reasonably accessible, clear, and meaningful privacy notice that includes categories of personal data processed by the controller, purpose for processing personal data, how consumers can exercise their rights including appeal proceedings, categories of personal data that the controller shares with third parties, categories of third parties with whom the controller shares personal data",
+                    "Clearly and consciously disclose processing if it sells personal data to third parties or processes personal data for targeted advertising or profiling as well as the manner in which a consumer may exercise the right to opt out of these sales or uses",
+                    "Establish and describe in a privacy notice one or more secure and reliable means for consumers to submit a request to exercise their rights",
+                    "must enter contractual agreements with third party data processors",
+                    "must conduct and document a data protection assessment when the sale of personal data, processing of sensitive data, processing of personal data presenting a heightened risk of harm to consumers, processing for targeted advertising purposes, profiling it there is a reasonable risk of harm to the consumer occur",
+                    "responsible for having a privacy notice which needs to be in clear language and include categories of personal data the controller will process, categories of personal data the controller shares with third parties, categories of third parties with whom the controller will share personal data, purpose of the data processing, and disclosure regarding data processing for sale, targeted advertising purposes, or profiling and instructions to enable consumers to opt out "
+                ],
+                "individual rights":[
+                    "Right to access - confirm whether or not the controller is processing the consumer’s personal data and access to the data",
+                    "Right to correction - any inaccuracies in the information the controller has, taking into account the nature of the personal data and processing purposes",
+                    "Right to delete - any personal data provided by or obtained about the consumer with exceptions",
+                    "Right to portability - obtain a copy of the consumer’s personal data processed by the controller, in a portable and reasonable readily usable format, where processing is carried out by automated means ",
+                    "Right not to be discriminated against - controllers cannot unlawfully discriminate against consumers for exercising their rights",
+                    "Right to opt out - of processing personal data for the purpose of sale, targeted advertising, or profiling “in furtherance of decisions that produce legal or similarly significant effects concerning the consumer”"
+                ],
+                "exemptions":[
+                    "Bodies, authorities, boards, bureaus, commissions, districts, or agencies of Virginia or political subdivisions of Virginia",
+                    "Financial institutions or data that are subject to Title V of GLBA",
+                    "Covered entities or business associates governed by HITECH and HIPAA ",
+                    "Nonprofit organizations",
+                    "Institution of higher learning "
+                ],
+                "fines":"up to $7500 per violation"
+            }
+        ]
+    }
+]
