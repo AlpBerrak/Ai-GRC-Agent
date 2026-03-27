@@ -1,0 +1,106 @@
+[  
+  {
+          "name":"Identification and Authentication Controls",
+          "subsection":[
+              {
+                  "name":"IA-1",
+                  "description":[
+                      "Develop, document, and disseminate to organization defined personnel or roles",
+                      [
+                          "Organizational level, mission/business process level, system level identification and authentication policy that",
+                          [
+                              "Addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance",
+                              "Is consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines"
+                          ],
+                          "Procedures to facilitate the implementation of the identification and authentication policy and the associated identification and authentication policy and authentication controls"
+                      ],
+                      "Designate an organizational defined official to manage the development, documentation, and dissemination of the identification and authentication policy and procedures",
+                      "Review and update the current identification and authentication policy and procedures"
+                  ]
+              },
+              {
+                  "name":"IA-2",
+                  "description":[
+                      "Uniquely identify and authenticate organizational users and associate that unique identification with processes acting on behalf of those users"
+                  ]
+              },
+              {
+                  "name":"IA-3",
+                  "description":[
+                      "Uniquely identify and authenticate organization defined devices and/or types of devices before establishing a local, remote, or network connection"
+                  ]
+              },
+              {
+                  "name":"IA-4",
+                  "description":[
+                      "Manage system identifiers by",
+                      [
+                          "Receiving authorization from organization defined personnel or roles to assign an individual, group, role, service, or device identifier",
+                          "Selecting an identifier that identifiers an individual, group, role, service, or device",
+                          "Assigning the identifier to the intended individual, group, role, service, or device",
+                          "Preventing reuse of identifiers for organization defined time period"
+                      ]
+                  ]
+              },
+              {
+                  "name":"IA-5",
+                  "description":[
+                      "Manage system authenticators by",
+                      [
+                          "Verifying as part of the initial authenticator distribution, the identity of the individual, group, role, service, or device receiving the authenticator",
+                          "Establishing initial authenticator content for any authenticators issued by the organization",
+                          "Ensuring that authenticators have sufficient strength of mechanism for their intended use",
+                          "Establishing and implementing administrative procedures for initial authenticator distribution, for lost or compromised or damaged authenticators, and for revoking authenticators",
+                          "Changing or refreshing authenticators in organization defined time period by authenticator type or when organization defined events occur",
+                          "Protecting authenticator content from unauthorized disclosure and modification",
+                          "Changing authenticators for group or role accounts when membership to those accounts changes"
+                      ]
+                  ]
+              },
+              {
+                  "name":"IA-6",
+                  "description":[
+                      "Obscure feedback of authentication information during the authentication process to protect the information from possible exploitation and use by unauthorized individuals"
+                  ]
+              },
+              {
+                  "name":"IA-7",
+                  "description":[
+                      "Implement mechanisms for authentication to a cryptographic module that meet the requirements of applicable laws, executive orders, directives, policies, regulations, standards, and guidelines for such authentication"
+                  ]
+              },
+              {
+                  "name":"IA-8",
+                  "description":[
+                      "Uniquely identify and authenticate nonorganizational users or processes acting on behalf of nonorganizational users"
+                  ]
+              },
+              {
+                  "name":"IA-9",
+                  "description":[
+                      "Uniquely identify and authenticate organization defined system services and applications before establishing communications with devices, users, or other services or applications"
+                  ]
+              },
+              {
+                  "name":"IA-10",
+                  "description":[
+                      "Require individuals accessing the system to employ organization defined supplemental authentication techniques or mechanisms under organization defined circumstances or situations"
+                  ]
+              },
+              {
+                  "name":"IA-11",
+                  "description":[
+                      "Require users to reauthenticate when organization defined circumstances or situations requiring reauthentication"
+                  ]
+              },
+              {
+                  "name":"IA-12",
+                  "description":[
+                      "Identity proof users that require accounts for logical access to systems based on appropriate identity assurance level requirements as specified in applicable standards and guidelines",
+                      "Resolve user identities to a unique individual ",
+                      "Collect, validate, and verify identity evidence"
+                  ]
+              }
+          ]
+      }
+]
