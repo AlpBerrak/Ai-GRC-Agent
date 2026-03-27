@@ -1,0 +1,208 @@
+  [
+    {
+          "name": "Access Control Controls",
+          "subsection": [
+              {
+                  "name": "AC-1",
+                  "description":[
+                      "Develop, document, and disseminate to organization defined personnel or roles an access control policy that",
+                      [
+                          "Addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance",
+                          "Is consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines",
+                          "Procedures to facilitate the implementation of the access control policy and the associated access control"
+                      ],
+                      "Designate an organization defined official to manage the development, documentation, and dissemination of the access control policy and procedures",
+                      "Review and update the current access control policy and procedures"
+                  ]
+              },
+              {
+                  "name": "AC-2",
+                  "description": [
+                      "Define and document the types of accounts allowed and specifically prohibited for use within the system",
+                      "Assign account managers",
+                      "Require organization defined prerequisites and criteria for group and role membership",
+                      "Specify",
+                      [
+                          "Authorized users of the system",
+                          "Groups and role membership",
+                          "Access authorizations and organization defined attributes as required for each account"
+                      ],
+                      "Require approvals by organization defined personnel or roles for requests to create accounts",
+                      "Create, enable, modify, disable, and remove accounts in accordance with organization defined policy, procedures, prerequisites, and criteria",
+                      "Monitor the use of accounts",
+                      "Notify account managers and organization defined personnel or roles within",
+                      [
+                          "Organization defined time period when accounts are no longer required",
+                          "Organization defined time period when users are terminated or transferred",
+                          "Organization defined time period when system usage or need to know changes for an individual"
+                      ],
+                      "Authorize access to the system based on",
+                      [
+                          "A valid access authorization",
+                          "Intended system usage",
+                          "Organization defined attributes as required"
+                      ],
+                      "Review accounts for compliance with account management requirements at organization defined frequency",
+                      "Establish and implement a process for changing shared or group account authenticators when individuals are removed from the group",
+                      "Align account management processes with personnel termination and transfer processes"
+                  ]
+              },
+              {
+                  "name": "AC-3",
+                  "description":[
+                      "Enforce approved authorization for logical access to information and system resources in accordance with applicable access control policies"
+                  ]
+              },
+              {
+                  "name": "AC-4",
+                  "description":[
+                      "Enforce approved authorizations for controlling the flow of information within the system and between connected systems based on organization defined information flow control policies"
+                  ]
+              },
+              {
+                  "name": "AC-5",
+                  "description":[
+                      "Identity and document organization defined duties of individuals requiring separation",
+                      "Define system access authorizations to support separation of duties"
+                  ]
+              },
+              {
+                  "name": "AC-6",
+                  "description":[
+                      "Employ the principle of least privilege, allowing only authorized accesses for users that are necessary to accomplish assigned organizational tasks ",
+                      "Enforce a limit of organization defined number consecutive invalid logon attempts by a user during an organization defined time period",
+                      "Automatically lock the account or node until released by an administrator, delay next login prompt per organization defined delay algorithm, notify system administrator, take other organization defined action when the maximum number of unsuccessful attempts is exceeded"
+                  ]
+              },
+              {
+                  "name": "AC-8",
+                  "description":[
+                      "Display organization defined system use notification message or banner to users before granting access to the system that provides privacy and security notices consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines and state that",
+                      [
+                          "Users are accessing a US government system",
+                          "System usage may be monitored, recorded, and subject to audit",
+                          "Unauthorized use of the system is prohibited and subject to criminal and civil penalties",
+                          "Use of the system indicates consent to monitoring and recording"
+                      ],
+                      "Retain the notification message or banner on the screen until users acknowledge the usage conditions and take explicit actions to log on to or further access the system",
+                      "For publicly accessible systems",
+                      [
+                          "Display system use information by organization defined conditions, before granting further access to the publicly accessible system",
+                          "Display references, if any, to monitoring, recording, or auditing that are consistent with privacy accommodations for such system that generally prohibit those activities",
+                          "Include a description of the authorized users of the system"
+                      ]
+                  ]
+              },
+              {
+                  "name": "AC-9",
+                  "description":[
+                      "Notify the user, upon successful login to the system, of the date and time of the last logon"
+                  ]
+              },
+              {
+                  "name": "AC-10",
+                  "description": [
+                      "Limit the number of concurrent sessions for each organization defined account and/or account type to organization defined number"
+                  ]
+              },
+              {
+                  "name": "AC-11",
+                  "description":[
+                      "Prevent further access to the system by initiating a device lock after organization defined time period of inactivity, requiring the user to initiate a device lock before leaving the system unattended",
+                      "Retain the device lock until the user reestablishes access using established identification and authentication procedures"
+                  ]
+              },
+              {
+                  "name": "AC-12",
+                  "description": [
+                      "Automatically terminate a user session after organization defined conditions or trigger events requiring session disconnect"
+                  ]
+              },
+              {
+                  "name": "AC-14",
+                  "description": [
+                      "Identify organization defined user actions that can be performed on the system without identification or authentication consistent with organizational mission and business functions",
+                      "Document and provide supporting rationale in the security plan for the system, user actions not requiring identification or authentication"
+                  ]
+              },
+              {
+                  "name": "AC-16",
+                  "description": [
+                      "Provide the means to associate organization defined types of security and privacy attributes with organization defined security and privacy attribute values for information in storage, in process and/or in transmission",
+                      "Ensure that the attribute associations are made and retained with the information",
+                      "Establish the following permitted security and privacy attributes from the attributes defined in AC-16a for organization defined systems",
+                      "Determine the following permitted attribute values or ranges for each of the established attributes",
+                      "Audit changes to attributes",
+                      "Review organization defined security and privacy attributes for applicability at organization defined frequency"
+                  ]
+              },
+              {
+                  "name": "AC-17",
+                  "description":[
+                      "Establish and document usage restrictions, configuration/connection requirements, and implementation guidance for each type of remote access allowed",
+                      "Authorize each type of remote access to the system prior to allowing such connections"
+                  ]
+              },
+              {
+                  "name":"AC-18",
+                  "description":[
+                      "Establish configuration requirements, connection requirements, and implementation guidance for each type of wireless access",
+                      "Authorize each type of wireless access to the system prior to allowing such connections"
+                  ]
+  
+              },
+              {
+                  "name": "AC-19",
+                  "description":[
+                      "Establish configuration requirements, connection requirements, and implementation guidance for organization controlled mobile devices, to include when such devices are outside of controlled ares",
+                      "Authorize the connection of mobile devices to organizational systems"
+                  ]
+              },
+              {
+                  "name":"AC-20",
+                  "description":[
+                      "Establish organization defined terms and conditions, identify organization defined controls asserted to be implemented on external systems, consistent with the trust relationships established with other organizations owning, operating, and/or maintaining external systems, allowing authorized individuals to",
+                      [
+                          "Access the system from external systems",
+                          "Process, store, or transmit organization controlled information using external systems"
+                      ],
+                      "Prohibit the use of organizationally defined types of external systems"
+                  ]
+              },
+              {
+                  "name":"AC-21",
+                  "description":[
+                      "Enable authorized users to determine whether access authorizations assigned to a sharing partner match the information’s access and use restrictions for organization defined information sharing circumstances where user discretion is required",
+                      "Employ organization defined automated mechanisms or manual processes to assist users in making information sharing and collaboration decisions"
+                  ]
+              },
+              {
+                  "name": "AC-22",
+                  "description":[
+                      "Designate individuals authorized to make information publicly accessible",
+                      "Train authorized individuals to ensure that publicly accessible information does not contain nonpublic information",
+                      "Review the proposed content of information prior to posting onto the publicly accessible system to ensure that nonpublic information is not included",
+                      "Review the content on the publicly accessible system for nonpublic information at organization defined frequency and remove such information, is discovered"
+                  ]
+              },
+              {
+                  "name":"AC-23",
+                  "description":[
+                      "Employ organization defined data mining prevent and detection techniques for organization defined data storage objects to detect and protect against unauthorized data mining"
+                  ]
+              },
+              {
+                  "name":"AC-24",
+                  "description":[
+                      "Establish procedures, implement mechanisms to ensure organization defined access control decisions are applied to each access request prior access enforcement"
+                  ]
+              },
+              {
+                  "name":"AC-25",
+                  "description":[
+                      "Implement a reference monitor for organization defined access control policies that is tamperproof, always invoked, and small enough to be subject to analysis and testing, the completeness of which can be assured"
+                  ]
+              }
+          ]
+      }
+  ]
