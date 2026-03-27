@@ -1,0 +1,97 @@
+[
+  {
+          "name": "Account Management",
+          "subsection": [
+              {
+                  "name": "Automated System Account Management",
+                  "description": [
+                      
+                      "Using automated mechanisms to create, enable, modify, disable, and remove accounts",
+                      "Notify account managers when an account is created, enabled, modified, disabled, or removed, or when users are terminated or transferred",
+                      "Monitor system account usage",
+                      "Report atypical system account usage",
+                      "Can include internal system functions and email, telephonic, and text messaging notifications"                
+  
+                      
+                  ],                    
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Automated temporary and emergency account management",
+                  "description": [
+                      "Includes the removal or disabling of such accounts automatically after a predefined time period rather than at the convenience of the system administrator "
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Disable Accounts",
+                  "description": [                   
+                      "Disable accounts within the organization defined time period when the accounts have expired, are no longer associated with a user or individual, are in violation of organizational policy, or have been inactive for the organization defined time period"    
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": " Automated audit actions",
+                  "description": "None",
+                  "related controls": "AU-2, AU-6"
+              },
+              {
+                  "name": "Inactivity Logout",
+                  "description": "None",
+                  "related controls": "AC-11"
+              },
+              {
+                  "name": "Dynamic Privilege Management",
+                  "description": "None",
+                  "related controls": "AC-16"
+              },
+              {
+                  "name": "Privileged User Accounts",
+                  "description": [    
+                      "Establish and administer privileged accounts in accordance with role based access scheme, an attribute based access scheme",
+                      "Monitor privileged role or attribute assignments",
+                      "Monitor changes to roles or attributes",
+                      "Revoke access when privileged role or attribute assignments are no longer appropriate"   
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Dynamic Account Management",
+                  "description": [   
+                      "Create, activate, manage, and deactivate organization defined system accounts dynamically"    
+                  ],
+                  "related controls": "AC-16"
+              },
+              {
+                  "name": "Restrictions on Use of Shared and Group Accounts",
+                  "description": [   
+                      "Only permit the use of shared and group accounts that meet organization defined conditions for establishing shared or group accounts "     
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Usage Conditions",
+                  "description": [    
+                      "Enforce organization defined circumstances and/or usage conditions for organization defined system accounts"    
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Account Monitoring for Atypical Usage",
+                  "description": [   
+                      "Monitor system accounts for organization defined atypical usage",
+                      "Report atypical usage of system accounts to organization defined personnel or roles"    
+                  ],
+                  "related controls": "AU-6, AU-7, CA-7, IR-8, SI-4"
+              },
+              {
+                  "name": "Disable Accounts for High Risk Individuals",
+                  "description": [
+                      "Disable accounts of individuals within organization defined time period of discovery of organization defined significant risks"
+                  ],
+                  "related controls": "AU-6, SI-4"
+              }
+          ]
+  
+      }
+]
