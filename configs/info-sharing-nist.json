@@ -1,0 +1,21 @@
+[
+  {
+          "name": "Information Sharing",
+          "subsection":[
+              {
+                  "name": "Automated Decision Support",
+                  "description":[
+                      "Employ organization-defined automated mechanisms to enforce information-sharing decisions by authorized users based on access authorizations of sharing partners and access restrictions on information to be shared"
+                  ],
+                  "related controls":"N/A"
+              },
+              {
+                  "name": "Information Search and Retrieval",
+                  "description":[
+                      "implement information search and retrieval services that enforce organization-defined information sharing restrictions"
+                  ],
+                  "related controls": "N/A"
+              }
+          ]
+      }
+]
