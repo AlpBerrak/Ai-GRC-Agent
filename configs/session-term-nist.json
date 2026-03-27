@@ -1,0 +1,28 @@
+[
+  {
+          "name": "Session Termination",
+          "subsection":[
+              {
+                  "name": "User Intitiated Logouts",
+                  "description":[
+                      "Provide a logout capability for user-initiated communications sessions whenever authentication is used to gain access to organization-defined information resources"
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Termination Message",
+                  "description":[
+                      "Display an explicit logout message to users indicating the termination of authenticated communications sessions"                    
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Timeout Warning Message",
+                  "description":[
+                      "Display an explicit message to users indicating that the session will end in organization-defined time until end of session"
+                  ],
+                  "related controls": "N/A"
+              }
+          ]
+      }
+]
