@@ -1,0 +1,190 @@
+[  
+  {
+          "name":"System and Information Integrity Controls",
+          "subsection":[
+              {
+                  "name":"SI-1",
+                  "description":[
+                      "Develop, document, and disseminate to organization defined personnel or roles",
+                      [
+                          "Organization level, mission/business process level, system level system and information integrity policy that",
+                          [
+                              "Addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance",
+                              "Is consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines"
+                          ],
+                          "Procedures to facilitate the implementation of the system and information integrity policy and the associated system and information integrity controls"
+                      ],
+                      "Designate an organization defined official to manage the development, documentation, and dissemination of the system and information integrity policy and procedures",
+                      "Review and update the current system and information integrity policy and procedure"
+                  ]
+              },
+              {
+                  "name":"SI-2",
+                  "description":[
+                      "Identify, report, and correct system flaws",
+                      "Test software and firmware updates related to flaw remediation for effectiveness and potential side effects before installation",
+                      "Install security relevant software and firmware updates within organization defined time period of the release of the updates",
+                      "Incorporate flaw remediation into the organizational configuration management process"
+                  ]
+              },
+              {
+                  "name":"SI-3",
+                  "description":[
+                      "Implement signature based, non signature based malicious code protection mechanisms at system entry and exit points to detect and eradicate malicious code",
+                      "Automatically update malicious code protection mechanisms as new releases are available in accordance with organizational configuration management policy and procedures",
+                      "Configure malicious code protection mechanisms to:",
+                      [
+                          "Perform periodic scans of the system at organization defined frequency and real time scans of files from external sources and one or more endpoint, network entry and exit points as the files are downloaded, opened, or executed in accordance with organizational policy",
+                          "Block malicious code, quarantine malicious code, take organization defined action and send alert to organization defined personnel or roles in response to malicious code detection"
+                      ],
+                      "Address the receipt of false positives during malicious code detection and eradication and the resulting potential impact on the availability of the system"
+                  ]
+              },
+              {
+                  "name":"SI-4",
+                  "description":[
+                      "Monitor the system to detect:",
+                      [
+                          "Attacks and indicators of potential attacks in accordance with the following monitoring objectives",
+                          "Unauthorized local, network, and remotes connections"
+                      ],
+                      "Identify unauthorized use of the system through organization defined techniques and methods",
+                      "Invoke internal monitoring capabilities or deploy monitoring devices:",
+                      [
+                          "Strategically within the system to collect organization-determined essential information",
+                          "At ad hoc locations within the system to track specific types of transactions of interest to the organization;"
+                      ],
+                      "Analyze detected events and anomalies",
+                      "Adjust the level of system monitoring activity when there is a change in risk to organizational operations and assets, individuals, other organizations, or the Nation",
+                      "Obtain legal opinion regarding system monitoring activities",
+                      "Provide organization defined system monitoring information to organization defined personnel or roles as needed"
+                  ]
+              },
+              {
+                  "name":"SI-5",
+                  "description":[
+                      "Receive system alerts, advisories, and directives from organization defined external organizations on an ongoing basis",
+                      "Generate internal security alerts, advisories, and directives as deemed necessary",
+                      "Disseminate security alerts, advisories, and directives to one or more organization defined personnel or roles, organization defined elements within the organization, and organization defined external organizations",
+                      "Implement security directives in accordance with established time frames, or notify the issuing organization of the degree of noncompliance"
+                  ]
+              },
+              {
+                  "name":"SI-6",
+                  "description":[
+                      "Verify correct operation of organization defined security and privacy functions",
+                      "Perform the verification of the functions specified in SI-6a of organization defined system transitional states upon command by user with appropriate privilege at organization defined frequency",
+                      "Alert organization defined personnel or roles to failed security and privacy verification tests",
+                      "Shut the system down, restart the system, or organization defined alternative actions when anomalies are discovered"
+                  ]
+              },
+              {
+                  "name":"SI-7",
+                  "description":[
+                      "Employ integrity verification tools to detect unauthorized changes to organization defined software, firmware, and information",
+                      "Take organization defined actions when unauthorized changes to the software, firmware, and information are detected"
+                  ]
+              },
+              {
+                  "name":"SI-8",
+                  "description":[
+                      "Employ spam protection mechanisms at system entry and exit points to detect and act on unsolicited messages",
+                      "Update spam protection mechanisms when new releases are available in accordance with organizational configuration management policy and procedures"
+                  ]
+              },
+              {
+                  "name":"SI-10",
+                  "description":[
+                      "Check the validity of organization defined information inputs to the system"
+                  ]
+              },
+              {
+                  "name":"SI-11",
+                  "description":[
+                      "Generate error messages that provide information necessary for corrective actions without revealing information that could be exploited",
+                      "Reveal error message only to organization defined personnel or roles"
+                  ]
+              },
+              {
+                  "name":"SI-12",
+                  "description":[
+                      "Manage and retain information within the system and information output from the system in accordance with applicable laws, executive orders, directives, regulations, policies, standards, guidelines and operational requirements"
+                  ]
+              },
+              {
+                  "name":"SI-13",
+                  "description":[
+                      "Determine mean time to failure for organization defined system components in specific environments to of operation",
+                      "Provide substitute system components and a means to exchange active and standby components in accordance with the following criteria"
+                  ]
+              },
+              {
+                  "name":"SI-14",
+                  "description":[
+                      "Implement non persistent organization defined system components and services that are initiated in a known state and terminated upon end of session use, periodically at organization defined frequency"
+                  ]
+              },
+              {
+                  "name":"SI-15",
+                  "description":[
+                      "Validate information output from the following software programs and/or applications to ensure that the information is consistent with the expected content"
+                  ]
+              },
+              {
+                  "name":"SI-16",
+                  "description":[
+                      "Implement organization defined controls to protect the system memory from unauthorized code execution "
+                  ]
+              },
+              {
+                  "name":"SI-17",
+                  "description":[
+                      "Implement the indicated fail-safe procedures when the indicated failures occur"
+                  ]
+              },
+              {
+                  "name":"SI-18",
+                  "description":[
+                      "Check the accuracy, relevance, timeliness, and completeness of personally identifiable information across the information life cycle at organization defined frequency",
+                      "Correct or delete inaccurate or outdated personally identifiable information"
+                  ]
+              },
+              {
+                  "name":"SI-19",
+                  "description":[
+                      "Remove organization defined elements of personally identifiable information from datasets ",
+                      "Evaluate at organization defined frequency for effectiveness of deidentification"
+                  ]
+              },
+              {
+                  "name":"SI-20",
+                  "description":[
+                      "Embed data or capabilities in organization defined systems or system components to determine if organizational data has been exfiltrated or improperly removed from the organization"
+                  ]
+              },
+              {
+                  "name":"SI-21",
+                  "description":[
+                      "Refresh organization defined information at organization defined frequencies or generate the information on demand and delete the information when no longer needed"
+                  ]
+              },
+              {
+                  "name":"SI-22",
+                  "description":[
+                      "Identify organization defined essential functions and services ",
+                      "Use an alternative information source for the execution of essential functions or services on organization defined systems or system components when the primary source of information is corrupted or unavailable"
+                  ]
+              },
+              {
+                  "name":"SI-23",
+                  "description":[
+                      "Based on organization defined circumstances",
+                      [
+                          "Fragment organization defined information",
+                          "Distribute the fragmented information across organization defined system and system components "
+                      ]
+                  ]
+              }
+          ]
+      }
+]
