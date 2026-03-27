@@ -1,0 +1,300 @@
+[  
+  {
+          "name":"Program Management Controls",
+          "subsection":[
+              {
+                  "name":"PM-1",
+                  "description":[
+                      "Develop and disseminate an organization-wide information security program plan that:",
+                      [
+                          "Provides an overview of the requirements for the security program and a description of the security program management controls and common controls in place or planned for meeting those requirements",
+                          "Includes the identification and assignment of roles, responsibilities, management commitment, coordination among organizational entities, and compliance",
+                          "Reflects the coordination among organizational entities responsible for information security",
+                          "Is approved by a senior official with responsibility and accountability for the risk being incurred to organizational operations (including mission, functions, image, and reputation), organizational assets, individuals, other organizations, and the Nation"
+                      ],
+                      "Review and update the organization wide information security program plan at organization defined frequency and following organization defined events ",
+                      "Protect the information security program plan from unauthorized disclosure and modification"
+                  ]
+              },
+              {
+                  "name":"PM-2",
+                  "description":[
+                      "Appoint a senior agency information security officer with the mission and resources to coordinate, develop, implement, and maintain an organization-wide information security program"
+                  ]
+              },
+              {
+                  "name":"PM-3",
+                  "description":[
+                      "Include the resources needed to implement the information security and privacy programs in capital planning and investment requests and document all exceptions to this requirement",
+                      "Prepare documentation required for addressing information security and privacy programs in capital planning and investment requests in accordance with applicable laws, executive orders, directives, policies, regulations, standards",
+                      "Make available for expenditure, the planned information security and privacy resources"
+                  ]
+              },
+              {
+                  "name":"PM-4",
+                  "description":[
+                      "Implement a process to ensure that plans of action and milestones for the information security, privacy, and supply chain risk management programs and associated organizational systems",
+                      [
+                          "Developed and maintained",
+                          "Document the remedial information security, privacy, and supply chain risk management actions to adequately respond to risk to organizational operations and assets, individuals, other organizations, and the Nation",
+                          "Are reported in accordance with established reporting requirements"
+                      ],
+                      "Review plans of action and milestones for consistency with the organizational risk management strategy and organization-wide priorities for risk response actions"
+                  ]
+              },
+              {
+                  "name":"PM-5",
+                  "description":[
+                      "Develop and update at organization defined frequency an inventory of organizational systems"
+                  ]
+              },
+              {
+                  "name":"PM-6",
+                  "description":[
+                      "Develop, monitor, and report on the results of information security and privacy measures of performance"
+                  ]
+              },
+              {
+                  "name":"PM-7",
+                  "description":[
+                      "Develop and maintain an enterprise architecture with consideration for information security, privacy, and the resulting risk to organizational operations and assets, individuals, other organizations, and the Nation"
+                  ]
+              },
+              {
+                  "name":"PM-8",
+                  "description":[
+                      "Address information security and privacy issues in the development, documentation, and updating of a critical infrastructure and key resources protection plan"
+                  ]
+              },
+              {
+                  "name":"PM-9",
+                  "description":[
+                      "Develops a comprehensive strategy to manage:",
+                      [
+                          "Security risk to organizational operations and assets, individuals, other organizations, and the Nation associated with the operation and use of organizational systems",
+                          "Privacy risk to individuals resulting from the authorized processing of personally identifiable information"
+                      ],
+                      "Implement the risk management strategy consistently across the organization",
+                      "Review and update the risk management strategy at organization defined frequency or as required to address organizational changes"
+                  ]
+              },
+              {
+                  "name":"PM-10",
+                  "description":[
+                      "Manage the security and privacy state of organizational systems and the environments in which those systems operate through authorization processes",
+                      "Designate individuals to fulfill specific roles and responsibilities within the organizational risk management process",
+                      "Integrate the authorization processes into an organization-wide risk management program"
+                  ]
+              },
+              {
+                  "name":"PM-11",
+                  "description":[
+                      "Define organizational mission and business processes with consideration for information security and privacy and the resulting risk to organizational operations, organizational assets, individuals, other organizations, and the Nation",
+                      "Determine information protection and personally identifiable information processing needs arising from the defined mission and business processes",
+                      "Review and revise the mission and business processes at organization defined frequency"
+                  ]
+              },
+              {
+                  "name":"PM-12",
+                  "description":[
+                      "Implement an insider threat program that includes a cross-discipline insider threat incident handling team"
+                  ]
+              },
+              {
+                  "name":"PM-13",
+                  "description":[
+                      "Establish a security and privacy workforce development and improvement program"
+                  ]
+              },
+              {
+                  "name":"PM-14",
+                  "description":[
+                      "Implement a process for ensuring that organizational plans for conducting security and privacy testing, training, and monitoring activities associated with organizational systems:",
+                      [
+                          "Are developed and maintained",
+                          "Continue to be executed"
+                      ],
+                      "Review testing, training, and monitoring plans for consistency with organizational risk management strategy and organization wide priorities for risk response actions"
+                  ]
+              },
+              {
+                  "name":"PM-15",
+                  "description":[
+                      "Establish and institutionalize contact with selected groups and associations within the security and privacy communities:",
+                      [
+                          "To facilitate ongoing security and privacy education and training for organizational personnel",
+                          "To maintain currency with recommended security and privacy practices, techniques, and technologies",
+                          "To share current security and privacy information, including threats, vulnerabilities, and incidents"
+                      ]
+                  ]
+              },
+              {
+                  "name":"PM-16",
+                  "description":[
+                      "Implement a threat awareness program that includes a cross-organization information sharing capability for threat intelligence"
+                  ]
+              },
+              {
+                  "name":"PM-17",
+                  "description":[
+                      "Establish policy and procedures to ensure that requirements for the protection of controlled unclassified information that is processed, stored or transmitted on external systems, are implemented in accordance with applicable laws, executive orders, directives, policies, regulations, and standards",
+                      "Review and update the policy and procedures"
+                  ]
+              },
+              {
+                  "name":"PM-18",
+                  "description":[
+                      "Develop and disseminate an organization-wide privacy program plan that provides an overview of the agency’s privacy program, and:",
+                      [
+                          "Includes a description of the structure of the privacy program and the resources dedicated to the privacy program",
+                          "Provides an overview of the requirements for the privacy program and a description of the privacy program management controls and common controls in place or planned for meeting those requirements",
+                          "Includes the role of the senior agency official for privacy and the identification and assignment of roles of other privacy officials and staff and their responsibilities",
+                          "Describes management commitment, compliance, and the strategic goals and objectives of the privacy program",
+                          "Reflects coordination among organizational entities responsible for the different aspects of privacy",
+                          "Is approved by a senior official with responsibility and accountability for the privacy risk being incurred to organizational operations (including mission, functions, image, and reputation), organizational assets, individuals, other organizations, and the Nation"
+                      ],
+                      "Update the plan at organization defined frequency and to address changes in federal privacy laws and policy and organizational changes and problems identified during plan implementation or privacy control assessments"
+                  ]
+              },
+              {
+                  "name":"PM-19",
+                  "description":[
+                      "Appoint a senior agency official for privacy with the authority, mission, accountability, and resources to coordinate, develop, and implement, applicable privacy requirements and manage privacy risks through the organization-wide privacy program"
+                  ]
+              },
+              {
+                  "name":"PM-20",
+                  "description":[
+                      "Maintain a central resource webpage on the organization’s principal public website that serves as a central source of information about the organization’s privacy program and that:",
+                      [
+                          "Ensures that the public has access to information about organizational privacy activities and can communicate with its senior agency official for privacy",
+                          "Ensures that organizational privacy practices and reports are publicly available",
+                          "Employs publicly facing email addresses and/or phone lines to enable the public to provide feedback and/or direct questions to privacy offices regarding privacy practices"
+                      ]
+                  ]
+              },
+              {
+                  "name":"PM-21",
+                  "description":[
+                      "Develop and maintain an accurate accounting of disclosures of personally identifiable information, including:",
+                      [
+                          "Date, nature, and purpose of each disclosure",
+                          "Name and address, or other contact information of the individual or organization to which the disclosure was made"
+                      ],
+                      "Retain the accounting of disclosures for the length of the time the personally identifiable information is maintained or five years after the disclosure is made, whichever is longer",
+                      "Make the accounting of disclosures available to the individual to whom the personally identifiable information relates upon request"
+                  ]
+              },
+              {
+                  "name":"PM-22",
+                  "description":[
+                      "Develop and document organization-wide policies and procedures for:",
+                      [
+                          "Reviewing for the accuracy, relevance, timeliness, and completeness of personally identifiable information across the information life cycle",
+                          "Correcting or deleting inaccurate or outdated personally identifiable information",
+                          "Disseminating notice of corrected or deleted personally identifiable information to individuals or other appropriate entities",
+                          "Appeals of adverse decisions on correction or deletion requests"
+                      ]
+                  ]
+              },
+              {
+                  "name":"PM-23",
+                  "description":[
+                      "Establish a data governance body consisting of organization defined roles with organization defined responsibilities"
+                  ]
+              },
+              {
+                  "name":"PM-24",
+                  "description":[
+                      "Establish a data integrity board to",
+                      [
+                          "Review proposals to conduct or participate in a matching program",
+                          "Conduct annual review of all matching programs in which the agency has participated"
+                      ]
+                  ]
+              },
+              {
+                  "name":"PM-25",
+                  "description":[
+                      "Develop, document, and implement policies and procedures that address the use of personally identifiable information for internal testing, training, and research",
+                      "Develop, document, and implement policies and procedures that address the use of personally identifiable information for internal testing, training, and research;",
+                      "Authorize the use of personally identifiable information when such information is required for internal testing, training, and research",
+                      "Review and update policies and procedures at organization defined frequency"
+                  ]
+              },
+              {
+                  "name":"PM-26",
+                  "description":[
+                      "Implement a process for receiving and responding to complaints, concerns, or questions from individuals about the organizational security and privacy practices that includes:",
+                      [
+                          "Mechanisms that are easy to use and readily accessible by the public",
+                          "All information necessary for successfully filing complaints",
+                          "Tracking mechanisms to ensure all complaints received are reviewed and addressed within organization defined time period",
+                          "Acknowledgement of receipt of complaints received are reviewed and addressed within organization defined time period",
+                          "Response to complaints, concerns, or questions from individuals within organizations defined time period"
+                      ]
+                  ]
+              },
+              {
+                  "name":"PM-27",
+                  "description":[
+                      "Develop organization defined privacy reports and disseminate to",
+                      [
+                          "Organization defined oversight bodies to demonstrate accountability with statutory, regulatory, and policy privacy mandates ",
+                          "Organization defined officials and other personnel with responsibility for monitoring privacy program compliance"
+                      ],
+                      "Review and update privacy report at organization defined frequency"
+                  ]
+              },
+              {
+                  "name":"PM-28",
+                  "description":[
+                      "Identify and document:",
+                      [
+                          "Assumptions affecting risk assessments, risk responses, and risk monitoring",
+                          "Constraints affecting risk assessments, risk responses, and risk monitoring",
+                          "Priorities and trade-offs considered by the organization for managing risk",
+                          "Organizational risk tolerance"
+                      ],
+                      "Distribute the results of risk framing activities to organization defined personnel",
+                      "Review and update risk framing considerations at organization defined frequency"
+                  ]
+              },
+              {
+                  "name":"PM-29",
+                  "description":[
+                      "Appoint a Senior Accountable Official for Risk Management to align organizational information security and privacy management processes with strategic, operational, and budgetary planning processes",
+                      "Establish a Risk Executive (function) to view and analyze risk from an organization-wide perspective and ensure management of risk is consistent across the organization"
+                  ]
+              },
+              {
+                  "name":"PM-30",
+                  "description":[
+                      "Develop an organization-wide strategy for managing supply chain risks associated with the development, acquisition, maintenance, and disposal of systems, system components, and system services",
+                      "Implement the supply chain risk management strategy consistently across the organization",
+                      "Review and update the supply chain risk management strategy on organization defined frequency or as required to address organizational changes"
+                  ]
+              },
+              {
+                  "name":"PM-31",
+                  "description":[
+                      "Develop an organization-wide continuous monitoring strategy and implement continuous monitoring programs that include:",
+                      [
+                          "Establish organization defined metrics to be monitored",
+                          "Establish at organization defined frequencies for monitoring and organization defined frequencies for assessment of control effectiveness",
+                          "Ongoing monitoring of organizationally defined metrics in accordance with the continuous monitoring strategy",
+                          "Correlation and analysis of information generated by control assessments and monitoring",
+                          "Response actions to address results of the analysis of control assessment and monitoring information",
+                          "Reporting the security and privacy status of organizational systems to organization defined personnel or roles"
+                      ]
+                  ]
+              },
+              {
+                  "name":"PM-32",
+                  "description":[
+                      "Analyze organization defined systems or systems components supporting mission essential services or functions to ensure that the information resources are being used consistent with their intended purpose"
+                  ]
+              }
+          ]
+      }
+]
