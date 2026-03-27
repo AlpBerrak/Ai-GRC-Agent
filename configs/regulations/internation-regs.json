@@ -1,0 +1,437 @@
+[
+    {  
+        "name": "International Privacy Laws",
+        "subsection":[
+            {
+                "name":"PCI DSS - Payment Card Industry Security Standard",
+                "applies to":"Applies to any merchant, service provider, or entity involved in processing, storing, or transmitting cardholder data, regardless of size",
+                "controller requirements":[
+                    "Build and maintain a secure network",
+                    "Protect cardholder data",
+                    "Maintain a vulnerability management program",
+                    "Implement strong access control measures",
+                    "Regularly monitor and test networks",
+                    "Maintain an information security policy"
+                ],
+                "individual rights":"N/A",
+                "fines":"N/A"
+            },
+            {
+                "name":"EU GDPR",
+                "applies to":"Applies to businesses that process the personal data of EU citizens and residents or offer products or services to EU citizens",
+                "controller requirements":[
+                    "Processing must be lawful, fair, and transparent to the data subject",
+                    "Must process data for the legitimate purposes specified explicitly to the data subject when you collected it",
+                    "Colled and process only as must data as absolutely necessary for the purposes specified",
+                    "Must keep personal data accurate and up to date",
+                    "May only store personally identifying data for as long as necessary for the purposes specified",
+                    "Processing must be done in such a way as to ensure appropriate security, integrity, and confidentiality",
+                    "Data controller is responsible for being able to demonstrate GDPR compliance",
+                    "Need a DPO if a public authority other than a court acting in a judicial capacity, core activities require you to monitor people systematically and regularly on a large scale, or core activities are large-scale processing of special categories of data listed under Article 9 of the GDPR or data relating to criminal convictions and offenses mentioned in Article 10"
+                ],
+                "individual rights":[
+                    "must give specific, unambiguous consent to process the data",
+                    "righto to be informed",
+                    "right of access",
+                    "right to rectification",
+                    "right to erasure",
+                    "right to restrict processing",
+                    "right to data portability",
+                    "right to object",
+                    "rights in relation to automated decision making and profiling"
+                ],
+                "fines":"up to 20 million euro or 4% of global revenue"
+            },
+            {
+                "name":"Personal Information Protection Law - China",
+                "applies to":"Applies to processing activities outside China if they involve providing products/services to individuals in China or analyzing their behavior",
+                "controller requirements":[
+                    "Transferring data outside China requires compliance with security assessments by the Cyberspace Administration of China",
+                    "Processing requires, in most cases, explicit consent from the individual and must have a clear, reasonable purpose",
+                    "Critical information infrastructure are required to store data within China"
+                ],
+                "individual rights":"N/A",
+                "fines":"can lead to severe penalties, including fines up to 50 million RMB or 5% of annual revenue, and potential suspension of business operations"
+            },
+            {
+                "name":"LGPD - Brazil",
+                "applies to":"Applies to any individual or legal entity processing data in Brazil, offering goods/services there, or collecting data within the country",
+                "controller requirements":[
+                    "Processing must be based on specific legal grounds, such as consent, contractual necessity, or legitimate interest",
+                    "Organizations must appoint a DPO to oversee compliance and communicate with the National Data Protection Authority",
+                    "must report security incidents that may create risk to data subjects within a reasonable time"
+                ],
+                "individual rights":[
+                    "right to request access",
+                    "right to correct",
+                    "right to anonymization",
+                    "right to deletion",
+                    "right to portability of their data"
+                ],
+                "fines":"N/A"
+            },
+            {
+                "name":"Digital Personal Data Protection Act - India",
+                "applies to":"Applies to entities in India and international companies processing data of individuals in India or entities offering goods/services to individuals in India",
+                "controller requirements":[
+                    "Processing requires free, specific, informed, and unconditional consent",
+                    "must implement security safeguards like encryption and data retention for only as long as necessary",
+                    "Mandatory reporting of data breaches to the Data Protection Board and affected individuals, with detailed report within 72 hours"
+                ],
+                "individual rights":"N/A",
+                "fines":"up to roughly $30 million "
+            },
+            {
+                "name":"Federal Act on Data Protection - Switzerland",
+                "applies to":"Applies to all organizations processing data of Swiss residents, enforcing strict rules on data handling, transparency, and security",
+                "controller requirements":[
+                    "Mandatory data breach notifications to the Federal Data Protection and Information Commissioner, privacy by design/default, and data protection impact assessments",
+                    "Stricter rules for transferring data outside Switzerland, requiring sufficient, comparable data protection in the destination country"
+                ],
+                "individual rights":[
+                    "right to access",
+                    "right to correction",
+                    "right to delete",
+                    "right to data portability"
+                ],
+                "fines":"up to CHF 250,000 for intentional violations"
+            },
+            {
+                "name":"Argentina Personal Data Protection Act - Argentina",
+                "applies to":"Companies operating in Argentina or working with consumer data of Argentinians ",
+                "controller requirements":[
+                    "Regulates the processing of personal data to protect privacy",
+                    "Mandates purpose, proportionality, transparency, data accuracy, security, and confidentiality in all processing",
+                    "Explicit, informed, and free consent is required for data collection",
+                    "Strict protection applies to sensitive data",
+                    "Transfers to countries with inadequate protection are restricted"
+                ],
+                "individual rights":[
+                    "right to access",
+                    "right to rectify",
+                    "right to update",
+                    "right to delete data",
+                    "right to object to automated decisions and profiling"
+                ],
+                "fines":"N/A"
+            },
+            {
+                "name":"Privacy Act 1988 - Australia",
+                "applies to":"Applies to entities over AU$3 million annual turnover and government agencies",
+                "controller requirements":[
+                    "must obtain consent to collect sensitive information and generally cannot use data for secondary purposes without consent",
+                    "must report eligible data breaches to the Office of the Australian Information Commissioner and affected individuals"
+                ],
+                "individual rights":[
+                    "right to access their personal information",
+                    "right to correct",
+                    "right to remain anonymous or use a pseudonym where practical"
+                ],
+                "fines":""
+            },
+            {
+                "name":"Personal Information Protection and Electronic Documents Act - Canada",
+                "applies to":"Applies to private sector organizations including federally regulated businesses",
+                "controller requirements":[
+                    "required to obtain meaningful consent for data collection and use",
+                    "Imposes stricter standards, including explicit opt in consent for data collection and significant penalties up to $25 million for breaches ",
+                    "must report breaches of security safeguards to the Office of the Privacy Commissioner and notify affected individuals"
+                ],
+                "individual rights":"N/A",
+                "fines":"N/A"
+            },
+            {
+                "name":"Law 1518 of 2021 - Colombia",
+                "applies to":"Companies operating in Colombia or working with consumer data of Colombians",
+                "controller requirements":[
+                    "Explicit authorization is required from the data subject for collecting and processing data",
+                    "Restrictions apply to transferring data outside of Colombia, generally requiring the receiving country to meet adequate data protection standards"
+                ],
+                "individual rights":[
+                    "right to access",
+                    "right to update",
+                    "right to rectification",
+                    "right to delete data"
+                ],
+                "fines":"N/A"
+            },
+            {
+                "name":"Danish Data Protection Act - Denmark",
+                "applies to":"Applies to both public and private sectors",
+                "controller requirements":[
+                    "Supplements the GDPR, providing stricter provisions on employee monitoring and specific rules for handling sensitive data",
+                    "Regulates the processing of data relating to criminal offenses and civil registration numbers ",
+                    "Processing of personal data for personnel administration is allowed based on legitimate interests arising from legislation or collective agreements",
+                    "Requires clear, active, and prior consent for using cookies",
+                    "Data subjects must be informed without undue delay if a break is likely to result in high risk to their rights"
+                ],
+                "individual rights":"N/A",
+                "fines":"can lead to severe fines"
+            },
+            {
+                "name":"Data Protection Act - Finland",
+                "applies to":"Campnies operating in Finland or working wtih consumer data of Finland citizens",
+                "controller requirements":[
+                    "Supplements the GDPR by strictly regulating employee monitoring, background checks, and email access",
+                    "Regulates cookies and requires informed consent for non essential tracking"
+                ],
+                "individual rights":"N/A",
+                "fines":"Significant fines"
+            },
+            {
+                "name":"French Data Protection Act - France",
+                "applies to":"Applies to any entity processing personal data of French residents, whether established in France or not",
+                "controller requirements":[
+                    "Supplements the GDPR by providing specific rules for data processing, especially concerning sensitive data",
+                    "Requires explicit, informed, and unambiguous consent for data collection, with specific rules for minors",
+                    "Mandates clear privacy policies detailing data use, purposes, and data controller identity",
+                    "Upholds GDPR rights",
+                    "Adds provisions for sensitive data",
+                    "inform the CNIL and affected individuals about breaches",
+                    "Prohibits processing data revealing racial/ethnic origin, political/religious beliefs, or union affiliation unless specific conditions are met"
+                ],
+                "individual rights":"N/A",
+                "fines":"N/A"
+            },
+            {
+                "name":"German Federal Data Protection Act - Germany",
+                "applies to":"Companies operating in German or working with consuemr data of Germans",
+                "controller requirements":[
+                    "Sets out specific regulations and guidelines concerning the collection, processing, and storage of personal data by both public and private entities operating within Germany’s jurisdiction",
+                    "Data can only be collected and processed for specific, explicit, and legitimate purposes",
+                    "Only the minimum amount of personal data necessary for the intended purposes can be collected and processed ",
+                    "Personal data must be accurate and where necessary kept up to data",
+                    "Personal data should not be stored for longer than necessary for the purposes for which it was processed",
+                    "Appropriate technical and organizational measures must be implemented to protect personal data from unauthorized access, disclosure, alteration, or destruction",
+                    "Processing personal data through video surveillance requires additional justification and notification requirements",
+                    "Profiling with potential for automated decision making requires transparency and right to object"
+                ],
+                "individual rights":[
+                    "Right to information and access - data subjects have the right to obtain transparent information about the processing of their personal data",
+                    "Right to rectification - data subjects have the right to request the rectification of inaccurate or incomplete personal data concerning them",
+                    "Right to erasure - data subjects have the right to request the erasure of their personal data under certain circumstances",
+                    "Right to restriction of processing - data subjects have the right to request the restriction of the processing of their personal data is specific situations",
+                    "Right to data portability - data subjects have the right to receive their personal data in a structured, commonly used, and machine readable format and have the right to transmit that data to another data controller without hindrance from the original data controller",
+                    "Right to object - data subjects have the right to object to the processing of their personal data, including processing based on legitimate interest pursued by the data controller or for direct marking purposes",
+                    "Right to withdraw consent - where the processing of personal data is based on consent, data subjects have the right to withdraw their consent at any time"
+                ],
+                "fines":"N/A"
+            },
+            {
+                "name":"Law 4624/2019 - Greece",
+                "applies to":"companies operating in Greece or working with consumer data of Greeks",
+                "controller requirements":[
+                    "Covers GDPR implementation",
+                    "Personal data must only be kept for as long as necessary, though longer retention is permitted for scientific, historical, or statistical purposes",
+                    "Strict regulations govern the processing of employee personal data",
+                    "Data subject consent is required for marketing, with specific rules for recording, storing, and opting out"
+                ],
+                "individual rights":"N/A",
+                "fines":"N/A"
+            },
+            {
+                "name": "Act of Data Protection and the Processing of Personal Data - Iceland",
+                "applies to":"Applies to both public and private sector",
+                "controller requirements":[
+                    "Implements the GDPR into Icelandic law",
+                    "Organizations need to appoint a Data Protection Officer who must maintain confidentiality regarding information learned ",
+                    "must notify government and affected subjects of data breaches"
+                ],
+                "individual rights":"N/A",
+                "fines":"N/A"
+            },
+            {
+                "name":"Indonesia's Personal Data Protection Law - Indonesia",
+                "applies to":"Applies to any entity that processes the data of Indonesian residents or acts with legal consequences in Indonesia",
+                "controller requirements":[
+                    "Transfers of data outside Indonesia are permitted if the receiving country has an equal or higher level of protection, or if specific contractual clauses are met"
+                ],
+                "individual rights":[
+                    "right to access",
+                    "right to correct",
+                    "right to delete",
+                    "right to restrict processing",
+                    "right to data portability",
+                    "right to widthdraw consent"
+                ],
+                "fines":"up to 2% of annual revenue"
+            },
+            {
+                "name":"Protection of Privacy Law - Israel",
+                "applies to":"Companies operating in Israel or working with consumer data of Israel citizens",
+                "controller requirements":[
+                    "DPOs for certain entities and increased requirements for data security and breach notifications are required",
+                    "Data collection requires informed, specific, and voluntary consent, particularly for sensitive data",
+                    "Entities holding databases containing sensitive data, or large scale, automated, or marketing data, must register with the PPA"
+                ],
+                "individual rights":[
+                    "right to access",
+                    "right to rectify",
+                    "right to delete or object to the use of their personal data in certain circumstances"
+                ],
+                "fines":"N/A"
+            },
+            {
+                "name":"Act on the Protection of Personal Information - Japan",
+                "applies to":"Applies to any business handling the personal information of Japanese residents, even if the business is located outside of Japan",
+                "controller requirements":[
+                    "Prior consent is required to transfer data to third parties, with specific exceptions for joint use or mergers",
+                    "Mandatory reporting to the PPC is required for significant breaches"
+                ],
+                "individual rights":[
+                    "right to request access",
+                    "right to correct",
+                    "right to delete their personal data"
+                ],
+                "fines":"N/A"
+            },
+            {
+                "name":"Personal Data Protection Act - Malaysia",
+                "applies to":"Applies to any person/entity that processes, or has control over the processing of personal data in respect of commercial transaction",
+                "controller requirements":[
+                    "Mandatory notification to the commissioner for data breaches that cause or are likely to cause significant harm",
+                    "Companies must appoint a DPO"
+
+                ],
+                "individual rights":[
+                    "right to access",
+                    "right to correct their personal data",
+                    "right to widthdraw",
+                    "right to consent",
+                    "right to request that their data not be used for direct marketing",
+                    "right to request their data be transferred to another data user"
+                ],
+                "fines":"N/A"
+            },
+            {
+                "name":"Federal Law on the Protection of Personal Data Held by Private Parties - Mexico",
+                "applies to":"Applies to any individual or entity in Mexico, and foreign companies processing data of Mexican residents",
+                "controller requirements":[
+                    "must obtain explicit consent for sensitive data, provide clear privacy notices, and implement strict security measures"
+                ],
+                "individual rights":[
+                    "right to object automated processing"
+                ],
+                "fines":"N/A"
+            },
+            {
+                "name":"Privacy Act 2020 - New Zealand",
+                "applies to":"Applies to overseas organizations doing business in New Zealand",
+                "controller requirements":[
+                    "Organizations must notify the Commissioner and affected individuals of notifiable privacy breaches",
+                    "Personal information can only be sent overseas if the recipient is subject to similar binding privacy laws",
+                    "required to appoint a privacy officer to ensure compliance"
+                ],
+                "individual rights":[
+                    "right to access",
+                    "right to correct",
+                    "in some cases right to delete their personal information"
+                ],
+                "fines":"up to NZ$10,000 for specific offenses"
+            },
+            {
+                "name":"Republic Act No 10173 - Philippines",
+                "applies to":"Applies to any organization processing personal data of Philippine residents, whether in the Philippines or abroad, if it involves Philippine citizens or residents",
+                "controller requirements":"N/A",
+                "individual rights":[
+                    "right to be informed",
+                    "right to access",
+                    "right to correct",
+                    "right to widthdraw consent",
+                    "right to portability of their data"
+                ],
+                "fines":"Fines and imprisonment for violations"
+            },
+            {
+                "name":"Federal Law No 152-FZ - Russia",
+                "applies to":"Companies operating in Russia or working with consumer data of Russians",
+                "controller requirements":[
+                    "Requires that the initial recording, storage, and processing of Russian citizens’ personal data occur on databases located within the Russian Federation",
+                    "Personal data processing generally requires explicit, informed, and specific consent",
+                    "Data operators must notify government of data breaches within 24 hours of detection, and report investigation results within 72 hours",
+                    "Transfers to countries that do not provide adequate protection require compliance with specific, strict conditions"
+                ],
+                "individual rights":"N/A",
+                "fines":"N/A"
+            },
+            {
+                "name":"Protection of Personal Information Act - South Africa",
+                "applies to":"Applies to public and private bodies processing personal information within South Africa",
+                "controller requirements":[
+                    "Data processing must adhere to accountability, processing limitation, purpose specification, further processing limitation, information quality, openness, security safeguards, and data subject participation"
+                ],
+                "individual rights":[
+                    "right to access",
+                    "right to correct",
+                    "right to request the deletion of their personal"
+                ],
+                "fines":"N/A" 
+            },
+            {
+                "name":"Organic Law 3/2018 - Spain",
+                "applies to":"Companies operating in Spain or working with consumer data of Spaniards",
+                "controller requirements":[
+                    "Processing must have a valid basis, such as consent, contractual necessity, or legitimate interest ",
+                    "Consent for processing data of minors is valid from age 14"
+                ],
+                "individual rights":"N/A",
+                "fines":"N/A"
+            },
+            {
+                "name":"Data Protection Act - Sweden",
+                "applies to":"Companies operating in Sweden or working with consumer data of Swedes",
+                "controller requirements":[
+                    "Supplements the GDPR",
+                    "Personal identity numbers require special protection and their processing is strictly regulated",
+                    "Only public authorities are generally permitted to process data relating to criminal convictions",
+                    "Consent required for electronic direct marketing to individuals, though opt out is allowed for existing customers"
+                ],
+                "individual rights":[
+                    "right to access",
+                    "right to erase",
+                    "right to correct their data"
+                ],
+                "fines":"N/A"
+            },
+            {
+                "name":"Personal Data Protection Act - Thailand",
+                "applies to":"Applies to organizations outside Thailand that process data of Thai residents, as well as businesses operating within the country",
+                "controller requirements":[
+                    "Organizations must obtain explicit consent to collect, sue, or disclose data, unless another lawful basis exists",
+                    "Data must be only used for the stated purpose",
+                    "Organizations that process sensitive data or require regular monitoring of data must appoint a DPO",
+                    "In the event of a breach the DPO must inform the Personal Data Protection Committee within 72 hours",
+                    "Transferring personal data outside of Thailand requires ensuring that the destination country or organization maintains adequate data protection standards"
+                ],
+                "individual rights":[
+                    "right to access",
+                    "right to correct",
+                    "right to delete",
+                    "right to object to processing",
+                    "right to restrict the use of their personal data"
+                ],
+                "fines":"There are fines for non compliance"
+            },
+            {
+                "name":"Law No 18.331 - Uruguay",
+                "applies to":"Companies that operate in Uruguay or work with consumer data of Uruguaians",
+                "controller requirements":[
+                    "All databases containing personal data must be registered ",
+                    "Breaches must be reported to the URCDP within 72 hours",
+                    "Uruguay is deemed adequate by the EU meaning personal data can be transferred from the EU to Uruguay without additional safeguards",
+                    "DPOs are required for public entities, organizations processing sensitive data, and those managing data of over 35,000 individuals",
+                    "Data processing requires informed, unequivocal, and express consent of the data subject",
+                    "Data must be collected for a specific, legitimate purpose"
+                ],
+                "individual rights":[
+                    "right to access",
+                    "right to rectification",
+                    "right to deletion",
+                    "right to data portability"
+                ],
+                "fines":""
+            }
+
+        ]
+    }
+]
