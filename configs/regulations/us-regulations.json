@@ -1,0 +1,54 @@
+[
+    {    
+        "name": "US Federal Privacy Law",
+        "subsection":[
+            {
+                "name":"GLBA - Gramm-Leach- Bliley Act",
+                "applies to":"Companies operating within the USA",
+                "controller requirements":[
+                    "Requires financial institutions to explain their data sharing practices to customers and safeguard sensitive financial data through three main rules",
+                    [
+                        "The privacy rule - notice and opt out rights for data sharing",
+                        "The safeguard rule - implementing security plans to protect data",
+                        "The pretexting protections - prohibiting obtaining info under false pretense"
+                    ],
+                    "Mandates that financial institutions provides customers with a clear privacy notice explaining how their non public personal information is collected, used, and shared, and gives consumers the right to opt out of certain sharing",
+                    "Requires these institutions to develop, implement, and maintain a comprehensive information security program with administrative, physical, and technical safeguards to protect customer data",
+                    "Prohibits individuals and institutions from using false pretenses to gain access to a customer’s private financial information",
+                    "Applies to any company that offers consumers financial products or services, including loans, investments, or insurance, and handles their non public personal information"
+                ],
+                "individual rights":"N/A",
+                "fines":"N/A"
+            },
+            {
+                "name":"CFPB - Personal Financial Rights Rule",
+                "applies to":"large covered entities by April 1, 2026 with later deadlines for smaller ones and a notable exemption for institutions with less than $850 million in total assets ",
+                "controller requirements":[
+                    "Mandates that financial institutions, such as banks and credit unions, must allow customers to securely share their personal financial data with third party apps and services for free",
+                    "Requires standardized, secure, machine readable data sharing",
+                    "Allows consumers to securely share transaction data, account balances, and payment information with authorized third parties",
+                    "Applies to banks credit unions, card issuers, and digital wallet providers",
+                    "Bans bait and switch data harvesting and requires that data usage by third parties is restricted to what is reasonably necessary to provide consumer’s requested service",
+                    "Gives consumers the right to revoke access to their data",
+                    "Mandates that financial institutions provide data through secure APIs in standardized, machine readable format, reducing reliance on insecure methods like screen scraping"
+
+                ],
+                "individual rights":"N/A",
+                "fines":"N/A"
+            },
+            
+            {
+                "name":"FTDA - Financial Data Transparency Act",
+                "applies to":"",
+                "controller requirements":[
+                    "Mandates that US financial regulatory agencies adopt uniform, non-proprietary, machine readable data standards for information collected from financial entities",
+                    "Aims to improve data accessibility, enhance oversight, reduce compliance costs, and facilitates AI-driven analysis",
+                    "Data must be made available in structured, electronic formats for easier analysis, shifting away from PDFs and Paper",
+                    "Information must be published as “open government data assets” to improve transparency"
+                ],
+                "individual rights":"N/A",
+                "fines":"N/A"
+            }
+        ]
+    }
+]
