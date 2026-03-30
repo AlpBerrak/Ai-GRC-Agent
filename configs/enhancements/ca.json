@@ -1,0 +1,316 @@
+[
+  {
+        "name":"AU",
+        "subsection":[
+            {
+                "name":"AU-3 - Content of Audit Records",
+                "subsection":[
+                    {
+                        "name":"Additional Audit Information",
+                        "description":[
+                            "Generate audit records containing the following additional information: organization defined additional information"
+                        ]
+                    },
+                    {
+                        "name":"Limit Personally Identifiable Information Elements",
+                        "description":[
+                            "limit personally identifiable information contained in audit records to the following elements identified in the privacy risk assessment: organization defined elemnts"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"AU-4 - Audit Storage Capacity",
+                "subsection":[
+                    {
+                        "name":"Transfer to Alternate Storage",
+                        "description":[
+                            "transfer audit logs organization defined frequency to a different system, system component, or media other than the system or system component conducting the logging"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"AU-5 - Response to Audit Logging Process Failure",
+                "subsection":[
+                    {
+                        "name":"Storage Capacity Warning",
+                        "description":[
+                            "provide a warning to organization defined personnel, roles, and/or locations within organization defined time period when allocated audit log storage volume reaches organization defined percentage of repository maximum audit log storage capacity"
+                        ]
+                    },
+                    {
+                        "name":"Real Time Alerts",
+                        "description":[
+                            "provide an alert within organization defined real time period to organization defined personnel, roles, and/or locations when the following audit failures events occur: organization defined audit logging failure events requiring real time alerts"
+                        ]
+                    },
+                    {
+                        "name":"Configurable Traffic Volume Thresholds",
+                        "description":[
+                            "enforce configurable network communications traffic volume thresholds reflecting limits on audit log storage capacity and reject, delay network traffic above those thresholds"
+                        ]
+                    },
+                    {
+                        "name":"Shutdown on Failure",
+                        "description":[
+                            "invoke a fully system shutdown, partial system shutdown, degraded operational mode with limited mission or business functionality available in the event of organization defined audit logging failures, unless an alternate audit logging capability exists"
+                        ]
+                    },
+                    {
+                        "name":"Alternate Audit Logging Capability",
+                        "description":[
+                            "provide an alternate audit logging capability in the event of a failure in primary audit logging capability that implements organization defined alternate audit logging functionality"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"AU-6 - Audit Record Review, Analysis, and Reporting",
+                "subsection":[
+                    {
+                        "name":"Automated Process Integration",
+                        "description":[
+                            "integrate audit record review, analysis, and reporting processes using organization defined auotmated mechanisms"
+                        ]
+                    },
+                    {
+                        "name":"Correlate Audit Record Repositories",
+                        "description":[
+                            "analyze and correlate audit records across different repositories to gain organization wide situational awareness"
+                        ]
+                    },
+                    {
+                        "name":"Central Review and Analysis",
+                        "description":[
+                            "provide and implement the capability to centrally review and analyze audit records from multiple components within the system"
+                        ]
+                    },
+                    {
+                        "name":"Integrated Analysis of Audit Records",
+                        "description":[
+                            "integrate analysis of audit records with analysis of vulnerability scanning information, performance data, system monitoring information, organization data/information collected from other sources to further enhance to identify inappropriate or unusual activity"
+                        ]
+                    },
+                    {
+                        "name":"Correlation with Physical Monitoring",
+                        "description":[
+                            "correlate information from audit records with infomration obtained from monitoring physical acess to further enhance the ability to identify suspicious, inappropriate, unusual, or malevolent activity"
+                        ]
+                    },
+                    {
+                        "name":"Permitted Actions",
+                        "description":[
+                            "specify the permitted actions for each system process, role, user associated with the review, analysis, and reporting of audit records information"
+                        ]
+                    },
+                    {
+                        "name":"Full Text Analysis of Privileged Commands",
+                        "description":[
+                            "perform a full text analysis of logged privileged commands in a physically distinct component or subsystem of the system, or other system that is dedicated to that analysis"
+                        ]
+                    },
+                    {
+                        "name":"Correlation with Infomration from Nontechnical Sources",
+                        "description":[
+                            "correlate information from nontechnical sources with audit record information to enhance organization wide situational awareness"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"AU-7 - Audit Record Reduction and Report Generation",
+                "subsection":[
+                    {
+                        "name":"Automatic Processing",
+                        "description":[
+                            "provide and implement the capability to process, sort, and search audit records for events of interest based on the following content: organization defined fileds within audit records"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"AU-9 - Protection of Audit Information",
+                "subsection":[
+                    {
+                        "name":"Hardware Write Once Media",
+                        "description":[
+                            "write audit trails to hardware enforced, write once media"
+                        ]
+                    },
+                    {
+                        "name":"Store on Separate Physical Systems or Components",
+                        "description":[
+                            "store audit records at organization defined frequency in a repository that is part of a physically different system or system component than the system or component being audited"
+                        ]
+                    },
+                    {
+                        "name":"Cryptographic Protection",
+                        "description":[
+                            "implement cryptographic mechanisms to protect the integrity of audit information and audit tools"
+                        ]
+                    },
+                    {
+                        "name":"Access by Subset of Privileged Users",
+                        "description":[
+                            "authorize access to management of audit logging functionality to only organization defined subset of privileged users or roles"
+                        ]
+                    },
+                    {
+                        "name":"Dual Authorization",
+                        "description":[
+                            "enforce dual authorization for movement, deletion of organization defined audit informaiton"
+                        ]
+                    },
+                    {
+                        "name":"Read Only Access",
+                        "description":[
+                            "authorize read only access to audit information to organization defined subset of privileged users or roles"
+                        ]
+                    },
+                    {
+                        "name":"Store on Component with Different Operating System",
+                        "description":[
+                            "store audit informaiton on a component running a different operating system than the system or component being audited"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"AU-10 - Nonrepudiation",
+                "subsection":[
+                    {
+                        "name":"Association of Identities",
+                        "description":[
+                            "bind the identity of the infomraiton producer with the infomraiton to organization defined strength of binding",
+                            "provide the means for authorized individuals to determine the identity of the producer of the informaiton"
+                        ]
+                    },
+                    {
+                        "name":"Validate Binding of Information Producer Identity",
+                        "description":[
+                            "validate the bindiing of the information producer identity to the information at organization defined frequency",
+                            "perform organization defined actions in the event of a validation error"
+                        ]
+                    },
+                    {
+                        "name":"Chain of Custody",
+                        "description":[
+                            "maintain reviwer or releaser credentials within the established chain of custody for information reviewed or released"
+                        ]
+                    },
+                    {
+                        "name":"Validate Binding of Information Reviewer Identity",
+                        "description":[
+                            "validate the binding of th einformation reviewer identity to the information at the transfer or release points prior to release or transfer between organization defined security domains",
+                            "perform organization defined actions in the event of a validation error"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"AU-11 - Audit Record Retention",
+                "subsection":[
+                    {
+                        "name":"Long Term Retrieval Capability",
+                        "description":[
+                            "employ organization defined measures to ensure that long term audit records generated by the system can be retrieved"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"AU-12 - Audit Record Generation",
+                "subsection":[
+                    {
+                        "name":"System Wide and Time Correlated Audit Trail",
+                        "description":[
+                            "compile audit records from organization defined system components into a system wide (logical or physical) audit trail that is time correlated to within organization defined level of tolerance for the relationship between time stamps of individual records in the audit trail"
+                        ]
+                    },
+                    {
+                        "name":"Standardized Formats",
+                        "description":[
+                            "produce a system wide (logical or physical) audit trail composed of audit records in a standardized format"
+                        ]
+                    },
+                    {
+                        "name":"Changes by Authorized Individuals",
+                        "description":[
+                            "provide and implement the capability for organization defined individuals or roles to change the logging to be performed on organization defined system components based on organization defined selectable event criteria within organization defined time thresholds"
+                        ]
+                    },
+                    {
+                        "name":"Query Parament Audits of Personally Identifiable Information",
+                        "description":[
+                            "provide and implement the capability for auditing the parameters of user query events for data sets containing personally identifiable information"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"AU-13 - Monitoring for Information Disclosure",
+                "subsection":[
+                    {
+                        "name":"Use of Automated Tools",
+                        "description":[
+                            "monitor open source information and information sites using organization defined automated mechanisms"
+                        ]
+                    },
+                    {
+                        "name":"Review of Monitored Sites",
+                        "description":[
+                            "review the list of open source information sites being monitored organization defined frequency"
+                        ]
+                    },
+                    {
+                        "name":"Unauthorized Replication of Informaiton",
+                        "description":[
+                            "employ discovery techniques, processes, and tools to determine if external entities are replicating organizational information in an unauthorized manner"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"AU-14 - Session Audit",
+                "subsection":[
+                    {
+                        "name":"System Start Up",
+                        "description":[
+                            "intitiate session audits automatically at system start up"
+                        ]
+                    },
+                    {
+                        "name":"Remote Viewing and Listeniing",
+                        "description":[
+                            "provide and implement the capability for authorized users to remotely view and hear content related to an established user session in real time"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"AU-16 - Cross Organizational Audit Logging",
+                "subsection":[
+                    {
+                        "name":"Cross Organizational Audit Logging",
+                        "description":[
+                            "preserve the identity of individuals in cross organizational audit trails"
+                        ]
+                    },
+                    {
+                        "name":"Sharing of Audit Information",
+                        "description":[
+                            "provide cross organizational audit information to organization defined organizations based on organization defined cross organizational sharing agreements"
+                        ]
+                    },
+                    {
+                        "name":"Disassociability",
+                        "description":[
+                            "implement organization defined measures to disassociate individuals from audit information transmitted across organizational boundaries"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
