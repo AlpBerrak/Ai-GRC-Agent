@@ -1,0 +1,238 @@
+[
+  {
+        "name":"IR",
+        "subsection":[
+            {
+                "name":"IR-2 - Incident Response Training",
+                "subsection":[
+                    {
+                        "name":"Simulated Events",
+                        "description":[
+                            "incorporate simulated events into incident response training to facilitate the required response by personnel in crisis situations"
+                        ]
+                    },
+                    {
+                        "name":"Automated Training Environemnts",
+                        "description":[
+                            "provide an incident repsonse training environment using organization defined mechanisms"
+                        ]
+                    },
+                    {
+                        "name":"Breach",
+                        "description":[
+                            "provide incident response training on how to identify and respond to a breach, including the organization's process for reporting a breach"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"IR-3 - Incident Response Testing",
+                "subsection":[
+                    {
+                        "name":"Automated Testing",
+                        "description":[
+                            "test the incident response capability using organization defined automated mechanisms"
+                        ]
+                    },
+                    {
+                        "name":"Coordination with Related Plans",
+                        "description":[
+                            "coordinate incident response testing with organizational elements responsible for related plans"
+                        ]
+                    },
+                    {
+                        "name":"Continuous Improvement",
+                        "description":[
+                            "use qualitative and quantitative data from testing",
+                            [
+                                "determine the effectiveness of incident response processes",
+                                "continuously improve incident response processes",
+                                "provide incident response measures and metrics that are accurate, consistent, and in a reproducible format"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"IR-4 - Incident Handling",
+                "subsection":[
+                    {
+                        "name":"Automated Incident Handling Processes",
+                        "description":[
+                            "support the incident handling process using organizatino defined automated mechanisms"
+                        ]
+                    },
+                    {
+                        "name":"Dynamic Reconfiguration",
+                        "description":[
+                            "include the following types of dynamic reconfiguration for organization defined system components as part of the incident response capability: orgnaization defined types of dynamic reconfigurations"
+                        ]
+                    },
+                    {
+                        "name":"Continuity of Operations",
+                        "description":[
+                            "identify organization defined classes of incidents and take the following actions in response to those incidents to ensure continuation of organizational mission and business functions: organization defined actions to take in response to classes of incidents"
+                        ]
+                    },
+                    {
+                        "name":"Information Correlation",
+                        "description":[
+                            "correlate incident information and individual incident responses to achieve an organization wide perspective on incident awareness and response"
+                        ]
+                    },
+                    {
+                        "name":"Automatic Disabling of System",
+                        "description":[
+                            "implement a configurable capibility of automatically disable the system if organization defined security violations are detected"
+                        ]
+                    },
+                    {
+                        "name":"Insider Threats",
+                        "description":[
+                            "implement an incident handling capability for incidents involving insider thrats"   
+                        ]
+                    },
+                    {
+                        "name":"Insider Threats - Intra Organization Coordination",
+                        "description":[
+                            "coordinate incident handling capability for insider threats that includes the following organizational entities: organization defined entities"
+                        ]
+                    },
+                    {
+                        "name":"Correlation with External Organizations",
+                        "description":[
+                            "coordinate with organization defined external organizations to correlate and share organization defined incident information to achieve a cross organization perfective on incident awareness and more effective incident responses"
+                        ]
+                    },
+                    {
+                        "name":"Dynamic Response Capability",
+                        "description":[
+                            "employ organization defined dynamic response capabilities to respond to incidents"
+                        ]
+                    },
+                    {
+                        "name":"Supply Chain Coordination",
+                        "description":[
+                            "coordinate incident handling activities involving supply chain events with other organizations involved in the supply chain"
+                        ]
+                    },
+                    {
+                        "name":"Integrated Incident Response Team",
+                        "description":[
+                            "establish and maintain an integrated incident response team that can be deployed to any location by the organization in organization defined time period"
+                        ]
+                    },
+                    {
+                        "name":"Malicious Code and Forensic Analysis",
+                        "description":"analyze malicious code and/or other residual artifacts remaining in the system after the incident"
+                    },
+                    {
+                        "name":"Behavior Analysis",
+                        "description":[
+                            "analyze anomalous or suspected adversarial behavior in or related to organization defined environemnts or resources"
+                        ]
+                    },
+                    {
+                        "name":"Security Operations Center",
+                        "description":[
+                            "establish and maintain a security operations center"
+                        ]
+                    },
+                    {
+                        "name":"Public Relations and Reputation Repair",
+                        "description":[
+                            "manage public relations associated with an incident",
+                            "employ measures to repair the repuation of the organization"
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "name":"IR-5 Incident Monitoring",
+                "subsection":[
+                    {
+                        "name":"Automated Tracking, Data Collection, ana Analysis",
+                        "description":[
+                            "track incidents and collect and analyze incident information using organization defined automated mechanisms"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"IR-6 - Incident Reporting",
+                "subsection":[
+                    {
+                        "name":"Automated Reporting",
+                        "description":[
+                            "report incidents using organization defined automated mechanisms"
+                        ]
+                    },
+                    {
+                        "name":"Vulnerabilities Related to Incidents",
+                        "description":[
+                            "report system vulnerabilities associated with reported incidents to organization defined personnel or roles"
+                        ]
+                    },
+                    {
+                        "name":"Supply Chain Coordination",
+                        "description":[
+                            "proviee incident information to the provider of the product or service and other orgnaization involved in the supply chain governance for systems or system components related to the incident"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"IR-7 - Incident Response Assistance",
+                "subsection":[
+                    {
+                        "name":" Automation Support for Availability of Infomration and Support",
+                        "description":[
+                            "increase the availability of incident response information and support using organization defined automated mechanisms"
+                        ]
+                    },
+                    {
+                        "name":"Coordination with External Providers",
+                        "description":[
+                            "establish a direct, cooperative relationship between its incident response capability and external providers of system protection capability ",
+                            "identify organizational incident resposne team memebers to the external providers"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"IR-8 - Incident Response Plan",
+                "subsection":[
+                    {
+                        "name":"Breaches",
+                        "description":[
+                            "include the following in the Incident response plan for breaches involving personally identifiable information",
+                            [
+                                "a process to determine if notice to individuals or other organizations, including oversight organizations, is needed",
+                                "an assessment process to determine the extent of the harm, embarassment, inconvenience, or unfairness to affected individuals and any mechanisms to mitigate such hards",
+                                "identification of applicable privacy requirements"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"IR-9 - Information Spillage Response",
+                "subsection":[
+                    {
+                        "name":"Training",
+                        "description":[
+                            "provide information spillage response training at organiation defined frequency"
+                        ]
+                    },
+                    {
+                        "name":"Post Spill Operations",
+                        "description":[
+                            "implement the following procedures to ensure that organizational personnel impacted by information spills can continue to carry out assigned tasks while contaminated systems are undergoing corrective actions: organization defined procedures"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
