@@ -1,0 +1,95 @@
+[
+  {
+        "name":"RA",
+        "subsection":[
+            {
+                "name":"RA-2 - Security Categorization",
+                "subsection":[
+                    {
+                        "name":"Impact Level Prioritization",
+                        "description":[
+                            "conduct an impact level prioritization of organizational systems to obtain additional granularity on system impact levels"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"RA-3 - Risk Assessment",
+                "subsection":[
+                    {
+                        "name":"Supply Chain Risk Assessment",
+                        "description":[
+                            "assess supply chain risks associated with organization defined systems, system components, and system services",
+                            "update the supply chain risk assessment organization defined frequency, when there are significant changes to the relevant supply chain, or when changes to the system, environments of operation, or other conditions may necessitate a change in the supply chain"
+                        ]
+                    },
+                    {
+                        "name":"Use of All Source Intelligence",
+                        "description":[
+                            "use all source intelligence to assist in the analysis of risk"
+                        ]
+                    },
+                    {
+                        "name":"Dynamic Threat Awareness",
+                        "description":[
+                            "determine the current cyber threat environment on an ongoing basis using organizational defined means"
+                        ]
+                    },
+                    {
+                        "name":"Predictive Cyber Analytics",
+                        "description":[
+                            "employ the following advanced automation and analytics capabilities to predict and identify risks to organization defined systems or system components: organization defined advanced automation and analytics capabilities"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"RA-5 - Vulnerability Monitoring and Scanning",
+                "subsection":[
+                    {
+                        "name":"Update Vulnerabilities to be Scanned",
+                        "description":[
+                            "update the system vulnerabilities to be scanned: organization defined frequency, prior to a new scan, when new vulnerabilities are identified and reported"
+                        ]
+                    },
+                    {
+                        "name":"Breadth and Depth of Coverage",
+                        "description":[
+                            "define the breadth and depth of vulnerability scanning coverage"
+                        ]
+                    },
+                    {
+                        "name":"Discoverable Information",
+                        "description":[
+                            "determine information about the system that is discoverable and take organization defined corrective actions"
+                        ]
+                    },
+                    {
+                        "name":"Privileged Access",
+                        "description":[
+                            "implement privileged access authorization to organization defined system components for organization defined vulnerability scanning activities"
+                        ]
+                    },
+                    {
+                        "name":"Automated Trend Analyses",
+                        "description":[
+                            "compare the results of multiple vulnerability scans using organization defined automated mechanisms"
+                        ]
+                    },
+                    {
+                        "name":"Review Historic Audit Logs",
+                        "description":[
+                            "review historic audit logs to determine if a vulnerability identified in a organiztion define dsystem has been previously exploited within an organization defined time period"
+                        ]
+                    },
+                    {
+                        "name":"Correlate Scanning Information",
+                        "description":[
+                            "establish a public reporting channel for receiving reports of vulnerabilities in organizational systems and system components"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
