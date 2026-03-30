@@ -1,0 +1,120 @@
+[
+  {
+        "name":"PT",
+        "subsection":[
+            {
+                "name":"PT- - Authority to Process Personally Identifiable Information",
+                "subsection":[
+                    {
+                        "name":"Data Tagging",
+                        "description":[
+                            "attach data tags contianing organization defined authorized processing to organization defined elements of personally identifiable information"
+                        ]
+                    },
+                    {
+                        "name":"Automation",
+                        "description":[
+                            "manage enforcement of the authorized processing of personally identifiable information using organization defined automated mechanisms"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"PT-3 - Personally Identifiable Information Processing Purposes",
+                "subsection":[
+                    {
+                        "name":"Data Tagging",
+                        "description":[
+                            "attafch data tags containing the following purposes to organization defined elements of personally identifiable information: organization defined processing purposes"
+                        ]
+                    },
+                    {
+                        "name":"Automation",
+                        "description":[
+                            "track processing purposes of personally identifiable infomration using organiztaion defined automated mechanisms"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"PT-4 - Consent",
+                "subsection":[
+                    {
+                        "name":"Tailored Consent",
+                        "description":[
+                            "provide organization defined mechanisms to allow individuals to tailor processing permissions to selected elements of perosnally identifiable information"
+                        ]
+                    },
+                    {
+                        "name":"Just In Time Consent",
+                        "description":[
+                            "present organizationn defined consent mechanisms to individuals at organizaiton dfeined frequency and in conjunction with organization defined personally identiifiable information processing"
+                        ]
+                    },
+                    {
+                        "name":"Revocation",
+                        "description":[
+                            "implement organization defined tools or mechanisms for individuals to revoke consent to the processing of their personally identifiable information"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"PT-5 - Privacy Notice",
+                "subsection":[
+                    {
+                        "name":"Just In Time Consent",
+                        "description":[
+                            "present notice of personally identifiable information processing to individuals at a time and location where the individual provides personally identifiable information or in conjunction witha data action or organization defined frequency"
+                        ]
+                    },
+                    {
+                        "name":"Privacy Act Statements",
+                        "description":[
+                            "include privacy act statements on forms that collect information that will be maintained in a privacy act system of records, or provide privacy act statements on separate forms that can be retained by individuals"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"PT-6 - System of Records",
+                "subsection":[
+                    {
+                        "name":"Routine Uses",
+                        "description":[
+                            "review all routine uses published in the system of records notice at organization defined frequency to ensure continued accuracy, and to ensure that routine uses continue to be compatible with the purpose for which the information was collected"
+                        ]
+                    },
+                    {
+                        "name":"Exemption Rules",
+                        "description":[
+                            "review all privacy act exemption claimed for the system of records at organization defined frequency to ensure they remain appropriate and necessary in accordance with law, that htey have been promulgated as regulations, and that they are accurately described in the system of records notice"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"PT-7 - Specific Categories of Personally Identifiable Information",
+                "subsection":[
+                    {
+                        "name":"Social Security Numbers",
+                        "description":[
+                            "when a system processes social security numbers",
+                            [
+                                "eliminate unnecessary collection, maintenance, and use of social security numbers, and explore alternatives to their use as a personal identifier",
+                                "do not deny any individual any right, benefit, or privilege provided by law because of such individual's refusal to disclore his or her social security number",
+                                "inform any individual who is aksed to disclose his or her social security number whether that disclosure is mandatory or voluntary, by what statutory or other authority such number is solicited, and what uses will be made of it"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"First Amendment Information",
+                        "description":[
+                            "prohibit the processing of information describing how any individual exercises rights guaranteed by the first amendmetn unless expressly authorized by statute or by the individual or unless pertinent to and within the scope of an authorized law enforcement activity"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
