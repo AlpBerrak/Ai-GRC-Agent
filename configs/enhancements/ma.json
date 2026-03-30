@@ -1,0 +1,184 @@
+[
+  {
+        "name":"MA",
+        "subsection":[
+            {
+                "name":"MA-2 - Controlled Maintenance",
+                "subsection":[
+                    {
+                        "name":"Automted Maintenance Activities",
+                        "description":[
+                            "schedule, conduct, and document maintenance, repair, and replacement actions for the system using organization defined automated mechanisms",
+                            "produce up to date, accurate, and complete records of all maintenance, repair, and replacement actions requested, scheduled, in process, and complteted"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"MA-3 - Maintenance Tools",
+                "subsection":[
+                    {
+                        "name":"Inspect Tools",
+                        "description":[
+                            "inspect the maintenance tools used by maintenance personnel for improper or unauthorized modifications"
+                        ]
+                    },
+                    {
+                        "name":"Inspect Media",
+                        "description":[
+                            "check media containing diagnostic and test programs for malicious code before the media are used in the system"
+                        ]
+                    },
+                    {
+                        "name":"Prevent Unauthorized Removal",
+                        "description":[
+                            "prevent the removal of maintenance equipment containing organizational infomration by",
+                            [
+                                "verifying that there is no organizational information contained on the equipment",
+                                "sanitizing or destroying the equipment",
+                                "retaining the equipment within the facility",
+                                "obtaining an exemption from organization defined personnel or roles explicitly authorizing removal of the equipment from the facility"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Restricted Tool Use",
+                        "description":[
+                            "restrict the use of maintenance tools to authorized personnel only"
+                        ]
+                    },
+                    {
+                        "name":"Execution with Privilege",
+                        "description":[
+                            "monitor the use of maintenance tools that execute with increased privilege"
+                        ]
+                    },
+                    {
+                        "name":"Software Updates and Patches",
+                        "description":[
+                            "inspect maintenance tools to ensure the latest software updates and patches are installed"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"MA-4 - Nonlocal Maintenance",
+                "subsection":[
+                    {
+                        "name":"Logging and Review",
+                        "description":[
+                            "log organization defined audit events for nonlocal maintenance and diagnostic sessions",
+                            "review the audit records of the maintenance and diagnostic sessions to detect anomalous behavior"
+                        ]
+                    },
+                    {
+                        "name":"Comparable Security and Sanitization",
+                        "description":[
+                            "require that nonlocal maintenance and diagnostic services be performed from a system that implements a security capability comparable to the capability implemented on the system being serviced",
+                            "remove the component to be serviced from the sytem prior to nonlocal maintenance or diagnostic services, sanitize the component (for organizational information), and after the service is performed, inspect and sanitize the component (for potentially malicious software) before reconnecting the component to the system"
+                        ]
+                    },
+                    {
+                        "name":"Authentication and Separation of Maintenance Sessions",
+                        "description":[
+                            "protect nonlocal maintenance sessions by",
+                            [
+                                "employing organization defined authenticators that are replay resistant",
+                                "separating the maintenance sessions from other network sessions with the system by either",
+                                [
+                                    "physically separated communication paths",
+                                    "logically separated communication paths"
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Approvals and Notifications",
+                        "description":[
+                            "require the approval of each nonlocal maintenance session by organization defined personnel or roles",
+                            "notify the following personnel or roles of the date and time of planned nonlocal maintenance: organization defined personnel or roles"
+                        ]
+                    },
+                    {
+                        "name":"Cryptographic Protection",
+                        "description":[
+                            "implement the following cryptographic mechanisms to protect the integrity and confidentiality of nonlocal maintenance and diagnositc communications: organization defined cryptographic mechanisms"
+                        ]
+                    },
+                    {
+                        "name":"Disconnect Verification",
+                        "description":[
+                            "verify session and network connection termination after the completion of nonlocal maintenance and diagnostic sessions"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"MA-5 - Maintenance Personnel",
+                "subsection":[
+                    {
+                        "name":"Individuals Without Appropriate Access",
+                        "description":[
+                            "implement procedures for the use of maintenance personnel that lack appropriate security clearances or are not US citizens, the include the following requirements",
+                            [
+                                "maintenance personnel who do not have needed access authorizations, clearances, or formal access approvals are escorted and supervised during the performance of maintenance and diagnostic activities on the system by approved organizational personnel who are fully cleared, have appropriate access authorizations, and are technically qualified",
+                                "develop and implement organization defined alternate controls in the event a system component cannot be sanitized, removed, or disconnected form the system"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Security Clearances for Classified Systems",
+                        "description":[
+                            "verify that personnel performing maintenance and diagnostic activities on a system processing, storing, or transmitting classified infomration possess security clearances and formal access approvals for at least the highest classification level and for compartments of information on the system"
+                        ]
+                    },
+                    {
+                        "name":"Citizenship Requirements for Classified Systems",
+                        "description":[
+                            "verify that personnel performing maintenance and diagnostic activities on a system processing, storing, or transmitting classified infomration are US citizens"
+                        ]
+                    },
+                    {
+                        "name":"Foreign Nationals",
+                        "description":[
+                            "ensure that",
+                            [
+                                "foreign nationals with appropriate secuirty clearances are used to conduct maintenance and diagnostic activities on classified systems only when the systems are jointly owned and operated by the US and foreign allied governments, or owned and operated soley by foreign allied governments",
+                                "approvals, consents, and detailed operational conditions regarding the use of foreign nationals to conduct maintenance and diagnostic activities on classified systems are fully documented within Memoranda of Agreements"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Non-System Maintenance",
+                        "description":[
+                            "ensure that non escorted personnel performing maintenance activities not directly associated with the system but in the physical proximity of the system, have required access authorizations"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"MA-6 - Timely Maintenance",
+                "subsection":[
+                    {
+                        "name":"Preventive Maintenance",
+                        "description":[
+                            "perform preventive maintenance on organization defined system components at organization defined time intervals"
+                        ]
+                    },
+                    {
+                        "name":"Predictive Maintenance",
+                        "description":[
+                            "perform predictive maintenance on organization defined system components at organization defined time intervals"
+                        ]
+                    },
+                    {
+                        "name":"Automated Support for Predictive Maintenance",
+                        "description":[
+                            "transfer predictive maintenance data to a maintenance management system using organization defined automated mechanisms"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
