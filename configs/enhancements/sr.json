@@ -1,0 +1,132 @@
+[
+  {
+        "name":"SR",
+        "subsection":[
+            {
+                "name":"SR-2 - Supply Chain Risk Management Plan",
+                "subsection":[
+                    {
+                        "name":"Establish SCRM Team",
+                        "description":[
+                            "establish a supply chain risk management team consisting of organization defined personnel, roles, and responsibilities to lead and support the following SCRM activities: organization defined supply chain risk management activities"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SR-3 - Supply Chain Controls and Processes",
+                "subsection":[
+                    {
+                        "name":"Diverse Supply Base",
+                        "description":[
+                            "employ a diverse set of sources for the following system components and services: organization defined system components and services"
+                        ]
+                    },
+                    {
+                        "name":"Limitation of Harm",
+                        "description":[
+                            "employ the following controls to limit harm from potential adversaries identifying and targeting the organization supply chain: organization defined controls"
+                        ]
+                    },
+                    {
+                        "name":"Sub Tier Flow Down",
+                        "description":[
+                            "ensure that the controls included in the contracts of prime contractors are also included in the contracts of subcontractors"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SR-4 - Provenance",
+                "subsection":[
+                    {
+                        "name":"Identity",
+                        "description":[
+                            "establish and maintain unique identification of the follwoign supply chain elements, processes, and personnel associated with the identified system and critical system components: organization defined supply chain elements, processes, and personnel associated with organization defined systems and critical system components"
+                        ]
+                    },
+                    {
+                        "name":"Trakc and Trace",
+                        "description":[
+                            "establish and maintain unique identification of the following systems and critical system components for tracking thorugh the supply chain: organization defined system and critical system components"
+                        ]
+                    },
+                    {
+                        "name":"Validate and Genuine and Not Altered",
+                        "description":[
+                            "employ the following controls to validate that the system or system component received is genuine and has not been altered: organization defined controls"
+                        ]
+                    },
+                    {
+                        "name":"Supply Chain Integrity - Pedigree",
+                        "description":[
+                            "employ organization defined controls and conduct organization defined analysis to ensure the integrity of the system and system components by validating the internal composition and provenance of critical or mission essential technologies, products, and services"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SR-5 - Acquisition Strategies, Tools, and Methods",
+                "subsection":[
+                    {
+                        "name":"Adequate Supply",
+                        "description":[
+                            "employ the following controls to ensure an adequate supply of organization defined critical system components: organization defined controls"
+                        ]
+                    },
+                    {
+                        "name":"Assessments Prior to Selection, Acceptance, Modification, or Update",
+                        "description":[
+                            "assess the system, system component, or system service prior to selection, acceptance, modification, or update"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SR-6 - Supplier Assessments and Reviews",
+                "subsection":[
+                    {
+                        "name":"Testing and Analysis",
+                        "description":[
+                            "employ organizational analysis, independent third party testing of the following supply chain elements, processes, and actors associated with the system, system component, or system service: organization defined supply chain elements, processes, and actors"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SR-9 - Tamper Resistance and Detection",
+                "subsection":[
+                    {
+                        "name":"Multiple Stages of System Development Life Cycle",
+                        "description":[
+                            "employ anti tamper technologies, tools, and techniques throughout the system development life cycle"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SR-11 - Component Authenticity",
+                "subsection":[
+                    {
+                        "name":"Anti Counterfeit Training",
+                        "description":[
+                            "train organization defined personnel and roles to detect counterfeit system components"
+                        ]
+                    },
+                    {
+                        "name":"Configuration Control for Component Service and Repair",
+                        "description":[
+                            "maintain configuration control over the following system components awaiting service or repair and serviced or repaired components awaiting return to service: organization defined system components"
+                        ]
+                    },
+                    {
+                        "name":"Anti Counterfeit Scanning",
+                        "description":[
+                            "scan for counterfeit system components at organization defined frequency"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
