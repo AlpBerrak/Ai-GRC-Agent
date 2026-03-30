@@ -1,0 +1,771 @@
+[
+  {
+        "name": "AC",
+        "subsection": [
+            {
+                "name": "AC-2 - Account Management",
+                "subsection": [
+                    {
+                        "name": "Automated System Account Managment",
+                        "description": [
+                            "support the management of system accounts using organization defined automated mechanisms"
+                        ]
+                    },
+                    {
+                        "name": "Automated Temporary and Emergency Account Management",
+                        "description": [
+                            "automatically remove or disable temporary and emergency accounts after organized defined time period for each type of account"
+                        ]
+                    },
+                    {
+                        "name": "Disable Accounts",
+                        "description": [
+                            "disable accounts within organization defined time period when the accounts:",
+                            [
+                                "have expired",
+                                "are no longer associated with a user or individual",
+                                "are in violation of organizational policy",
+                                "have been inactive for organization defined time period"
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "Automated Audit Actions",
+                        "description":[
+                            "Automatically audit account creation, modification, enabling, disabling, and removal actions"
+                        ]
+                    },
+                    {
+                        "name":"Inactivity Logout",
+                        "description":[
+                            "require that users log out when organization defined time period of expected inactivity or description of when to log out"
+                        ]
+                    },
+                    {
+                        "name":"Dynamic Privilege Management",
+                        "description":[
+                            "implement organization defined dynamic privilege management capabilities"
+                        ]
+                    },
+                    {
+                        "name":"Privileged User Accounts",
+                        "description":[
+                            "establish and administer privileged user accounts in accordance with a role based access scheme or attribute based access scheme",
+                            "monitor privileged role or attribute assignments",
+                            "monitor changes to roles or attributes",
+                            "revoke access when privileged role or attribute assignments are no longer appropriate"
+                        ]
+                    },
+                    {
+                        "name":"Dynamic Account Management",
+                        "description":[
+                            "create, activiate, manage, and deactivate organization defined conditions for establishing shared and group accounts"
+                        ]
+                    },
+                    {
+                        "name": "Restrictions on Use of Shared and Group Accounts",
+                        "description":[
+                            "only permit the use of shared and group accounts that meet orgnaization defined conditions for establishing shared and group accounts"
+                        ]
+                    },
+                    {
+                        "name":"Account Monitoring for Atypical Usage",
+                        "description":[
+                            "monitor system accounts for orgnaization defined atypical usage",
+                            "report atypical usage of system accounts to organization defined personnel"
+                        ]
+                    },
+                    {
+                        "name":"Disable Accounts for High Risk Individuals",
+                        "description":[
+                            "disable accounts of individuals within organization defined time period of discovery of organization defined significant risks"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "AC-3 - Access Enforcement",
+                "subsection":[
+                    {
+                        "name":"Dual Authorization",
+                        "description":[
+                            "enforces dual authorization for organized defined privileged commands and/or other organization defined actions"
+                        ]
+                    },
+                    {
+                        "name":"Mandatory Access Control",
+                        "description":[
+                            "enforce organization defined mandatory access control policy over the set of covered subjects and objects specified in the policy, and where the policy",
+                            [
+                                "is uniformly enforced across the covered subjects and objects within the system",
+                                "specifies that a subject that has been granted access to information is constrained from doing any of the following",
+                                [
+                                    "passing the information to unauthorized subjects or objects",
+                                    "granting its privileges to other subjects",
+                                    "changing one or more security attributes on subjects, objects, the system, or system components",
+                                    "choosing the security attributes and attributes values to be associated with newly created or modified objects",
+                                    "changing the rules governing access control"
+                                ],
+                                "specifies that organization defined subjects may explicitlybe granted organization defined privileges such that they are not limited by any defined subset of the above constraints"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Discretionary Access Control",
+                        "description":[
+                            "enforce organization defined discretionary access control policy over the set of covered subjects and objects specified in the policy, and where the policy specifies that a subject that has been granted to information can do one or more of the following",
+                            [
+                                "pass the information to any other subjects or objects",
+                                "grant its privileges to other subjects",
+                                "change secuirty attributes on subjects, objects, the system, or the system's components",
+                                "choose the security attributes to be associated with newly created or revised objects",
+                                "change the rules governing access control"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Security Relevant Information",
+                        "description":[
+                            "prevent access to orgnaization defined security relevant information except duirng secure, non-operable system states"
+                        ]
+                    },
+                    {
+                        "name":"Role Based Access Control",
+                        "description":[
+                            "enforce a role based access control policy over defined subjects and objects and control access based upon organization defined rules governing the timing of revocations of access authorizations"
+                        ]
+                    },
+                    {
+                        "name":"Revocation of Access Authorizing",
+                        "description":[
+                            "enforce the revocation of access authorizations resulting from changes to the security attributes of subjects and objects based on organization defined rules governing the timing of revocations of access authorizations"
+                        ]
+                    },
+                    {
+                        "name":"Controlled Release",
+                        "description":[
+                            "release information outside of the system only if",
+                            [
+                                "the receiving organizaiton defined system or system component provides organization defined controls",
+                                "organization defined controls are used to validate the appropriateness of the information designated for release"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Audited Override of Access Control Mechanisms",
+                        "description":[
+                            "employ an audited override of automated access control mechanisms under organization defined conditions by organization defined roles"
+                        ]
+                    },
+                    {
+                        "name":"Restrict Access to Specific Information Types",
+                        "description":[
+                            "restrict access to data repositories containing organization defined information types"
+                        ]
+                    },
+                    {
+                        "name":"Assert and Enforce Application Access",
+                        "description":[
+                            "require applications to assert, as part of the installation process, the access needed to the following system applciations and function: organization defined system applications and functions",
+                            "provide an enforcement mechanism to prevent unauthorized access",
+                            "approve access chagnes after intital installation of the application"
+                        ]
+                    },
+                    {
+                        "name":"Attribute Based Access Control",
+                        "description":[
+                            "enforce attribute based access control policy over defined mechanisms to enable individuals to have access based upon organization defined attributes to assume access permissions"
+                        ]
+                    },
+                    {
+                        "name":"Individual Access",
+                        "description":[
+                            "provide organization defined mechanisms to enable individuals to have access to the following elements of their personally identifiable information: organization defined elements"
+                        ]
+                    },
+                    {
+                        "name":"Discretionary and Mandatory Access Control",
+                        "description":[
+                            "enforce organization defined mandatory access control policy over the set of covered subjects and objects specified in the policy",
+                            "enforce organization defined discretionary access control policy over the set of covered subjects and objects specified in the policy"
+                        ]
+                    }
+
+                ]
+            },
+            {
+                "name":"AC-4 - Information Flow Enforcement",
+                "subsection":[
+                    {
+                        "name":"Object Security and Privacy Attributes",
+                        "description":[
+                            "use organization defined secuirty and privacy attributes associated with organization defined infomration, sourec, and destination objects to enforce organization defined information flow control policies as a basis for flow control decisions"
+                        ]
+
+                    },
+                    {
+                        "name":"Processing Domains",
+                        "description":[
+                            "use protected processing domains to enforce organization defined information flow control policies as a basis for the flow control decisions"
+                        ]
+                    },
+                    {
+                        "name":"Dynamic Information Flow Control",
+                        "description":[
+                            "enforce organization defined information flow control policies"
+                        ]
+                    },
+                    {
+                        "name":"Flow Control of Encrypted Information",
+                        "description":[
+                            "prevent encrypted information from bypassing organization defined information flow control mechanisms by one or more decrypting the information, blocking the flow of the encrypted informaiton, terminating communications sessions attempting to pass encrypted information, or orgnaization defined procedure or method"
+                        ]
+                    },
+                    {
+                        "name":"Embedded Data Types",
+                        "description":[
+                            "enforce organization defined limitations on embedding data types within other data types"
+                        ]
+                    },
+                    {
+                        "name":"Metadata",
+                        "description":[
+                            "enforce information flow control based on organization defined metadata "
+                        ]
+                    },
+                    {
+                        "name":"One Way Flow Mechanisms",
+                        "description":[
+                            "enforce one way information flows thorugh hardware based flow control mechanisms"
+                        ]
+                    },
+                    {
+                        "name":"Security and Privacy Policy Filters",
+                        "description":[
+                            "enforce information flow control using organization defined security or privacy policy filters as a basis for flow control decisions for organization defined information flows",
+                            "block, strip, modify, or quaratine data after a filter processing failure in accordance with organizaiton defined security or privacy policy"
+                        ]
+                    },
+                    {
+                        "name":"Human Reviews",
+                        "description":[
+                            "enforce the use of human reviews for organization defined information flows under the following conditions: organization defined conditions"
+                        ]
+                    },
+                    {
+                        "name":"Enable and Disable Security or Privacy Policy Filters",
+                        "description":[
+                            "provide the capability for privileged administrators to enable and disable organization defined security or privacy policy filters under organization defined conditions"
+                        ]
+                    },
+                    {
+                        "name":"Data Type Identifiers",
+                        "description":[
+                            "when transferring information between different security domains, use organization defined data type identifiers to validate data essential for information flwo decisions"
+                        ]
+                    },
+                    {
+                        "name":"Decomposition into Policy Relevant Subcomponents",
+                        "description":[
+                            "when transferring information between different security domains, decompose information into organization defiend policy relevant subcomponents for submission to policy enforcement mechanisms"
+                        ]
+                    },
+                    {
+                        "name":"Security or Privacy Policy Filter Constraints",
+                        "description":[
+                            "when transferring information between different security domains, implement organizatino defined security or privacy policy filters requiring fully enumerated formats that restrict data structure and content"
+                        ]
+                    },
+                    {
+                        "name":"Detection of Unsanctioned Information",
+                        "description":[
+                            "When transferring information between different security domains, examine the information for the presence of organization defined unsanctioned information and prohibit the transfer of such information in accordance with the organization defined security or privacy policy"
+                        ]
+                    },
+                    {
+                        "name":"Domain Authentication",
+                        "description":[
+                            "Uniquely identify and authenticate source and destination points by organization, system, application, service, individual for information transfer"
+                        ]
+                    },
+                    {
+                        "name":"Validation of Metadata",
+                        "description":[
+                            "when transferring information between different security domains, implement organization defined security or privacy policy filters on metadata"
+                        ]
+                    },
+                    {
+                        "name":"Approved Solutions",
+                        "description":[
+                            "employ organization defined solutions in approved configurations to control the flow of organizaation defined information across security domains"
+                        ]
+                    },
+                    {
+                        "name":"Physical or Logical Separation of Information Flows",
+                        "description":[
+                            "separate information flows logically or physically using organization defined mechanisms and/or techniques to accomplish organization defined required separations by types of information"
+                        ]
+                    },
+                    {
+                        "name":"Access Only",
+                        "description":[
+                            "provide access from a single device to computing platforms, applications, or data residing in multiple different security domains, while preventing information flow between the different security domains"
+                        ]
+                    },
+                    {
+                        "name":"Modify Non Releasable Information",
+                        "description":[
+                            "when transferrring information between different security domains, modify non-releasable information by implementing organization defined modification action"
+                        ]
+                    },
+                    {
+                        "name":"Internal Normalized Format",
+                        "description":[
+                            "when transferring informaiton between security domains, parse incoming data into an itnernal normalized format and regenerate the data to be consistent with its intended specification"
+                        ]
+                    },
+                    {
+                        "name":"Audit Filtering Actions",
+                        "description":[
+                            "when transferring information between different security domains, record and audit content filtering actions and results for the information being filtered"
+                        ]
+                    },
+                    {
+                        "name":"Data Sanitization",
+                        "description":[
+                            "when transferring information between different security domains, sanitize data to minimize delivery of malicious content, command and control of malicious code, malicious code augmentation, and steganography encoded data, spillage of sensitive information in accordance with organization defined policy"
+                        ]
+                    },
+                    {
+                        "name":"Redudant/Independent Filtering Mechanisms",
+                        "description":[
+                            "when transferring information between different security domains, implement content filtering solutions that provide redudant and independent filtering mechanisms for each data type"
+                        ]
+                    },
+                    {
+                        "name":"Linear Filter Pipelines",
+                        "description":[
+                            "when transferring information between different security domains, implement a linear content filter pipelines that is enforced with discretionary and mandatory access controls"
+                        ]
+                    },
+                    {
+                        "name":"Filter Orchestration Engines",
+                        "description":[
+                            "when transferring information between different secuirty domains, implement content filtering mechansisms using multiple processes"
+                        ]
+                    },
+                    {
+                        "name":"Failed Content Transfer Prevention",
+                        "description":[
+                            "when transferring information between different secuirty domains, prevent the transfer of failed content to the receiving domain"
+                        ]
+                    },
+                    {
+                        "name":"Process Requirements for Information Transfer",
+                        "description":[
+                            "when transferring information between different security domains, the process that transfers information between filter pipelines",
+                            [
+                                "does not filter message content",
+                                "validates filtering metadata",
+                                "ensures the content associated with the filtering metadata has successfully completed filtering",
+                                "transfers the content to the destination filter pipelines"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"AC-6 - Least Privilege",
+                "subsection":[
+                    {
+                        "name":"Authorize Access to Security Functions",
+                        "descritpion":[
+                            "authorize access for organization defined individuals or roles to",
+                            [
+                                "organization defined security functions deployed in hardware, software, and firmware",
+                                "organization defined security relevant information"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Non Privileged Access for Nonsecurity Functions",
+                        "descritpion":[
+                            "require that users of system accounts or roles with access to organization defined security functions or security relevant information use non privilged accounts or roles, when accessing nonsecurity functions"
+                        ]
+                    },
+                    {
+                        "name":"Network Access to Privileged Commands",
+                        "descritpion":[
+                            "authorize network access to organization defined privileged commands only for organization defined compelling operational needs and document the rationale for such access in the security plan for the system"
+                        ]
+                    },
+                    {
+                        "name":"Separate Processing Domains",
+                        "descritpion":[
+                            "provide separate processing domains to enable finer grained allocation of user privileges"
+                        ]
+                    },
+                    {
+                        "name":"Privileged Accounts",
+                        "descritpion":[
+                            "restrict privileged accounts on the system to organization defined personnel or roles"
+                        ]
+                    },
+                    {
+                        "name":"Privileged Access by Nonorganizational Users",
+                        "descritpion":[
+                            "prohibit privileged access to the system by non organizational users"
+                        ]
+                    },
+                    {
+                        "name":"Review of User Privileges",
+                        "descritpion":[
+                            "review organization defined frequency the privileges assigned to organization defined roles or classes of users to validate the need for such privileges",
+                            "reassign or remove privileges, if necessary, to correctly reflect organizational mission and business needs"
+                        ]
+                    },
+                    {
+                        "name":"Privilege Levels for Code Execution",
+                        "descritpion":[
+                            "prevent the following software from executing at higher privilege levels than users executing the software: organization defined software"
+                        ]
+                    },
+                    {
+                        "name":"Log Use of Privileged Functions",
+                        "descritpion":[
+                            "log the execution of privileged functions"
+                        ]
+                    },
+                    {
+                        "name":"Least Privilege",
+                        "description":[
+                            "prevent nonprivileged users from executing privileged functions"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"AC-7 - Unsuccessful Logon Attempts",
+                "subsection":[
+                    {
+                        "name":"Purge or Wipe Mobile Device",
+                        "description":[
+                            "purge or wipe information from organization defined mobile devices based on organization defined purging o rwiping requirements and techniques after organization defined number consecutive, unsuccessful device logon attempts"
+                        ]
+                    },
+                    {
+                        "name":"Biometric Attempt Limiting",
+                        "description":[
+                            "limit the number of unsuccessful biometric logon attempts to organization defined number"
+                        ]
+                    },
+                    {
+                        "name":"Use of Alternate Authentication Factor",
+                        "description":[
+                            "allow the use of organization defined authentication factors that are different from the primary authentication factors after the number of organization defined consecutive invalid logon attempts have been execeded",
+                            "enforce a limit of organization defined number consecutive invalid logon attempts through use of the alternative factors by a user during an organization defined time period"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"AC-9 - Previous Logon Notification",
+                "subsection":[
+                    {
+                        "name":"Unsuccessful Logons",
+                        "description":[
+                            "notify the user, upon successful logon, of the number of unsuccessful logon attempts since the last successful logon"
+                        ]
+                    },
+                    {
+                        "name":"Successful and Unsuccessful Logons",
+                        "description":[
+                            "notify the user, upon successful logon, of the number of successful logons, unsuccessful logon attempts, or both during organization defined time period"
+                        ]
+                    },
+                    {
+                        "name":"Notification of Account Changes",
+                        "description":[
+                            "notify the user, upon successful logon, of changes to organization defined security related characteristics or parameters of the user's account during organization defined time period"
+                        ]
+                    },
+                    {
+                        "name":"Additional Logon Information",
+                        "description":[
+                            "notify the user, upon successful logon, of the following additional information: organization defined additions information"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"AC-11 - Device Lock",
+                "subsection":[
+                    {
+                        "name":"Pattern Hiding Displays",
+                        "description":[
+                            "conceal, via the device lock, information previously visible on the display with a publicly viewable image"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"AC-12 - Session Termination",
+                "subsection":[
+                    {
+                        "name":"User Initiated Logouts",
+                        "description":[
+                            "provide a logout capability for user initiated communications sessions whenever authentication is used to gain access to organization defined information resources"
+                        ]
+                    },
+                    {
+                        "name":"Termination Message",
+                        "description":[
+                            "display an explicit logout message to users indiciating the termination of authentication communication sessions"
+                        ]
+                    },
+                    {
+                        "name":"Timeout Warning Message",
+                        "description":[
+                            "display an explicit message to users indicating that the session will end in organization defined time until end of session"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"AC-16 - Security and Privacy Attributes",
+                "subsection":[
+                    {
+                        "name":"Dynamic Attribute Association",
+                        "description":[
+                            "dynamically associate security and privacy attributes with organization defined subjects and objects in accordance with the following secuirty and privacy policies as information is created and combined: organization defined security and privacy policies"
+                        ]
+                    },
+                    {
+                        "name":"Attribute Value Changes by Authorized Individuals",
+                        "description":[
+                            "provide authorized individuals (or processes acting on behalf of individuals) the capability to define or change the value of associated security and privacy attributes"
+                        ]
+                    },
+                    {
+                        "name":"Maintenance of Attribute Associations by System",
+                        "description":[
+                            "provide the association and integrity of organization defined security and privacy attributes to organization defined subhjects and objects"
+                        ]
+                    },
+                    {
+                        "name":"Association of Attributes by Authorized Individuals",
+                        "description":[
+                            "provide the capability to associate organizaiton defined security and privacy attributes with organization defined subjects and objects by authorized individuals (or processing acting on behalf of individuals)"
+                        ]
+                    },
+                    {
+                        "name":"Attribute Displays on Objects to be Output",
+                        "description":[
+                            "display security and prviacy attributes in human readable form on each object that the system transmits to output devices to identify organization defined special dissemination, handling, or distribution instructions using organization defined human readable, standard naming conventions"
+                        ]
+                    },
+                    {
+                        "name":"Maintenance of Attribute Association",
+                        "description":[
+                            "require personnel to associate and maintain the association of organization defined security and privacy attributes with organization defined subjects and objects in accordance with organization defined security and privacy policies"
+                        ]
+                    },
+                    {
+                        "name":"Consistent Attribute Interpretation",
+                        "description":[
+                            "provide a consistent interpretation of security and privacy attributes transmitted between distributed system components"
+                        ]
+                    },
+                    {
+                        "name":"Association Techniques and Technologies",
+                        "description":[
+                            "Implement organization defined techniques and technologies in associating security and privacy attributes to information "
+                        ]
+                    },
+                    {
+                        "name":"Attribute Reassignment - Regrading Mechanisms",
+                        "description":[
+                            "change security and privacy attributes associated with information only via regrading mechanisms validated using organization defined techniques or procedures"
+                        ]
+                    },
+                    {
+                        "name":"Attribute Configuration by Authorized Individuals",
+                        "description":[
+                            "provide authorized individuals the capability to define or change the type and value of security and privacy attributes available for association with subjects and objects"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"AC-17 - Remote Access",
+                "subsection":[
+                    {
+                        "name":"Monitoring and Control",
+                        "description":[
+                            "employ automated mechanisms to monitor and control remote access methods"
+                        ]
+                    },
+                    {
+                        "name":"Protection of Confidentiality and Integrity Using Encryption",
+                        "description":[
+                            "implement cryptographic mechanisms to protect the confidentiality and integrity of remote access sessions"
+                        ]
+                    },
+                    {
+                        "name":"Managed Access Control Points",
+                        "description":[
+                            "route remote access through authorized and managed network access control points"
+                        ]
+                    },
+                    {
+                        "name":"Privileged Commands and Access",
+                        "description":[
+                            "autohrize the execution of privileged commands and access to security relevant information via remote access only in a format that provides assessable evidence and for the following needs: organization defined needs",
+                            "document the rationale for remote access in the security plan for the system"
+                        ]
+                    },
+                    {
+                        "name":"Protection of Mechanism Information",
+                        "description":[
+                            "Protect information about remote access mechanisms from unauthorized use and disclosure"
+                        ]
+                    },
+                    {
+                        "name":"Disconnect or Disable Access",
+                        "description":[
+                            "Provide the capability to disconnect or disable remote access to the system within organization defined time period"
+                        ]
+                    },
+                    {
+                        "name":"Authenticate Remote Commands",
+                        "description":[
+                            "implement organization defined mechanisms to authenticate organization defined remote commands"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"AC-18 - Wireless Access",
+                "subsection":[
+                    {
+                        "name":"Authentication and Encryption",
+                        "description":[
+                            "protect wireless access to the system using authentication of users, devices and encryption"
+                        ]
+                    },
+                    {
+                        "name":"Disable Wireless Networking",
+                        "description":[
+                            "Disable, when not intended for use, wireless networking capabilities embedded within system components prior to issuance and deployment"
+                        ]
+                    },
+                    {
+                        "name":"Restrict Configurations by Users",
+                        "description":[
+                            "identify and explicitly authorize users allowed to independently configure wireless networking capabilities"
+                        ]
+                    },
+                    {
+                        "name":"Antennas and Transmission Power Levels",
+                        "description":[
+                            "Select radio antennas and calibrate transmission power levels to reduce the probability that signals from wireless access points can be received outside of organization controlled boundaries"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"AC-19 - Access Control for Mobile Devices",
+                "subsection":[
+                    {
+                        "name":"Restrictions for Classified Information",
+                        "description":[
+                            "prohibit the use of unclassified mobile devices in facilities containing systems processing, storing, or transmitting classified information unless specifically permitted by the authorizing official",
+                            "enforce the following restrictions on individuals permitted by the authorizing official to use unclassified mobile devices in facilities containing systems processing, storing, or transmitting classified information",
+                            "connection of unclassified mobile devices to classified systems is prohibited",
+                            "connection of unclassified mobile devices to unclassified systems requires approval from the authorizing officials",
+                            "use of internal or external modems or wireless interfaces within the unclassified mobile devices is prohibited",
+                            "unclassified mobile devices and the information stored on those devices are subject to random reviews and inspections by organization defined security officials and if classified information is found, the incident handling policy is followed",
+                            "restrict the connection of classified mobile devices to classified systems in accordance with organization defined security policies"
+                        ]
+                    },
+                    {
+                        "name":"Full Device or Container Based Encryption",
+                        "description":[
+                            "employ full device encryption, container absed encryption to protect the confidentiality and integrity of information on organization defined mobile devices"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"AC-20 - Use of External Systems",
+                "subsection":[
+                    {
+                        "name":"Limits on Authorized Use",
+                        "descritpion":[
+                            "permit authorized individuals to use an external system to access the system or to process, store, or transmit organization controlled information only after",
+                            "retention of approved system connection or processing agreements with the organizational entity hosting the external system"
+                        ]
+                    },
+                    {
+                        "name":"Portable Storage Devices - Restricted Use",
+                        "descritpion":[
+                            "restrict the use of organization controlled portable storage devices by authorized individuals on external systems using organization defined restrictions"
+                        ]
+                    },
+                    {
+                        "name":"Nonorganizationally Owned Systems - Restricted Use",
+                        "descritpion":[
+                            "Restrict the use of non-organizationally owned systems or system components to process, store, or transmit organizational infomration using organization defined restrictions"
+                        ]
+                    },
+                    {
+                        "name":"Network Accessible Storage Devices - Prohibited Use",
+                        "descritpion":[
+                            "prohibit the use of organization defined network accessible storage  devices in external systems"
+                        ]
+                    },
+                    {
+                        "name":"Portable Storage Devices - Prohibited Use",
+                        "descritpion":[
+                            "prohibit the use of organization controlled portable storage devices by authorized individuals on external systems"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"AC-21 - Information Sharing",
+                "subsection":[
+                    {
+                        "name":"Automated Decision Support",
+                        "description":[
+                            "employ organization defined automated mechanisms to enforce infomration sharing decisions by authorized users based on access authorizations of sharing partners and access restrictions on information to be shared"
+                        ]
+                    },
+                    {
+                        "name":"Information Search and Retrieval",
+                        "description":[
+                            "implement information search and retrieval services that enforce organization defined information sharing restrictions"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"AC-24 - Access Control Decisions",
+                "subsection":[
+                    {
+                        "name":"Transmit Access Authorization Information",
+                        "description":[
+                            "transmit organization defined access authorization information using organization defined controls to orgnaization defined systems that enforce access control decisions"
+                        ]
+                    },
+                    {
+                        "name":"No User or Process Identity",
+                        "description":[
+                            "enforce access control decisions based on organization defined security or privacy attributes that do not include the identity of the user or process acting on behalf of the user"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
