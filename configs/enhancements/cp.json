@@ -1,0 +1,270 @@
+[
+  {
+        "name":"CP",
+        "subsection":[
+            {
+                "name":"CP-2 - Contigency Plan",
+                "subsection":[
+                    {
+                        "name":"Coordinate with Related Plans",
+                        "description":[
+                            "coordinate contigency plan development with organizational elements responsible for related plans"
+                        ]
+                    },
+                    {
+                        "name":"Capacity Planning",
+                        "description":[
+                            "conduct capacity planning so that necessary capacity for information processing, telecommunications, and environmental support exists during contingency operations"
+                        ]
+                    },
+                    {
+                        "name":"Resume Mission and Business Functions",
+                        "description":[
+                            "plan for the resumption of essential mission and business functions within organizatino defined time period of contingency plan activation"
+                        ]
+                    },
+                    {
+                        "name":"Continue Mission and Business Functions",
+                        "description":[
+                            "plan for the continuance of essential missin and business functions with minimal or no loss of operational continuity and sustains that continuity until full system restoration at primary processing and/or storage sites"
+                        ]
+                    },
+                    {
+                        "name":"Alternate Processing and Storage Sites",
+                        "description":[
+                            "plan for the transer of essential mession and business functions to alternate processing and/or storage sites with minimal or no loss of operational continuity and sustain that continuity through system restoration to primary processing and/or storage sites"
+                        ]
+                    },
+                    {
+                        "name":"Coordinate with External Service Providers",
+                        "description":[
+                            "coordinate the contingency plan with the contingency plans of external service providers to ensure that contingency requirements can be satisfied "
+                        ]
+                    },
+                    {
+                        "name":"Identify Critical Assets",
+                        "description":[
+                            "identify critical system assets supporting essential mission and business functions"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"CP-3 - Contigency Training",
+                "subsection":[
+                    {
+                        "name":"Simulated Events",
+                        "description":[
+                            "incorporate simulated events into contingency training to facilitate effective response by personnel in crisis situations"
+                        ]
+                    },
+                    {
+                        "name":"Mechanisms Used in Training Evironments",
+                        "description":[
+                            "employ mechanisms used in operation to provide a more thorough and realistic contingency trainig environment"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"CP-4 - Contigency Plan Testing",
+                "subsection":[
+                    {
+                        "name":"Coordinate with Related Plans",
+                        "description":[
+                            "coordinate contingency plan testing with organizational elements responsible for related plans"
+                        ]
+                    },
+                    {
+                        "name":"Alternate Processing Site",
+                        "description":[
+                            "test the contingency plan at the alternate processing sites",
+                            [
+                                "to familiarize contingency personnel wiht the facility and available resources",
+                                "to evaluate the capabilities of the alternate processing site to support contingency operations"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Automated Testing",
+                        "description":[
+                            "test the contingency plan using organization defined automated mechanisms"
+                        ]
+                    },
+                    {
+                        "name":"Full Recovery and Reconstitution",
+                        "description":[
+                            "include a full recovery and reconstitution of the system to a known state as part of contingency plan testing"
+                        ]
+                    },
+                    {
+                        "name":"Self Challenge",
+                        "description":[
+                            "employ organization defined mechanisms to organization defiend system or system components to disrupt and adversely affect the system or system component"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"CP-6 - Alternate Storage Site",
+                "subsection":[
+                    {
+                        "name":"Separation from Primary Site",
+                        "description":[
+                            "identify an alternate storage site that is sufficiently separated from the primarystorage site to reduce susceptibility to the same threats"
+                        ]
+                    },
+                    {
+                        "name":"Recovery Time and Recovery Point Objectives",
+                        "description":[
+                            "configure the alternate storage site to facilitate recoveryy operations in accordance with recovery time and recovery point objectives"
+                        ]
+                    },
+                    {
+                        "name":"Accessibility",
+                        "description":[
+                            "identify potential accessibility problems to the alternate storage site in the event of an area wide disruption or diaster and outline explicit mitigation actions"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"CP-7 - Alternate Processing Site",
+                "subsection":[
+                    {
+                        "name":"Separation from Primary Site",
+                        "description":[
+                            "Identify an alternate processing site that is sufficiently separated form the primary processing site to reduce susceptibility to the same threats"
+                        ]
+                    },
+                    {
+                        "name":"Accessibility",
+                        "description":[
+                            "idenitfy potential accessibility problems to alternate processing sites in the event of an area wide disruption or diaster and outlines explicit mitigation actions"
+                        ]
+                    },
+                    {
+                        "name":"Priority of Service",
+                        "description":[
+                            "develop alternate processing site agreements that contain priority of service provisions in accordance with availability requirements including recovery time objectives"
+                        ]
+                    },
+                    {
+                        "name":"Preparation for Use",
+                        "description":[
+                            "prepare the alternate processing site so that the site can serve as the oeprational site supporting essential mission and business functions"
+                        ]
+                    },
+                    {
+                        "name":"Inability to Return to Primary Site",
+                        "description":[
+                            "plan and prepare for circumstances that preclude returning to the primary processing site"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"CP-8 - Telecommunications Services",
+                "subsection":[
+                    {
+                        "name":"Priority of Service Provisions",
+                        "description":[
+                            "develop primary and alternate telecommunications service agreements that contain priority of service provisions in accordance with availability requirements including recovery time objectives ",
+                            "request telecommunications service priority for all telecommunications services used for national security emergency preparedness if the primary and/or alternate telecommunications are provided by a common carrier"
+                        ]
+                    },
+                    {
+                        "name":"Single Points of Failure",
+                        "description":[
+                            "obtian alternate telecommunications services to reduce the likelihood of sharing a single point of failure with primary telecommunications services"
+                        ]
+                    },
+                    {
+                        "name":"Separation of Primary and Alternate Providers",
+                        "description":[
+                            "obtain alternate telecommunications services from providers that are separated from primary service providers to reduce susceptibility to the same threats"
+                        ]
+                    },
+                    {
+                        "name":"Provider Contingency Plan",
+                        "description":[
+                            "require primary and alternate telecommunications service providers to have contigency plan",
+                            "review provider contingency plans to ensure that the plans meet organizational contingency requirements",
+                            "obtain evidence of contingency testing and training by providers at organization defined frequency"
+                        ]
+                    },
+                    {
+                        "name":"Alternate Telecommunications Service Testing",
+                        "description":[
+                            "test alternate telecommuniation services at organization defined frequency"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"CP-9 - System Backup",
+                "subsection":[
+                    {
+                        "name":"Testing for Reliability and Integrity",
+                        "description":[
+                            "test backup information at organization defined frequency to verify media and information integrity"
+                        ]
+                    },
+                    {
+                        "name":"Test Restoration Using Sampling",
+                        "description":[
+                            "use a sample of backup infomration in the restoration of selected functions as part of contingency plan testing"
+                        ]
+                    },
+                    {
+                        "name":"Separate Storgae for Critical Information",
+                        "description":[
+                            "store backup copies of organization defined critical system software and other secuirty related information"
+                        ]
+                    },
+                    {
+                        "name":"Transfer to Alternate Storage Site",
+                        "description":[
+                            "transfer system backup by maintaing a redundant secondary system that is not collocated with the primary system and that can be activated without loss of information or disruption to operations"
+                        ]
+                    },
+                    {
+                        "name":"Dual Authorization for Deletion or Destruction",
+                        "description":[
+                            "enforce dual authorization for the deletion or desturction of organization defined backup information"
+                        ]
+                    },
+                    {
+                        "name":"Cryptographic Protection",
+                        "description":[
+                            "implement cryptographic mechanisms to prevent unauthorized disclosure and modification of organization defined backup information"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"CP-10 - System Recovery and Reconstitution",
+                "subsection":[
+                    {
+                        "name":"Tranaction Recovery",
+                        "description":[
+                            "implement transaction recovery for systems that are transaction based"
+                        ]
+                    },
+                    {
+                        "name":"Restore Within Time Period",
+                        "description":[
+                            "provide the capability to restore system components within organization defined restoration time periods from configuration controlled and integrity protected information representing a known, operational state for the components"
+                        ]
+                    },
+                    {
+                        "name":"Component Protection",
+                        "description":[
+                            "protect system components used for recovery and reconstittution"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+  }
