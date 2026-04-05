@@ -1,0 +1,121 @@
+ [ 
+  {
+          "name":"Contingency Planning Controls",
+          "subsection":[
+              {
+                  "name":"CP-1",
+                  "description":[
+                      "Develop, document, and disseminate to organization defined personnel or roles",
+                      [
+                          "Organization-level, mission/business process level, system level contingency planning policy that",
+                          [
+                              "Addresses purpose, scope, roles, responsibilities, management commitment, coordination among organization entities, and compliance",
+                              "Is consistent with applicable laws, executive orders, directives, regulation, policies, standards, and guidelines"
+                          ],
+                          "Procedures to facilitate the implementation of the contingency planning policy and the associated contingency planning control"
+                      ],
+                      "Designate an organization defined official to manage the development, documentation, and dissemination of the contingency planning policy and procedures",
+                      "Review and update the current contingency planning policy and procedures"
+                  ]
+              },
+              {
+                  "name":"CP-2",
+                  "description":[
+                      "Develop a contingency plan for the system that",
+                      [
+                          "Identifies essential mission and business functions and associated contingency requirements",
+                          "Provides recovery objectives, restoration priorities, and metrics",
+                          "Addresses contingency roles, responsibilities, assigned individuals with contact information",
+                          "Addresses maintaining essential mission and business functions despite with contact information",
+                          "Addresses maintaining essential mission and business functions despite a system disruption, compromise, or failure",
+                          "Addresses eventful, full system restoration without deterioration of the controls originally planned and implemented",
+                          "Addresses the sharing of contingency information",
+                          "Is reviewed and approved by organization defined personnel or roles"
+                      ],
+                      "Distribute copies of contingency plan to organization defined key contingency personnel and organizational elements",
+                      "Coordinate contingency planning activities with incident handling activities",
+                      "Review the contingency plan for the system at organization defined frequency",
+                      "Update the contingency plan to address changes to the organization, system, or environment of operation and problems encountered during contingency plan implementation, execution, or testing",
+                      "Communicate contingency plan changes to organization defined key contingency personnel and organizational elements",
+                      "Incorporate lessons learned from contingency plan testing, training, or actual contingency activities into contingency testing and training",
+                      "Protect the contingency plan from unauthorized disclosure and modification"
+                  ]
+              },
+              {
+                  "name":"CP-3",
+                  "description":[
+                      "Provide contingency training to system users consistent with assigned roles and responsibilities ",
+                      [
+                          "Within organization defined time period of assuming a contingency role or responsibility",
+                          "When required by system changes",
+                          "At organization defined frequency thereafter"
+                      ],
+                      "Review and update contingency training content at organization defined frequency and following organization defined events"
+                  ]
+              },
+              {
+                  "name":"CP-4",
+                  "description":[
+                      "Test the contingency plan for the system at organization defined frequency using the following tests to determine the effectiveness of the plan and the readiness to execute the plan",
+                      "Review the contingency plan test results",
+                      "Initiate corrective actions if needed"
+                  ]
+              },
+              {
+                  "name":"CP-6",
+                  "description":[
+                      "Establish an alternate storage site, including necessary agreements to permit the storage and retrieval of system backup information",
+                      "Ensure that the alternate storage site provides controls equivalent to that of the primary site"
+                  ]
+              },
+              {
+                  "name":"CP-7",
+                  "description":[
+                      "Establish an alternate processing site, including necessary agreements to permit the transfer and resumption of organization defined system operations for essential mission and business functions within organization defined time period consistent with recovery time and recovery point objectives when the primary processing capabilities are unavailable",
+                      "Make available at the alternate processing site, the equipment and supplies required to transfer and resume operations or put contracts in place to support delivery to the site within the organization defined time period for transfer and resumption",
+                      "Provide controls at the alternate processing site that are equivalent to those at the primary site"
+                  ]
+              },
+              {
+                  "name":"CP-8",
+                  "description":[
+                      "Establish alternate telecommunications services, including necessary agreements to permit the resumption of organization defined system operations for essential mission and business functions within organization defined time period when the primary telecommunications capabilities are unavailable at either the primary or alternate processing or storing sites"
+                  ]
+              },
+              {
+                  "name":"CP-9",
+                  "description":[
+                      "Conduct backups of user level information contained in organization defined system components ",
+                      "Conduct backups of system level information contained in the system at organization defined frequency consistent with recovery time and recovery point objectives",
+                      "Conduct backups of the system documentation, including security and privacy related documentation at organization defined frequency consistent with recovery time and recovery point objectives",
+                      "Protect the confidentiality, integrity, and availability of backup information"
+                  ]
+              },
+              {
+                  "name":"CP-10",
+                  "description":[
+                      "Provide for the recovery and reconstitution of the system to a known state within organization defined time period consistent with recover time and recovery point objectives after a disruption, compromise, or failure"
+                  ]
+              },
+              {
+                  "name":"CP-11",
+                  "description":[
+                      "Provide the capability to employ organization defined alternative communications protocols in support of maintaining continuity of operations"
+                  ]
+              },
+              {
+                  "name":"CP-12",
+                  "description":[
+                      "When organization defined conditions are detected, enter a safe mode of operation with organization defined restrictions of safe mode of operation"
+                  ]
+              },
+              {
+                  "name":"CP-13",
+                  "description":[
+                      "Employ organization defined alternative or supplemental security mechanism for satisfying organization defined security functions when the primary means of implementing the security function is unavailable or compromised"
+                  ]
+              }
+  
+          ]
+      }
+]

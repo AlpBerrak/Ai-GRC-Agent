@@ -1,0 +1,29 @@
+[
+  {
+          "name": "Unsuccessful Logon Attempts",
+          "subsection": [
+              {
+                  "name": "Purge or Wipe Mobile Devices",
+                  "description": [
+                      "Purge or wipe information from organization-defined mobile devices based on organization-defined purging or wiping requirements and techniques after organization-defined number consecutive, unsuccessful device logon attempts"
+                  ],
+                  "related controls": "AC-19, MP-5, MP-6"
+              },
+              {
+                  "name": "Biometric Attempt Limiting",
+                  "description": [
+                      "Limit the number of unsuccessful biometric logon attempts to Assignment: organization-defined number"
+                  ],
+                  "related controls": "IA-3"
+              },
+              {
+                  "name": "Use of Alternate Authentication Factor",
+                  "description":[
+                      "Allow the use of organization-defined authentication factors that are different from the primary authentication factors after the number of organization-defined consecutive invalid logon attempts have been exceeded",
+                      "Enforce a limit of organization-defined number consecutive invalid logon attempts through use of the alternative factors by a user during an organization-defined time period"
+                  ],
+                  "related controls": "IA-3"
+              }
+          ]
+      }
+]

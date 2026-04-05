@@ -1,0 +1,340 @@
+[
+  {
+        "name":"CM",
+        "subsection":[
+            {
+                "name":"CM-2 - Baseline Configuration",
+                "subsection":[
+                    {
+                        "name":"Automation Support for Accuracy and Currency",
+                        "description":[
+                            "maintain the currency, completeness, accuracy, and availability of the baseline configuration of the system using organization defined automated mechanisms"
+                        ]
+                    },
+                    {
+                        "name":"Retention of Previous Configurations",
+                        "description":[
+                            "retain organization defined number of previous verisons of baseline configurations of the system to support rollback"
+                        ]
+                    },
+                    {
+                        "name":"Development and Test Environments",
+                        "description":[
+                            "maintain a baseline configuration for system development and test environments that is managed separately from the operational baseline configuration"
+                        ]
+                    },
+                    {
+                        "name":"Configure Systems and Components for High Risk Areas",
+                        "description":[
+                            "issue organization defined systems or system components with organization defined configurations to individuals traveling to locations that the organization deems to be of significant risk",
+                            "Apply the following controls to the systems or components when the individuals return from travel: organization defined controls"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"CM-3 - Configuration Change Control",
+                "subsection":[
+                    {
+                        "name":"Automated Documentation, Notification, and Prohbition of Changes",
+                        "description":[
+                            "use orgnaization defined automated mechanisms to",
+                            [
+                                "document proposed changes to the system",
+                                "notify orgnaization defined approval authorities of proposed changes to the system and request change approval",
+                                "highlight proposed changes to the system that have not been approved or disapproved within orgnaization defined time period",
+                                "prohibit changes to the system until designated approvals are received",
+                                "document all changes to the systems",
+                                "notify orgnaization defined personnel when approved changes to the system are completed"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Testing, Validation, and Documentation of Changes",
+                        "description":[
+                            "test, validate, and document chagnes to the system before finalizing the implementation of changes"
+                        ]
+                    },
+                    {
+                        "name":"Security and Privacy Representatives",
+                        "description":[
+                            "require organization defined security and privacy representatives to be members of the organization defined configuration change control elements"
+                        ]
+                    },
+                    {
+                        "name":"Automated Security Response",
+                        "description":[
+                            "implement the following security responses automatically if baseline configurations are changed in an unauthorized manner: organization defined security responses"
+                        ]
+                    },
+                    {
+                        "name":"Cryptography Management",
+                        "description":[
+                            "ensure that cryptographic mechanisms used to provide the following controls are under configuration management: organization defined controls"
+                        ]
+                    },
+                    {
+                        "name":"Review System Changes",
+                        "description":[
+                            "review chagnes to the system orgnaization defined frequency or when orgnaization defined circumstances to determine whether unauthorized changes have occured"
+                        ]
+                    },
+                    {
+                        "name":"Prevent or Restrict Configuration Changes",
+                        "description":[
+                            "prevent or restrict changes to the configuration of the system under the following circumstances: organization defined circumstances"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"CM-4 - Impact Analyses",
+                "subsection":[
+                    {
+                        "name":"Separate test Environments",
+                        "description":[
+                            "analyze changes to the system in a separate test environment before implementation in an operational environment, looking for security and privacy impats due to flaws, weakness, incompatibility, or intentional malice"
+                        ]
+                    },
+                    {
+                        "name":"Verification of Controls",
+                        "description":[
+                            "after system changes, verify that the impacted controls are implemented correctly, operating as intended, and producing the desired outcome with regard to meeting the security and privacy requirements for the system"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"CM-5 - Access Restrictions for Change",
+                "subsection":[
+                    {
+                        "name":"Automated Access Enforcement and Audit Records",
+                        "description":[
+                            "enforce access restrictions using orgnaization defined automated mechanisms",
+                            "automatically generate audit records of the enforcement actions"
+                        ]
+                    },
+                    {
+                        "name":"Dual Authorization",
+                        "description":[
+                            "enforce dual authorization for implementing changes to organization defined system components and system level information"
+                        ]
+                    },
+                    {
+                        "name":"Privilege Limitation for Production and Operation",
+                        "description":[
+                            "limit privileges to change system components and system related information within a production or operational environment",
+                            "review and reevaluate privileges organization defined frequency"
+                        ]
+                    },
+                    {
+                        "name":"Privilege Limitation for Production and Operation",
+                        "description":[
+                            "limit privileges to change system components and system related information within a production or operational environemnt",
+                            "review and reevaluate priviledges organizaiton defined frequency"
+                        ]
+                    },
+                    {
+                        "name":"Limit Library Privileges",
+                        "description":[
+                            "limit priviledges to change software resident within software libraries"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"CM-6 - Configuration Settings",
+                "subsection":[
+                    {
+                        "name":"Automated Management, Application, and Verification",
+                        "description":[
+                            "manage, apply, and verify configuration settings for organizaiton defined system components using organization defined automated mechanisms"
+                        ]
+                    },
+                    {
+                        "name":"Respond to Unauthorized Changes",
+                        "description":[
+                            "take the following actions in response to unauthorized changes to organization defined configuration settings: organization defined actions"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"CM-7 - Least Functionality",
+                "subsection":[
+                    {
+                        "name":"Periodic Review",
+                        "description":[
+                            "review the system organization defined frequency to identifiy unnecessary and/or nonsecure functions, ports, protocols, software, and service",
+                            "disable and remove orgnaization defined functions, port, protocols, software, and services within the system deemed to be unnecessary and/or nonsecure"
+                        ]
+                    },
+                    {
+                        "name":"Prevent Program Execution",
+                        "description":[
+                            "prevent program execution in accordance with organization defined policies, rules of behavior, and/or access agreements regarding software program usage and restrictions, rules authorizing the terms and conditions of software program usage"
+                        ]
+                    },
+                    {
+                        "name":"Registration Compliance",
+                        "description":[
+                            "ensure compliance with organization defined registration requirements for functions, ports, protocols, and services"
+                        ]
+                    },
+                    {
+                        "name":"Unauthorized Software - Deny by Execution",
+                        "description":[
+                            "identify organization defined software programs not authorized to execute on the system",
+                            "employ an allow all, deny by exception policy to prohibit the execution of unauthorized software programs on the system",
+                            "review and update the list of unauthorized software programs at organization defined frequency"
+                        ]
+                    },
+                    {
+                        "name":"Autohrized Software - Allow by Exception",
+                        "description":[
+                            "identify organization defined software programs authorized to execute on the system",
+                            "employ a deny all, permit by execution policy to allow the execution of authorized software programs on the system",
+                            "reveiw and update the list of authorized software programs at organization defined frequency"
+                        ]
+                    },
+                    {
+                        "name":"Confined Environments with Limited Privileges",
+                        "description":[
+                            "require that the following user installed software execute in a configed physical or virtual machine environment with limited privileges: organization defined  user installed software"
+                        ]
+                    },
+                    {
+                        "name":"Code Execution in Protected Environments",
+                        "description":[
+                            "allow execution of binary or machine executable code only in confined physical or virtual environments and with explicit approval of organization defined personnel or roles when such code it",
+                            [
+                                "obtained from sources with limited or no warranty",
+                                "without the provision of source code"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Binary or Machine Executable Code",
+                        "description":[
+                            "prohibit the use of binary or machine executable code from sources with limited or no warranty or without the provision of source code",
+                            "allow exceptions only for compelling mission or operational requirements and with the approval of the authorizing official"
+                        ]
+                    },
+                    {
+                        "name":"Prohibiting the Use of Unauthorized Hardware",
+                        "description":[
+                            "idenitfy organization defined hardware components authorized for system use",
+                            "prohibit the use or connection of unauthorized hardware components",
+                            "review and update the list of authorized hardware components at organization defined frequency"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"CM-8 - System Component Inventory",
+                "subsection":[
+                    {
+                        "name":"Updates During Installation and Removal",
+                        "description":[
+                            "update the inventory of system components as part of component installations, removals, and system updates"
+                        ]
+                    },
+                    {
+                        "name":"Automated Unauthorized Component Detection",
+                        "description":[
+                            "maintain the currency, completeness, accuracy, and availability of the inventory of system components using organization defined automated mechanisms"
+                        ]
+                    },
+                    {
+                        "name":"Automated Unauthorized Component Detection",
+                        "description":[
+                            "detect the preseence of unauthorized hardware, software, and firmware components within the system using organization defined automated mechanisms at organization defined frequency",
+                            "take the following actions when unauthorized components are detected: disable network access by such components, isolate the components, notify organization defined personnel or roles"
+                        ]
+                    },
+                    {
+                        "name":"Accountability Infomration",
+                        "description":[
+                            "include in the system component inventory information, a mean for idenitfying by name, poisiton, role, individuals responsible and accountbale for administering those components"
+                        ]
+                    },
+                    {
+                        "name":"Assessed Configurations and Approved Deviations",
+                        "description":[
+                            "include assessed component configurations and any approved deviations to current deployed configurations in the system component inventory"
+                        ]
+                    },
+                    {
+                        "name":"Centralized Repository",
+                        "description":[
+                            "provide a centralized repository for the inventory of system components"
+                        ]
+                    },
+                    {
+                        "name":"Automated Location Tracking",
+                        "description":[
+                            "support the track of system components by geographic location using organization defined automated mechanisms"
+                        ]
+                    },
+                    {
+                        "name":"Assignment of Components to Systems",
+                        "description":[
+                            "assign system components to a system",
+                            "receive an acknowledgement from organization defined personnel or roles of this assignment"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"CM-9 - Configuration Management Plan",
+                "subsection":[
+                    {
+                        "name":"Assignment of Responsibility",
+                        "descritpion":[
+                            "assign responsibility for developing the configuration management process to organizational personnel that are not directly involved in system development"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"CM-10 - Software Usage Restrictions",
+                "subsection":[
+                    {
+                        "name":"Open Source Software",
+                        "description":[
+                            "establish the following restrictions on the sue of open source software: organization defined restrictions"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"CM-11 - User Installed Software",
+                "subsection":[
+                    {
+                        "name":"Software Installation with Privileged Status",
+                        "description":[
+                            "allow user installation of software only with explicit privileged status"
+                        ]
+                    },
+                    {
+                        "name":"Automated Enforcement and Monitoring",
+                        "description":[
+                            "enforce and monitor compliance with software installation policies using organization defined automated mechanisms"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"CM-12 - Information Location",
+                "subsection":[
+                    {
+                        "name":"Automated Tools to Support Infomration Location",
+                        "description":[
+                            "use automated tools to identify organization defined information by information type on organization defined system components to ensure controls are in place to protect organizational information and individual policy"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

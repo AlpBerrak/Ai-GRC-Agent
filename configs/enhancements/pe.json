@@ -1,0 +1,249 @@
+[
+  {
+        "name":"PE",
+        "subsection":[
+            {
+                "name":"PE-2 - Physical Access Authorizations",
+                "subsection":[
+                    {
+                        "name":"Access by Position or Role",
+                        "description":[
+                            "authorize physical access to the facility where the system resides based on positiion or role"
+                        ]
+                    },
+                    {
+                        "name":"Two Forms of Identification",
+                        "description":[
+                            "require two forms of identification from the following forms of identification for visitor access to the facility where the system resides: organization defined list of acceptable forms of identifications"
+                        ]
+                    },
+                    {
+                        "name":"Restrict Unescorted Access",
+                        "description":[
+                            "restrict unescorted access to the facility where the system resides to personnel with security clearances for all information contained within the system, formal access authorizations for all information contained within the system, need for access to all information contained within the system, organization defined physical access authorizations"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"PE-3 - Physical Access Control",
+                "subsection":[
+                    {
+                        "name":"System Access",
+                        "description":[
+                            "enforce physical access authorizations to the system in addition to the physical access controls for the facility at organization defined physical spaces containing one or more components of the system"
+                        ]
+                    },
+                    {
+                        "name":"Facility and Systems",
+                        "description":[
+                            "perform security checks at organization defined frequency at the physical perimeter of the facility or system for exfiltration of information or removal of system components"
+                        ]
+                    },
+                    {
+                        "name":"Continuous Guards",
+                        "description":[
+                            "employ guards to control organization defined physical access points to the facility where the system resides 24 hours per day, 7 days a week"
+                        ]
+                    },
+                    {
+                        "name":"Lockable Casings",
+                        "description":[
+                            "use locakble physical casings to protect organization defined system components from unauthorized physical access"
+                        ]
+                    },
+                    {
+                        "name":"Tamper Protection",
+                        "description":[
+                            "employ organization defined anti tamper technologies to detect, prevent physical tampering or alternation of organization defined hardware components within the system"
+                        ]
+                    },
+                    {
+                        "name":"Physical Barriers",
+                        "description":[
+                            "limit access using physical barriers"
+                        ]
+                    },
+                    {
+                        "name":"Access Control Vestibules",
+                        "description":[
+                            "employ access control vestibules at organization defined locations within the facility"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"PE-5 - Access Control for Output Devices",
+                "subsection":[
+                    {
+                        "name":"Link to Individual Identity",
+                        "description":[
+                            "link individual identity to receipt of output from output devices"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"PE-6 - Monitoring Physical Access",
+                "subsection":[
+                    {
+                        "name":"Instrusion Alarms and Surveillance Equipments",
+                        "description":[
+                            "monitor physical access to the facility where the system resides using physical intrusion and surveillance equipment"
+                        ]
+                    },
+                    {
+                        "name":"Automated Intrusion Recognition and Responses",
+                        "description":[
+                            "recognize organization defined classes or types of intrusions and initiate organization defined response actions using organization defined automated mechanisms"
+                        ]
+                    },
+                    {
+                        "name":"Video Surveillance",
+                        "description":[
+                            "employ video surveillance of organization defined operational areas",
+                            "review video recordings at organization defined frequency",
+                            "retain video recordings for organization defined time period"
+                        ]
+                    },
+                    {
+                        "name":"Monitoring Physical Access to Systems",
+                        "description":[
+                            "monitor physical access to the system in addition to the physical access monitoring of the facility at organization defined physical spaces containing one or more components of the system"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"PE-8 - Visitor Access Records",
+                "subsection":[
+                    {
+                        "name":"Automated Records Maintenance and Review",
+                        "description":[
+                            "maintain and review visitor access records using organization defined automated mechanisms"
+                        ]
+                    },
+                    {
+                        "name":"Limit Personally Identifiable Information Elements",
+                        "description":[
+                            "limit personally identifiable information contained in visitor access records to the following elements identified in the privacy risk assessment: organization defined elements"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"PE-9 - Power Equipment and Cabling",
+                "subsection":[
+                    {
+                        "name":"Redundant Cabling",
+                        "description":[
+                            "employ redundant power cabling paths that are physically separated by organization defined distance"
+                        ]
+                    },
+                    {
+                        "name":"Automatic Voltage Controls",
+                        "description":[
+                            "employ automatic voltage controls for organizatino defined critical system components"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"PE-11 - Emergency Power",
+                "subsection":[
+                    {
+                        "name":"Alternate Power Supply - Minimal Operational Capability",
+                        "description":[
+                            "provide an alternate power supply for the system that is activated manually or automatically and that can maintain minimally required operational capability in the event of an extended loss of the primary power source"
+                        ]
+                    },
+                    {
+                        "name":"Alternate Power Supply - Self Contained",
+                        "description":[
+                            "provide an alternate power supply for the system that is activated manually or automatically and that is",
+                            [
+                                "self contained",
+                                "not reliant on external power generation",
+                                "capable of maintaing minimally required operational capability, full operational capability in the event of an extended loss of the primary power source"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"PE-12 - Emergency Lighting",
+                "subsection":[
+                    {
+                        "name":"Essential Mission and Business Functions",
+                        "description":[
+                            "provide emergency lighting for all areas within the facility supporting essential mission and business functions"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"PE-13 - Fire Protection",
+                "subsection":[
+                    {
+                        "name":"Detection Systems - Automatic Activation and Notification",
+                        "description":[
+                            "employ fire detection systems that activate automatically and notify organization defined personnel or orles and organization defined emergency responders in the event of a fire"
+                        ]
+                    },
+                    {
+                        "name":"Suppression Systems - Automatic Activiation and Notification",
+                        "description":[
+                            "employ fire suppression systems that activate automatically and notify organization defined personnel or roles and organization defined emergency responders",
+                            "employ an automatic fire suppression capability when the facility is not staffed on a continuous basis"
+                        ]
+                    },
+                    {
+                        "name":"Inspections",
+                        "description":[
+                            "ensure that the facility undergoes organization defined frequency fire protection inspections by authorized and qualified inspectors and identified deficiencies are resolved within organization defined time period"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"PE-14 - Environmental Controls",
+                "subsection":[
+                    {
+                        "name":"Automatic Controls",
+                        "description":[
+                            "employ the following automatic environmental controls in the facility to prevent fluctuations potentially harmful to the system: organization defined automatic environmental controls"
+                        ]
+                    },
+                    {
+                        "name":"Monitoring with Alarms and Notifications",
+                        "description":[
+                            "employ environmental control monitoring that provides an alarm or notification of changes potentially harmful to personnel or equipment to organization defined personnel or roles"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"PE-15 - Water Damage Protection",
+                "subsection":[
+                    {
+                        "name":"Automation Support",
+                        "description":[
+                            "detect the presence of water near the system and alert organization defined personnel or roles using organization defined automated mechanisms"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"PE-19 - Information Leakage",
+                "subsection":[
+                    {
+                        "name":"National Emissions Policies and Procedures",
+                        "description":[
+                            "protect system components, associated data communications, and networks in accordance with national Emissions Security policies and procedures based on the security category or classification of the information"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

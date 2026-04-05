@@ -1,0 +1,21 @@
+[
+  {
+          "name":"Access Control Decisions",
+          "subsection":[
+              {
+                  "name": "Transmit Access Authorization Information",
+                  "description": [
+                      "Transmit organization-defined access authorization information using organization-defined controls to organization-defined systems that enforce access control decisions"
+                  ],
+                  "related controls": "AU-10"
+              },
+              {
+                  "name": "No User or Process Identity",
+                  "description":[
+                      "Enforce access control decisions based on organization-defined security or privacy attributes that do not include the identity of the user or process acting on behalf of the user"
+                  ],
+                  "related controls":"N/A"
+              }
+          ]
+      }
+]

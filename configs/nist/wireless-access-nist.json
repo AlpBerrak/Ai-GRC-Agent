@@ -1,0 +1,35 @@
+[
+  {
+          "name": "Wireless Access",
+          "subsection":[
+              {
+                  "name": "Authentication and Encryption",
+                  "description":[
+                      "Protect wireless access to the system using authentication of users, devices and encryption"
+                  ],
+                  "related controls":"SC-8, SC-12, SC-13"
+              },
+              {
+                  "name": "Disable Wireless Networking",
+                  "description":[
+                      "Disable, when not intended for use, wireless networking capabilities embedded within system components prior to issuance and deployment"
+                  ],
+                  "related controls":"N/A"
+              },
+              {
+                  "name": "Restrict Configurations by Users",
+                  "description":[
+                      "Identify and explicitly authorize users allowed to independently configure wireless networking capabilities"
+                  ],
+                  "related controls": "SC-7, SC-15"
+              },
+              {
+                  "name": "Antennas and transmission power levels",
+                  "description": [
+                      "Select radio antennas and calibrate transmission power levels to reduce the probability that signals from wireless access points can be received outside of organization-controlled boundaries"
+                  ],
+                  "related controls": "PE-19"
+              }
+          ]
+      }
+]

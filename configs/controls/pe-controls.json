@@ -1,0 +1,175 @@
+[  
+  {
+          "name":"Physical and Environmental Protection Controls",
+          "subsection":[
+              {
+                  "name":"PE-1",
+                  "description":[
+                      "Develop, document, and disseminate to organization defined personnel or roles",
+                      [
+                          "Organization level, mission/business process level, system level physical and environmental protection policy that",
+                          [
+                              "Addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities and compliance",
+                              "Is consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines"
+                          ],
+                          "Procedures to facilitate the implementation of the physical and environmental protection policy and the associated physical and environmental protection controls"
+                      ],
+                      "Designate an organization defined official to manage the development, documentation, and dissemination of the physical and environmental protection policy and procedures",
+                      "Review and update current physical and environmental protection policy and procedures"
+                  ]
+              },
+              {
+                  "name":"PE-2",
+                  "description":[
+                      "Develop, approve, and maintain a list of individuals with authorized access to the facility where the system resides",
+                      "Issue authorization credentials for facility access",
+                      "Review the access list detailing authorized facility access by individuals at organization defined frequency ",
+                      "Remove individuals from the facility access list when access is no longer required"
+                  ]
+              },
+              {
+                  "name":"PE-3",
+                  "description":[
+                      "Enforce physical access authorizations at organization defined entry and exit points to the facility where the system resides by",
+                      [
+                          "Verifying individual access authorizations before granting access to the facility",
+                          "Controlling ingress and egress to the facility using organization defined physical access control systems or devices or guards"
+                      ],
+                      "Maintain physical access audit logs for organization defined entry or exit points",
+                      "Control access to areas within the facility designated as publicly accessible by implementing organization defined physical access controls",
+                      "Control access to areas within the facility designated as publicly accessible by implementing organizational defined physical access control",
+                      "Escort visitors and control visitor activity ",
+                      "Secure keys, combinations, and other physical access devices",
+                      "Inventory organization defined physical access devices every organization defined frequency",
+                      "Change combinations and keys at organization defined frequency and/or when keys are lost, combinations are compromised, or when individuals possessing the keys or combinations are transferred or terminated"
+                  ]
+              },
+              {
+                  "name":"PE-4",
+                  "description":[
+                      "Control physical access to organization defined system distribution and transmission lines within organizational facilities using organization defined security controls"
+                  ]
+              },
+              {
+                  "name":"PE-5",
+                  "description":[
+                      "Control physical access to output from organization defined output devices to prevent unauthorized individuals from obtaining the output"
+                  ]
+              },
+              {
+                  "name":"PE-6",
+                  "description":[
+                      "Monitor physical access to the facility where the system resides to detect and respond to physical security incidents",
+                      "Review physical access logs at organization defined frequency and upon occurrence of organization defined events or potential indications of events ",
+                      "Coordinate results of reviews and investigations with the organizational incident response capability"
+                  ]
+              },
+              {
+                  "name":"PE-8",
+                  "description":[
+                      "Maintain visitor access records to the facility where the system resides for organization defined time period",
+                      "Review visitor access records at organization defined frequency",
+                      "Report anomalies in visitor access records to organization defined personnel"
+                  ]
+              },
+              {
+                  "name":"PE-9",
+                  "description":[
+                      "Protect power equipment and power cabling for the system from damage and destruction"
+                  ]
+              },
+              {
+                  "name":"PE-10",
+                  "description":[
+                      "Provide the capability of shutting off power to organization defined system or individual system components in emergency situations",
+                      "Place emergency shutoff switches or devices in organization defined location by system or system component to facilitate access for authorized personnel",
+                      "Protect emergency power shutoff capability from unauthorized activation"
+                  ]
+              },
+              {
+                  "name":"PE-11",
+                  "description":[
+                      "Provide an uninterruptible power supply to facilitate an orderly shutdown of a system, transition of the system to long term alternate power in the event of a primary power source loss"
+                  ]
+              },
+              {
+                  "name":"PE-12",
+                  "description":[
+                      "Employ and maintain automatic emergency lighting for the system that activates in the event of a power outage or disruption and that covers emergency exits and evacuation routes within the facility"
+                  ]
+              },
+              {
+                  "name":"PE-13",
+                  "description":[
+                      "Employ and maintain fire detection and suppression systems that are supported by an independent energy source"
+                  ]
+              },
+              {
+                  "name":"PE-14",
+                  "description":[
+                      "Maintain temperature, humidity, pressure, radiation at organizational defined environment control levels within facility where the system resides at organization defined acceptable levels",
+                      "Monitor environmental control levels at organization defined frequency"
+                  ]
+              },
+              {
+                  "name":"PE-15",
+                  "description":[
+                      "Protect the system from damage resulting from water leakage by providing master shutoff or isolation valves that are accessible, working properly, and known to key personnel"
+                  ]
+              },
+              {
+                  "name":"PE-16",
+                  "description":[
+                      "Authorize and control organization defined types of system components entering and exiting the facility",
+                      "Maintain records of the system components"
+                  ]
+              },
+              {
+                  "name":"PE-17",
+                  "description":[
+                      "Determine and document the organization defined alternate work sites allowed for use by employees",
+                      "Employ the following controls at alternate work sites",
+                      "Assess the effectiveness of controls at alternate work sites",
+                      "Provide a means for employees to communicate with information security and privacy personnel in case of incidents"
+                  ]
+              },
+              {
+                  "name":"PE-18",
+                  "description":[
+                      "Positions system components within the facility to minimize potential damage from organization defined physical and environmental hazards and to minimize the opportunity for unauthorized access"
+                  ]
+              },
+              {
+                  "name":"PE-19",
+                  "description":[
+                      "Protect the system from information leakage due to electromagnetic signals emanations"
+                  ]
+              },
+              {
+                  "name":"PE-20",
+                  "description":[
+                      "Employ organization defined asset location technologies to track and monitor the location and movement of organization defined assets within organization defined controlled areas"
+                  ]
+              },
+              {
+                  "name":"PE-21",
+                  "description":[
+                      "Employ organization defined protective measures against electromagnetic pulse damage for organization defined systems and system components"
+                  ]
+              },
+              {
+                  "name":"PE-22",
+                  "description":[
+                      "Mark organization defined system hardware components indicating the impact level or classification level of the information permitted to be processed, stored, or transmitted by the hardware component"
+                  ]
+              },
+              {
+                  "name":"PE-23",
+                  "description":[
+                      "Plan the location or site of the facility where the system resides considering physical and environmental hazards",
+                      "For existing facilities, consider the physical and environmental hazards in the organizational risk management strategy"
+                  ]
+              }
+          ]
+      }
+]

@@ -1,0 +1,132 @@
+[
+   {
+        "name":"CA",
+        "subsection":[
+            {
+                "name":"CA-2 - Control Assessments",
+                "subsection":[
+                    {
+                        "name":"Independent Assessors",
+                        "description":[
+                            "employ independent assessors or assessment teams to conduct control assessments"
+                        ]
+                    },
+                    {
+                        "name":"Specialized Assessments",
+                        "description":[
+                            "include as part of control assessments at organization defined frequency, announced or unannounced, in depth monitoring, security instrumentation, automated security test cases, vulnerability scanning, malicious user testing, insider threat assessment, performance and load testing, data leakage or data loss assessment, organization defined other forms of assessment"
+                        ]
+                    },
+                    {
+                        "name":"Leveraging Results from External Organizations",
+                        "description":[
+                            "leverage the results of control assessments performed by organization defined external organization on organization defined system when the assessment meets organization defined requirements"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"CA-5 - Plan of Action and Milestones",
+                "subsection":[
+                    {
+                        "name":"Transfer Authorizations",
+                        "description":[
+                            "verify that individuals or systems transferring data between interconnecting systems have the requisite authorizations prior to accepting such data"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"CA-6 - Authorization",
+                "subsection":[
+                    {
+                        "name":"Joint Authorization- Intra Organization",
+                        "description":[
+                            "employ a joint authorization process for the system that includes multiple authorizing officials from the same organization conducting the authorization"
+                        ]
+                    },
+                    {
+                        "name":"Joint Authorization Inter Organization",
+                        "description":[
+                            "employ a joint authorization process for the system that includes multiple authorizing officials with at least one authorizing official from an organization external to the organization conducting the authorization"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"CA-7 - Continuous Monitoring",
+                "subsection":[
+                    {
+                        "name":"Independent Assessment",
+                        "description":[
+                            "employ independent assessors or assessment teams to monitor the controls in the system on an ongoing basis"
+                        ]
+                    },
+                    {
+                        "name":"Trend Analyses",
+                        "description":[
+                            "employ trend analyses to determine if control implementations, the frequency of continuous monitoring activities, and the types of activities used in the continuous monitoring process need to be modified based on empirical data"
+                        ]
+                    },
+                    {
+                        "name":"Risk Monitoring",
+                        "description":[
+                            "ensure risk monitoring is an integral part of the continuous monitoring strategy that includes the following",
+                            [
+                                "effectiveness monitoring",
+                                "compliance monitoring",
+                                "change monitoring"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Consistency Analysis",
+                        "description":[
+                            "employ the following actions to validate that policies are established and implemented controls are operating in a consistent manner: organization defined actions"
+                        ]
+                    },
+                    {
+                        "name":"Automation Support for Monitoring",
+                        "description":[
+                            "ensure the accuracy, currency, and availability of monitoring results ofr the system using organization defined automated mechanisms"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"CA-8 - Penetration Testing",
+                "subsection":[
+                    {
+                        "name":"Independent Penetration Testing Agent or Team",
+                        "description":[
+                            "employ an independent penetration testing agent or team to perform penetration testing on the system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Red Team Exercises",
+                        "description":[
+                            "employ the following red team exercises to simulate attempts by adversaries to compromise organizational systems in accordance with applicable rules of engagement: organization defined red team exercises"
+                        ]
+                    },
+                    {
+                        "name":"Facility Penetration Testing",
+                        "description":[
+                            "employ a penetration testing process that includes organization defined frequency, announce or unannounced, attempts to bypass or circumvent controls associated with physical access points to the facility"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"CA-9 - Internal System Connections",
+                "subsection":[
+                    {
+                        "name":"Compliance Checks",
+                        "description":[
+                            "perform security and privacy compliance checks on constituent system components prior to the establishment of the internal connection"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,138 @@
+ [ 
+  {
+          "name":"Configuration Management Controls",
+          "subsection":[
+              {
+                  "name": "CM-1",
+                  "description":[
+                      "Develop, document, and disseminate to organization defined personnel or roles",
+                      [
+                          "Configuration management policy that",
+                          [
+                              "Addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance",
+                              "Is consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines"
+                          ],
+                          "Procedures to facilitate the implementation of the configuration management policy and the associated configuration management controls"
+                      ],
+                      "Designate an organization defined official to manage the development, documentation, and dissemination of the configuration management policy and procedures",
+                      "Review and update the current configuration management for policy and procedures"
+                  ]
+              },
+              {
+                  "name":"CM-2",
+                  "description":[
+                      "Develop, document, and maintain under configuration control, a current baseline configuration of the system",
+                      "Review and update the baseline configuration of the system",
+                      [
+                          "When required due to organization defined circumstances",
+                          "When system components are installed or upgraded"
+                      ]
+                  ]
+              },
+              {
+                  "name":"CM-3",
+                  "description":[
+                      "Determine and document the types of changes to the system that are configuration controlled",
+                      "Review proposed configuration controlled changes to the system and approve or disapprove such changes with explicit consideration for security and privacy impact analyses",
+                      "Document configuration change decisions associated with the system",
+                      "Implement approved configuration controlled changes to the system",
+                      "Retain records of configuration controlled changes to the system for organization defined time period",
+                      "Monitor and review activities associated with configuration controlled changes to the system",
+                      "Coordinate and provide oversight for configuration change control activities through organization defined configuration change control element that convenes at organizational defined frequency when organizational defined configuration change conditions"
+                  ]
+              },
+              {
+                  "name":"CM-4",
+                  "description":[
+                      "Analyze changes to the system to determine potential security and privacy impacts prior to change implementation"
+                  ]
+              },
+              {
+                  "name":"CM-5",
+                  "description":[
+                      "Define, document, approve, and enforce physical and logical access restrictions associated with changes to the system"
+                  ]
+              },
+              {
+                  "name":"CM-6",
+                  "description":[
+                      "Establish and document configuration settings for components employed within the system that reflect the most restrictive mode consistent with operational requirement using organization defined common secure configurations",
+                      "Implement the configuration settings",
+                      "Identify, document, and approve any deviations from established configuration settings for organization defined system components based on organization defined operational requirements",
+                      "Monitor and control changes to the configuration settings in accordance with organizational policies and procedures"
+                  ]
+              },
+              {
+                  "name":"CM-7",
+                  "description":[
+                      "Configure the system to provide only organizational defined mission essential capabilities",
+                      "Prohibit or restrict the use of the following functions, ports, protocols, software, and/or services"
+                  ]
+              },
+              {
+                  "name":"CM-8",
+                  "description":[
+                      "Develop and document an inventory of system components that",
+                      [
+                          "Accurately reflects the system",
+                          "Includes all components within the system",
+                          "Does not include duplicate accounting of components or components assigned to any other system",
+                          "Is at the level of granularity deemed necessary for tracking and reporting",
+                          "Includes the following information to achieve system component accountability"
+                      ],
+                      "Review and update the system component inventory at organization defined frequency"
+                  ]
+              },
+              {
+                  "name":"CM-9",
+                  "description":[
+                      "Develop, document, and implement a configuration management plan for the system that",
+                      [
+                          "Addresses roles, responsibilities, and configuration management processes and procedures",
+                          "Establishes a process for identifying configuration items throughout the system development life cycle and for managing the configuration of the configuration items",
+                          "Defines the configuration items for the system and places the configuration items under configuration management",
+                          "Is reviewed and approved by organization defined personnel or roles",
+                          "Protects the configuration management plan from unauthorized disclosure and modification"
+                      ]
+                  ]
+              },
+              {
+                  "name":"CM-10",
+                  "description":[
+                      "Use software and associated documentation in accordance with contract agreements and copyright law",
+                      "Track the use of software and associated documentation protected by quantity licenses to control copying and distribution",
+                      "Control and document the use of peer to peer file sharing technology to ensure that this capability is not used for the unauthorized distribution, display, performance, or reproduction or copyrighted work"
+                  ]
+              },
+              {
+                  "name":"CM-11",
+                  "description":[
+                      "Establish organization defined policies governing the installation of software by users",
+                      "Enforce software installation policies through the organization defined methods",
+                      "Monitor policy compliance at organization defined frequency"
+                  ]
+              },
+              {
+                  "name":"CM-12",
+                  "description":[
+                      "Identify and document the location of organization defined information and the specific system components on which the information is processed and stored",
+                      "Identify and document the users who have access to the system and system components where the information is processed and stored",
+                      "Document changes to the location where the information is processed and stored"
+                  ]
+              },
+              {
+                  "name":"CM-13",
+                  "description":[
+                      "Develop and document a map of system data actions"
+                  ]
+              },
+  
+              {
+                  "name":"CM14",
+                  "description":[
+                      "Prevent the installation of organization defined software and firmware components without verification that the component has been digitally signed using a certificate that is recognized and approved by the organization" 
+                  ]
+              }
+          ]
+      }
+]

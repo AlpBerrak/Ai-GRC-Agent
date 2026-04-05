@@ -1,0 +1,81 @@
+[
+  {
+        "name":"PS",
+        "subsection":[
+            {
+                "name":"PS-3 - Personnel Screening",
+                "subsection":[
+                    {
+                        "name":"Classified Information",
+                        "description":[
+                            "verify that individuals accessing a system processing, storing, or transmitting classified information are cleared and indoctrined to the highest classification level of the information to which they ahve access on the system"
+                        ]
+                    },
+                    {
+                        "name":"Formal Indoctrination",
+                        "description":[
+                            "verify that individuals accessing a system processing, storing, or transmitting types of classified informatino that require formal indoctrination, are fomrally indoctrinated for all the relevant types of information to which they have access on the system"
+                        ]
+                    },
+                    {
+                        "name":"Information Requiring Special Protective Meaures",
+                        "description":[
+                            "verfy that individuals accessing a system processing, storing, or transmitting information requiring special protections",
+                            [
+                                "have valid access authorizations that are demostated by assigned official government duties",
+                                "satisfy organization defined additional personnel screenign criteria"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Citizenship Requirements",
+                        "description":[
+                            "verify that individuals accessing a system processing, storing, or transmitting orgnaization defined information types meet organization defined citizneship requirements"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"PS-4 - Personnel Termination",
+                "subsection":[
+                    {
+                        "name":"Post Employment Requirements",
+                        "description":[
+                            "notify terminated individuals of applicable, legally binding post employment requirements for the protection of organizational information",
+                            "require terminated individuals to sign an acknowledgment of post employment requirements as part of the organizational termination process"
+                        ]
+                    },
+                    {
+                        "name":"Automated Actions",
+                        "description":[
+                            "use organization defined automated mechanisms to notify organization defined personnel or roles of individual termination actions, disable access to system resources"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"PS-6 - Access Agreements",
+                "subsection":[
+                    {
+                        "name":"Classified Information Requiring Special Protection",
+                        "description":[
+                            "verify that acess to classified information requiring special protection is granted only to individuals who",
+                            [
+                                "have a valid access authorization that is demonstrated by assigned official government duties",
+                                "satisfy associated personnel secuirty criteria",
+                                "have read, understood, and signed a nondisclosure agreement"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Post Employment Requirements",
+                        "description":[
+                            "notify individuals of applicable, legally binding post employment requirements for protection of organizational information",
+                            "require individuals to sign an acknowledgement of these requirements, if applicable, as part of granting initial access to covered information"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

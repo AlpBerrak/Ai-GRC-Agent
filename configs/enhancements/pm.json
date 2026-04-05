@@ -1,0 +1,67 @@
+[
+  {
+        "name":"PM",
+        "subsection":[
+            {
+                "name":"PM-5 - System Inventory",
+                "subsection":[
+                    {
+                        "name":"Inventory of Personally Identifiable Information",
+                        "description":[
+                            "estbalish, maintain, and update organization defined frequency an inventory of all systems, applications, and project that process personally identifiable information"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"PM-7 - Enterprise Architecture",
+                "subsection":[
+                    {
+                        "name":"Offloading",
+                        "description":[
+                            "offload organization defined non essential functions or services to other systems, system components, or an external provider"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"PM-16 - Threat Awareness Program",
+                "subsection":[
+                    {
+                        "name":"Automated Means for Sharing Threat Intelligence",
+                        "description":[
+                            "employ automated mechanisms to maximize the effectiveness of sharing threat intelligence information"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"PM-20 - Dissemination of Privacy Program Information",
+                "subsection":[
+                    {
+                        "name":"Privacy Policies on Websites, Applications, and Digital Services",
+                        "description":[
+                            "dvelop and post privacy policies on all external facing websites, mobile applications, and other digital services, that:",
+                            [
+                                "are written in plain language and organizaed in a way that is easy to understand and navigate",
+                                "provide information needed by the public to make an informed decision about whether and how to interact with the organization",
+                                "are updated whenever the organization makes a substantive chagne to the practices it describes and includes a time/date stamp to inform the public of the date of most recent changes"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"PM-30 - Supply Chain Risk Management Strategy",
+                "subsection":[
+                    {
+                        "name":"Suppliers of Critical or Mission Essential Items",
+                        "description":[
+                            "identify, prioritize, and assess suppliers of critical or mission essential technologies, products, and services"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

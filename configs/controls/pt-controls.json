@@ -1,0 +1,77 @@
+[
+  {
+          "name":"Personally Identifiable Information Processing and Transparency Controls",
+          "subsection":[
+              {
+                  "name":"PT-1",
+                  "description":[
+                      "Develop, document, and disseminate to organization defined personnel or roles",
+                      [
+                          "Organization level, mission/business process level, system level personally identifiable information processing and transparency policy that",
+                          [
+                              "Addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance",
+                              "Is consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines"
+                          ],
+                          "Procedures to facilitate the implementation of the personally identifiable information processing and transparency policy and the associated personally identifiable information processing and transparency controls"
+                      ],
+                      "Designate an organization defined official to manage the development, documentation, and dissemination of the personally identifiable information processing and transparency policy and procedures",
+                      "Review and update the current personally identifiable information processing and transparency policy and procedures"
+                  ]
+              },
+              {
+                  "name":"PT-2",
+                  "description":[
+                      "Determine and document the organization defined authority that permits the organization defined processing of personally identifiable information",
+                      "Restrict the organization defined processing of personally identifiable information to only that which is authorized"
+                  ]
+              },
+              {
+                  "name":"PT-3",
+                  "description":[
+                      "Identify and document the organization defined purposes for processing personally identifiable information",
+                      "Describe the purpose(s) in the public privacy notices and policies of the organization",
+                      "Restrict the organization defined processing of personally identifiable information to only that which is compatible with the identified purposes",
+                      "Monitor changes in processing personally identifiable information and implement organization defined mechanisms to ensure that any changes are made in accords with organization defined requirements"
+                  ]
+              },
+              {
+                  "name":"PT-4",
+                  "description":[
+                      "Implements organization defined tools or mechanisms for individuals to consent to the processing of their personally identifiable information prior to its collection that facilitate individuals’ informed decision making"
+                  ]
+              },
+              {
+                  "name":"PT-5",
+                  "description":[
+                      "Provide notice to individuals about the processing of personally identifiable information that:",
+                      [
+                          "Is available to individuals upon first interacting with an organization, and subsequently at organization defined frequency",
+                          "Is clear and easy-to-understand, expressing information about personally identifiable information processing in plain language",
+                          "Identifies the authority that authorizes the processing of personally identifiable information",
+                          "Identifies the purposes for which personally identifiable information is to be processed",
+                          "Includes organization defined information"
+                      ]
+                  ]
+              },
+              {
+                  "name":"PT-7",
+                  "description":[
+                      "Apply organization defined processing conditions for specific categories of personally identifiable information"
+                  ]
+              },
+              {
+                  "name":"PT-8",
+                  "description":[
+                      "When a system or organization processes information for the purpose of conducting a matching program:",
+                      [
+                          "Obtain approval from the Data Integrity Board to conduct the matching program",
+                          "Develop and enter into a computer matching agreement",
+                          "Publish a matching notice in the Federal Register",
+                          "Independently verify the information produced by the matching program before taking adverse action against an individual, if required",
+                          "Provide individuals with notice and an opportunity to contest the findings before taking adverse action against an individual"
+                      ]
+                  ]
+              }
+          ]
+      }
+]

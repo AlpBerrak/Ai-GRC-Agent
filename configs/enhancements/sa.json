@@ -1,0 +1,639 @@
+[
+  {
+        "name":"SA",
+        "subsection":[
+            {
+                "name":"SA-3 - System Development Life Cycle",
+                "subsection":[
+                    {
+                        "name":"Manage Preproduction Environment",
+                        "description":[
+                            "protect system preproduction environments commensurate with risk throughout the system development life cycle for the system, system component, or system service"
+                        ]
+                    },
+                    {
+                        "name":" Use of Live or Operational Data",
+                        "description":[
+                            "approve, document, and control the use of live data in preproduction environment for the system, system component, or system service",
+                            "protect preproduction environments for the system, system component, or system service at the same impact or classification level as any live data in use within the preproduction environments"
+                        ]
+                    },
+                    {
+                        "name":"Technology Refresh",
+                        "description":[
+                            "plan for and implement a technology refresh schedule for the system throughout the system development life cycle"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SA-4 - Acquisition Process",
+                "subsection":[
+                    {
+                        "name":"Functional Properties of Controls",
+                        "description":[
+                            "require the developer of the system, system component, or system service to provide a description of the functional properties of the contorls to be implemented"
+                        ]
+                    },
+                    {
+                        "name":"Design and Implementation Information for Controls",
+                        "description":[
+                            "require the developer of the system, system component, or system service to provide design and implementation information for the controls that includes: security relevant external system interfaces, high level design, low level design, source code or hardware schematics, organization defined design and implementation information at organization defined level of detail"
+                        ]
+                    },
+                    {
+                        "name":"Development Methods, Techniques, and Practices",
+                        "description":[
+                            "require the developer of the system, system component, or system service to demonstrate the use of the system development life cycle process that includes",
+                            [
+                                "organization defined systems engineering methods",
+                                "organization defined systems security, privacy enginerring methods",
+                                "organization defined software development methods, testing, evaluation, assessment, verification, and validation methods, and quality control processes"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"System, Component, and Service Configurations",
+                        "description":[
+                            "require the developer of the system, system component, or system service to",
+                            [
+                                "deliver the system, component, or service with organization defined security configurations implemented",
+                                "use the configurations as the default for any subsequent system, component, or service reinstallation or upgrade"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Use of Information Assurance Products",
+                        "description":[
+                            "employ only government off the shelf or commerical off the shelf information assurance and information assurance enable information technology products that compose an NSA approved solution to protect classified information when the networks used to transmit the information are at a lower classification level than the information being transmitted",
+                            "ensure that these products have been evaluated and/or validated by NSA or in accordance with NSA approved procedures"
+                        ]
+                    },
+                    {
+                        "name":"NIAP-Approved Protection Profiles",
+                        "description":[
+                            "limit the use of commerically provided information assurance and information assurance enabled information technology products to those products that have been successfully evaluated against a national information assurance partnership - approved protection profile for a specific technology type, if such a profile exists",
+                            "require if no NIAP-approved protection profile exists for a specific technology type but a commercially provided information technology product relies on cryptographic functionallity to enforce its security policy, that the cryptographic module is FIPS-validated or NSA-approved"
+                        ]
+                    },
+                    {
+                        "name":"Continuous Monitoring Plan for Controls",
+                        "description":[
+                            "require the developer of the system, system component, or system service to produce a plan for continuous monitoring of control effectiveness that is consistent with the continuous monitoring program of the organization"
+                        ]
+                    },
+                    {
+                        "name":"Functions, Ports, Protocols, and Services in Use",
+                        "description":[
+                            "require the developer of the system, system component, or system service to identify the functions, ports, protocols, and services, intended for organizational use"
+                        ]
+                    },
+                    {
+                        "name":"Use of Approved PIV Products",
+                        "description":[
+                            "employ only information technology products on the FIPS 201-approved products list for personal identity verification capability implemented within organizational systems"
+                        ]
+                    },
+                    {
+                        "name":"System of Records",
+                        "description":[
+                            "include organization defined privacy act requirements in the acquisition contract for the operation of a system of records on behalf of an organization to accomplish an organizational mission or function"
+                        ]
+                    },
+                    {
+                        "name":"Data Ownership",
+                        "description":[
+                            "include organizational data ownership requirements in the acquisition contract",
+                            "require all data to be removed from the contractor's system and returned to the organization within organization defined time frame"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SA-8 - Security and Privacy Engineering Principles",
+                "subsection":[
+                    {
+                        "name":"Clear Abstractions",
+                        "description":[
+                            "implement the secuirty design principle of clear abstractions"
+                        ]
+                    },
+                    {
+                        "name":"Least Common Mechanisms",
+                        "description":[
+                            "implemtn the security design principle of least common mechanism in organization defined system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Modularity and Layering",
+                        "description":[
+                            "implement the security design principles of modularity and layering in organization defined system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Partially Ordered Dependencies",
+                        "description":[
+                            "implement the security design principl of ordered dependencies in organization defined system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Efficiently Mediated Access",
+                        "description":[
+                            "implement the security design principle of efficiently mediated access in organization defined system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Minimized Sharing",
+                        "description":[
+                            "implement the security design principle of minimized sharing in organization defined system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Reduced Complexity",
+                        "description":[
+                            "implement the security design principle of reduced complexity in organization defined system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Secure Evolvability",
+                        "description":[
+                            "implement the security design principle of secure evolvability in organization defined system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Trusted Components",
+                        "description":[
+                            "implement the security design principle of trusted components in organization defined system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Hierarchical Trust",
+                        "description":[
+                            "implement the security design principle of hierarchical trust in organization defined system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Inverse Modification Threshold",
+                        "description":[
+                            "implement the security design principle of inverse modification threshold in organization defined system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Hierarchical Protection",
+                        "description":[
+                            "implement the secuirty design principle of heirarchical protection in organization defined system and system components"
+                        ]
+                    },
+                    {
+                        "name":"Minimized Security Elements",
+                        "description":[
+                            "implement the security design principle of minimized security elements in organization defined system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Least Privilege",
+                        "description":[
+                            "implement the security design principle of least privilege in organizatin defined system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Predicate Permission",
+                        "description":[
+                            "implement the security design principle of predicate permission in organization defined system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Self Reliant Trustworthiness",
+                        "description":[
+                            "implement the security design principle of self-reliant trustworthiness in organization defined system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Secure Distributed Composition",
+                        "description":[
+                            "implement the security design principle of secure distributed composition in organization defined system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Trusted Communications Channels",
+                        "description":[
+                            "implement the security design principle of trusted communications channels in organization defined system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Continuous Protection",
+                        "description":[
+                            "implement the security design principle of continuous protection in organization defined system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Secure Metadata Management",
+                        "description":[
+                            "implement the security design principle of self analysis in organization defined system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Self Analysis",
+                        "description":[
+                            "implement the security design principle of self analysis in organization defined system and system components"
+                        ]
+                    },
+                    {
+                        "name":"Accountability and Traceability",
+                        "description":[
+                            "implement the security design principle of accountability and traceability in organization defined system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Secure Defaults",
+                        "description":[
+                            "implement the security design principle of secure defaults in organization defined system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Economic Security",
+                        "description":[
+                            "implement the security design principle of economic security in organization defined system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Performance Security",
+                        "description":[
+                            "implement the security design principle of performance security in organization defined system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Huamn Factored Security",
+                        "description":[
+                            "implement the security design principle of human factored security in organization defined system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Acceptable Security",
+                        "description":[
+                            "implement the security design principle of acceptable security in organization defined system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Repeatable and Documented Procedures",
+                        "description":[
+                            "implement the security design principle of repeatable and documented procedures in organization defined system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Procedural Rigor",
+                        "description":[
+                            "implement the security design principle of procedural rigor in organization defined system or system component"
+                        ]
+                    },
+                    {
+                        "name":"Secure System Modification",
+                        "description":[
+                            "implement the security design principle of secure system modification in organization defined system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Sufficient Documentation",
+                        "description":[
+                            "implement the security design principle of sufficient documentation in organization defined system or system components"
+                        ]
+                    },
+                    {
+                        "name":"Minimization",
+                        "description":[
+                            "implement the privacy principle of minimization using organization defined processes"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SA-9 - External System Services",
+                "subsection":[
+                    {
+                        "name":"Risk Assessment and Organizational Approvals",
+                        "description":[
+                            "conduct an organizational assessment of risk prior to the acquisition or outsourcing of infomration security services",
+                            "verify that the acquisition or outsourcing of dedicated information security services is approved by organization defined personnel or roles"
+                        ]
+                    },
+                    {
+                        "name":"Identification of Functions, Ports, Protocols, and Services",
+                        "description":[
+                            "require providers of the following external systme services to identify the functions, ports, protocols, and other services required for the use of such services: organization defined external system services"
+                        ]
+                    },
+                    {
+                        "name":"Establish and Maintain Trust Relationship with Providers",
+                        "description":[
+                            "establish, document, and maintain trust relationships with external service providers based on the following requirements, properties, factros, or conditions: organization defined  security and privacy requirements, properties, factors, or conditions defining acceptable trust relationships"
+                        ]
+                    },
+                    {
+                        "name":"Processing, Storage, and Service Location",
+                        "description":[
+                            "restrict the location of information processing, information or data, system services to organization defined locations based on organization defined requirements or conditions"
+                        ]
+                    },
+                    {
+                        "name":"Organization Controlled Cryptographic Keys",
+                        "description":[
+                            "maintain exclusive control of cryptographic keys for encrypted material stored or transmitted through an external system"
+                        ]
+                    },
+                    {
+                        "name":"Organization Controlled Integrity Checking",
+                        "description":[
+                            "provide the capabiliity to check the integrity of information while it resides in the external system"
+                        ]
+                    },
+                    {
+                        "name":"Processing and Storage Location - US Jurisdiction",
+                        "description":[
+                            "restrict the geographic location of information processing and data storage to facilities located within the leagl jurisdication boundary of the US"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SA-10 - Developer Configuration Management",
+                "subsection":[
+                    {
+                        "name":"Software and Firmware Integrity Verification",
+                        "description":[
+                            "require the developer of the system, system component, or system service to enable integrity verification of software and firmware components"
+                        ]
+                    },
+                    {
+                        "name":"Alternative Configuration Management Processes",
+                        "description":[
+                            "provide an alternate configuration management process using organizational personnel in the absence of a dedicated developer configuration management team"
+                        ]
+                    },
+                    {
+                        "name":"Hardware Integrity Verification",
+                        "description":[
+                            "require the developer of the system, system component, or system service to enable integrity verification of hardware components"
+                        ]
+                    },
+                    {
+                        "name":"Trusted Generation",
+                        "description":[
+                            "require the developer of the system, system component, or system service to employ tools for comparing newly generated versions of security relevant hardware desscriptions, source code, and object code with previous versions"
+                        ]
+                    },
+                    {
+                        "name":"Mapping Integrity for Version Control",
+                        "description":[
+                            "require the developer of the system, system component, or system service to maintain the integrity of the mapping between the master build data describing the current verison of security relevant hardware, software, and firmware and the on site master copy of the data for the current version"
+                        ]
+                    },
+                    {
+                        "name":"Trusted Distribution",
+                        "description":[
+                            "require the developer of the system,  system component, or system service to execute procedures for ensuring that security relevant hardware, software, and firmware updates distributed to the organization are exactly as specified by the master copies"
+                        ]
+                    },
+                    {
+                        "name":"Security and Privacy Representatives",
+                        "description":[
+                            "require organization defined security and privacy representatives to be included in the organization defined configuration change management and control process"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SA-11 - Developer Testing and Evaluation",
+                "subsection":[
+                    {
+                        "name":"Static Code Analysis",
+                        "description":[
+                            "require the developer of the system, system component, or system service to employ static code analysis tools to identify common flaws and document the results of the analysis"
+                        ]
+                    },
+                    {
+                        "name":"Threat Modeling and Vulnerability Analyses",
+                        "description":[
+                            "require the developer of the system, system component, or system service to perform threat modeling and vulnerability analyses during development and the subsequent testing and evaluation of the system, component, or service  that",
+                            [
+                                "uses the following contextual information: organization defined information concerning impact, environment of operations, known or assumed threats, and acceptable risk levels",
+                                "employs the following tools and methods: orgnaization defined tools and methods",
+                                "conducts the modeling and analyses at the following level of rigor: organization defined breadth and depth of modeling and analyses",
+                                "produces evidence that meets the following acceptabce crititeria: organization defined acceptance criteria"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Independent Verification of Assessment Plans and Evidence",
+                        "description":[
+                            "require that an independent agent satisfying organization defined independence criteria to verify the correct implementation of the developer security and privacy assessment plans and the evidence produced during testing and evaluation",
+                            "verify that the independent agent is provided with sufficient information to complete the verification process or granted the authority to obtain such information"
+                        ]
+                    },
+                    {
+                        "name":"Manual Code Reviews",
+                        "description":[
+                            "require the developer of the system, system component, or system service to perform a manual code review of organization defined specific code using the following processes, procedures, and/or, techniques: organization defined processes, procedures, and/or techniques"
+                        ]
+                    },
+                    {
+                        "name":"Penetration Testing",
+                        "description":[
+                            "require the developer of the system, system component, or system service to perform penetration testing",
+                            [
+                                "at the following level of rigor: orgnaization defined breadth and depth of testing",
+                                "under the following constraints: organization defined constraints"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Attack Surface Reviews",
+                        "description":[
+                            "require the dveloper of the system, system component, or system service to perform attack surface reviews"
+                        ]
+                    },
+                    {
+                        "name":"Verify Scope of Testing and Evaluation",
+                        "description":[
+                            "require the developer of the system, system component, or system service to verify that the scope of testing and evaluation provided complete coverage of the required controls at the following level of rigor: organization defined breadth and depth of testing and evaluation"
+                        ]
+                    },
+                    {
+                        "name":"Dynamic Code Analyses",
+                        "description":[
+                            "require the developer of the system, system component, or system service to employ dynamic code analysis tools to identify common flaws and document the results of the analysis"
+                        ]
+                    },
+                    {
+                        "name":"Interactive Application Security Testing",
+                        "description":[
+                            "require the developer of the system, system component, or system service to employ interactive application security tools to identify flaws and document the results"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SA-15 - Development Process, Standards, and Tools",
+                "subsection":[
+                    {
+                        "name":"Quality Metrics",
+                        "description":[
+                            "require the developer of the system, system component, or system service to",
+                            [
+                                "define quality metrics at the beginning of the development process",
+                                "provide evidence of meeting the quality metrics: organization defined frequency, organization defined program review milestones, upon delivery"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Security and Privacy Tracking Tools",
+                        "description":[
+                            "require the developer of the system, system component, or system service to select and employ security and privacy tracking tools for use during the development process"
+                        ]
+                    },
+                    {
+                        "name":"Criticality Analysis",
+                        "description":[
+                            "require the developer of the system, system component, or system service to perform a criticality analysis",
+                            [
+                                "at the following decision points in the system development life cycle: orgnaization defined decision points in the system development life cycle",
+                                "at the following level of rigor: organization defined breadth and depth of criticality analysis"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Attack Surface Reduction",
+                        "description":[
+                            "require the developer of the system, system component, or system service to reduce attack surfaces to organization defined thresholds"
+                        ]
+                    },
+                    {
+                        "name":"Continuous Improvement",
+                        "description":[
+                            "require the developer of the system, system component, or system serviec to implement an explicit process to continuously improve the development process"
+                        ]
+                    },
+                    {
+                        "name":"Automated Vulnerability Analysis",
+                        "description":[
+                            "require the developer of the system, system component, or system service at organization defined frequency to",
+                            [
+                                "perform an automated vulnerability analysis using organization defined tools",
+                                "determine the exploitation potential for discovered vulnerabilities",
+                                "determine potential risk mitigations for delivered vulnerabilities",
+                                "deliver the outputs of the tools and results of the analysis to organization defined personnel or roles"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Reuse of Threat and Vulnerability Information",
+                        "description":[
+                            "require the developer of the system, system component, or system service to use threat modeling and vulnerability analyses from similar systems, components, or services to inform the current development process"
+                        ]
+                    },
+                    {
+                        "name":"Incident Response Plan",
+                        "description":[
+                            "require the developer of the system, system component, or system service to provide, implement, and test an incident response plan"
+                        ]
+                    },
+                    {
+                        "name":"Archive System or Component",
+                        "description":[
+                            "require the developer of the system or system component to archive the system or component to be released or delivered together with the corresponding evidence supporting the final security and privacy review"
+                        ]
+                    },
+                    {
+                        "name":"Minimize Personally Identifiable Information",
+                        "description":[
+                            "require the developer of the system or system component to minimize the use of personally identifiable information in development and test environments"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SA-17 - Developer Security and Privacy Architecture and Design",
+                "subsection":[
+                    {
+                        "name":"Formal Policy Model",
+                        "description":[
+                            "require the developer of the system, system component, or system serivce to",
+                            [
+                                "produce, as an integral part of the development process, a formal policy model describing the organization defined elements of organizational security and privacy policy to be enforced",
+                                "prove that the formal policy model is internally consistent and sufficient to enforce the defined elements of the organizational security and privacy policy when implemented"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Security Relevant Components",
+                        "description":[
+                            "reqiure the developer of the system, system components, or system service to",
+                            [
+                                "define security relevant hardware, software, and firmware",
+                                "provide a rationale that the definition for security relevant hardware, software, and firmware is complete"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Formal Correspondence",
+                        "description":[
+                            "require the developer of the system, system component, or system service to",
+                            [
+                                "produce, as an integral part of the development process, a formal top level specificies the interfaces to security relevant hardware, software, and firmware in terms of exceptions, error messages, and effect",
+                                "show via proof to the extent feasible with additional informal demonstration as necessary, that the formal top level specification is consistent with the formal policy model",
+                                "show via informal demonstration, that the formal top level specification completely covers the interfaces to security relevant hardware, software, and firmware",
+                                "show that the formal top level specification is an accurate description of the implemented security relevant hardware, software, and firmware",
+                                "describe the security relevant hardware, software, and firmware mechanisms not addressed in the formal top level specification but strictly internal to the security relevant hardware, software, and firmware in terms of exceptions, error messages, and firmware"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Informal Correspondence",
+                        "description":[
+                            "require the developer of the system, system component, or system service to",
+                            [
+                                "produce, as an integral part of the development process, an informal descriptive top level specification that specifies the interfaces to security relevant hardware, software, and firmware in terms of exceptions, error messages, and effects",
+                                "show via informal demonstration, convincing argument with formal methods as feasible that the descriptive top level specification is consitent with the formal policy model",
+                                "show via informal demonstration, that the descriptive top level specification completely covers the interfaces to security relevant hardware, software, and firmware",
+                                "show that the descriptive top level specification is an accurate description of the interfaces to security relevant hardware, software, and firmware",
+                                "describe the security relevant hardware, software, and firmware mechanisms not addressed in the descriptive top level specification but strictly internal to the security relevant hardware, software, and firmware"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Conceptually Simple Design",
+                        "description":[
+                            "require the developer of the system, system component, or system service to",
+                            [
+                                "design and structure the security relevant hardware, software, and firmware to use a complete, conceptually simple protection mechanism with precisley defined semantics",
+                                "internally structure the security relevant hardware, software, and firmware with specific regard for this mechanism"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Structure for Testing",
+                        "description":[
+                            "require the developer of the system, system component, or system service to structure security relevant hardware, software, and firmware to facilitate testing"
+                        ]
+                    },
+                    {
+                        "name":"Structure for Least Privilege",
+                        "description":[
+                            "require the developer of the system, system component, or system service to structure security relevant hardware, software, and firmware to facilitate controlling access with least privilege"
+                        ]
+                    },
+                    {
+                        "name":"Orchestration",
+                        "description":[
+                            "design organization defined critical systems or system components with coordinated behavior to implement the following capabilities: organization defined capabilities, by system or component"
+                        ]
+                    },
+                    {
+                        "name":"Design Diversity",
+                        "description":[
+                            "use different designs for organization defined critical systems or system components to satisfy a common set of requirements or to provide equivalent functionality"
+                        ]
+                    }
+                ]
+            }
+    }
+]

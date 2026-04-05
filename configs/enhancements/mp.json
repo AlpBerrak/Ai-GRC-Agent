@@ -1,0 +1,104 @@
+[
+  {
+        "name":"MP",
+        "subsection":[
+            {
+                "name":"MP-4 - Media Storage",
+                "subsection":[
+                    {
+                        "name":"Automated Restricted Access",
+                        "description":[
+                            "restrict access to media storage areas and log access attempts and access granted using organization defined automated mechanisms"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"MP-5 - Media Transport",
+                "subsection":[
+                    {
+                        "name":"Custodians",
+                        "description":[
+                            "employ an identified custodian during transport of system media outside of controlled areas"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"MP-6 - Media Sanitization",
+                "subsection":[
+                    {
+                        "name":"Review, Approve, Track, Document, and Verify",
+                        "description":[
+                            "review, approve, track, document, and verify media sanitization and disposal actions"
+                        ]
+                    },
+                    {
+                        "name":"Equipment Testing",
+                        "description":[
+                            "test sanitization equipment and procedures organization defined frequency to ensure that the intended sanitization is being achieved"
+                        ]
+                    },
+                    {
+                        "name":"Nondestructive Techniques",
+                        "description":[
+                            "apply nondestructive sanitization techniques to portable storage devices prior to connecting such devices to the system under the following circumstances: organization defined circumstances requiring sanitization of portable storage devices"
+                        ]
+                    },
+                    {
+                        "name":"Dual Authorization",
+                        "description":[
+                            "enforce dual authorization for the sanitization of organization defined system media"
+                        ]
+                    },
+                    {
+                        "name":"Remote Purging or Wiping of Information",
+                        "description":[
+                            "provide the capability to purge or wipe information from organization defined systems or system components remotely, or under organization defined conditions"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"MP-7 - Media Use",
+                "subsection":[
+                    {
+                        "name":"Prohibit the Use of Sanitization Resistant Media",
+                        "description":[
+                            "prohibit the use of santiziation resistant media in organizational systems"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"MP-8 - Media Downgrading",
+                "subsection":[
+                    {
+                        "name":"Documentation of Process",
+                        "description":[
+                            "document system media downgrading actions"
+                        ]
+                    },
+                    {
+                        "name":"Equipment Testing",
+                        "description":[
+                            "test downgrading equipment and procedures at organization defined frequency to ensure that downgradng actions are being achieved"
+                        ]
+                    },
+                    {
+                        "name":"Controlled Unclassified Information",
+                        "description":[
+                            "downgrade system media containing controlled unclassified information prior to public release"
+                        ]
+                    },
+                    {
+                        "name":"Classified Information",
+                        "description":[
+                            "downgrade system media containing classified infomraiton prior to release to individuals without required access authorizations"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

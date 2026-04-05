@@ -1,0 +1,316 @@
+[  
+  {
+          "name":"Systems and Communications Protection Controls",
+          "subsection":[
+              {
+                  "name":"SC-1",
+                  "description":[
+                      "Develop, document, and disseminate to organization defined personnel or roles",
+                      [
+                          "Organization level, mission/business process level, system level system and communication protection policy that",
+                          [
+                              "Addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance",
+                              "Is consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines"
+                          ],
+                          "Procedures to facilitate the implementation of the system and communications protection policy and the associated system and communications protection controls",
+                          "Designate an organization defined official to manage the development, documentation, and dissemination of the system and communications protection policy and procedures",
+                          "Review and update current system and communications protection policy and procedures"
+                      ]
+                  ]
+              },
+              {
+                  "name":"SC-2",
+                  "description":[
+                      "Separate user functionality, including user interface services, from system management functionality"
+                  ]
+              },
+              {
+                  "name":"SC-3",
+                  "description":[
+                      "Isolate security functions from nonsecurity functions"
+                  ]
+              },
+              {
+                  "name":"SC-4",
+                  "description":[
+                      "Prevent unauthorized and unintended information transfer via shared system resources"
+                  ]
+              },
+              {
+                  "name":"SC-5",
+                  "description":[
+                      "Protect against, limit the effects of the following types of denial of service events",
+                      "Employ organization defined controls to achieve the denial of service objective"
+                  ]
+              },
+              {
+                  "name":"SC-6",
+                  "description":[
+                      "Protect the availability of resource by allocating organization defined resources by priority, quota, organization defined controls"
+                  ]
+              },
+              {
+                  "name":"SC-7",
+                  "description":[
+                      "Monitor and control communications at the external managed interfaces to the system and at key internal managed interfaces within the system",
+                      "Implement subnetworks for publicly accessible system components that are physically, logically separated from internal organization networks",
+                      "Connect to external networks or systems only through managed interfaces consisting of boundary protection devices arranged in accordance with an organizational security and privacy architecture"
+                  ]
+              },
+              {
+                  "name":"SC-8",
+                  "description":[
+                      "Protect confidentiality, integrity of transmitted information"
+                  ]
+              },
+              {
+                  "name":"SC-10",
+                  "description":[
+                      "Terminate the network connection associated with a communication session at the end of the session or after organization defined time period of inactivity"
+                  ]
+              },
+              {
+                  "name":"SC-11",
+                  "description":[
+                      "Provide a physically, logically isolated trusted communications path for communications between the user and the trusted components of the system",
+                      "Permit users to invoke the trusted communications path for communications between the user and the following security functions of the system, including at a minimum, authentication and re-authentication"
+                  ]
+              },
+              {
+                  "name":"SC-12",
+                  "description":[
+                      "Establish and manage cryptographic keys when cryptography is employed within the system in accordance with the following key management requirements"
+                  ]
+              },
+              {
+                  "name":"SC-13",
+                  "description":[
+                      "Determines the organization defined cryptographic uses",
+                      "Implement organization defined types of cryptography for each specified cryptographic use"
+                  ]
+              },
+              {
+                  "name":"SC-15",
+                  "description":[
+                      "Prohibit remote activation of collaborative computing devices and applications with the following exceptions",
+                      "Provide an explicit indication of use to users physically present at the devices"
+                  ]
+              },
+              {
+                  "name":"SC-16",
+                  "description":[
+                      "Associate organization defined security and privacy attributes with information exchanged between systems and between system components"
+                  ]
+              },
+              {
+                  "name":"SC-17",
+                  "description":[
+                      "Issue public key certificates under an organization defined certificate policy or obtain public key certificates from an approved service provider",
+                      "Include only approved trust anchors in trust stores or certificate stores managed by the organization"
+                  ]
+              },
+              {
+                  "name":"SC-18",
+                  "description":[
+                      "Define acceptable and unacceptable mobile code and mobile code technologies",
+                      "Authorize, monitor, and control the use of mobile code within the system"
+                  ]
+              },
+              {
+                  "name":"SC-20",
+                  "description":[
+                      "Provide additional data origin authentication and integrity verification artifacts along with the authoritative name resolution data the system returns in response to external name/address resolution queries",
+                      "Provide the means to indicate the security status of child zones and (if the child supports secure resolution services) to enable verification of a chain of trust among parent and child domains, when operating as part of a distributed, hierarchical namespace"
+                  ]
+              },
+              {
+                  "name":"SC-21",
+                  "description":[
+                      "Request and perform data origin authentication and data integrity verification on the name/address resolution responses the system receives from authoritative sources"
+                  ]
+              },
+              {
+                  "name":"SC-22",
+                  "description":[
+                      "Ensure the systems that collectively provide name/address resolution service for an organization are fault-tolerant and implement internal and external role separation"
+                  ]
+              },
+              {
+                  "name":"SC-23",
+                  "description":[
+                      "Protect the authenticity of communications sessions"
+                  ]
+              },
+              {
+                  "name":"SC-24",
+                  "description":[
+                      "Fail to an organization defined known system state for the following failures on the indicated components while preserving organization defined system state information in failure"
+                  ]
+              },
+              {
+                  "name":"SC-25",
+                  "description":[
+                      "Employ minimal functionality and information storage on the following system components"
+                  ]
+              },
+              {
+                  "name":"SC-26",
+                  "description":[
+                      "Include components within organizational systems specifically designed to be the target of malicious attacks for detecting, deflecting, and analyzing such attacks"
+                  ]
+              },
+              {
+                  "name":"SC-27",
+                  "description":[
+                      "Include within organizational systems the following platform independent applications"
+                  ]
+              },
+              {
+                  "name":"SC-28",
+                  "description":[
+                      "Protect the confidentiality, integrity of the following information at rest"
+                  ]
+              },
+              {
+                  "name":"SC-29",
+                  "description":[
+                      "Employ a diverse set of information technologies for the following system components in the implementation of the system"
+                  ]
+              },
+              {
+                  "name":"SC-30",
+                  "description":[
+                      "Employ the following concealment and misdirection techniques for organization defined systems at organization defined time periods to confuse and mislead adversaries"
+                  ]
+              },
+              {
+                  "name":"SC-31",
+                  "description":[
+                      "Perform a covert channel analysis to identify those aspects of communications within the system that are potential avenues for covert storage, timing channels",
+                      "Estimate the maximum bandwidth of those channels"
+                  ]
+              },
+              {
+                  "name":"SC-32",
+                  "description":[
+                      "Partition the system into organization defined system components residing in separate physical, logical domains or environments based on organization fiend circumstances for physical or logical separation of components"
+                  ]
+              },
+              {
+                  "name":"SC-34",
+                  "description":[
+                      "For organization defined system components, load and execute",
+                      [
+                          "The operating environment from hardware-enforced, read-only media",
+                          "Organization defined applications from hardware enforced, read only media"
+                      ]
+                  ]
+              },
+              {
+                  "name":"SC-35",
+                  "description":[
+                      "Include system components that proactively seek to identify network-based malicious code or malicious websites"
+                  ]
+              },
+              {
+                  "name":"SC-36",
+                  "description":[
+                      "Distribute the following processing and storage components across multiple physical location, logical domains"
+                  ]
+              },
+              {
+                  "name":"SC-37",
+                  "description":[
+                      "Employ the following out of band channels for the physical delivery or electronic transmission of organization defined information, system components, or devices to organization defined individuals or systems"
+                  ]
+              },
+              {
+                  "name":"SC-38",
+                  "description":[
+                      "Employ the following operations security controls to protect key organizational information throughout the system development life cycle"
+                  ]
+              },
+              {
+                  "name":"SC-39",
+                  "description":[
+                      "Maintain a separate execution domain for each executing system process"
+                  ]
+              },
+              {
+                  "name":"SC-40",
+                  "description":[
+                      "Protect external and internal organization defined wireless links from the following signal parameter attacks "
+                  ]
+              },
+              {
+                  "name":"SC-41",
+                  "description":[
+                      "Physically, logically disable or remove organization defined connection ports or input/output devices on the following systems or system components"
+                  ]
+              },
+              {
+                  "name":"SC-42",
+                  "description":[
+                      "Prohibit the use of devices possessing organization defined environmental sensing capabilities in organization defined facilities, areas, or systems, the remotes activation of environmental sensing capabilities on organizational systems or system components with the following exceptions",
+                      "Provide an explicit indication of sensor use to organization defined group of users"
+                  ]
+              },
+              {
+                  "name":"SC-43",
+                  "description":[
+                      "Establish usage restrictions and implementation guidelines for the following system components",
+                      "Authorize, monitor, and control the use of such components within the system"
+                  ]
+              },
+              {
+                  "name":"SC-44",
+                  "description":[
+                      "Employ a detonation chamber capability within organization defined system, system component, or location"
+                  ]
+              },
+              {
+                  "name":"SC-45",
+                  "description":[
+                      "Synchronize system clocks within and between systems and system components"
+                  ]
+              },
+              {
+                  "name":"SC-46",
+                  "description":[
+                      "Implement a policy enforcement mechanism physically, logically between the physical and/or network interfaces for the connecting security domains"
+                  ]
+              },
+              {
+                  "name":"SC-47",
+                  "description":[
+                      "Establish organization defined alternate communication paths for system operations organizational command and control"
+                  ]
+              },
+              {
+                  "name":"SC-48",
+                  "description":[
+                      "Relocate organization defined sensors and monitoring capabilities to organization defined locations under the following conditions or circumstances"
+                  ]
+              },
+              {
+                  "name":"SC-49",
+                  "description":[
+                      "Implement hardware-enforced separation and policy enforcement mechanisms between organization defined security domains"
+                  ]
+              },
+              {
+                  "name":"SC-50",
+                  "description":[
+                      "Implement software enforced separation and policy enforcement mechanisms between organization defined security domains"
+                  ]
+              },
+              {
+                  "name":"SC-51",
+                  "description":[
+                      "Employ hardware based, write protect for organization defined system firmware components",
+                      "Implement specific procedures for organization defined authorized individuals to manually disable hardware write protect for firmware modifications and enable the write product prior to returning to operational mode"
+                  ]
+              }
+          ]
+      }
+]

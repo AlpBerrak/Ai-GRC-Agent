@@ -1,0 +1,126 @@
+[
+  {
+          "name": "Access Enforcement",
+          "subsection": [
+              {
+                  "name": "Dual Authorization",
+                  "description": [    
+                      "Enforce dual authorization for organization defined privilege commands and/or other organization defined actions"   
+                  ],
+                  "related controls": "CP-9, MP-6"
+              },
+              {
+                  "name": "Mandatory Access Control",
+                  "description": [
+                      "Enforce organization defined mandatory access control policy over the set of covered subjects and objects specified in the policy, and where the policy",
+                      [
+                          "Is uniformly enforced across the covered subjects and objects within the system",
+                          "Specifies that a subject that has been granted access to information is constrained from doing any of the following",
+                          [
+                              "Passing the information to unauthorized subjects or objects",
+                              "Granting its privileges to other subjects",
+                              "Changing one or more security attributes (specified by the policy) on subjects, objects, the system, or system components",
+                              "Choosing the security attributes and attribute values (specified by the policy) to be associated with newly created or modified objects",
+                              "Changing the rules governing access control"
+                          ],
+                          "Specifies that organization defined subjects may explicitly be granted organization defined privileges such that they are not limited by any defined subset (or all) of the above constraints"
+                      ]
+                  ],
+                  "related controls": "SC-7"
+              },
+              {
+                  "name": "Discretionary Access Control",
+                  "description": [
+                      "Enforce organization defined discretionary access control policy over the set of covered subjects and objects specified in the policy, and where the policy specifies that a subject that has been granted access to information can do one or more of the following",
+                      [
+                          "Pass the information to any other subjects or objects",
+                          "Grant its privileges to other subjects",
+                          "Change security attributes on subjects, objects, the system, or the system’s components",
+                          "Choose the security attributes to be associated with newly created or revised objects",
+                          "Change the rules governing access control"
+                      ]
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Security Relevant Information",
+                  "description": [
+                      "Prevent access to organization defined security relevant information except during secure, non operable system states"
+                  ],
+                  "related controls": "CM-6, SC-39"
+              },
+              {
+                  "name": "Role Based Access Control",
+                  "description": [
+                      "Enforce a role based access control policy over defined subjects and object and control access based upon organization defined roles and users authorized to assume such roles"
+                  ],
+                  "related controls":"N/A" 
+              },
+              {
+                  "name": "Revocatiuon of Access Authorizations",
+                  "description": [
+                      "Enforce the revocations of access authorizations resulting from changes to the security attributes of subjects and objects based on organization defined rules governing the timing of revocations of access authorizations"
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Controlled Release",
+                  "description": [
+                      "Release information outside of the system only if",
+                      [
+                          "The receiving organization defined system or system component provide organization defined controls",
+                          "Organization defined controls are used to validate the appropriateness of the information designated for release"
+                      ]
+                  ],
+                  "related controls": "CA-3, PT-7, PT-8, SA-9, SC-16"
+              },
+              {
+                  "name": "Audited Override of Access Control Mechanisms",
+                  "description": [
+                      "Employ an audited override of automated access control mechanisms under organization defined conditions by organization defined roles"
+                  ],
+                  "related controls": "AU-2, AU-6, AU-10, AU-12, AU-14"
+  
+              },
+              {
+                  "name": "Restrict Access to Specific Information Types",
+                  "description": [
+                      "Restrict access to data repositories containing organization defined information types"
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Assert and Enforce Application Access",
+                  "description": [
+                      "Require applications to assert, as part of the installation process, the access needed to the following system applications and functions ",
+                      "Provide an enforcement mechanism to prevent unauthorized access",
+                      "Approve access changes after initial installation of the application"
+                  ],
+                  "related controls": "CM-7"
+              },
+              {
+                  "name": "Attribute Based Access Control",
+                  "description": [
+                      "Enforce attribute based access control policy over defined subject and objects and control access based upon organization defined attributes to assume access permissions"
+                  ],
+                  "related controls": "N/A"
+              },
+              {
+                  "name": "Individual Access",
+                  "description": [
+                      "Provide organization defined mechanisms to enable individuals to have access to the following elements of their personally identifiable information"
+                  ],
+                  "related controls": "IA-8, PM-22, PM-20, PM-21, PT-6"
+              },
+              {
+                  "name": "Discretionary and Mandatory Access Control",
+                  "description": [
+                      "Enforce organization defined mandatory access control policy over the set of covered subjects and objects specified in the policy",
+                      "Enforce organization defined discretionary access control policy over the set of covered subjects and objects specified in the policy"
+                  ],
+                  "related controls": "SC-2, SC-3, AC-4"
+              }
+          ]
+  
+      }
+]

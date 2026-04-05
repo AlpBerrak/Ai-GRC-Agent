@@ -1,0 +1,175 @@
+[  
+  {
+          "name":"System and Services Acquistion Controls",
+          "subsection":[
+              {
+                  "name":"SA-1",
+                  "description":[
+                      "Develop, document, and disseminate to organization defined personnel or roles",
+                      [
+                          "Organization level, mission/business process level, system level system and services acquisition policy that",
+                          [
+                              "Addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance",
+                              "Is consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines"
+                          ],
+                          "Procedures to facilitate the implementation of the system and services acquisition policy and the associated system and services acquisition controls"
+                      ],
+                      "Designate an organization defined official to manage the development, documentation, and dissemination of the system and services acquisition policy and procedures",
+                      "Review and update the current system and services acquisition policy and procedures"
+                  ]
+              },
+              {
+                  "name":"SA-2",
+                  "description":[
+                      "Determine the high-level information security and privacy requirements for the system or system service in mission and business process planning",
+                      "Determine, document, and allocate the resources required to protect the system or system service as part of the organizational capital planning and investment control process",
+                      "Establish a discrete line item for information security and privacy in organizational programming and budgeting documentation"
+                  ]
+              },
+              {
+                  "name":"SA-3",
+                  "description":[
+                      "Acquire, develop, and manage the system using organization defined system development life cycle that incorporates information security and privacy considerations",
+                      "Define and document information security and privacy roles and responsibilities throughout the system development life cycle",
+                      "Identity individuals having information security and privacy roles and responsibilities",
+                      "Integrate the organizational information security and privacy risk management process into system development life cycle activities"
+                  ]
+              },
+              {
+                  "name":"SA-4",
+                  "description":[
+                      "Include the following requirements, descriptions, and criteria, explicitly or by reference, using standardized contract language in the acquisition contract for the system, system component, or system service",
+                      [
+                          "Security and privacy functional requirements",
+                          "Strength of mechanism requirements",
+                          "Security and privacy assurance requirements",
+                          "Controls needed to satisfy the security and privacy requirements",
+                          "Security and privacy documentation requirements",
+                          "Requirements for protecting security and privacy documentation",
+                          "Description of the system development environment and environment in which the system is intended to operate",
+                          "Allocation of responsibility or identification of parties responsible for information security, privacy, and supply chain risk management",
+                          "Acceptance criteria"
+                      ]
+                  ]
+              },
+              {
+                  "name":"SA-5",
+                  "description":[
+                      "Obtain or develop administrator documentation for the system, system component, or system service that describes:",
+                      [
+                          "Secure configuration, installation, and operation of the system, component, or service",
+                          "Effective use and maintenance of security and privacy functions and mechanisms",
+                          "Known vulnerabilities regarding configuration and use of administrative or privileged functions"
+                      ],
+                      "Obtain or develop user documentation for the system, system component, or system service that describes:",
+                      [
+                          "User-accessible security and privacy functions and mechanisms and how to effectively use those functions and mechanisms",
+                          "Methods for user interaction, which enables individuals to use the system, component, or service in a more secure manner and protect individual privacy",
+                          "User responsibilities in maintaining the security of the system, component, or service and privacy of individuals"
+                      ],
+                      "Document attempts to obtain system, system component, or system service documentation when such documentation is either unavailable or nonexistent and take organization defined actions in response",
+                      "Distribute documentation or organization defined personnel or roles"
+                  ]
+              },
+              {
+                  "name":"SA-8",
+                  "description":[
+                      "Apply the following systems security and privacy engineering principles in the specification, design, development, implementation, and modification of the system and system components"
+                  ]
+              },
+              {
+                  "name":"SA-9",
+                  "description":[
+                      "Require that providers of external system services comply with organizational security and privacy requirements and employ organization defined controls",
+                      "Define and document organizational oversight and user roles and responsibilities with regard to external system services",
+                      "Employ the following processes, methods, and techniques to monitor control compliance by external service providers on an ongoing basis"
+                  ]
+              },
+              {
+                  "name":"SA-10",
+                  "description":[
+                      "Require the developer of the system, system component, or system service to",
+                      [
+                          "Perform configuration management during system, component, or service design, development, implementation, operation, disposal",
+                          "Document, manage, and control the integrity of changes to organization defined configuration items under configuration management",
+                          "Implement only organization-approved changes to the system, component, or service",
+                          "Document approved changes to the system, component, or service and the potential security and privacy impacts of such changes",
+                          "Track security flaws and flaw resolution within the system, component, or service and report finding to organization defined personnel"
+                      ]
+                  ]
+              },
+              {
+                  "name":"SA-11",
+                  "description":[
+                      "Require the developer of the system, system component, or system service, at all postdesign stages of the system development life cycle, to:",
+                      [
+                          "Develop and implement a plan for ongoing security and privacy control assessments",
+                          "Perform unit, integration, system, regression testing/evaluation at organization defined frequency at organization defined depth and coverage",
+                          "Produce evidence of the execution of the assessment plan and the results of the testing and evaluation",
+                          "Implement a verifiable flaw remediation process",
+                          "Correct flaws identified during testing and evaluation"
+                      ]
+                  ]
+              },
+              {
+                  "name":"SA-15",
+                  "description":[
+                      "Require the developer of the system, system component, or system service to follow a documented development process that:",
+                      [
+                          "Explicitly addresses security and privacy requirements",
+                          "Identifies the standards and tools used in the development process",
+                          "Documents the specific tool options and tool configurations used in the development process",
+                          "Documents, manages, and ensures the integrity of changes to the process and/or tools used in development"
+                      ],
+                      "Review the development process, standards, tools, tool options, and tool configurations at organization defined frequency to determine if the process, standards, tools, tool options and tool configurations selected and employed can satisfy the following security and privacy requirements"
+                  ]
+              },
+              {
+                  "name":"SA-16",
+                  "description":[
+                      "Require the developer of the system, system component, or system service to provide the following training on the correct use and operation of the implemented security and privacy functions, controls, and/or mechanisms"
+                  ]
+              },
+              {
+                  "name":"SA-17",
+                  "description":[
+                      "Require the developer of the system, system component, or system service to produce a design specification and security and privacy architecture that:",
+                      [
+                          "Is consistent with the organization’s security and privacy architecture that is an integral part the organization’s enterprise architecture",
+                          "Accurately and completely describes the required security and privacy functionality, and the allocation of controls among physical and logical components",
+                          "Expresses how individual security and privacy functions, mechanisms, and services work together to provide required security and privacy capabilities and a unified approach to protection"
+                      ]
+                  ]
+              },
+              {
+                  "name":"SA-20",
+                  "description":[
+                      "Reimplement or custom develop the following critical system components"
+                  ]
+              },
+              {
+                  "name":"SA-21",
+                  "description":[
+                      "Require that the developer of organization defined system, system component, or system service",
+                      [
+                          "Has appropriate access authorizations as determined by assigned organization defined official government duties",
+                          "Satisfies the following additional personnel screening criteria"
+                      ]
+                  ]
+              },
+              {
+                  "name":"SA-22",
+                  "description":[
+                      "Replace system components when support for the components is no longer available from the developer, vendor, or manufacturer",
+                      "Provide the following options for alternative sources for continued support for unsupported components"
+                  ]
+              },
+              {
+                  "name":"SA-23",
+                  "description":[
+                      "employ design, modification, augmentation, reconfiguration on organization defined systems or system components supporting mission essential services or functions to increase the trustworthiness in those system or components"
+                  ]
+              }
+          ]
+      }
+]

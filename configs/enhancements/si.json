@@ -1,0 +1,556 @@
+[
+  {
+        "name":"SI",
+        "subsection":[
+            {
+                "name":"SI-2 - Flaw Remediation",
+                "subsection":[
+                    {
+                        "name":"Automated Flaw Remediation Status",
+                        "description":[
+                            "determine if system components have applicable security relevant software and firmware updates installed using organization defined automated mechanisms at organization defined frequency"
+                        ]
+                    },
+                    {
+                        "name":"Time to Remediate Flaws and Benchmarks for Corrective Actions",
+                        "description":[
+                            "measure the time between flaw identification and flaw remediation",
+                            "estbalish the following benchmarks for taking corrective actions: organization defined benchmarks"
+                        ]
+                    },
+                    {
+                        "name":"Automated Patch Management Tools",
+                        "description":[
+                            "employ automated patch management tools to facilitate flaw remediation to the following system components: organization defined system components"
+                        ]
+                    },
+                    {
+                        "name":"Automatic Software and Firmware Updates",
+                        "description":[
+                            "install organization defined security relevant software and firmware updates automatically to organization defined system components"
+                        ]
+                    },
+                    {
+                        "name":"Removal of Previous Versions of Software and Firmware",
+                        "description":[
+                            "remove previous verisions of organization defined software and firmware components after updated versions have been installed"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SI-3 - Malicious Code Protection",
+                "subsection":[
+                    {
+                        "name":"Updates Only by Privileged Users",
+                        "description":[
+                            "update malicious code protection mechanisms only when directed by a privileged user"
+                        ]
+                    },
+                    {
+                        "name":"Testing and Verification",
+                        "description":[
+                            "test malicious code protection mechanisms at organization defined frequency by introducing known benign code into the system",
+                            "verify that the dtection of the code and the associated incident reporting occur"
+                        ]
+                    },
+                    {
+                        "name":"Detect Unauthorized Commands",
+                        "description":[
+                            "detect the following unauthorized operating system commands through the kernel application programming interface on organization defined system hardware components: organization defined unauthorized operating system commands",
+                            "issue a warning, audit the command execution, prevent the execution of the command"
+                        ]
+                    },
+                    {
+                        "name":"Malicious Code Analysis",
+                        "description":[
+                            "employ the following tools and techniques to analyze the characteristics and behaviors of malicious code: organization defined tools and techniques",
+                            "incorporate the results from malicious code analysis into organizational incident response and flaw remediation processes"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SI-4 - System Monitoring",
+                "subsection":[
+                    {
+                        "name":"System Wide Instrusion Detection System",
+                        "description":[
+                            "conenct and configure individual intrusion detection tools into a system wide intrusion detection system"
+                        ]
+                    },
+                    {
+                        "name":"Automated Tools and Mechanisms for Real Time Analysis",
+                        "description":[
+                            "employ automated tools and mechansisms to support near real time analysis of events"
+                        ]
+                    },
+                    {
+                        "name":"Automated Tool and Mechanism Integration",
+                        "description":[
+                            "employ automated tools and mechanisms to integrate intrusion detenction tools and mechanism into access control and flow control mechanisms"
+                        ]
+                    },
+                    {
+                        "name":"Inbound and Outbound Communications Traffic",
+                        "description":[
+                            "determine critieria for unusual or unauthorized activities or conditions for inbound and outbound communications traffic",
+                            "monitor inbound and outbound communications traffic at organization defined frequency for organization defined unusual or unauthorized activities or conditions"
+                        ]
+                    },
+                    {
+                        "name":"System Generated Alerts",
+                        "description":[
+                            "alert organization defined personnel or orles when the follwoing system generated indications of compromise or potential compromise occur: organization defined compromise indicators"
+                        ]
+                    },
+                    {
+                        "name":"Automated Response to Suspicious Events",
+                        "description":[
+                            "notify organization defined incident response personnel of detected suspicious events",
+                            "take the following actions upon detection: organization defined least disruptive actions terminate suspicious events"
+                        ]
+                    },
+                    {
+                        "name":"Testing of Monitoring Tools and Mechanisms",
+                        "description":[
+                            "test intrusion monitoring tools and mechanisms at organization defined frequnecy"
+                        ]
+                    },
+                    {
+                        "name":"Visibility of Encrypted Communications",
+                        "description":[
+                            "make provisions so that organization defined encryption communications traffic is visible to organization defined system monitoring tools and mechanisms"
+                        ]
+                    },
+                    {
+                        "name":"Analyze Communications Traffic Anomalies",
+                        "description":[
+                            "analyze outbound communications traffic at the external interfaces to the system and selected organization defined interior points within the system to discover anomalies"
+                        ]
+                    },
+                    {
+                        "name":"Automated Organization Generated Alerts",
+                        "description":[
+                            "alert organization defined personnel or roles using orgnaization defined automated mechanisms when the following indication of inappropriate or unusual activities with security or privacy implications occur: organization defined activities that trigger alerts"
+                        ]
+                    },
+                    {
+                        "name":"Analyze Traffic and Event Patterns",
+                        "description":[
+                            "analyze communications traffic and event patterns for the system",
+                            "develop profiles representing common traffic and event patterns",
+                            "use the traffic and event profiles in tuning system monitoring devices"
+                        ]
+                    },
+                    {
+                        "name":"Wireless Intrusion Detection",
+                        "description":[
+                            "employ a wirelss intrusion detection system to identify rogue wirelss devices and to detect attack attempts and potential compromises or breaches to the system"
+                        ]
+                    },
+                    {
+                        "name":"Wireless to Wireline Communications",
+                        "description":[
+                            "employ an intrusion detection system to monitor wireless communications traffict as the traffic passes from wireless to wireline networks"
+                        ]
+                    },
+                    {
+                        "name":"Correlate Monitoring Information",
+                        "description":[
+                            "correlate information from monitoring tools and mechanisms employed throughout the system"
+                        ]
+                    },
+                    {
+                        "name":"Integrated Situtational Awareness",
+                        "description":[
+                            "correlate information from monitoring physical, cyber, and supply chian activities to achieve integrated, organization wide situational awareness"
+                        ]
+                    },
+                    {
+                        "name":"Analyze Traffic and Covert Exfiltration",
+                        "description":[
+                            "analyze outboudn communications traffic at external interfaces to the system and at the following interior points to detect covert exfiltrations of information: organization defined interior points within the system"
+                        ]
+                    },
+                    {
+                        "name":"Risk for Individuals",
+                        "description":[
+                            "implement organization defined additional monitoring of individuals who have been identified by organization defined sources as posing an increased level of risk"
+                        ]
+                    },
+                    {
+                        "name":"Privilege Users",
+                        "description":[
+                            "implement the following additional monitoring of privileged users: organization defined additional monitoring"
+                        ]
+                    },
+                    {
+                        "name":"Probationary Periods",
+                        "description":[
+                            "implement the following additional monitoring of individuals during organization defined probationary period: organization defined additional monitoring"
+                        ]
+                    },
+                    {
+                        "name":"Unauthorized Network Services",
+                        "description":[
+                            "detect network services that have not been authorized or approved by organization defined authorization or approval processes",
+                            "audit, alert organization defined personnel or roles when detected"
+                        ]
+                    },
+                    {
+                        "name":"Host Based Devices",
+                        "description":[
+                            "implement the following host based monitoring mechanisms at organization defined system components: organization defined host based monitoring mechanisms"
+                        ]
+                    },
+                    {
+                        "name":"Indicators of Compromise",
+                        "description":[
+                            "discover, collect, and distribute to organization defined personnel or roles, indicators of compromise provided by organization defined sources"
+                        ]
+                    },
+                    {
+                        "name":"Optimize Network Traffic Analyses",
+                        "description":[
+                            "provide visibility into network traffic at external and key internal system interfaces to optimize the effectiveness of monitoring devices"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SI-5 - Security Alerts, Advisories, and Directives",
+                "subsection":[
+                    {
+                        "name":"Automated Alerts and Advisories",
+                        "description":[
+                            "broadcast security alert and advisory information throughout the organization using organization defined automated mechanisms"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SI-6 - Security and Privacy Function Verification",
+                "subsection":[
+                    {
+                        "name":"Automation Support for Distributed Testing",
+                        "description":[
+                            "implement automated mechanisms to support the management of distributed security and privacy function testing"
+                        ]
+                    },
+                    {
+                        "name":"Report Verification Results",
+                        "description":[
+                            "report the results of security and privacy function verification to organization defined personnel or roles"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SI-7 - Software, Firmware, and Information Integrity",
+                "subsection":[
+                    {
+                        "name":"Integrity Check",
+                        "description":[
+                            "perform an integrity check of organization defined software, firmware, and information at startup, at organizational defined transitional states or security relevant events, at organization defined frequency"
+                        ]
+                    },
+                    {
+                        "name":"Automated Notifications of Integrity Violations",
+                        "description":[
+                            "employ automated tools that provide notification to organization defined personnel or roles upon discovering discrepencies during integrity verification"
+                        ]
+                    },
+                    {
+                        "name":"Centrally Managed Integrity Tools",
+                        "description":[
+                            "emmploy centrally managed integrity verification tools"
+                        ]
+                    },
+                    {
+                        "name":"Automated Response to Integrity Violations",
+                        "description":[
+                            "automatically shut the system donw, restart the system, implement organization defined controls when integrity violations are discovered"
+                        ]
+                    },
+                    {
+                        "name":"Cryptographic Protection",
+                        "description":[
+                            "implement cryptographic mechanisms to detect unauthorized changes to software, firmware, and information"
+                        ]
+                    },
+                    {
+                        "name":"Integration of Detection and Response",
+                        "description":[
+                            "incorporate the detection of the following unauthorized changes into the organizational incident response capability: organization defined security relevant changes to the system"
+                        ]
+                    },
+                    {
+                        "name":"Auditing Capability for Significant Events",
+                        "description":[
+                            "upon detection of a potential integrity violation, provide the capability to audit the event and intiate the following actions: generate an audit record, alert current user, alert organization defined personnel or roles, organization dfeined other actions"
+                        ]
+                    },
+                    {
+                        "name":"Verify Boot Process",
+                        "description":[
+                            "verify the integrity of the boot process of the following system components: organization defined system components"
+                        ]
+                    },
+                    {
+                        "name":"Protection of Boot Firmware",
+                        "description":[
+                            "implement the following mechanisms to protect the integrity of boot firmware in organization defined system components: organization defined mechanisms"
+                        ]
+                    },
+                    {
+                        "name":"Integrity Verification",
+                        "description":[
+                            "require that the integrity of the following user installed software be verified prior to execution: organization defined user installed software"
+                        ]
+                    },
+                    {
+                        "name":"Code Authentication",
+                        "description":[
+                            "implement cryptographic mechanisms to authenticate the following software or firmware components prior to installation: organization defined software or firmware components"
+                        ]
+                    },
+                    {
+                        "name":"Time Limit on Process Execution Without Supervision",
+                        "description":[
+                            "prohibit processes from executing without supervision for more than organization time period"
+                        ]
+                    },
+                    {
+                        "name":"Runtime Application Self Protection",
+                        "description":[
+                            "implement organization defined controls for application self protection at runtime"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SI-8 - Spam Protection",
+                "subsection":[
+                    {
+                        "name":"Automatic Updates",
+                        "description":[
+                            "automatically update spam protection mechanisms at organization defined frequency"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SI-10 - Information Input Validation",
+                "subsection":[
+                    {
+                        "name":" Manual Override Capability",
+                        "description":[
+                            "providee a manual override capability for input validation of the following inputs: organization defined inputs defined in the base controls",
+                            "restrict the use of the manual override capability to only organization defined authorized individuals",
+                            "audit the use of the manual override capability"
+                        ]
+                    },
+                    {
+                        "name":"Review and Resolve Erros",
+                        "description":[
+                            "review and resolve input validation erros within organization defined time period"
+                        ]
+                    },
+                    {
+                        "name":"Predictable Behavior",
+                        "description":[
+                            "verify that the system behaves in a predictable and documented manner when invalid inputs are received"
+                        ]
+                    },
+                    {
+                        "name":"Timing Internactions",
+                        "description":[
+                            "account for timing interactions among system components in determining appropriate responses for invalid inputs"
+                        ]
+                    },
+                    {
+                        "name":"Restirct Inputs to Trust Sources and Approved Formats",
+                        "description":[
+                            " restrict the use of information inputs to organization defined trusted soruces and/or organization defined  formats"
+                        ]
+                    },
+                    {
+                        "name":"Injection Prevention",
+                        "description":[
+                            "prevent untrusted data injections"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SI-12 - Information Management and Retention",
+                "subsection":[
+                    {
+                        "name":"Limit Personally Identifiable Information Elements",
+                        "description":[
+                            "limit personally identifiable information being processed in the information life cycle to the following elements of personally identifiable information: organizatio defined elements of personally identifiable information"
+                        ]
+                    },
+                    {
+                        "name":"Minimize Personally Identifiable Information in Testing, Training, and Researhc",
+                        "description":[
+                            "use the following techniques to minimize the use of personally identifiable information for research, testing, or training: organization defined techniques"
+                        ]
+                    },
+                    {
+                        "name":"Information Disposal",
+                        "description":[
+                            "use the following techniques to dispose of, destroy, or erase information following the retention period: organization defined techniques"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SI-13 - Predictable Failure Prevention",
+                "subsection":[
+                    {
+                        "name":"Transferring Component Responsibilities",
+                        "description":[
+                            "take system components out of service by transferring component responsibilities to substitute components no later than organization defined fraction or percentage of mean time to failure"
+                        ]
+                    },
+                    {
+                        "name":"Manual Transfer Between Components",
+                        "description":[
+                            "manually initiate transfers between active and standby system components when the use of the active component reaches organization defined percentage of the mean time to failure"
+                        ]
+                    },
+                    {
+                        "name":"Stanby Component Installtion and Notification",
+                        "description":[
+                            "if system component failures are detected",
+                            [
+                                "ensure that the standby components are successfully and transparently installed within organization defined time period",
+                                "activiate, organization defined alrm, automatically shut down the system, organization defined action"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Failover Capability",
+                        "description":[
+                            "provide real time, near real time organization defined failover capability for the system"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SI-14 - Nonpersistence",
+                "subsection":[
+                    {
+                        "name":"Refresh from Trusted Sources",
+                        "description":[
+                            "obtain software and data employed during system component and service refreshes from the following trusted sources: organization defined trusted sources"
+                        ]
+                    },
+                    {
+                        "name":"Non Persistent Information",
+                        "description":[
+                            "refresh organization defined information at organization defined frequency, generate organization defined information on demand",
+                            "delete infomration when no longer needed"
+                        ]
+                    },
+                    {
+                        "name":"Non Persisten Connectivity",
+                        "description":[
+                            "establish connections to the system on demand and terminate connections after completion of a request or a period of nonuse"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SI-18 - Personally Identifiable Information Quality Operations",
+                "subsection":[
+                    {
+                        "name":"Automation Support",
+                        "description":[
+                            "correct or delete personally identifiable information tha tis inaccurate or outdated, incorrectly determined regarding impact, or incorrect deidentified using organization defined automated mechanisms"
+                        ]
+                    },
+                    {
+                        "name":"Data Tags",
+                        "description":[
+                            "employ data tags to automate the correction or deletion of personally identifiable information across the information life cycle within organizational systems"
+                        ]
+                    },
+                    {
+                        "name":"Collection",
+                        "description":[
+                            "collect personally identifiable information directly form the individual"
+                        ]
+                    },
+                    {
+                        "name":"Individual Requests",
+                        "description":[
+                            "correct or delete personally identifiable information upon request by individuals or their designated representatives"
+                        ]
+                    },
+                    {
+                        "name":"Notice of Correction or Deletion",
+                        "description":[
+                            "notify organization defined recipients of personally identifiable information and individuals that the personally identifiable information has been corrected or deleted"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SI-19 - Deidentification",
+                "subsection":[
+                    {
+                        "name":"Collection",
+                        "description":[
+                            "deidentify the dataset upon collection by not collecting personally identifiable information"
+                        ]
+                    },
+                    {
+                        "name":"Archiving",
+                        "description":[
+                            "prohibit archiving of personally identifiable information elements if those elements in a dataset will not be needed after the dataset is archived"
+                        ]
+                    },
+                    {
+                        "name":"Release",
+                        "description":[
+                            "remove personally identifiable information elements from a dataset prior to its release if those elements in the dataset do not need to be part of the data release"
+                        ]
+                    },
+                    {
+                        "name":"Removal, Masking, Encryption, Hashing, or Replacement of Direct Identifiers",
+                        "description":[
+                            "remove, mask, encrypt, hash, or replace direct identifiers in a dataset"
+                        ]
+                    },
+                    {
+                        "name":"Statistical Disclosure Control",
+                        "description":[
+                            "manipulate numerical data, contigency tables, and statitstical findings so that no individual or organization is identifiable in the results of the analysis"
+                        ]
+                    },
+                    {
+                        "name":"Differential Privacy",
+                        "description":[
+                            "prevent disclosure of personally identitfiable information by adding non deterministic noise to the results of mathematical operations before the results are reports"
+                        ]
+                    },
+                    {
+                        "name":"Validated Algorithms and Software",
+                        "description":[
+                            "perform deidentification using validated algorithms and software that is validated to implement the algorithms"
+                        ]
+                    },
+                    {
+                        "name":"Motivated Intruder",
+                        "description":[
+                            "perform a motivated intruder test on the deidentified dataset to determine if the data remains or if the deidentified data can be reidentified"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

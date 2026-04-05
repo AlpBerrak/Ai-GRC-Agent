@@ -1,0 +1,72 @@
+[
+  {
+        "name":"AT",
+        "subsection":[
+            {
+                "name":"AT-2 - Literacy Training and Awareness",
+                "subsection":[
+                    {
+                        "name":"Practical Exercises",
+                        "description":[
+                            "provide practical exercises in literacy training that simulate events and incidents"
+                        ]
+                    },
+                    {
+                        "name":"Insider Threat",
+                        "description":[
+                            "provide literacry training on recognizing and reporting potential indicators of insider threat"
+                        ]
+                    },
+                    {
+                        "name":"Social Engineering and Miming",
+                        "description":[
+                            "provide literacy training on recognizing and reporting potential and actual instances of social engineering and social mining"
+                        ]
+                    },
+                    {
+                        "name":"Suspicious Communications and Anomalous System Behavior",
+                        "description":[
+                            "provide literacy training on recognizing suspicious communications and anomalous behavior in organizational systems using organization defined indicators of malicious code"
+                        ]
+                    },
+                    {
+                        "name":"Advanced Persistent Threat",
+                        "description":[
+                            "provide literacy training on the advanced persistent threat"
+                        ]
+                    },
+                    {
+                        "name":"Cyber Threat Environment",
+                        "description":[
+                            "provide literacy training on the cyber threat environment",
+                            "reflect current cyber threat information in system operations"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"AT-3 - Role Based Training",
+                "subsection":[
+                    {
+                        "name":"Environmental Controls",
+                        "description":[
+                            "provide organization defined personnel or roles with initial and organization defined frequency training in the employment and operation  of environmental controls"
+                        ]
+                    },
+                    {
+                        "name":"Physical Security Controls",
+                        "description":[
+                            "provide organization defined personnecl or roles with initial and organization defined frequency training in the employment and operation of physical security controls"
+                        ]
+                    },
+                    {
+                        "name":"Processing Personnally Identifiable Information",
+                        "description":[
+                            "provide organization defined personnel or roles with initial and organization defined frequency training in the employment and operation of personally identifiable information processing and transparency controls"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

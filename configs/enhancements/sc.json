@@ -1,0 +1,686 @@
+[
+  {
+        "name":"SC",
+        "subsection":[
+            {
+                "name":"SC-2 - Separation of System and User Functionality",
+                "subsection":[
+                    {
+                        "name":"Interfaces for Non-Privileged Users",
+                        "description":[
+                            "prevent the presentation of system management functionality at interfaces to nonprivileged users"
+                        ]
+                    },
+                    {
+                        "name":"Disassociability",
+                        "description":[
+                            "store state information from applications and software separately"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SC-3 - Security Function Isolation",
+                "subsection":[
+                    {
+                        "name":"Hardware Separation",
+                        "description":[
+                            "employ hardware separation mechanisms to implement security function isolation"
+                        ]
+                    },
+                    {
+                        "name":"Access and Flow Control Functions",
+                        "description":[
+                            "isolate the security functions enforcing access and information flow control from nonsecurity functions and from other security functions"
+                        ]
+                    },
+                    {
+                        "name":"Minimize Nonsecurity Functionality",
+                        "description":[
+                            "minimize the number of nonsecurity functions included within the isolation boundary containing security functions"
+                        ]
+                    },
+                    {
+                        "name":"Module Coupling and Cohesiveness",
+                        "description":[
+                            "implement security functions as largely independent modules that maximize interal cohesiveness within modules and minimize coupling between modules"
+                        ]
+                    },
+                    {
+                        "name":"Layered Structures",
+                        "description":[
+                            "implement security functions as a layered structure minimizing interactions between layers of the design and avoiding any dependence by lower layers on the functionality or correctness of higher layers"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SC-4 - Information in Shared System Resources",
+                "subsection":[
+                    {
+                        "name":"Multilevel or Periods Processing",
+                        "description":[
+                            "prevent unauthorized information transfer via shared resources in accordance with organization defined procedures when system processing explicitly switches different information classfiication levels or security categories"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SC-5 - Denial of Service Protection",
+                "subsection":[
+                    {
+                        "name":"Restrict Ability to Attack Other Systems",
+                        "description":[
+                            "restrict the ability of individuals to launch the following denial of service attacks against other systems: organizaiton defined denial of service attacks"
+                        ]
+                    },
+                    {
+                        "name":"Capacity, Bandwidth, and Redundancy",
+                        "description":[
+                            "manage capacity, bandwidth, or other redundancy to limit the effects of information flooding denial of service attacks"
+                        ]
+                    },
+                    {
+                        "name":"Detection and Monitoring",
+                        "description":[
+                            "employ the following monitoring tools to detect indicators of denial of service attacks against, or launched from, the system: organization defined monitoring tools",
+                            "monitor the following systems resources to determine if sufficient resources  exist to prevent effective denial of service attacks: organization defined system resources"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SC-7 - Boundary Protection",
+                "subsection":[
+                    {
+                        "name":"Acces Points",
+                        "description":[
+                            "limit the number of external network connections to the system"
+                        ]
+                    },
+                    {
+                        "name":"External Telecommunications Services",
+                        "description":[
+                            "implement a managed interface for each external telecommunication services",
+                            "establish a traffic flow policy for each managed interface",
+                            "protect the confidentiality and integrity of the information being transmitted across each interface",
+                            "document each exception to the traffic flow policy with a supporting mission or business need and duration of that need",
+                            "review exceptions to the traffic flow policy at organization defined frequency and remove exceptions that are no longer supported by an explicit or businees needs",
+                            "prevent unauthorized exchange of control plane traffic with external networks",
+                            "publish information to enable remote netowrks to detect unauthorized control plane traffic from internal networks",
+                            "filter unauthorized control plane traffic from external networks"
+                        ]
+                    },
+                    {
+                        "name":"Split Tunneling for Remote Devices",
+                        "description":[
+                            "prevent split tunneling for remote devices connecting to organizational systems unless the split tunnel is securely provisioned using orgnaization defined safeguards"
+                        ]
+                    },
+                    {
+                        "name":"Route Traffic to Authenticated Proxy Servers",
+                        "description":[
+                            "route organization defined internal communications traffic to organization defined external netowrks through authenticated proxy servers at managed interfaces"
+                        ]
+                    },
+                    {
+                        "name":"Restrict Threatening Outgoing Communications Traffic",
+                        "description":[
+                            "detect and deny outgoing communications traffic posting a threat to external system",
+                            "audit the identity of internal users associated with denied communications"
+                        ]
+                    },
+                    {
+                        "name":"Prevent Exfiltration",
+                        "description":[
+                            "prevent the exfiltration of information",
+                            "conduct exfiltration tests at organization frequency"
+                        ]
+                    },
+                    {
+                        "name":"Restrict Incoming Communications Traffic",
+                        "description":[
+                            "only allow incoming communications from organization defined authorized sources to be routed to organization defined authorized destinations"
+                        ]
+                    },
+                    {
+                        "name":"Host Based Protection",
+                        "description":[
+                            "implement organization defined host based boundary protection mechanisms at organization defined system components"
+                        ]
+                    },
+                    {
+                        "name":"Isolation of Security Tools, Mechanisms, and Support Components",
+                        "description":[
+                            "isolate organization defined security tools, mechanisms, and support components from other internal system components by implementing physcially separate subnetworks with managed interfaces to other components of the system"
+                        ]
+                    },
+                    {
+                        "name":"Protect Against Unauthorized Physical Connections",
+                        "description":[
+                            "protect against unauthorized physical connections at organization defined managed interfaces"
+                        ]
+                    },
+                    {
+                        "name":"Networked Privileged Accesses",
+                        "description":[
+                            "route networked, privileged acesses through a dedicated, managed interface for purposes of access control and auditing"
+                        ]
+                    },
+                    {
+                        "name":"Prevent Discovery of System Components",
+                        "description":[
+                            "prevent the discovery of specific system components that represent a managed interface"
+                        ]
+                    },
+                    {
+                        "name":"Automated Enforcement of Protocol Formats",
+                        "description":[
+                            "enforce adherence to protocol formats"
+                        ]
+                    },
+                    {
+                        "name":"Fail Secure",
+                        "description":[
+                            "prevent systems from entering unsecure states in the event of an operational failure of a boundary protection devices"
+                        ]
+                    },
+                    {
+                        "name":"Block Communication from Non Organizationally Configured Hosts",
+                        "description":[
+                            "block inbound and outbound communications traffic between organization defined communications clients that are idenpendently configured by end users and external service providers"
+                        ]
+                    },
+                    {
+                        "name":"Dynamic Isolation and Segregation",
+                        "description":[
+                            "provide the capability to dynamically isolate organization defined system components from other system components"
+                        ]
+                    },
+                    {
+                        "name":"Isolation of System Components",
+                        "description":[
+                            "employ boundary protection mechanisms to isolate organization defined system components supporting organization defined  missions and/or business fucntions"
+                        ]
+                    },
+                    {
+                        "name":"Separate Subnets for Connecting to Different Security Domains",
+                        "description":[
+                            "implement separate network addresses to connect to systems in different security domains"
+                        ]
+                    },
+                    {
+                        "name":"Disable Sender Feedback on Protocol Validation Failure",
+                        "description":[
+                            "disable feedback to senders on protocol format validation failure"
+                        ]
+                    },
+                    {
+                        "name":"Personally Identifiable Information",
+                        "description":[
+                            "for systems that process personally identifiable information",
+                            [
+                                "apply the following processing rules to data elements of personally identifiable information: orgnaization defined processing rules",
+                                "monitor for permitted processing at the external interfaces to the system and at key internal boundaries within the system",
+                                "document each processing exception",
+                                "review and remove exception that are no longer supported"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Unclassified National Security System Connections",
+                        "description":[
+                            "prohibit the direct connection of organization defined unclassified national security system to an external network without the use of organization defined boundary protection device"
+                        ]
+                    },
+                    {
+                        "name":"Classified National Security System Connections",
+                        "description":[
+                            "prohibit the direct connection of a classified national security systems to an external network without the use of organization defined boundary protection device"
+                        ]
+                    },
+                    {
+                        "name":"Unclassified Nonnational Security System Connections",
+                        "description":[
+                            "prohibit the direct connection of organization defined system to a public network"
+                        ]
+                    },
+                    {
+                        "name":"Separate Subnets to Isolate Functions",
+                        "description":[
+                            "implement physically or logically separate subnetworks to isolate the following critical system components and functions: organization defined critical system components and functions"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SC-8 - Transmission Confidentiality and Integrity",
+                "subsection":[
+                    {
+                        "name":"Cryptographic Protection",
+                        "description":[
+                            "implement cryptographic mechanisms to prevent unauthorized disclosure of information, detect changes to information during transmission"
+                        ]
+                    },
+                    {
+                        "name":"Pre and Post Transmission Handling",
+                        "description":[
+                            "maintain the confidentiality, integrity of information during preparation for transmission and during reception"
+                        ]
+                    },
+                    {
+                        "name":"Cryptographic Protection for Message Externals",
+                        "description":[
+                            "implement cryptographic mechanisms to conceal or randomize communication unless otherwise protected by organization defined alternative physical controls"
+                        ]
+                    },
+                    {
+                        "name":"Conceal or Randomize Communications",
+                        "description":[
+                            "implement cryptographic mechanisms to conceal or randomize communication patterns unless otherwise protected by organization defined alternate physical controls"
+                        ]
+                    },
+                    {
+                        "name":"Protected Distribution System",
+                        "description":[
+                            "implement organization defined protected distribution system to prevent unauthorized dsiclosure of infomration, detect changes to information during transmissions"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SC-11 - Trusted Path",
+                "subsection":[
+                    {
+                        "name":"Irrefutbale Communications Path",
+                        "description":[
+                            "provide a trusted communications path that is irrefutably distinguishable from other communications paths",
+                            "initiate the trusted communications path for communications between the organization defined security functions of the system and the user"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SC-12 - Cryptographic Key Establishment and Management",
+                "subsection":[
+                    {
+                        "name":"Availability",
+                        "description":[
+                            "maintain availability of information in the event of the loss of cryptographic keys by users"
+                        ]
+                    },
+                    {
+                        "name":"Symmetric Keys",
+                        "description":[
+                            "produce, control and distribute symmetric cryptographic keys using NIST FIPS-validated, NSA-approved key management technology and processes"
+                        ]
+                    },
+                    {
+                        "name":"Asymmetric Keys",
+                        "description":[
+                            "produce, control, and distribute asymmetric cryptographic keys using NSA-approved key management technology and processes, prepositioned keying material, DoD approved or DoD issued Medium Assurance PKI certificates, DoD approved or DoD issued medium hardware assurance PKI certificates and hardware security tokens that protect the user's private key, certifcates issued in accordance with organization-defined requirements"
+                        ]
+                    },
+                    {
+                        "name":"Physical Control of Keys",
+                        "description":[
+                            "maintain physical control of cryptographic keys when stored information is encrypted by external service providers"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SC-15 - Collaborative Computing Devices and Applications",
+                "subsection":[
+                    {
+                        "name":"Physical or Logical Disconnect",
+                        "description":[
+                            "provide physical, logical disconnect of collaborative devices in a manner that supports ease of use"
+                        ]
+                    },
+                    {
+                        "name":"Disabling and Removal in Secure Work Areas",
+                        "description":[
+                            "disable or remove collaborative computing devices and applications from organization defined systems or system components in organization defined secure work areas"
+                        ]
+                    },
+                    {
+                        "name":"Explicitly Indicate Current Participants",
+                        "description":[
+                            "provide an explicit indication of current participants in organization defined online meetings and teleconferences"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SC-16 - Transmission of Security and Privacy Attributes",
+                "subsection":[
+                    {
+                        "name":"Integrity Verification",
+                        "description":[
+                            "verify the integrity of transmitted security and privacy attributes"
+                        ]
+                    },
+                    {
+                        "name":"Anti-Spoofing Mechanisms",
+                        "description":[
+                            "implement anit-spoofing mechanisms to prevent adversaries from falsifying the security attributes indicating the successful application of the security process"
+                        ]
+                    },
+                    {
+                        "name":"Cryptographic Binding",
+                        "description":[
+                            "implement organization defined mechanisms or techniques to bind security and privacy attributes to transmitted information"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SC-18 - Mobile Code",
+                "subsection":[
+                    {
+                        "name":"Identify Unacceptable Code and Take Corrective Actions",
+                        "description":[
+                            "identify organization defined unacceptable mobile code and take organization defined corrective actions"
+                        ]
+                    },
+                    {
+                        "name":"Acquisition, Development, and Use",
+                        "description":[
+                            "verify that the acquisition, development, and use of mobile code to be deployed in the system metts organization defined mobile code requirements"
+                        ]
+                    },
+                    {
+                        "name":"Prevent Downloading and Execution",
+                        "description":[
+                            "prevent the download and execution of organization defined unacceptable mobile code"
+                        ]
+                    },
+                    {
+                        "name":"Prevent Automatic Execetution",
+                        "description":[
+                            "prevent the automatic execution of mobile code in organization defined software applications and enforce organization defined actions prior to executing the code"
+                        ]
+                    },
+                    {
+                        "name":"Allow Execution Only in Confined Environments",
+                        "description":[
+                            "allow execution of permitted mobile code only in confined virtual machine environments"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SC-23 - Session Authenticity",
+                "subsection":[
+                    {
+                        "name":"Invalidate Session Identifiers at Logout",
+                        "description":[
+                            "invalidate session identifiers upon user logout or other session termination"
+                        ]
+                    },
+                    {
+                        "name":"Unique System Generated Session Identifiers",
+                        "description":[
+                            "generate a unique session identifier for each session with organization defined randomness requirements and recognize only session identifiers that are system generated"
+                        ]
+                    },
+                    {
+                        "name":"Allowed Certificate Authorities",
+                        "description":[
+                            "only allow the use of organization defined certificate authorities for verification of the establishment of protected sessions"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SC-28 - Protection of Information at Rest",
+                "subsection":[
+                    {
+                        "name":"Cryptographic Protection",
+                        "description":[
+                            "implement cryptographic mechanisms to prevent unauthorized disclosure and modification of the following information at rest on organization defined system components or media: orgnaization defined information"
+                        ]
+                    },
+                    {
+                        "name":"Offline Storage",
+                        "description":[
+                            "remove the following information from online storage and store offline in a secure location: organization defined information"
+                        ]
+                    },
+                    {
+                        "name":"Cryptographic Keys",
+                        "description":[
+                            "provide protectedc storage for cryptographic keys, organization defined safeguards, hardware protected key store"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SC-29 - Heterogeneity",
+                "subsection":[
+                    {
+                        "name":"Virtualization Techniques",
+                        "description":[
+                            "employ virtualization techniques to support the deployment of a diversity of operating systems and applications that are changed at organization defined frequency"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SC-30 - Concealment and Misdirection",
+                "subsection":[
+                    {
+                        "name":"Randomness",
+                        "description":[
+                            "employ organization defined techniques to introduce randomness into organizational operations and assets"
+                        ]
+                    },
+                    {
+                        "name":"Change Processing and Storage Locations",
+                        "description":[
+                            "change the location of organization defined processing and/or storage at organization defined frequency, at random time intervals"
+                        ]
+                    },
+                    {
+                        "name":"Misleading Information",
+                        "description":[
+                            "employ realistic, but misleading information in organization defined system components about its security state or posture"
+                        ]
+                    },
+                    {
+                        "name":"Concealment of System Components",
+                        "description":[
+                            "employ the following techniques to hide or conceal organization defined system components: organization defined techniques"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SC-31 - Cover Channel Analysis",
+                "subsection":[
+                    {
+                        "name":"Test Covert Channels for Exploitability",
+                        "description":[
+                            "test a subset of the identified covert channels to determine the channels that are exploitable"
+                        ]
+                    },
+                    {
+                        "name":"Maximum Bandwidth",
+                        "description":[
+                            "reduce the maximum bandwidth for identified covert storage, timing channels to organization defined values"
+                        ]
+                    },
+                    {
+                        "name":"Measure Bandwidth in Operational Environments",
+                        "description":[
+                            "measure the bandwidth of organization defined subset of identified covert channels in the operational environment of the system"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SC-32 - System Partitioning",
+                "subsection":[
+                    {
+                        "name":"Separate Physical Domains for Privileged Functions",
+                        "descriptions":[
+                            "partition privileged functions into separate physical domains"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SC-34. Nonmodifiable Executable Programs",
+                "subsection":[
+                    {
+                        "name":"No Writable Storage",
+                        "description":[
+                            "employ organization defined system components with no writable storage that is persistent across component restart or power on/off"
+                        ]
+                    },
+                    {
+                        "name":"Integrity Protection on Read Only Media",
+                        "description":[
+                            "protect the integrity of information prior to storage on read only media and control the media after such information has been recorded onto the media"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SC-36 - Distributed Processing and Storage",
+                "subsection":[
+                    {
+                        "name":"Polling Techniques",
+                        "description":[
+                            "employ polling techniques to identify potential faults, errors, or compromises to the following processing and storage components: organization defined distributed processing and storage components",
+                            "take the following actions in response to identified faults, errors, or compromises: organization defined actions"
+                        ]
+                    },
+                    {
+                        "name":"Synchronization",
+                        "description":[
+                            "synchronize the following duplicate systems or system components: organization defined duplicate systems or system components"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SC-37 - Out of Band Channels",
+                "subsection":[
+                    {
+                        "name":"Ensure Delivery and Transmission",
+                        "description":[
+                            "employ organization defined controls to ensure that only organization defined individuals or systems receive the following information, system components, or devices: organization defined information, system components, or devices"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SC-39 - Process Isolation",
+                "subsection":[
+                    {
+                        "name":"Hardware Separation",
+                        "description":[
+                            "implement hardware separation mechanisms to facilitate process isolation"
+                        ]
+                    },
+                    {
+                        "name":"Separate Execution Domain Per Thread",
+                        "description":[
+                            "maintain a separate execution domain for each thread in organization defined multithreaded processing"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SC-40 - Wireless Link Protection",
+                "subsection":[
+                    {
+                        "name":"Electromagnetic Interference",
+                        "description":[
+                            "implement cryptographic mechanisms that achieve organization defined level of protection against the effects of intentional electromagnectic interference"
+                        ]
+                    },
+                    {
+                        "name":"Reduce Detection Potential",
+                        "description":[
+                            "implement cryptographic mechanisms to reduce the detection potential of wireless links to organization defined level of reduction"
+                        ]
+                    },
+                    {
+                        "name":"Imitative or Manipulative Communications Deceptions",
+                        "description":[
+                            "implement cryptographic mechanisms to identify and reject wireless transmissions that are deliberate attempts to achieve imitative or manipulative communications deception based on signal parameters"
+                        ]
+                    },
+                    {
+                        "name":"Signal Parameter Identification",
+                        "description":[
+                            "implement cryptographic mechanisms to prevent the identification of organization defined wireless transmiters by using the transmitter signal parameters"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SC-42 - Sensor Capability and Data",
+                "subsection":[
+                    {
+                        "name":"Reporting to Authorized Individuals or Roles",
+                        "description":[
+                            "verify that the system is configured so that data or information collected by the organiztion defined sensors is only reported to authorized individuals or roles"
+                        ]
+                    },
+                    {
+                        "name":"Authorized Use",
+                        "description":[
+                            "employ the following measures so that the data or information collection by organization defined sensors is only used for authorized purposes: organization defined measures"
+                        ]
+                    },
+                    {
+                        "name":"Notice of Collection",
+                        "description":[
+                            "employ the following measures to facilitate an individual's awareness that personally identifiable information is being collected by organization defined sensors: organziation defined measures"
+                        ]
+                    },
+                    {
+                        "name":"Collection Minimization",
+                        "description":[
+                            "employ organization defined sensors that are configured to minimize the collection of information about individuals that is not needed"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SC-45 - System Time Synchronization",
+                "subsection":[
+                    {
+                        "name":"Synchronization with Authoritative Time Source",
+                        "description":[
+                            "compare the internal system clocks at organization defined frequency",
+                            "synchronize the internal system clocks to the authoritative time source when the time difference is greated than organization defined time period"
+                        ]
+                    },
+                    {
+                        "name":"Secondary Authoritative Time Source",
+                        "description":[
+                            "identify a secondary authoritative time source that is in a different geographic region than the primary authoritative time source",
+                            "synchronize the internal system clocks to the secondary authoritative time source if the primary authoritative time source is unavailable"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"SC-48 - Sensor Relocation",
+                "subsection":[
+                    {
+                        "name":"Dynamic Relocation of Sensors or Monitoring Capbilities",
+                        "description":[
+                            "dynamically relocate organization defined sensors and monitoring capabilities to organization defined locations under the following conditions or circumstances: organization defined conditions or circumstances"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

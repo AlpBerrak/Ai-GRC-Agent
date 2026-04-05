@@ -1,0 +1,94 @@
+[  
+  {
+          "name":"Supply Chain Risk Controls",
+          "subsection":[
+              {
+                  "name":"SR-1",
+                  "description":[
+                      "Develop, document, and disseminate to organization defined personnel or roles",
+                      [
+                          "Organization level, mission/business process level, supply chain risk management policy that",
+                          [
+                              "Addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance",
+                              "Is consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines"
+                          ],
+                          "Procedures to facilitate the implementation of the supply chain risk management policy and the associated supply chain risk management controls controls"
+                      ],
+                      "Designate an organization defined official to manage the development, documentation, and dissemination of the supply chain risk management policy and procedures",
+                      "Review and update the current supply chain risk management policy and procedures "
+                  ]
+              },
+              {
+                  "name":"SR-2",
+                  "description":[
+                      "Develop a plan for managing supply chain risks associated with the research and development, design, manufacturing, acquisition, delivery, integration, operations and maintenance, and disposal of organization defined systems, system components, or system services",
+                      "Review and update the supply chain risk management plan at organization defined frequency or as required, to address threat, organizational or environmental changes",
+                      "Protect the supply chain risk management plan from unauthorized disclosure and modification"
+                  ]
+              },
+              {
+                  "name":"SR-3",
+                  "description":[
+                      "Establish a process or processes to identify and address weaknesses or deficiencies in the supply chain elements and processes of organization defined system or system component in coordination with organization defined supply chain personnel",
+                      "Employ organization defined supply chain controls to protect against supply chain risks to the system, system component, or system service and to limit the harm or consequences from supply chain related events",
+                      "Document the selected and implemented supply chain processes and controls in security and privacy plans, supply chain risk management plan, in organization defined document"
+                  ]
+              },
+              {
+                  "name":"SR-4",
+                  "description":[
+                      "Document, monitor, and maintain valid provenance of organization defined systems, system components, and associated data"
+                  ]
+              },
+              {
+                  "name":"SR-5",
+                  "description":[
+                      "Employ organization defined acquisition strategies, contract tools, and procurement methods to protect against, identify, and mitigate supply chain risks"
+                  ]
+              },
+              {
+                  "name":"SR-6",
+                  "description":[
+                      "Assess and review the supply chain related risks associated with suppliers or contractors and the system, system component, or system service they provide and organization defined frequency"
+                  ]
+              },
+              {
+                  "name":"SR-7",
+                  "description":[
+                      "Employ the following Operations Security (OPSEC) controls to protect supply chain-related information for the system, system component, or system service"
+                  ]
+              },
+              {
+                  "name":"SR-8",
+                  "description":[
+                      "Establish agreements and procedures with entities involved in the supply chain for the system, system component, or system service for the notification of supply chain compromises, results of assessments or audits, organization defined information"
+                  ]
+              },
+              {
+                  "name":"SR-9",
+                  "description":[
+                      "Implement a tamper protection program for the system, system component, or system service"
+                  ]
+              },
+              {
+                  "name":"SR-10",
+                  "description":[
+                      "Inspect the following systems or system components at random, at organization defined frequency, upon organization defined indications of need for inspection to detect tampering"
+                  ]
+              },
+              {
+                  "name":"SR-11",
+                  "description":[
+                      "Develop and implement anti-counterfeit policy and procedures that include the means to detect and prevent counterfeit components from entering the system",
+                      "Report counterfeit systems components to source of counterfeit component, organization defined external reporting organizations, organization defined personnel or roles"
+                  ]
+              },
+              {
+                  "name":"SR-12",
+                  "description":[
+                      "Dispose of organization defined data, documentation, tools, or system components using organization defined methods and technique"
+                  ]
+              }
+          ]
+      }
+]

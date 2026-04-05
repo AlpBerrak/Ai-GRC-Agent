@@ -1,0 +1,14 @@
+[
+    {
+          "name": "Device Lock",
+          "subsection":[
+              {
+                  "name": "Pattern Hiding Displays",
+                  "description":[
+                      "Conceal, via the device lock, information previously visible on the display with a publicly viewable image"
+                  ],
+                  "related controls": "N/A"
+              }
+          ]
+      }
+]

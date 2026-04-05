@@ -1,0 +1,44 @@
+[
+   {
+        "name":"PL",
+        "subsection":[
+            {
+                "name":"PL-4 - Rules of Behavior",
+                "subsection":[
+                    {
+                        "name":"Social Meida and External Site/Application Usage Restrictions",
+                        "description":[
+                            "include rules of behavior, restrictions on",
+                            [
+                                "use of social media, social networking sites, and external sites/applications",
+                                "posting organizational information on public websites",
+                                "use of organization provided identifiers and authentication secrets for creating accounts on external sites/applications"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"PL-8 - Security and Privacy Architectures",
+                "subsection":[
+                    {
+                        "name":"Defense in Depth",
+                        "description":[
+                            "design the secuirty and privacy architectures for the system using a defense in depth approach that",
+                            [
+                                "allocates organization defined controls to organization defined locations and architectural layers",
+                                "ensures that the allocated controls operated in a coordinated and mutually reinforcing manner"
+                            ]
+                        ]
+                    },
+                    {
+                        "name":"Supplier Diversity",
+                        "description":[
+                            "require that organization defined controls allocated to organization defined locations and architectural layers are obtained from different suppliers"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
